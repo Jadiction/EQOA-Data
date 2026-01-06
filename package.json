@@ -1,0 +1,46 @@
+{
+  "name": "eqoa-data",
+  "version": "1.0.0",
+  "description": "JSON file data for EQOA information such as guides/quests listed on Jadiction.com",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch src/index.ts --format esm"
+  },
+  "keywords": [
+    "EQOA",
+    "frontiers",
+    "everquest",
+    "guides",
+    "quests",
+    "data"
+  ],
+  "homepage": "https://github.com/Jadiction/EQOA-Data#readme",
+  "bugs": {
+    "url": "https://github.com/Jadiction/EQOA-Data/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jadiction/EQOA-Data.git"
+  },
+  "license": "ISC",
+  "author": "Jad",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "eqoa-data": "file:eqoa-data-1.0.0.tgz"
+  }
+}
