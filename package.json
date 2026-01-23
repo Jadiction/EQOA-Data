@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "JSON file data for EQOA information such as guides/quests listed on Jadiction.com",
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.mjs"
     }
   },
   "scripts": {
@@ -39,8 +40,5 @@
     "@types/node": "^24.9.1",
     "tsup": "^8.5.0",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "eqoa-data": "file:eqoa-data-1.0.0.tgz"
   }
 }
