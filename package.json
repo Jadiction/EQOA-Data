@@ -1,20 +1,20 @@
 {
   "name": "eqoa-data",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JSON file data for EQOA information such as guides/quests listed on Jadiction.com",
   "type": "module",
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist", "Images"],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs"
-    }
+    },
+      "./images/*": "./images/*"
   },
   "scripts": {
+    "generate:images": "node scripts/generate-images-export.mjs",
     "build": "tsup",
     "dev": "tsup --watch src/index.ts --format esm"
   },
