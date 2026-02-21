@@ -1,12 +1,6 @@
 import { Quests } from './QuestsData.js';
 import EQOAzones from '../Map/Zones.js';
 
-/**
- * Usage:
- *   import { Quests, Map } from 'eqoa-data';
- *   // Quests['17'], Quests['Misc'], etc.
- *   // Map is the EQOAzones array
- */
 export { Quests };
 export const Map = EQOAzones;
 
@@ -31,6 +25,5 @@ export const Images = {
   weres_werehunter: new URL("../images/weres/werehunter.png", import.meta.url).href,
   weres_wolfwere: new URL("../images/weres/wolfwere.png", import.meta.url).href,
 } as const;
-
 
 export default { Quests, Map, Images };
