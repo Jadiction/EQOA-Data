@@ -9,7 +9,7 @@ This package is published as ESM and intended for apps/sites that need EQOA refe
 
 ## Install
 ```bash
-npm install eqoa-data
+npm install github:Jadiction/EQOA-Data
 ```
 
 ## Usage
@@ -31,13 +31,6 @@ import mapImage from "eqoa-data/images/EQOA_Map.png";
 - `src/QuestsData.ts`: quest aggregation into the exported `Quests` object.
 - `src/index.ts`: main package exports (`Quests`, `Images`).
 - `scripts/generate-images-export.mjs`: regenerates the `Images` export block from `images/`.
-
-## Local Development
-```bash
-npm install
-npm run generate:images
-npm run build
-```
 
 Available scripts:
 - `npm run generate:images`: rebuilds `Images` in `src/index.ts` from `images/` recursively.
