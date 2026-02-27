@@ -1,0 +1,942 @@
+[
+  {
+    "level": 1,
+    "abilities": [
+      {
+        "name": "Clever Thought",
+        "description": "TARGET Buff AGI by 10 and INT by 10",
+        "source": "Merchant"
+      },
+      {
+        "name": "Eroding Mist",
+        "description": "TARGET Debuff AC by 10 5% Mod by DEX",
+        "source": "Merchant"
+      },
+      {
+        "name": "Group Cleverness",
+        "description": "Group Buff AGI by 10 and INT by 10",
+        "source": "CM"
+      },
+      {
+        "name": "Minor Distillation",
+        "description": "SELF Summons Minor Corrective",
+        "source": "Merchant"
+      },
+      {
+        "name": "Return Home",
+        "description": "Teleport to bind location",
+        "source": "Merchant"
+      },
+      {
+        "name": "Unstable Mix Potion",
+        "description": "TARGET Damage by 54 Mod 5% by WIS",
+        "source": null
+      },
+      {
+        "name": "Unstable Mixture",
+        "description": "SELF Summons Unstable Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Unstable Mixtures",
+        "description": "Summons Unstable Potion X3",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "abilities": [
+      {
+        "name": "Hardening Agent",
+        "description": "SELF Buff AC by 10",
+        "source": "Quest"
+      },
+      {
+        "name": "Minor Tonic",
+        "description": "SELF Buff AR by 15",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "abilities": [
+      {
+        "name": "Acidic Bond",
+        "description": "TARGET Damage by 24 and Root for 30 seconds",
+        "source": "CM"
+      },
+      {
+        "name": "Acidic Mix Potion",
+        "description": "TARGET Damage per tic by 9 and Debuff DR & PR by 5",
+        "source": null
+      },
+      {
+        "name": "Acidic Mixture",
+        "description": "SELF Summons Acidic Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Acidic Mixtures",
+        "description": "Summons Acidic Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Alchemical Bond",
+        "description": "TARGET Root for 30 seconds",
+        "source": "Merchant"
+      },
+      {
+        "name": "Fire Spray",
+        "description": "TARGET Damage by 66 Mod 10% based on DEX",
+        "source": "Merchant"
+      },
+      {
+        "name": "Minor Infusion",
+        "description": "SELF Summons Minor Tonic",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "abilities": [
+      {
+        "name": "Crude Refinement",
+        "description": "SELF Summon Watery Draught",
+        "source": "Quest"
+      },
+      {
+        "name": "Tainted Infusion",
+        "description": "TARGET Debuff HP by 90 and Power per tic by 75 for 18 seconds",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "abilities": [
+      {
+        "name": "Crude Sublimation",
+        "description": "SELF Summon Faulty Ethereal Potion",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "abilities": [
+      {
+        "name": "Focused Intent",
+        "description": "TARGET Buff DEX and WIS by 15",
+        "source": "Merchant"
+      },
+      {
+        "name": "Group Focus",
+        "description": "Group Buff DEX and WIS by 15",
+        "source": "CM"
+      },
+      {
+        "name": "Minor Purification",
+        "description": "SELF Summon Minor Restorative",
+        "source": "Merchant"
+      },
+      {
+        "name": "Static Field",
+        "description": "TARGET Debuff Hitpoints by 26 to 62",
+        "source": "Merchant"
+      },
+      {
+        "name": "Volatile Mix Potion",
+        "description": "TARGET Debuff Hitpoints by 100 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Volatile Mixture",
+        "description": "SELF Summon Volatile Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Volatile Mixtures",
+        "description": "Summon Volatile Potion X3",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 12,
+    "abilities": [
+      {
+        "name": "Caustic Mix Potion",
+        "description": "TARGET Debuff HP per tic by 14 and Debuff Resist Poison by 10 for 60 seconds",
+        "source": null
+      },
+      {
+        "name": "Caustic Mixture",
+        "description": "SELF Summon Caustic Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Caustic Mixtures",
+        "description": "Summon Caustic Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Corroding Mist",
+        "description": "TARGET Debuff AC by 25 Modified 5% based on DEX",
+        "source": "Merchant"
+      },
+      {
+        "name": "Creative Thinking",
+        "description": "TARGET Buff AGI & INT by 20",
+        "source": "Merchant"
+      },
+      {
+        "name": "Group Creativity",
+        "description": "Group Buff AGI & INT by 20",
+        "source": "CM"
+      },
+      {
+        "name": "Lesser Distillation",
+        "description": "SELF Summon Lesser Corrective",
+        "source": "Merchant"
+      },
+      {
+        "name": "Lesser Tonic",
+        "description": "SELF Buff Resist Arcane by 30",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 13,
+    "abilities": [
+      {
+        "name": "Crude Quickening",
+        "description": "SELF Summon Faulty Alacrity Potion (SOW)",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 15,
+    "abilities": [
+      {
+        "name": "Faulty Refinement",
+        "description": "SELF Summon Weak Draught (DRINK)",
+        "source": "Quest"
+      },
+      {
+        "name": "Sickening Infusion",
+        "description": "SELF Decrease HP by 150 and Increase Power per tic by 150 for 18 seconds",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 16,
+    "abilities": [
+      {
+        "name": "Acidic Fastener",
+        "description": "TARGET Debuff HP by 62 and Root for 30 seconds",
+        "source": "CM"
+      },
+      {
+        "name": "Alchemical Fastener",
+        "description": "TARGET Root",
+        "source": "Merchant"
+      },
+      {
+        "name": "Explosive Mix Potion",
+        "description": "TARGET Debuff HP by 134 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Explosive Mixture",
+        "description": "SELF Summon Explosive Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Explosive Mixtures",
+        "description": "Summon Explosive Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Ice Spray",
+        "description": "TARGET Debuff HP by 100 Modified 15% based on DEX",
+        "source": "Merchant"
+      },
+      {
+        "name": "Lesser Infusion",
+        "description": "SELF Summon Lesser Tonic",
+        "source": "Merchant"
+      },
+      {
+        "name": "Restorative",
+        "description": "Dispel Effect x3",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 20,
+    "abilities": [
+      {
+        "name": "Corroding Mix Potion",
+        "description": "TARGET Debuff HP per tic by 40 and Decrease Resist Poison by 15",
+        "source": null
+      },
+      {
+        "name": "Corroding Mixture",
+        "description": "SELF Summon Corroding Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Corroding Mixtures",
+        "description": "Summon Corroding Potion X3",
+        "source": "Merchant"
+      },
+      {
+        "name": "Group Intent",
+        "description": "Group Buff DEX & WIS by 25",
+        "source": "CM"
+      },
+      {
+        "name": "Honed Intent",
+        "description": "TARGET Buff DEX & WIS by 25",
+        "source": "Merchant"
+      },
+      {
+        "name": "Klik'Anon Cocktail",
+        "description": "SELF Summon Klik'Anon Cocktail",
+        "source": "Quest"
+      },
+      {
+        "name": "Klik'Anon Fire Potion",
+        "description": "TARGET Debuff HP by 214",
+        "source": null
+      },
+      {
+        "name": "Lesser Purification",
+        "description": "SELF Summon Lesser Restorative",
+        "source": "Merchant"
+      },
+      {
+        "name": "Poison Field",
+        "description": "TARGET Debuff HP by 74 to 178",
+        "source": "Merchant"
+      },
+      {
+        "name": "Septic Mix Potion",
+        "description": "Unknown",
+        "source": null
+      },
+      {
+        "name": "Static Discharge",
+        "description": "TARGET Debuff Resist Lightning by 5",
+        "source": "CM"
+      },
+      {
+        "name": "Student's Knack",
+        "description": "SELF Buff Max HP by 200 and Power per tic by 20",
+        "source": "Quest"
+      },
+      {
+        "name": "Surefall Potion",
+        "description": "Unknown",
+        "source": null
+      },
+      {
+        "name": "Virulent Mix",
+        "description": "Unknown",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 23,
+    "abilities": [
+      {
+        "name": "Fortifying Agent",
+        "description": "SELF Buff AC by 150",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 24,
+    "abilities": [
+      {
+        "name": "Consuming Mist",
+        "description": "TARGET Debuff AC by 50 Modified 5% based on DEX",
+        "source": "Merchant"
+      },
+      {
+        "name": "Distillation",
+        "description": "SELF Summon Corrective",
+        "source": "Merchant"
+      },
+      {
+        "name": "Fulminant Mix Potion",
+        "description": "TARGET Debuff HP by 346 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Fulminant Mixture",
+        "description": "SELF Summon Fulminant Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Fulminant Mixtures",
+        "description": "Summon Fulminant Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Group Ingenuity",
+        "description": "Group Buff AGI & INT by 30",
+        "source": "CM"
+      },
+      {
+        "name": "Ingenious Thought",
+        "description": "TARGET Buff AGI & INT by 30",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 25,
+    "abilities": [
+      {
+        "name": "Poisoned Infusion",
+        "description": "TARGET Debuff HP by 400 and Buff Power per tic by 300 for 18 seconds",
+        "source": "Quest"
+      },
+      {
+        "name": "Refinement",
+        "description": "SELF Summon Draught",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 27,
+    "abilities": [
+      {
+        "name": "Sublimation",
+        "description": "SELF Summon Ethereal Potion",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 29,
+    "abilities": [
+      {
+        "name": "Acidic Adhesive",
+        "description": "TARGET Debuff HP by 162 and Root for 45 seconds",
+        "source": "CM"
+      },
+      {
+        "name": "Alchemical Adhesive",
+        "description": "TARGET Root",
+        "source": "Merchant"
+      },
+      {
+        "name": "Corrosive Mix Potion",
+        "description": "TARGET Debuff HP per tic by 58 and Debuff Resist Poison by 20",
+        "source": null
+      },
+      {
+        "name": "Corrosive Mixture",
+        "description": "SELF Summon Corrosive Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Corrosive Mixtures",
+        "description": "Summon Corrosive Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Infusion",
+        "description": "SELF Summon Tonic",
+        "source": "Merchant"
+      },
+      {
+        "name": "Poison Spray",
+        "description": "TARGET Debuff HP by 312 Modified 15% based on DEX",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 30,
+    "abilities": [
+      {
+        "name": "Electric Discharge",
+        "description": "TARGET Debuff Resist Lightning by 10",
+        "source": "CM"
+      },
+      {
+        "name": "Moradhim Cocktail",
+        "description": "SELF Summon Moradhim Cocktail",
+        "source": "Quest"
+      },
+      {
+        "name": "Moradhim Fire Potion",
+        "description": "TARGET Debuff HP by 338",
+        "source": null
+      },
+      {
+        "name": "Teacher's Knack",
+        "description": "SELF Buff Max HP by 300 and Increase Power per tic by 30",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 33,
+    "abilities": [
+      {
+        "name": "Quickening",
+        "description": "SELF Summon Self Alacrity Potion",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 34,
+    "abilities": [
+      {
+        "name": "Applied Intent",
+        "description": "TARGET Buff DEX & WIS by 35",
+        "source": "Merchant"
+      },
+      {
+        "name": "Detonating Mix Potion",
+        "description": "TARGET Debuff HP by 530 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Detonating Mixture",
+        "description": "SELF Summon Detonating Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Detonating Mixtures",
+        "description": "Summon Detonating Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Group Application",
+        "description": "Group Buff DEX & WIS by 35",
+        "source": "CM"
+      },
+      {
+        "name": "Ice Field",
+        "description": "TARGET Debuff HP by 156 to 374",
+        "source": "Merchant"
+      },
+      {
+        "name": "Purification",
+        "description": "SELF Summon Restorative",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 35,
+    "abilities": [
+      {
+        "name": "Greater Refinement",
+        "description": "SELF Summon Bitter Draught",
+        "source": "Quest"
+      },
+      {
+        "name": "Venomous Infusion",
+        "description": "SELF Decrease HP by 800 and Increase Power per tic by 450 for 18 seconds",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 37,
+    "abilities": [
+      {
+        "name": "Frosty Mix Potion",
+        "description": "TARGET Debuff HP by 756 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Frosty Mixture",
+        "description": "SELF Summon Frosty Potion",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 39,
+    "abilities": [
+      {
+        "name": "Acerbic Mix Potion",
+        "description": "TARGET Debuff HP per tic by 109 and Debuff Resist Poison by 25",
+        "source": null
+      },
+      {
+        "name": "Acerbic Mixture",
+        "description": "SELF Summon Acerbic Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Acerbic Mixtures",
+        "description": "Summon Acerbic Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Greater Distillation",
+        "description": "SELF Summon Greater Corrective",
+        "source": "Merchant"
+      },
+      {
+        "name": "Group Inspiration",
+        "description": "Group Buff AGI & INT by 40",
+        "source": "CM"
+      },
+      {
+        "name": "Inspired Thinking",
+        "description": "TARGET Buff AGI & INT by 40",
+        "source": "Merchant"
+      },
+      {
+        "name": "Scouring Mist",
+        "description": "TARGET Debuff AC by 100 Modified 5% based on DEX",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 40,
+    "abilities": [
+      {
+        "name": "Neriak Cocktail",
+        "description": "SELF Summon Grobb Cocktail",
+        "source": "Quest"
+      },
+      {
+        "name": "Neriak Fire Potion",
+        "description": "TARGET Debuff HP by 626",
+        "source": null
+      },
+      {
+        "name": "Professor's Knack",
+        "description": "SELF Buff Max HP by 400 and Power per tic by 40",
+        "source": "Quest"
+      },
+      {
+        "name": "Shocking Discharge",
+        "description": "TARGET Debuff Resist Lightning by 15",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 43,
+    "abilities": [
+      {
+        "name": "Petrifying Agent",
+        "description": "SELF Buff AC by 400",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 44,
+    "abilities": [
+      {
+        "name": "Acidic Anchor",
+        "description": "TARGET Debuff HP by 258 and Root",
+        "source": "CM"
+      },
+      {
+        "name": "Alchemical Anchor",
+        "description": "TARGET Root",
+        "source": "Merchant"
+      },
+      {
+        "name": "Greater Infusion",
+        "description": "SELF Summon Greater Tonic",
+        "source": "Merchant"
+      },
+      {
+        "name": "Meteoric Mix Potion",
+        "description": "TARGET Debuff HP by 882 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Meteoric Mixture",
+        "description": "SELF Summon Meteoric Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Meteoric Mixtures",
+        "description": "Summon Meteoric Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Static Spray",
+        "description": "TARGET Debuff HP by 662 Modified 15% based on DEX",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 45,
+    "abilities": [
+      {
+        "name": "Superior Refinement",
+        "description": "SELF Summon Stout Draught",
+        "source": "Quest"
+      },
+      {
+        "name": "Virulent Infusion",
+        "description": "SELF Buff HP by 1000 and Power per tic by 600 for 18 seconds",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 46,
+    "abilities": [
+      {
+        "name": "Icy Mix Potion",
+        "description": "TARGET Debuff HP by 1030 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Icy Mixtures",
+        "description": "Summon Icy Potion X3",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 47,
+    "abilities": [
+      {
+        "name": "Volatile Sublimation",
+        "description": "SELF Summon Aether Potion",
+        "source": "Quest"
+      }
+    ]
+  },
+  {
+    "level": 49,
+    "abilities": [
+      {
+        "name": "Dean's Knack",
+        "description": "SELF Buff Power per tic by 50 and Max HP by 500",
+        "source": "Quest"
+      },
+      {
+        "name": "Direct Intent",
+        "description": "TARGET Buff DEX & WIS by 45",
+        "source": "Merchant"
+      },
+      {
+        "name": "Fire Field Potion",
+        "description": "TARGET Debuff HP by 292 and 700",
+        "source": "None"
+      },
+      {
+        "name": "Freeport Cocktail",
+        "description": "SELF Summon Freeport Cocktail",
+        "source": "Quest"
+      },
+      {
+        "name": "Freeport Fire Potion",
+        "description": "TARGET Debuff HP by 1122",
+        "source": null
+      },
+      {
+        "name": "Greater Purification",
+        "description": "SELF Summon Greater Restorative",
+        "source": "Merchant"
+      },
+      {
+        "name": "Group Direction",
+        "description": "Group Buff DEX & WIS by 45",
+        "source": "CM"
+      },
+      {
+        "name": "Inventor's Knack",
+        "description": "SELF Buff Power per tic by 60 and Max HP by 600",
+        "source": "Quest"
+      },
+      {
+        "name": "Qeynos Cocktail",
+        "description": "SELF Summon Qeynos Cocktail",
+        "source": "Quest"
+      },
+      {
+        "name": "Qeynos Fire Potion",
+        "description": "TARGET Debuff HP by 842",
+        "source": null
+      },
+      {
+        "name": "Virulent Mix",
+        "description": "TARGET Debuff HP per tic by 158 and Resist Poison by 25",
+        "source": "Merchant"
+      },
+      {
+        "name": "Virulent Mixture",
+        "description": "SELF Summon Virulent Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Virulent Mixtures",
+        "description": "Summon Virulent Potion X3",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 50,
+    "abilities": [
+      {
+        "name": "Jolting Discharge",
+        "description": "TARGET Debuff Resist Lightning by 20",
+        "source": "CM"
+      },
+      {
+        "name": "Lightning Discharge",
+        "description": "TARGET Debuff Resist Lightning by 25",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 51,
+    "abilities": [
+      {
+        "name": "Alchemic Condensation",
+        "description": "SELF Summon Aqueous Potion (Breath Underwater)",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 54,
+    "abilities": [
+      {
+        "name": "Pure Refinement",
+        "description": "SELF Summon Infused Draught",
+        "source": "Mob Drop"
+      }
+    ]
+  },
+  {
+    "level": 55,
+    "abilities": [
+      {
+        "name": "Group Prodigiousness",
+        "description": "Group Buff AGI & INT by 50",
+        "source": "CM"
+      },
+      {
+        "name": "Kinetic Mix Potion",
+        "description": "TARGET Debuff HP by 1256 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Kinetic Mixture",
+        "description": "SELF Summon Kinetic Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Kinetic Mixtures",
+        "description": "Summon Kinetic Potion X3",
+        "source": "CM"
+      },
+      {
+        "name": "Major Infusion",
+        "description": "SELF Summon Major Tonic",
+        "source": "Merchant"
+      },
+      {
+        "name": "Prodigious Thought",
+        "description": "TARGET Buff AGI & INT by 50",
+        "source": "Merchant"
+      },
+      {
+        "name": "Toxic Infusion",
+        "description": "SELF Decrease HP by 1600 and Increase Power per tic by 800 for 18 seconds",
+        "source": "Merchant"
+      },
+      {
+        "name": "Wasting Mist",
+        "description": "TARGET Debuff AC by 200 Modified 5% based on DEX",
+        "source": "Merchant"
+      }
+    ]
+  },
+  {
+    "level": 57,
+    "abilities": [
+      {
+        "name": "Freezing Mix Potion",
+        "description": "TARGET Debuff HP by 1302 Modified 15% based on WIS",
+        "source": null
+      },
+      {
+        "name": "Freezing Mixtures",
+        "description": "Summon Freezing Potion X3",
+        "source": "CM"
+      }
+    ]
+  },
+  {
+    "level": 60,
+    "abilities": [
+      {
+        "name": "Acidic Hold",
+        "description": "TARGET Debuff HP by 398 and Root for 60 seconds",
+        "source": "CM"
+      },
+      {
+        "name": "Alchemical Hold",
+        "description": "TARGET Root",
+        "source": "Merchant"
+      },
+      {
+        "name": "Cunning Intent",
+        "description": "TARGET Buff DEX & WIS by 55",
+        "source": "Merchant"
+      },
+      {
+        "name": "Group Cunning",
+        "description": "Group Buff DEX & WIS by 55",
+        "source": "CM"
+      },
+      {
+        "name": "Infectious Spray",
+        "description": "TARGET Debuff HP by 1026 Modified 15% based on DEX",
+        "source": "Merchant"
+      },
+      {
+        "name": "Septic Mix Potion",
+        "description": "TARGET Debuff HP per tic by 193 and Resist Poison by 30",
+        "source": null
+      },
+      {
+        "name": "Septic Mixture",
+        "description": "SELF Summon Septic Potion",
+        "source": "Merchant"
+      },
+      {
+        "name": "Septic Mixtures",
+        "description": "Summon Septic Potion X3",
+        "source": "CM"
+      }
+    ]
+  }
+]
