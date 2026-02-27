@@ -1,10 +1,24 @@
 import { Quests } from './QuestsData.js';
+import { Information } from './InformationData.js';
 import EQOAzones from '../Map/Zones.js';
 
-export { Quests };
+export { Quests, Information };
 export const Map = EQOAzones;
 
 export const Images = {
+  city_maps_Fayspire: new URL("../images/city_maps/Fayspire.png", import.meta.url).href,
+  city_maps_Freeport: new URL("../images/city_maps/Freeport.png", import.meta.url).href,
+  city_maps_Grobb: new URL("../images/city_maps/Grobb.png", import.meta.url).href,
+  city_maps_Halas: new URL("../images/city_maps/Halas.png", import.meta.url).href,
+  city_maps_Highbourne: new URL("../images/city_maps/Highbourne.png", import.meta.url).href,
+  city_maps_KlikAnon: new URL("../images/city_maps/KlikAnon.png", import.meta.url).href,
+  city_maps_Moradhim: new URL("../images/city_maps/Moradhim.png", import.meta.url).href,
+  city_maps_Neriak_Nektulos: new URL("../images/city_maps/Neriak-Nektulos.png", import.meta.url).href,
+  city_maps_Oggok: new URL("../images/city_maps/Oggok.png", import.meta.url).href,
+  city_maps_Qeynos: new URL("../images/city_maps/Qeynos.png", import.meta.url).href,
+  city_maps_Rivervale: new URL("../images/city_maps/Rivervale.png", import.meta.url).href,
+  city_maps_Surefall_Glade: new URL("../images/city_maps/Surefall_Glade.png", import.meta.url).href,
+  city_maps_Tethelin: new URL("../images/city_maps/Tethelin.png", import.meta.url).href,
   cons_con_darkblue: new URL("../images/cons/con_darkblue.png", import.meta.url).href,
   cons_con_green: new URL("../images/cons/con_green.png", import.meta.url).href,
   cons_con_lightblue: new URL("../images/cons/con_lightblue.png", import.meta.url).href,
@@ -26,4 +40,4 @@ export const Images = {
   weres_wolfwere: new URL("../images/weres/wolfwere.png", import.meta.url).href,
 } as const;
 
-export default { Quests, Map, Images };
+export default { Quests, Information, Map, Images };
