@@ -63,7 +63,7 @@ Contributions are welcome for quest corrections, new or improved quest data/form
 - To utilize images (once added to `images/quests/`) in the markdown, use this format:
 ```
 ![image alt attribute aka simple text explanation|WIDTHxHEIGHT](file_name)
-![simply image summary|WxH](file_name)
+![simple image summary|WxH](file_name)
 ```
 
 **In-use examples** (can be found in `Quests/23-47.json`):
