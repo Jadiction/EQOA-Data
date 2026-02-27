@@ -3,6 +3,7 @@ Structured EverQuest Online Adventures (EQOA) data package for quests, map zone 
 
 ## What This Repo Offers
 - `Quests`: quest datasets grouped by level range and questline (`Quests/*.json`).
+- `Information`: supplemental reference datasets (`Information/*.json`).
 - `Images`: generated URL exports for all images in `images/` (including nested folders).
 
 This package is published as ESM and intended for apps/sites that need EQOA reference data without scraping or manual copy/paste.
@@ -14,9 +15,10 @@ npm install github:Jadiction/EQOA-Data
 
 ## Usage
 ```ts
-import { Quests, Images } from "eqoa-data";
+import { Quests, Information, Images } from "eqoa-data";
 
 const lowLevelQuests = Quests["1-20"];
+const startingCities = Information.starting_cities;
 const bearWereImage = Images.weres_bearwere;
 ```
 
@@ -27,12 +29,16 @@ import mapImage from "eqoa-data/images/EQOA_Map.png";
 
 ## Repository Layout
 - `Quests/`: source JSON files for quest data.
+- `Information/`: source JSON files for non-quest reference data.
 - `images/`: static image assets (supports nested folders).
-- `src/QuestsData.ts`: quest aggregation into the exported `Quests` object.
-- `src/index.ts`: main package exports (`Quests`, `Images`).
+- `src/QuestsData.ts`: generated quest aggregation into exported `Quests`.
+- `src/InformationData.ts`: generated information aggregation into exported `Information`.
+- `src/index.ts`: main package exports (`Quests`, `Information`, `Images`).
+- `scripts/generate-json-exports.mjs`: regenerates JSON data exports from `Quests/` and `Information/`.
 - `scripts/generate-images-export.mjs`: regenerates the `Images` export block from `images/`.
 
 Available scripts:
+- `npm run generate:data`: rebuilds `src/QuestsData.ts` and `src/InformationData.ts` from JSON folders.
 - `npm run generate:images`: rebuilds `Images` in `src/index.ts` from `images/` recursively.
 - `npm run build`: builds distributable output to `dist/` via `tsup`.
 - `npm run dev`: watch mode build.
@@ -47,9 +53,8 @@ Contributions are welcome for quest corrections, new or improved quest data/form
 ```
 1. Fork the repo and create a branch.
 2. Make your changes.
-3. If you changed or added anything in images/, run "npm run generate:images".
-4. Run "npm run build" to ensure the package still compiles.
-5. Open a Pull Request (PR) with change notes.
+5. Run `npm run build` to ensure the package still compiles.
+6. Open a Pull Request (PR) with change notes.
 ```
 
 ### Contribution Guidelines/Notes
