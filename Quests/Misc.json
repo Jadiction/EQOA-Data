@@ -45,5 +45,12 @@
   "Undead Drake Lord": "",
   "Unkempt War": "",
   "West Feerot": "",
-  "Zentar's Keep Pet": ""
+  "Zentar's Keep Pet": "",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 2
+    }
+  ]
 }

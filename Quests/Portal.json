@@ -8,5 +8,12 @@
   "Zaoran Plateau": "",
   "Envaric Ascension Quest": "",
   "Fendren the Forgotten": "",
-  "Sarek the Betrayer Port": ""
+  "Sarek the Betrayer Port": "",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 2
+    }
+  ]
 }
