@@ -10,7 +10,7 @@ This package is published as ESM and intended for apps/sites that need EQOA refe
 
 ## Install
 ```bash
-npm install github:Jadiction/EQOA-Data
+npm install eqoa-data
 ```
 
 ## Usage
@@ -20,6 +20,14 @@ import { Quests, Information, Images } from "eqoa-data";
 const lowLevelQuests = Quests["1-20"];
 const startingCities = Information.starting_cities;
 const bearWereImage = Images.weres_bearwere;
+
+// Each guide includes contributor information
+if (lowLevelQuests.contributors) {
+  lowLevelQuests.contributors.forEach(contributor => {
+    console.log(`Contributed by: ${contributor.login}`);
+    // {login, id, commits}
+  });
+}
 ```
 
 You can also import published images directly:
@@ -34,17 +42,23 @@ import mapImage from "eqoa-data/images/EQOA_Map.png";
 - `src/QuestsData.ts`: generated quest aggregation into exported `Quests`.
 - `src/InformationData.ts`: generated information aggregation into exported `Information`.
 - `src/index.ts`: main package exports (`Quests`, `Information`, `Images`).
+- `scripts/generate-contributors.mjs`: fetches GitHub contributors per guide.
 - `scripts/generate-json-exports.mjs`: regenerates JSON data exports from `Quests/` and `Information/`.
 - `scripts/generate-images-export.mjs`: regenerates the `Images` export block from `images/`.
 
 Available scripts:
+- `npm run generate:contributors`: fetches GitHub contributors and adds to guide files.
 - `npm run generate:data`: rebuilds `src/QuestsData.ts` and `src/InformationData.ts` from JSON folders.
 - `npm run generate:images`: rebuilds `Images` in `src/index.ts` from `images/` recursively.
-- `npm run build`: builds distributable output to `dist/` via `tsup`.
+- `npm run build`: regenerates JSON/image exports and builds distributable output to `dist/` via `tsup`.
+- `npm run build:release`: runs contributor generation, then runs `npm run build`.
+- `npm run prepack`: validates generated exports/build before packaging for npm.
 - `npm run dev`: watch mode build.
 
 ## Contributing
 Contributions are welcome for quest corrections, new or improved quest data/formatting, and image assets (such as screenshots to better help with the guides).
+
+When your PR is approved and merged, you'll automatically appear as a contributor on the guide pages you helped with! Contributors are fetched from GitHub's commit history and included in the published package.
 
 ### Contribution Flow
 (Easy) Utilize the editor at [https://jadiction.com/en/eqoa/editor](https://jadiction.com/en/eqoa/editor)
