@@ -5,67 +5,162 @@
     {
       "city": "Halas",
       "race": "Barbarian",
-      "classes": ["Rouge", "Shaman", "Warrior"]
+      "classes": [
+        "Rouge",
+        "Shaman",
+        "Warrior"
+      ]
     },
     {
       "city": "Neriak-Nektulos",
       "race": "Dark Elf",
-      "classes": ["Alchemist", "Cleric", "Enchanter", "Magician", "Necromancer", "Rouge", "Shadowknight", "Warrior", "Wizard"]
+      "classes": [
+        "Alchemist",
+        "Cleric",
+        "Enchanter",
+        "Magician",
+        "Necromancer",
+        "Rouge",
+        "Shadowknight",
+        "Warrior",
+        "Wizard"
+      ]
     },
     {
       "city": "Moradhim",
       "race": "Dwarf",
-      "classes": ["Cleric", "Paladin", "Rouge", "Warrior"]
+      "classes": [
+        "Cleric",
+        "Paladin",
+        "Rouge",
+        "Warrior"
+      ]
     },
     {
       "city": "Tethelin",
       "race": "Elf",
-      "classes": ["Bard", "Druid", "Ranger", "Rouge"]
+      "classes": [
+        "Bard",
+        "Druid",
+        "Ranger",
+        "Rouge"
+      ]
     },
     {
       "city": "Fayspire",
       "race": "Elf",
-      "classes": ["Alchemist", "Cleric", "Enchanter", "Magician", "Paladin", "Wizard"]
+      "classes": [
+        "Alchemist",
+        "Cleric",
+        "Enchanter",
+        "Magician",
+        "Paladin",
+        "Wizard"
+      ]
     },
     {
       "city": "Highbourne",
       "race": "Erudite",
-      "classes": ["Alchemist", "Cleric", "Enchanter", "Magician", "Necromancer", "Paladin", "Shadowknight", "Wizard"]
+      "classes": [
+        "Alchemist",
+        "Cleric",
+        "Enchanter",
+        "Magician",
+        "Necromancer",
+        "Paladin",
+        "Shadowknight",
+        "Wizard"
+      ]
     },
     {
       "city": "Klik'anon",
       "race": "Gnome",
-      "classes": ["Alchemist", "Cleric", "Enchanter", "Magician", "Necromancer", "Rouge", "Warrior", "Wizard"]
+      "classes": [
+        "Alchemist",
+        "Cleric",
+        "Enchanter",
+        "Magician",
+        "Necromancer",
+        "Rouge",
+        "Warrior",
+        "Wizard"
+      ]
     },
     {
       "city": "Rivervale",
       "race": "Halfling",
-      "classes": ["Cleric", "Druid", "Rouge", "Warrior"]
+      "classes": [
+        "Cleric",
+        "Druid",
+        "Rouge",
+        "Warrior"
+      ]
     },
     {
       "city": "Freeport",
       "race": "Eastern Human",
-      "classes": ["Alchemist", "Bard", "Cleric", "Enchanter", "Magician", "Necromancer", "Rouge", "Shadowknight", "Warrior", "Wizard"]
+      "classes": [
+        "Alchemist",
+        "Bard",
+        "Cleric",
+        "Enchanter",
+        "Magician",
+        "Necromancer",
+        "Rouge",
+        "Shadowknight",
+        "Warrior",
+        "Wizard"
+      ]
     },
     {
       "city": "Qeynos",
       "race": "Western Human",
-      "classes": ["Alchemist", "Bard", "Cleric", "Enchanter", "Magician", "Monk", "Paladin", "Rouge", "Warrior", "Wizard"]
+      "classes": [
+        "Alchemist",
+        "Bard",
+        "Cleric",
+        "Enchanter",
+        "Magician",
+        "Monk",
+        "Paladin",
+        "Rouge",
+        "Warrior",
+        "Wizard"
+      ]
     },
     {
       "city": "Surefall Glade",
       "race": "Western Human",
-      "classes": ["Druid", "Ranger"]
+      "classes": [
+        "Druid",
+        "Ranger"
+      ]
     },
     {
       "city": "Oggok",
       "race": "Ogre",
-      "classes": ["Necromancer", "Shadowknight", "Shaman", "Warrior"]
+      "classes": [
+        "Necromancer",
+        "Shadowknight",
+        "Shaman",
+        "Warrior"
+      ]
     },
     {
       "city": "Grobb",
       "race": "Troll",
-      "classes": ["Shadowknight", "Shaman", "Warrior"]
+      "classes": [
+        "Shadowknight",
+        "Shaman",
+        "Warrior"
+      ]
+    }
+  ],
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 1
     }
   ]
 }
