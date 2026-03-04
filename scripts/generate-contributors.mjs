@@ -13,6 +13,19 @@ const QUESTS_DIR = path.join(rootDir, "Quests");
 const INFORMATION_DIR = path.join(rootDir, "Information");
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
+function isBotAuthor(author) {
+  if (!author) return false;
+  if (author.type === "Bot") return true;
+  if (typeof author.login !== "string") return false;
+
+  const login = author.login.toLowerCase();
+  if (login === "github-actions[bot]" || login === "dependabot[bot]") {
+    return true;
+  }
+
+  return login.endsWith("[bot]") || login.includes("dependabot");
+}
+
 function parseNextLink(linkHeader) {
   if (!linkHeader) return null;
   const links = linkHeader.split(",");
@@ -91,7 +104,7 @@ async function fetchFileContributors(filePath) {
       }
 
       for (const commit of response.data) {
-        if (commit.author) {
+        if (commit.author && !isBotAuthor(commit.author)) {
           const key = commit.author.login;
           if (!contributors.has(key)) {
             contributors.set(key, {
