@@ -56,7 +56,8 @@ jobs:
       # Bump version
 
       - name: Bump patch version
-        run: npm version patch -m "chore(release): %s [skip ci]"
+        run: |
+          npm version patch -m "chore(release): %s [skip ci]"
 
       # Build final artifacts AFTER version bump
 
