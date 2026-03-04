@@ -1,0 +1,76 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 25
+          cache: npm
+          registry-url: https://registry.npmjs.org
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Generate contributors + data (NO version bump yet)
+
+      - name: Generate contributors and build artifacts
+        run: npm run build:release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit generated changes (if any)
+        run: |
+          if ! git diff --quiet; then
+            git add -A
+            git commit -m "chore: refresh generated content [skip ci]"
+          fi
+
+      # Bump version
+
+      - name: Bump patch version
+        run: npm version patch -m "chore(release): %s [skip ci]"
+
+      # Build final artifacts AFTER version bump
+
+      - name: Build final artifacts
+        run: npm run build
+
+      # Publish to npm
+
+      - name: Publish to npm
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      # Push commit + tag
+
+      - name: Push release commit and tag
+        run: git push --follow-tags
