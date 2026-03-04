@@ -161,6 +161,11 @@
       "login": "Jadiction",
       "id": 8557785,
       "commits": 2
+    },
+    {
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "commits": 1
     }
   ]
 }
