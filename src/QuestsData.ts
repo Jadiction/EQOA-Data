@@ -273,7 +273,7 @@ export const Quests = {
       'rogue': Quests_1_20_moradhim_rogue,
       'warrior': Quests_1_20_moradhim_warrior,
     },
-    'neriak, nektulos': {
+    'neriak-nektulos': {
       _meta: Quests_1_20_neriak_nektulos__meta,
       'alchemist': Quests_1_20_neriak_nektulos_alchemist,
       'cleric': Quests_1_20_neriak_nektulos_cleric,
@@ -337,7 +337,7 @@ export const Quests = {
     'highpass': Quests_17_highpass,
     'klick-anon': Quests_17_klick_anon,
     'moradhim': Quests_17_moradhim,
-    'neriak, nektulos': Quests_17_neriak_nektulos,
+    'neriak-nektulos': Quests_17_neriak_nektulos,
     'qeynos': Quests_17_qeynos,
     'rivervale': Quests_17_rivervale,
   },

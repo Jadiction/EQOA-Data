@@ -1,5 +1,11 @@
 {
   "key": "Paineel",
   "guide": "",
-  "contributors": []
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 1
+    }
+  ]
 }
