@@ -11,14 +11,14 @@ const indexFile = path.join(rootDir, "src", "index.ts");
 
 const IMAGE_EXTENSIONS = new Set([".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"]);
 
-function toIdentifier(baseName) {
+function toIdentifier(baseName: string): string {
   const cleaned = baseName.replace(/[^A-Za-z0-9_$]/g, "_");
   return /^[A-Za-z_$]/.test(cleaned) ? cleaned : `_${cleaned}`;
 }
 
-async function collectImageFiles(dir, parentRelative = "") {
+async function collectImageFiles(dir: string, parentRelative = ""): Promise<string[]> {
   const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = [];
+  const files: string[] = [];
 
   for (const entry of entries) {
     const relativePath = parentRelative ? path.join(parentRelative, entry.name) : entry.name;
@@ -44,14 +44,14 @@ async function collectImageFiles(dir, parentRelative = "") {
   return files;
 }
 
-async function main() {
+async function main(): Promise<void> {
   const imageFiles = (await collectImageFiles(imagesDir)).sort((a, b) => a.localeCompare(b));
 
   if (imageFiles.length === 0) {
     throw new Error(`No image files found in ${imagesDir}`);
   }
 
-  const usedKeys = new Set();
+  const usedKeys = new Set<string>();
   const lines = imageFiles.map((relativeFilePath) => {
     const normalizedPath = relativeFilePath.split(path.sep).join("/");
     const relativeWithoutExt = normalizedPath.replace(/\.[^./]+$/, "");
@@ -77,7 +77,8 @@ async function main() {
   console.log(`Updated ${indexFile} with ${imageFiles.length} images.`);
 }
 
-main().catch((error) => {
-  console.error(error.message);
+main().catch((error: unknown) => {
+  const message = error instanceof Error ? error.message : String(error);
+  console.error(message);
   process.exit(1);
 });
