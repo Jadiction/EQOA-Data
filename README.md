@@ -2,7 +2,7 @@
 Structured EverQuest Online Adventures (EQOA) data package for quests, map zone coordinates, and image assets used by Jadiction.com (and free for others to use).
 
 ## What This Repo Offers
-- `Quests`: quest datasets grouped by level range and questline (`Quests/*.json`).
+- `Quests`: quest datasets split into per-guide files (`Quests/<set>/<guide>.json`), with `_meta.json` for set title/subtitle and nested group labels.
 - `Information`: supplemental reference datasets (`Information/*.json`).
 - `Images`: generated URL exports for all images in `images/` (including nested folders).
 
@@ -18,12 +18,16 @@ npm install eqoa-data
 import { Quests, Information, Images } from "eqoa-data";
 
 const lowLevelQuests = Quests["1-20"];
+const wizardGuide = lowLevelQuests.fayspire.wizard;
 const startingCities = Information.starting_cities;
 const bearWereImage = Images.weres_bearwere;
 
-// Each guide includes contributor information
-if (lowLevelQuests.contributors) {
-  lowLevelQuests.contributors.forEach(contributor => {
+console.log(lowLevelQuests.title); // from _meta.json
+console.log(wizardGuide.guide); // markdown guide body
+
+// Each guide JSON includes contributor information
+if (wizardGuide.contributors) {
+  wizardGuide.contributors.forEach(contributor => {
     console.log(`Contributed by: ${contributor.login}`);
     // {login, id, commits}
   });
@@ -36,15 +40,15 @@ import mapImage from "eqoa-data/images/EQOA_Map.png";
 ```
 
 ## Repository Layout
-- `Quests/`: source JSON files for quest data.
+- `Quests/`: source JSON folders for quest data (`_meta.json` + one JSON per guide).
 - `Information/`: source JSON files for non-quest reference data.
 - `images/`: static image assets (supports nested folders).
 - `src/QuestsData.ts`: generated quest aggregation into exported `Quests`.
 - `src/InformationData.ts`: generated information aggregation into exported `Information`.
 - `src/index.ts`: main package exports (`Quests`, `Information`, `Images`).
-- `scripts/generate-contributors.mjs`: fetches GitHub contributors per guide.
-- `scripts/generate-json-exports.mjs`: regenerates JSON data exports from `Quests/` and `Information/`.
-- `scripts/generate-images-export.mjs`: regenerates the `Images` export block from `images/`.
+- `scripts/generate-contributors.ts`: fetches GitHub contributors per guide.
+- `scripts/generate-json-exports.ts`: regenerates JSON data exports from `Quests/` and `Information/`.
+- `scripts/generate-images-export.ts`: regenerates the `Images` export block from `images/`.
 
 Available scripts:
 - `npm run generate:contributors`: fetches GitHub contributors and adds to guide files.
@@ -80,7 +84,7 @@ When your PR is approved and merged, you'll automatically appear as a contributo
 ![simple image summary|WxH](file_name)
 ```
 
-**In-use examples** (can be found in `Quests/23-47.json`):
+**In-use examples** (can be found in `Quests/23-47/35.json`):
 
 ```
 ![Idol of Malice location|319x205](35_idol_of_malice)
