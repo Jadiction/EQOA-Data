@@ -1,9 +1,26 @@
 {
   "title": "Epics",
-  "description": "All of the epics in EQOA: Frontiers.",
+  "description": "All of the epics in EQOA: Frontiers. test",
   "list": [
     {
-      "49": {
+      "60": {
+        "Shadowknight": [],
+        "Paladin": [],
+        "Warrior": [],
+        "Druid": [],
+        "Cleric": [],
+        "Shaman": [],
+        "Bard": [],
+        "Ranger": [],
+        "Monk": [],
+        "Rogue": [],
+        "Enchanter": [],
+        "Wizard": [],
+        "Magician": [],
+        "Necromancer": [],
+        "Alchemist": []
+      },
+      "491": {
         "Shadowknight": [
           {
             "name": "Beheader of Isthiak",
@@ -371,23 +388,6 @@
             }
           }
         ]
-      },
-      "60": {
-        "Shadowknight": [],
-        "Paladin": [],
-        "Warrior": [],
-        "Druid": [],
-        "Cleric": [],
-        "Shaman": [],
-        "Bard": [],
-        "Ranger": [],
-        "Monk": [],
-        "Rogue": [],
-        "Enchanter": [],
-        "Wizard": [],
-        "Magician": [],
-        "Necromancer": [],
-        "Alchemist": []
       }
     }
   ],
