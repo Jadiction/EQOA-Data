@@ -1,6 +1,6 @@
 import { Quests } from './QuestsData.js';
 import { Information } from './InformationData.js';
-import EQOAzones from '../Map/Zones.js';
+import EQOAzones from '../Map/zones.json' with { type: "json" };
 
 export { Quests, Information };
 export const Map = EQOAzones;
