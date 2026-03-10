@@ -40,7 +40,7 @@
   "biomes": [
     { "name": "Permafrost"          , "x":  4071, "y":   475 },
     { "name": "Fayspire Gate"       , "x": 10648, "y":   461 },
-    { "name": "Isle of Dread"       , "x": 14533, "y":   621 },
+    { "name": "Isle of Dread"       , "x": 14533, "y":   587 },
     { "name": "Snowfist"            , "x":  8745, "y":   449 },
     { "name": "Greyvax's Caves"     , "x":  9710, "y":   454 },
     { "name": "Rogue Clockworks"    , "x": 13476, "y":  1325 },
@@ -168,7 +168,7 @@
     { "name": "Envar"               , "x":  5066, "y": 11824 }
   ],
   "pois":   [
-    { "name": "Example POI"  , "x": 11950, "y": 361, "icon": "map-marker", "style": {"color":"red"} },
-    { "name": "Example POI 2", "x": 12568, "y": 768, "icon": "map-marker", "style": {"color":"blue"} }
+    { "name": "Example POI"  , "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"red"} },
+    { "name": "Example POI 2", "x": 12438, "y": 714, "icon": "map-marker", "style": {"color":"blue"} }
   ]
 }
