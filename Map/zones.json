@@ -168,6 +168,7 @@
     { "name": "Envar"               , "x":  5066, "y": 11824 }
   ],
   "pois":   [
-    { "name": "Example POI" , "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"blue"} }
+    { "name": "Example POI"  , "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"red"} },
+    { "name": "Example POI 2", "x": 12438, "y": 714, "icon": "map-marker", "style": {"color":"blue"} }
   ]
 }
