@@ -40,7 +40,9 @@
     },
     {
       "level_range": [
-        10,
+        [
+          10
+        ],
         14
       ],
       "camp": "Freezeblood Village",
