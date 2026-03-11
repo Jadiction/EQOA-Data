@@ -85,7 +85,9 @@
     },
     {
       "level_range": [
-        14,
+        {
+          "key": 14
+        },
         18
       ],
       "camp": "Orc Tunnel",
