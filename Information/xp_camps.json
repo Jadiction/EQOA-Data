@@ -4,19 +4,19 @@
   "list": [
     {
       "level_range": [
-        1,
+        22,
         6
       ],
-      "camp": "Hatebone Orcs",
+      "camp": "Hatebone Orcs TEST",
       "location": "Halas (Outskirts)",
       "note": "A solid beginner camp with tightly packed orcs. Good for melee-heavy groups learning to pull."
     },
     {
       "level_range": [
-        1,
-        8
+        111111,
+        222222
       ],
-      "camp": "Blackpaw Gnolls",
+      "camp": null,
       "location": "Blackburrow Area",
       "note": "Classic early gnoll camp. Watch for adds inside the cave system."
     },
