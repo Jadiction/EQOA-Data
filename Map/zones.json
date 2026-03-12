@@ -1,7 +1,7 @@
 {
   "towns":  [
     { "name": "Halas"               , "x":  7903, "y":   335, "alignment": "good" },
-    { "name": "Klick'Anon"          , "x": 12648, "y":  1348, "alignment": "neutral" },
+    { "name": "Klick'Anon"          , "x": 11241, "y":  1239, "alignment": "neutral" },
     { "name": "Neriak, Nektulos"    , "x": 13512, "y":  2648, "alignment": "evil" },
     { "name": "Zentar's Keep"       , "x":  4235, "y":  1260, "alignment": "evil" },
     { "name": "Fayspire"            , "x": 10839, "y":  1383, "alignment": "good" },
@@ -39,7 +39,7 @@
   ],
   "biomes": [
     { "name": "Permafrost"          , "x":  4071, "y":   475 },
-    { "name": "Fayspire Gate"       , "x": 10648, "y":   461 },
+    { "name": "Fayspire Gate"       , "x": 12702, "y":   357 },
     { "name": "Isle of Dread"       , "x": 14533, "y":   587 },
     { "name": "Snowfist"            , "x":  8745, "y":   449 },
     { "name": "Greyvax's Caves"     , "x":  9710, "y":   454 },
@@ -168,6 +168,7 @@
     { "name": "Envar"               , "x":  5066, "y": 11824 }
   ],
   "pois":   [
-    { "name": "Example POI" , "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"blue"} }
+    { "name": "Example POI", "x": 11750, "y":  737, "icon": "map-marker", "style": {"color":"blue"} },
+    { "name": "Dragon here", "x": 10763, "y": 1297, "icon": "circle", "style": {"color":"#2900f5"} }
   ]
 }
