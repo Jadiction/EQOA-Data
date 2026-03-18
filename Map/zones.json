@@ -23,7 +23,7 @@
     { "name": "Muniels's Tea Garden", "x": 12687, "y":  7357, "alignment": "neutral" },
     { "name": "Highbourne"          , "x":  3930, "y":  8167, "alignment": "good" },
     { "name": "Forkwatch"           , "x":  7609, "y":  6945, "alignment": "good" },
-    { "name": "Dark Solace"         , "x":  7703, "y":  8231, "alignment": "evil", "aka": "South Crossroads" },
+    { "name": "Dark Solace"         , "x":  7655, "y":  8105, "alignment": "evil", "aka": "South Crossroads" },
     { "name": "Hazinak"             , "x": 13432, "y": 11040, "alignment": "good" },
     { "name": "Hazinak"             , "x": 13626, "y": 10999, "alignment": "evil" },
     { "name": "Blackwater"          , "x":  8789, "y":  9012, "alignment": "good", "aka": "Brog Fens" },
@@ -168,6 +168,6 @@
     { "name": "Envar"               , "x":  5066, "y": 11824 }
   ],
   "pois":   [
-    { "name": "Example POI" , "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"blue"} }
+    { "name": "Example POI", "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"blue"} }
   ]
 }
