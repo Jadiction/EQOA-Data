@@ -183,7 +183,7 @@
     { "name": "Tae Ew Commander (22) Multiple Spawns"             , "x":  5955, "y": 11930, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Ogre Thug (20)"                                    , "x":  6271, "y": 11631, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Dwarf Thug (20)"                                   , "x":  6281, "y": 11658, "icon": "map-marker", "style": {"color":"#f1f5f9"} },
-    { "name": "Fat Piranha (13)"                                  , "x":  6760, "y": 11688, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Fat Piranha (13)"                                  , "x":  6759, "y": 11696, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Hobgoblin Skulk (13)"                              , "x":  6737, "y": 10557, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Mischievous Spirit"                                , "x":  6949, "y": 10448, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Captain Thugrim"                                   , "x":  7077, "y": 10338, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
