@@ -193,6 +193,6 @@
     { "name": "Tree Sap"                                          , "x":  6666, "y": 10760, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Stump"                                             , "x":  6632, "y": 10424, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Gatekeeper Warvar - To Oggok Gate"                 , "x":  7219, "y": 12193, "icon": "info-circle", "style": {"color":"#f59e0b"} },
-    { "name": "Door to Oggok Gate"                                , "x":  7274, "y": 12204, "icon": "info-circle", "style": {"color":"#f97316"} }
+    { "name": "Door to Oggok Gate"                                , "x":  7280, "y": 12216, "icon": "info-circle", "style": {"color":"#f97316"} }
   ]
 }
