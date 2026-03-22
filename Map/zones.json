@@ -187,7 +187,7 @@
     { "name": "Hobgoblin Skulk (13)"                              , "x":  6737, "y": 10557, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Mischievous Spirit"                                , "x":  6949, "y": 10448, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Captain Thugrim"                                   , "x":  7077, "y": 10338, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Dwarven Drunkard & Kingsnake"                      , "x":  7144, "y": 10355, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Dwarven Drunkard & Kingsnake"                      , "x":  7142, "y": 10364, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Burdened Mog Thug (17)"                            , "x":  6638, "y": 10219, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Gruk Crab"                                         , "x":  6678, "y": 10699, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Tree Sap"                                          , "x":  6666, "y": 10760, "icon": "info-circle", "style": {"color":"#f1f5f9"} },
