@@ -6,7 +6,7 @@
       "city": "Halas",
       "race": "Barbarian",
       "classes": [
-        "Rouge",
+        "Rogue",
         "Shaman",
         "Warrior"
       ]
@@ -20,7 +20,7 @@
         "Enchanter",
         "Magician",
         "Necromancer",
-        "Rouge",
+        "Rogue",
         "Shadowknight",
         "Warrior",
         "Wizard"
@@ -32,7 +32,7 @@
       "classes": [
         "Cleric",
         "Paladin",
-        "Rouge",
+        "Rogue",
         "Warrior"
       ]
     },
@@ -43,7 +43,7 @@
         "Bard",
         "Druid",
         "Ranger",
-        "Rouge"
+        "Rogue"
       ]
     },
     {
@@ -81,7 +81,7 @@
         "Enchanter",
         "Magician",
         "Necromancer",
-        "Rouge",
+        "Rogue",
         "Warrior",
         "Wizard"
       ]
@@ -92,7 +92,7 @@
       "classes": [
         "Cleric",
         "Druid",
-        "Rouge",
+        "Rogue",
         "Warrior"
       ]
     },
@@ -106,7 +106,7 @@
         "Enchanter",
         "Magician",
         "Necromancer",
-        "Rouge",
+        "Rogue",
         "Shadowknight",
         "Warrior",
         "Wizard"
@@ -123,7 +123,7 @@
         "Magician",
         "Monk",
         "Paladin",
-        "Rouge",
+        "Rogue",
         "Warrior",
         "Wizard"
       ]
