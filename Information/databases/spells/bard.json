@@ -64,14 +64,14 @@
       "abilities": [
         {
           "name": "Funeral March",
-          "description": "Target, Decrease HP per tic by 5, 30sec - DoT",
+          "description": "Target, Decrease HP per tic by 5, 30sec - DoT, this is a test",
           "source": "Quest",
           "icon": "DoT"
         }
       ]
     },
     {
-      "level": 7,
+      "level": 8,
       "abilities": [
         {
           "name": "Artful Strike",
