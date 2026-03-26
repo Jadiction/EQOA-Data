@@ -29,6 +29,12 @@ interface RequestResult {
   nextUrl: string | null;
 }
 
+interface ProcessResult {
+  processedCount: number;
+  contributorCount: number;
+  processedPaths: string[];
+}
+
 function isObject(value: unknown): value is JsonObject {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
@@ -173,9 +179,32 @@ async function addContributorsToFile(filePath: string, relativePath: string): Pr
   }
 }
 
-async function processDirectory(dir: string): Promise<{ processedCount: number; contributorCount: number }> {
+async function collectJsonFiles(dir: string): Promise<string[]> {
+  const jsonFiles: string[] = [];
+
+  try {
+    const entries = await fs.readdir(dir, { withFileTypes: true });
+
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+
+      if (entry.isDirectory()) {
+        jsonFiles.push(...await collectJsonFiles(fullPath));
+      } else if (entry.isFile() && path.extname(entry.name) === ".json" && entry.name !== "_meta.json") {
+        jsonFiles.push(path.relative(rootDir, fullPath));
+      }
+    }
+  } catch {
+    // Continue on error.
+  }
+
+  return jsonFiles;
+}
+
+async function processDirectory(dir: string): Promise<ProcessResult> {
   let processedCount = 0;
   let contributorCount = 0;
+  const processedPaths: string[] = [];
 
   try {
     const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -188,6 +217,7 @@ async function processDirectory(dir: string): Promise<{ processedCount: number; 
         const result = await processDirectory(fullPath);
         processedCount += result.processedCount;
         contributorCount += result.contributorCount;
+        processedPaths.push(...result.processedPaths);
       } else if (entry.isFile() && path.extname(entry.name) === ".json" && entry.name !== "_meta.json") {
         const count = await addContributorsToFile(fullPath, relativePath);
         if (count > 0) {
@@ -195,13 +225,14 @@ async function processDirectory(dir: string): Promise<{ processedCount: number; 
           contributorCount += count;
         }
         processedCount += 1;
+        processedPaths.push(relativePath);
       }
     }
   } catch {
     // Continue on error.
   }
 
-  return { processedCount, contributorCount };
+  return { processedCount, contributorCount, processedPaths };
 }
 
 async function main(): Promise<void> {
@@ -213,6 +244,15 @@ async function main(): Promise<void> {
 
     console.log("\nProcessing Information directory...");
     const infoResult = await processDirectory(INFORMATION_DIR);
+    const infoDatabaseFiles = await collectJsonFiles(path.join(INFORMATION_DIR, "databases"));
+    const processedInfoPaths = new Set(infoResult.processedPaths);
+    const missingDatabaseFiles = infoDatabaseFiles.filter((file) => !processedInfoPaths.has(file));
+
+    if (missingDatabaseFiles.length > 0) {
+      throw new Error(
+        `Information/databases files were not processed by the contributor script:\n${missingDatabaseFiles.join("\n")}`,
+      );
+    }
 
     const totalProcessed = questResult.processedCount + infoResult.processedCount;
     const totalContributors = questResult.contributorCount + infoResult.contributorCount;
@@ -220,6 +260,7 @@ async function main(): Promise<void> {
     console.log("\nComplete.");
     console.log(`  Files processed: ${totalProcessed}`);
     console.log(`  Contributors added: ${totalContributors}`);
+    console.log(`  Information/databases JSON files accounted for: ${infoDatabaseFiles.length}`);
   } catch (error) {
     console.error("Fatal error:", error);
     process.exit(1);
