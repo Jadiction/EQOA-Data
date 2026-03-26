@@ -635,5 +635,12 @@
         }
       ]
     }
+  ],
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 1
+    }
   ]
 }
