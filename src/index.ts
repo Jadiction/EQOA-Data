@@ -5,6 +5,81 @@ import EQOAzones from '../Map/zones.json' with { type: "json" };
 export { Quests, Information };
 export const Map = EQOAzones;
 
+const CMSClassToType = {
+  Alchemist: 'Caster',
+  Bard: 'Melee',
+  Cleric: 'Healer',
+  Druid: 'Healer',
+  Enchanter: 'Caster',
+  Magician: 'Caster',
+  Monk: 'Melee',
+  Necromancer: 'Caster',
+  Paladin: 'Tank',
+  Ranger: 'Melee',
+  Rogue: 'Melee',
+  Shadowknight: 'Tank',
+  Shaman: 'Healer',
+  Warrior: 'Tank',
+  Wizard: 'Caster',
+} as const;
+
+const CMSGroupApplicability = [
+  Quests['30,40,49']['group-1-good'].applicable,
+  Quests['30,40,49']['group-2-good'].applicable,
+  Quests['30,40,49']['group-3-good'].applicable,
+  Quests['30,40,49']['group-4-evil'].applicable,
+  Quests['30,40,49']['group-5-evil'].applicable,
+  Quests['30,40,49']['group-6-evil'].applicable,
+] as Array<Record<string, string[]>>;
+
+function buildCMSRaceToClasses() {
+  const raceToClasses = new globalThis.Map<string, Set<string>>();
+
+  for (const applicable of CMSGroupApplicability) {
+    for (const [race, classes] of Object.entries(applicable)) {
+      const knownClasses = raceToClasses.get(race) ?? new Set<string>();
+      for (const className of classes) {
+        knownClasses.add(className);
+      }
+      raceToClasses.set(race, knownClasses);
+    }
+  }
+
+  const entries = Array.from(raceToClasses.entries())
+    .sort(([leftRace], [rightRace]) => leftRace.localeCompare(rightRace))
+    .map(([race, classes]) => [race, Array.from(classes).sort()] as const);
+
+  return Object.fromEntries(entries) as Record<string, string[]>;
+}
+
+export const CMSRaceToClasses = buildCMSRaceToClasses();
+export const CMSClassTypes = CMSClassToType;
+export const CMSFilterDefinitions = [
+  { id: 'race', category: 'Race', options: Object.keys(CMSRaceToClasses) },
+  { id: 'class', category: 'Class', options: Object.keys(CMSClassToType).sort() },
+  { id: 'type', category: 'Type', options: ['Tank', 'Healer', 'Melee', 'Caster'] },
+] as const;
+
+export function getCMSFilters() {
+  const classToRaces = Object.fromEntries(
+    Object.keys(CMSClassToType)
+      .sort()
+      .map((className) => [
+        className,
+        Object.entries(CMSRaceToClasses)
+          .filter(([, classes]) => classes.includes(className))
+          .map(([race]) => race),
+      ]),
+  );
+
+  return {
+    filters: CMSFilterDefinitions,
+    raceToClasses: CMSRaceToClasses,
+    classToRaces,
+    classToType: CMSClassToType,
+  };
+}
+
 export const Images = {
   city_maps_Fayspire: new URL("../images/city_maps/Fayspire.png", import.meta.url).href,
   city_maps_Freeport: new URL("../images/city_maps/Freeport.png", import.meta.url).href,
@@ -73,6 +148,37 @@ export const Images = {
   info_how_to_play_9: new URL("../images/info/how_to_play/9.png", import.meta.url).href,
   quests_35_idol_of_lust: new URL("../images/quests/35_idol_of_lust.png", import.meta.url).href,
   quests_35_idol_of_malice: new URL("../images/quests/35_idol_of_malice.png", import.meta.url).href,
+  spell_icons_Bleeding_Heart: new URL("../images/spell_icons/Bleeding_Heart.png", import.meta.url).href,
+  spell_icons_Boot_Shackled: new URL("../images/spell_icons/Boot_Shackled.png", import.meta.url).href,
+  spell_icons_Boot_Sticky: new URL("../images/spell_icons/Boot_Sticky.png", import.meta.url).href,
+  spell_icons_Boot: new URL("../images/spell_icons/Boot.png", import.meta.url).href,
+  spell_icons_Brazier: new URL("../images/spell_icons/Brazier.png", import.meta.url).href,
+  spell_icons_Cold: new URL("../images/spell_icons/Cold.png", import.meta.url).href,
+  spell_icons_Defense_Active: new URL("../images/spell_icons/Defense_Active.png", import.meta.url).href,
+  spell_icons_DoT: new URL("../images/spell_icons/DoT.png", import.meta.url).href,
+  spell_icons_Fear: new URL("../images/spell_icons/Fear.png", import.meta.url).href,
+  spell_icons_Fire: new URL("../images/spell_icons/Fire.png", import.meta.url).href,
+  spell_icons_Forage: new URL("../images/spell_icons/Forage.png", import.meta.url).href,
+  spell_icons_Gate: new URL("../images/spell_icons/Gate.png", import.meta.url).href,
+  spell_icons_Heal: new URL("../images/spell_icons/Heal.png", import.meta.url).href,
+  spell_icons_Mask: new URL("../images/spell_icons/Mask.png", import.meta.url).href,
+  spell_icons_Muscle_Arm: new URL("../images/spell_icons/Muscle_Arm.png", import.meta.url).href,
+  spell_icons_Physical_Alteration: new URL("../images/spell_icons/Physical_Alteration.png", import.meta.url).href,
+  spell_icons_Physical_Stat: new URL("../images/spell_icons/Physical_Stat.png", import.meta.url).href,
+  spell_icons_Play_Instruments: new URL("../images/spell_icons/Play_Instruments.png", import.meta.url).href,
+  spell_icons_Poison: new URL("../images/spell_icons/Poison.png", import.meta.url).href,
+  spell_icons_Profile_Cloud: new URL("../images/spell_icons/Profile_Cloud.png", import.meta.url).href,
+  spell_icons_Profile_Lightning: new URL("../images/spell_icons/Profile_Lightning.png", import.meta.url).href,
+  spell_icons_Profile_Pinch: new URL("../images/spell_icons/Profile_Pinch.png", import.meta.url).href,
+  spell_icons_Profile_Web: new URL("../images/spell_icons/Profile_Web.png", import.meta.url).href,
+  spell_icons_Red_Cross: new URL("../images/spell_icons/Red_Cross.png", import.meta.url).href,
+  spell_icons_Scales: new URL("../images/spell_icons/Scales.png", import.meta.url).href,
+  spell_icons_Summon: new URL("../images/spell_icons/Summon.png", import.meta.url).href,
+  spell_icons_Summoning: new URL("../images/spell_icons/Summoning.png", import.meta.url).href,
+  spell_icons_Sword: new URL("../images/spell_icons/Sword.png", import.meta.url).href,
+  spell_icons_Wand: new URL("../images/spell_icons/Wand.png", import.meta.url).href,
+  spell_icons_Waves: new URL("../images/spell_icons/Waves.png", import.meta.url).href,
+  spell_icons_Weapons_Ranged: new URL("../images/spell_icons/Weapons_Ranged.png", import.meta.url).href,
   weres_bearwere: new URL("../images/weres/bearwere.png", import.meta.url).href,
   weres_gatorwere: new URL("../images/weres/gatorwere.png", import.meta.url).href,
   weres_lionwere: new URL("../images/weres/lionwere.png", import.meta.url).href,
@@ -82,4 +188,4 @@ export const Images = {
   weres_wolfwere: new URL("../images/weres/wolfwere.png", import.meta.url).href,
 } as const;
 
-export default { Quests, Information, Map, Images };
+export default { Quests, Information, Map, Images, getCMSFilters };
