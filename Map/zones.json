@@ -6,7 +6,7 @@
     { "name": "Zentar's Keep"       , "x":  4235, "y":  1260, "alignment": "evil" },
     { "name": "Fayspire"            , "x": 10839, "y":  1383, "alignment": "good" },
     { "name": "Tethelin"            , "x": 10423, "y":  1760, "alignment": "good" },
-    { "name": "Bobble-by-Water"     , "x": 13302, "y":  3647, "alignment": "good" },
+    { "name": "Bobble-by-Water"     , "x": 13276, "y":  3634, "alignment": "good" },
     { "name": "Castle Lightwolf"    , "x":  5838, "y":  1280, "alignment": "good", "aka": "North Wilderlands" },
     { "name": "Moradhim"            , "x":  8922, "y":  2439, "alignment": "good" },
     { "name": "Castle Felstar"      , "x": 11575, "y":  2151, "alignment": "evil", "aka": "Fort Seriak" },
@@ -62,11 +62,11 @@
     { "name": "Mariel Village"      , "x":  4222, "y":  3268 },
     { "name": "Salisearaneen"       , "x":  5900, "y":  2265 },
     { "name": "Diren Village"       , "x":  7674, "y":  2242 },
-    { "name": "The Green Rift"      , "x": 12515, "y":  3347 },
+    { "name": "The Green Rift"      , "x": 12789, "y":  3386 },
     { "name": "Twisted Tower"       , "x":  4996, "y":  3257 },
     { "name": "Spirit Talker's Wood", "x":  6827, "y":  3363 },
     { "name": "Baga Village"        , "x":  8723, "y":  3399 },
-    { "name": "North Kithicor"      , "x": 11572, "y":  3350 },
+    { "name": "North Kithicor"      , "x": 11663, "y":  3389 },
     { "name": "Hodstock and Temby"  , "x": 13382, "y":  4323 },
     { "name": "Misty Thicket"       , "x":  9732, "y":  3403 },
     { "name": "Mu Lin's Reach"      , "x": 12517, "y":  4316 },
@@ -168,6 +168,7 @@
     { "name": "Envar"               , "x":  5066, "y": 11824 }
   ],
   "pois":   [
-    { "name": "Example POI", "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"blue"} }
+    { "name": "Example POI", "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"blue"} },
+    { "name": "Testing"    , "x": 12406, "y": 923, "icon": "exclamation-triangle", "style": {"color":"#ef4444"} }
   ]
 }
