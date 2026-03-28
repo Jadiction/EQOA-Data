@@ -169,6 +169,6 @@
   ],
   "pois":   [
     { "name": "Example POI", "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"blue"} },
-    { "name": "Testing"    , "x": 12406, "y": 923, "icon": "exclamation-triangle", "style": {"color":"#ef4444"} }
+    { "name": "Testing"    , "x": 12434, "y": 867, "icon": "exclamation-triangle", "style": {"color":"#ef4444"} }
   ]
 }
