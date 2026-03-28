@@ -8,8 +8,8 @@
           "name": "Battle Hardened",
           "ranks": [
             {
-              "name": "Battle Hardened 1",
-              "cmCost": 20,
+              "name": "Battle Hardened 1, this is a test",
+              "cmCost": 21,
               "requirements": {
                 "level": 10,
                 "stats": {
