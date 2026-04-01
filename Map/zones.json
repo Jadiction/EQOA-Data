@@ -168,7 +168,7 @@
     { "name": "Envar"               , "x":  5066, "y": 11824 }
   ],
   "pois":   [
-    { "name": "Example POI"                                       , "x": 12438, "y":   600, "icon": "map-marker", "style": {"color":"blue"}, "category": "other" },
+    { "name": "Example POI"                   , "x": 12438, "y":   600, "category": "other", "icon": "map-marker", "style": {"color":"blue"} },
     { "name": "Lizardman Outcast (7)"         , "x":  6553, "y": 11193, "category": "quest", "questGuideIds": ["1-20/oggok/necromancer","1-20/oggok/shaman","1-20/oggok/shadowknight","1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Shimmering Portal to Neriak"   , "x":  6773, "y": 11033, "category": "quest", "questGuideIds": ["1-20/oggok/shaman","1-20/oggok/necromancer","1-20/highbourne/necromancer"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Lizardman Sneak (15)"          , "x":  7177, "y": 11520, "category": "quest", "questGuideIds": ["1-20/oggok/necromancer"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
@@ -193,6 +193,15 @@
     { "name": "Tree Sap"                      , "x":  6666, "y": 10760, "category": "quest", "questGuideIds": ["1-20/oggok/shadowknight"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Stump"                         , "x":  6632, "y": 10424, "category": "quest", "questGuideIds": ["1-20/oggok/shaman"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Gatekeeper Warvar - Oggok Gate", "x":  7219, "y": 12193, "category": "other", "icon": "info-circle", "style": {"color":"#f59e0b"} },
-    { "name": "Door to Oggok Gate"            , "x":  7280, "y": 12216, "category": "other", "icon": "info-circle", "style": {"color":"#f97316"} }
+    { "name": "Door to Oggok Gate"            , "x":  7280, "y": 12216, "category": "other", "icon": "info-circle", "style": {"color":"#f97316"} },
+    { "name": "Zin the Desiccator"            , "x": 14450, "y":   278, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Festering Jack"                , "x": 14542, "y":   523, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Contagion"                     , "x": 14566, "y":   612, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Impale"                        , "x": 14270, "y":   701, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Reaver of Graumord"            , "x": 14604, "y":   842, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Bloodletter"                   , "x": 14792, "y":   676, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Kratas"                        , "x":  8041, "y": 13027, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Lady Vox"                      , "x":  4008, "y":   358, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Grundle (Underwater Cave)"     , "x":  5412, "y":  9008, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} }
   ]
 }
