@@ -168,6 +168,31 @@
     { "name": "Envar"               , "x":  5066, "y": 11824 }
   ],
   "pois":   [
-    { "name": "Example POI", "x": 12438, "y": 600, "icon": "map-marker", "style": {"color":"blue"} }
+    { "name": "Example POI"                                       , "x": 12438, "y":   600, "icon": "map-marker", "style": {"color":"blue"}, "category": "other" },
+    { "name": "Lizardman Outcast (7)"         , "x":  6553, "y": 11193, "category": "quest", "questGuideIds": ["1-20/oggok/necromancer","1-20/oggok/shaman","1-20/oggok/shadowknight","1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Shimmering Portal to Neriak"   , "x":  6773, "y": 11033, "category": "quest", "questGuideIds": ["1-20/oggok/shaman","1-20/oggok/necromancer","1-20/highbourne/necromancer"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Lizardman Sneak (15)"          , "x":  7177, "y": 11520, "category": "quest", "questGuideIds": ["1-20/oggok/necromancer"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Lizardman Forager (15)"        , "x":  6507, "y": 11496, "category": "quest", "questGuideIds": ["1-20/oggok/shaman"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Tainted Rat (7)"               , "x":  6879, "y": 11642, "category": "quest", "questGuideIds": ["1-20/oggok/shaman","1-20/oggok/shadowknight","1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Undead Alchemist (10)"         , "x":  6879, "y": 11672, "category": "quest", "questGuideIds": ["1-20/oggok/shaman","1-20/oggok/shadowknight","1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Necrapede (16)"                , "x":  7006, "y": 11710, "category": "quest", "questGuideIds": ["1-20/oggok/necromancer"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Vampire Bat (11-15)"           , "x":  6961, "y": 12067, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Old Stone"                     , "x":  6990, "y": 12008, "category": "quest", "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Craknek's Grave"               , "x":  7168, "y": 12050, "category": "quest", "questGuideIds": ["1-20/oggok/necromancer","1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Tae Ew Weaponmaker (18)"       , "x":  5959, "y": 11905, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Tae Ew Commander (22)"         , "x":  5955, "y": 11930, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Ogre Thug (20)"                , "x":  6271, "y": 11631, "category": "quest", "questGuideIds": ["1-20/oggok/shadowknight"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Dwarf Thug (20)"               , "x":  6281, "y": 11658, "category": "quest", "questGuideIds": ["1-20/oggok/shadowknight"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Fat Piranha (13)"              , "x":  6759, "y": 11696, "category": "quest", "questGuideIds": ["1-20/oggok/shaman"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Hobgoblin Skulk (13)"          , "x":  6737, "y": 10557, "category": "quest", "questGuideIds": ["1-20/oggok/shaman"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Mischievous Spirit"            , "x":  6949, "y": 10448, "category": "quest", "questGuideIds": ["1-20/oggok/shadowknight"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Captain Thugrim"               , "x":  7077, "y": 10338, "category": "quest", "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Dwarven Drunkard & Kingsnake"  , "x":  7142, "y": 10364, "category": "quest", "questGuideIds": ["1-20/oggok/shadowknight"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Burdened Mog Thug (17)"        , "x":  6638, "y": 10219, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Gruk Crab"                     , "x":  6678, "y": 10699, "category": "quest", "questGuideIds": ["1-20/oggok/shadowknight"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Tree Sap"                      , "x":  6666, "y": 10760, "category": "quest", "questGuideIds": ["1-20/oggok/shadowknight"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Stump"                         , "x":  6632, "y": 10424, "category": "quest", "questGuideIds": ["1-20/oggok/shaman"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Gatekeeper Warvar - Oggok Gate", "x":  7219, "y": 12193, "category": "other", "icon": "info-circle", "style": {"color":"#f59e0b"} },
+    { "name": "Door to Oggok Gate"            , "x":  7280, "y": 12216, "category": "other", "icon": "info-circle", "style": {"color":"#f97316"} }
   ]
 }
