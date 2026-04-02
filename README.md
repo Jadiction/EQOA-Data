@@ -92,7 +92,7 @@ Or:
 - Guide content should stay markdown-friendly because it is rendered by React Markdown.
 - To the best of your ability, use proper grammar and keep formatting clean and readable.
 - Strings containing `cons color` in guides are automatically replaced with a standardized `CONS color [Image]`.
-- To reference quest images added under `images/quests/`, use this markdown format:
+- To reference quest images added under `images/guides/`, use this markdown format:
 
 ```md
 ![image alt attribute aka simple text explanation|WIDTHxHEIGHT](file_name)
@@ -106,7 +106,7 @@ In-use examples from quest guides:
 ![Idol of Lust location|320x205](35_idol_of_lust)
 ```
 
-- When adding quest images under `images/quests/`, stick to the existing naming style.
+- When adding quest images under `images/guides/`, stick to the existing naming style.
 
 Examples:
 - `1-20_freeport_bard_level_1_example.png`
