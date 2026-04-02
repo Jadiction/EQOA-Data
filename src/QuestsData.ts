@@ -119,6 +119,11 @@ import Quests_30_40_49_group_3_good from '../Quests/30,40,49/group-3-good.json' 
 import Quests_30_40_49_group_4_evil from '../Quests/30,40,49/group-4-evil.json' with { type: "json" };
 import Quests_30_40_49_group_5_evil from '../Quests/30,40,49/group-5-evil.json' with { type: "json" };
 import Quests_30_40_49_group_6_evil from '../Quests/30,40,49/group-6-evil.json' with { type: "json" };
+import Quests_53_59__meta from '../Quests/53-59/_meta.json' with { type: "json" };
+import Quests_53_59_53 from '../Quests/53-59/53.json' with { type: "json" };
+import Quests_53_59_55 from '../Quests/53-59/55.json' with { type: "json" };
+import Quests_53_59_57 from '../Quests/53-59/57.json' with { type: "json" };
+import Quests_53_59_59 from '../Quests/53-59/59.json' with { type: "json" };
 import Quests_60__meta from '../Quests/60/_meta.json' with { type: "json" };
 import Quests_60_evil_caster from '../Quests/60/evil-caster.json' with { type: "json" };
 import Quests_60_evil_healer from '../Quests/60/evil-healer.json' with { type: "json" };
@@ -366,6 +371,15 @@ export const Quests = {
     'group-4-evil': Quests_30_40_49_group_4_evil,
     'group-5-evil': Quests_30_40_49_group_5_evil,
     'group-6-evil': Quests_30_40_49_group_6_evil,
+  },
+  '53-59': {
+    title: Quests_53_59__meta.title ?? "",
+    subTitle: Quests_53_59__meta.subTitle ?? "",
+    _meta: Quests_53_59__meta,
+    '53': Quests_53_59_53,
+    '55': Quests_53_59_55,
+    '57': Quests_53_59_57,
+    '59': Quests_53_59_59,
   },
   '60': {
     title: Quests_60__meta.title ?? "",
