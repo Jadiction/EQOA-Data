@@ -1,12 +1,14 @@
 # EQOA Data
-Structured EverQuest Online Adventures (EQOA) data package for quests, map zone coordinates, and image assets used by Jadiction.com (and free for others to use).
+Structured EverQuest Online Adventures (EQOA) data package for quests, reference databases, map zone coordinates, and image assets used by Jadiction.com and available for other projects to utilize.
 
-## What This Repo Offers
-- `Quests`: quest datasets split into per-guide files (`Quests/<set>/<guide>.json`), with `_meta.json` for set title/subtitle and nested group labels.
-- `Information`: supplemental reference datasets (`Information/*.json`).
-- `Images`: generated URL exports for all images in `images/` (including nested folders).
+Published as ESM for apps, sites, tools, and editors that need EQOA data without scraping.
 
-This package is published as ESM and intended for apps/sites that need EQOA reference data without scraping or manual copy/paste.
+## What This Package Includes
+- `Quests`: quest datasets split into per-guide files (`Quests/<set>/<guide>.json`), with `_meta.json` for set title, subtitle, and nested group labels.
+- `Information`: supplemental reference datasets, including top-level guides and nested database entries such as `Information["databases/spells/alchemist"]`.
+- `Map`: zone coordinate tuples exported from `Map/zones.json`.
+- `Images`: generated URL exports for all files in `images/`, including nested folders.
+- CMS helpers: exported class/type/filter helpers built from the Character Mastery System data.
 
 ## Install
 ```bash
@@ -15,21 +17,35 @@ npm install eqoa-data
 
 ## Usage
 ```ts
-import { Quests, Information, Images } from "eqoa-data";
+import {
+  Quests,
+  Information,
+  Map,
+  Images,
+  getCMSFilters,
+  CMSRaceToClasses,
+  CMSClassTypes,
+} from "eqoa-data";
 
 const lowLevelQuests = Quests["1-20"];
 const wizardGuide = lowLevelQuests.fayspire.wizard;
+const alchemistSpells = Information["databases/spells/alchemist"];
 const startingCities = Information.starting_cities;
 const bearWereImage = Images.weres_bearwere;
+const filters = getCMSFilters();
 
 console.log(lowLevelQuests.title); // from _meta.json
 console.log(wizardGuide.guide); // markdown guide body
+console.log(alchemistSpells);
+console.log(Map[0]); // [zoneName, x, y]
+console.log(filters.filters);
+console.log(CMSRaceToClasses.Human);
+console.log(CMSClassTypes.Wizard); // "Caster"
 
-// Each guide JSON includes contributor information
 if (wizardGuide.contributors) {
-  wizardGuide.contributors.forEach(contributor => {
+  wizardGuide.contributors.forEach((contributor) => {
     console.log(`Contributed by: ${contributor.login}`);
-    // {login, id, commits}
+    // { login, id, commits }
   });
 }
 ```
@@ -39,61 +55,60 @@ You can also import published images directly:
 import mapImage from "eqoa-data/images/EQOA_Map.png";
 ```
 
+## Export Overview
+- `Quests`: generated quest data assembled from the `Quests/` directory.
+- `Information`: generated information data assembled from the `Information/` directory, including nested database paths.
+- `Map`: zone coordinate data from `Map/zones.json`.
+- `Images`: generated image URL map based on filenames under `images/`.
+- `CMSRaceToClasses`: race-to-class availability derived from CMS quest applicability data.
+- `CMSClassTypes`: class-to-type mapping (`Tank`, `Healer`, `Melee`, `Caster`).
+- `CMSFilterDefinitions`: filter metadata used by CMS UIs.
+- `getCMSFilters()`: returns filter definitions, `raceToClasses`, `classToRaces`, and `classToType`.
+
 ## Repository Layout
-- `Quests/`: source JSON folders for quest data (`_meta.json` + one JSON per guide).
-- `Information/`: source JSON files for non-quest reference data.
-- `images/`: static image assets (supports nested folders).
+- `Quests/`: source JSON folders for quest data (`_meta.json` plus one JSON file per guide).
+- `Information/`: source JSON files for non-quest reference data and nested databases.
+- `Map/`: map and zone coordinate source data.
+- `images/`: static image assets, including nested folders.
 - `src/QuestsData.ts`: generated quest aggregation into exported `Quests`.
 - `src/InformationData.ts`: generated information aggregation into exported `Information`.
-- `src/index.ts`: main package exports (`Quests`, `Information`, `Images`).
-- `scripts/generate-contributors.ts`: fetches GitHub contributors per guide.
-- `scripts/generate-json-exports.ts`: regenerates JSON data exports from `Quests/` and `Information/`.
-- `scripts/generate-images-export.ts`: regenerates the `Images` export block from `images/`.
-
-Available scripts:
-- `npm run generate:contributors`: fetches GitHub contributors and adds to guide files.
-- `npm run generate:data`: rebuilds `src/QuestsData.ts` and `src/InformationData.ts` from JSON folders.
-- `npm run generate:images`: rebuilds `Images` in `src/index.ts` from `images/` recursively.
-- `npm run build`: regenerates JSON/image exports and builds distributable output to `dist/` via `tsup`.
-- `npm run build:release`: runs contributor generation, then runs `npm run build`.
-- `npm run prepack`: validates generated exports/build before packaging for npm.
-- `npm run dev`: watch mode build.
+- `src/index.ts`: main package exports for `Quests`, `Information`, `Map`, `Images`, and CMS helpers.
 
 ## Contributing
-Contributions are welcome for quest corrections, new or improved quest data/formatting, and image assets (such as screenshots to better help with the guides).
+Contributions are welcome for quest corrections, new guides, information updates, database entries, formatting cleanup, and image assets such as screenshots that improve guide clarity.
 
-When your PR is approved and merged, you'll automatically appear as a contributor on the guide pages you helped with! Contributors are fetched from GitHub's commit history and included in the published package.
+When your PR is approved and merged, you'll automatically appear as a contributor on the guide or data files you helped with. Contributor metadata is pulled from GitHub commit history during the release workflow.
 
 ### Contribution Flow
-(Easy) Utilize the editor at [https://jadiction.com/en/eqoa/editor](https://jadiction.com/en/eqoa/editor)
+Use the editor at [https://jadiction.com/en/eqoa/editor](https://jadiction.com/en/eqoa/editor)
 
-*OR*
-```
+Or:
 1. Fork the repo and create a branch.
-2. Make your changes.
-5. Run `npm run build` to ensure the package still compiles.
-6. Open a Pull Request (PR) with change notes.
-```
+2. Make your changes to the source JSON and asset files.
+3. Open a Pull Request with a short summary of what changed.
 
-### Contribution Guidelines/Notes
-- To your best ability, use proper grammar. Currently the generated guides are not matching a consistent formatting or holding the ideal standards, although I'd like to improve this later on.
-- "cons color" in strings used in guides get automatically replaced with a standard "CONS color [Image]"
-- To utilize images (once added to `images/quests/`) in the markdown, use this format:
-```
+### Contribution Notes
+- Preserve the existing JSON style and key naming patterns.
+- Guide content should stay markdown-friendly because it is rendered by React Markdown.
+- To the best of your ability, use proper grammar and keep formatting clean and readable.
+- Strings containing `cons color` in guides are automatically replaced with a standardized `CONS color [Image]`.
+- To reference quest images added under `images/quests/`, use this markdown format:
+
+```md
 ![image alt attribute aka simple text explanation|WIDTHxHEIGHT](file_name)
 ![simple image summary|WxH](file_name)
 ```
 
-**In-use examples** (can be found in `Quests/23-47/35.json`):
+In-use examples from quest guides:
 
-```
+```md
 ![Idol of Malice location|319x205](35_idol_of_malice)
-![Idol of List location|320x205](35_idol_of_lust)
+![Idol of Lust location|320x205](35_idol_of_lust)
 ```
-- Preserve existing JSON style and key naming patterns.
-- When adding quest images into `images/quests/`, stick to the naming convention of level/category_relation.png
 
-**Examples**:
-- 1-20_freeport_bard_level_1_example.png
-- 17_klick_anon_example.png
-- 35_idol_of_lust.png
+- When adding quest images under `images/quests/`, stick to the existing naming style.
+
+Examples:
+- `1-20_freeport_bard_level_1_example.png`
+- `17_klick_anon_example.png`
+- `35_idol_of_lust.png`
