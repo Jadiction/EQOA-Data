@@ -46,6 +46,7 @@ export interface POI extends Location {
   style?: React.CSSProperties;
   category?: PoiCategory;
   questGuideIds?: string[];
+  poiImageKey?: string;
 }
 
 export interface MapData {
@@ -54,9 +55,12 @@ export interface MapData {
   pois: POI[];
 }
 
+export type CoachMapData = Record<string, string[]>;
+
 export const Quests: Record<string, string | object>;
 export const Information: Record<string, string | object>;
 export const Map: MapData;
+export const CoachMap: CoachMapData;
 export const Images: EQOAImages;
 export const CMSRaceToClasses: CMSRaceToClassesMap;
 export const CMSClassTypes: CMSClassToTypeMap;
@@ -67,6 +71,7 @@ declare const _default: {
   Quests: typeof Quests;
   Information: typeof Information;
   Map: typeof Map;
+  CoachMap: typeof CoachMap;
   Images: typeof Images;
   getCMSFilters: typeof getCMSFilters;
 };

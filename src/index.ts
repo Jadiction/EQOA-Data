@@ -1,9 +1,11 @@
 import { Quests } from './QuestsData.js';
 import { Information } from './InformationData.js';
 import EQOAzones from '../Map/zones.json' with { type: "json" };
+import EQOACoachMap from '../Map/coach_map.json' with { type: "json" };
 
 export { Quests, Information };
 export const Map = EQOAzones;
+export const CoachMap = EQOACoachMap;
 
 const CMSClassToType = {
   Alchemist: 'Caster',
@@ -133,6 +135,32 @@ export const Images = {
   EQOA_BG: new URL("../images/EQOA_BG.png", import.meta.url).href,
   EQOA_Map: new URL("../images/EQOA_Map.png", import.meta.url).href,
   EQOA_Norrath: new URL("../images/EQOA_Norrath.png", import.meta.url).href,
+  guides_35_idol_of_lust: new URL("../images/guides/35_idol_of_lust.png", import.meta.url).href,
+  guides_35_idol_of_malice: new URL("../images/guides/35_idol_of_malice.png", import.meta.url).href,
+  guides_37_oasis_high_guard_ianant: new URL("../images/guides/37_oasis_high_guard_ianant.png", import.meta.url).href,
+  guides_37_oasis_slithtar: new URL("../images/guides/37_oasis_slithtar.png", import.meta.url).href,
+  guides_37_oasis_weary_treant: new URL("../images/guides/37_oasis_weary_treant.png", import.meta.url).href,
+  guides_43_growthor: new URL("../images/guides/43_growthor.png", import.meta.url).href,
+  guides_43_tae_ew_scavenger: new URL("../images/guides/43_tae_ew_scavenger.png", import.meta.url).href,
+  guides_43_thenon_the_wise: new URL("../images/guides/43_thenon_the_wise.png", import.meta.url).href,
+  guides_45_captain_soohn: new URL("../images/guides/45_captain_soohn.png", import.meta.url).href,
+  guides_45_cultist_akuion: new URL("../images/guides/45_cultist_akuion.png", import.meta.url).href,
+  guides_45_marrow_maw: new URL("../images/guides/45_marrow_maw.png", import.meta.url).href,
+  guides_aeyinar: new URL("../images/guides/aeyinar.png", import.meta.url).href,
+  guides_siliskor: new URL("../images/guides/siliskor.png", import.meta.url).href,
+  guides_skahyir: new URL("../images/guides/skahyir.png", import.meta.url).href,
+  guides_snek: new URL("../images/guides/snek.png", import.meta.url).href,
+  guides_swampfire_cobra: new URL("../images/guides/swampfire-cobra.png", import.meta.url).href,
+  guides_terrorantula: new URL("../images/guides/terrorantula.png", import.meta.url).href,
+  guides_weres_bearwere: new URL("../images/guides/weres/bearwere.png", import.meta.url).href,
+  guides_weres_gatorwere: new URL("../images/guides/weres/gatorwere.png", import.meta.url).href,
+  guides_weres_lionwere: new URL("../images/guides/weres/lionwere.png", import.meta.url).href,
+  guides_weres_ratwere: new URL("../images/guides/weres/ratwere.png", import.meta.url).href,
+  guides_weres_vampire_f: new URL("../images/guides/weres/vampire-f.png", import.meta.url).href,
+  guides_weres_vampire_m: new URL("../images/guides/weres/vampire-m.png", import.meta.url).href,
+  guides_weres_vampire: new URL("../images/guides/weres/vampire.gif", import.meta.url).href,
+  guides_weres_werehunter: new URL("../images/guides/weres/werehunter.png", import.meta.url).href,
+  guides_weres_wolfwere: new URL("../images/guides/weres/wolfwere.png", import.meta.url).href,
   info_how_to_play_1: new URL("../images/info/how_to_play/1.png", import.meta.url).href,
   info_how_to_play_10: new URL("../images/info/how_to_play/10.png", import.meta.url).href,
   info_how_to_play_11: new URL("../images/info/how_to_play/11.png", import.meta.url).href,
@@ -146,8 +174,6 @@ export const Images = {
   info_how_to_play_7: new URL("../images/info/how_to_play/7.png", import.meta.url).href,
   info_how_to_play_8: new URL("../images/info/how_to_play/8.png", import.meta.url).href,
   info_how_to_play_9: new URL("../images/info/how_to_play/9.png", import.meta.url).href,
-  quests_35_idol_of_lust: new URL("../images/quests/35_idol_of_lust.png", import.meta.url).href,
-  quests_35_idol_of_malice: new URL("../images/quests/35_idol_of_malice.png", import.meta.url).href,
   spell_icons_Bleeding_Heart: new URL("../images/spell_icons/Bleeding_Heart.png", import.meta.url).href,
   spell_icons_Boot_Shackled: new URL("../images/spell_icons/Boot_Shackled.png", import.meta.url).href,
   spell_icons_Boot_Sticky: new URL("../images/spell_icons/Boot_Sticky.png", import.meta.url).href,
@@ -179,13 +205,6 @@ export const Images = {
   spell_icons_Wand: new URL("../images/spell_icons/Wand.png", import.meta.url).href,
   spell_icons_Waves: new URL("../images/spell_icons/Waves.png", import.meta.url).href,
   spell_icons_Weapons_Ranged: new URL("../images/spell_icons/Weapons_Ranged.png", import.meta.url).href,
-  weres_bearwere: new URL("../images/weres/bearwere.png", import.meta.url).href,
-  weres_gatorwere: new URL("../images/weres/gatorwere.png", import.meta.url).href,
-  weres_lionwere: new URL("../images/weres/lionwere.png", import.meta.url).href,
-  weres_ratwere: new URL("../images/weres/ratwere.png", import.meta.url).href,
-  weres_vampire: new URL("../images/weres/vampire.png", import.meta.url).href,
-  weres_werehunter: new URL("../images/weres/werehunter.png", import.meta.url).href,
-  weres_wolfwere: new URL("../images/weres/wolfwere.png", import.meta.url).href,
 } as const;
 
-export default { Quests, Information, Map, Images, getCMSFilters };
+export default { Quests, Information, Map, CoachMap, Images, getCMSFilters };
