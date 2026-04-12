@@ -79,7 +79,7 @@
           "name": "Acidic Bond",
           "description": "TARGET Damage by 24 and Root for 30 seconds",
           "source": "CM",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Acidic Mix Potion",
@@ -103,7 +103,7 @@
           "name": "Alchemical Bond",
           "description": "TARGET Root for 30 seconds",
           "source": "Merchant",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Fire Spray",
@@ -288,13 +288,13 @@
           "name": "Acidic Fastener",
           "description": "TARGET Debuff HP by 62 and Root for 30 seconds",
           "source": "CM",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Alchemical Fastener",
           "description": "TARGET Root",
           "source": "Merchant",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Explosive Mix Potion",
@@ -504,13 +504,13 @@
           "name": "Acidic Adhesive",
           "description": "TARGET Debuff HP by 162 and Root for 45 seconds",
           "source": "CM",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Alchemical Adhesive",
           "description": "TARGET Root",
           "source": "Merchant",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Corrosive Mix Potion",
@@ -759,13 +759,13 @@
           "name": "Acidic Anchor",
           "description": "TARGET Debuff HP by 258 and Root",
           "source": "CM",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Alchemical Anchor",
           "description": "TARGET Root",
           "source": "Merchant",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Greater Infusion",
@@ -1061,13 +1061,13 @@
           "name": "Acidic Hold",
           "description": "TARGET Debuff HP by 398 and Root for 60 seconds",
           "source": "CM",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Alchemical Hold",
           "description": "TARGET Root",
           "source": "Merchant",
-          "icon": "Shackled_Boots"
+          "icon": "Boot_Shackled"
         },
         {
           "name": "Concentration",

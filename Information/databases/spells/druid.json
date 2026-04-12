@@ -50,7 +50,7 @@
           "name": "Fiery Burst",
           "description": "Target, Decrease Hitpoints by 26 ; Increase 8% based on DEX",
           "source": "Quest",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         }
       ]
     },
@@ -61,7 +61,7 @@
           "name": "Burst of Flame",
           "description": "Target, Decrease Hitpoints by 34 ; Increase 10% based on DEX",
           "source": "Merchant",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         },
         {
           "name": "Elemental Shell",
@@ -193,13 +193,13 @@
           "name": "Endure Elements",
           "description": "Target, Increase FR & CR by 25 ; Increase 15% based on WIS, 30min",
           "source": "Quest",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         },
         {
           "name": "Group Endure Elements",
           "description": "Group, Increase FR & CR by 25 ; Increase 15% based on WIS, 30min",
           "source": "CM",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         }
       ]
     },
@@ -245,7 +245,7 @@
           "name": "Combust",
           "description": "Target, Decrease Hitpoints by 160 ; Increase 15% based on DEX",
           "source": "Merchant",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         },
         {
           "name": "Creeping Health",
@@ -257,7 +257,7 @@
           "name": "Enkindle",
           "description": "Target, Decrease FR by 5, Decrease HP per tic by 39, 24sec",
           "source": "Quest",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         },
         {
           "name": "Ensnare",
@@ -310,13 +310,13 @@
           "name": "Group Ward Elements",
           "description": "Group, Increase FR & CR by 35 ; Increase 15% based on WIS, 30min",
           "source": "CM",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         },
         {
           "name": "Ward Elements",
           "description": "Target, Increase FR & CR by 35 ; Increase 15% based on WIS, 30min",
           "source": "Quest",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         }
       ]
     },
@@ -437,7 +437,7 @@
           "name": "Emberspark",
           "description": "Target, Decrease FR by 8, Decrease HP per tic by 62, 24sec",
           "source": "Quest",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         }
       ]
     },
@@ -448,13 +448,13 @@
           "name": "Group Resist Elements",
           "description": "Group, Increase FR & CR by 45 ; Increase 15% based on WIS, 30min",
           "source": "CM",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         },
         {
           "name": "Resist Elements",
           "description": "Target, Increase FR & CR by 45 ; Increase 15% based on WIS, 30min",
           "source": "Quest",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         }
       ]
     },
@@ -540,7 +540,7 @@
           "name": "Star Fire",
           "description": "Target, Decrease Hitpoints by 434 ; Increase 15% based on DEX",
           "source": "Merchant",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         },
         {
           "name": "Superior Healing",
@@ -563,7 +563,7 @@
           "name": "Inflame",
           "description": "Target, Decrease FR by 12, Decrease HP per tic by 124, 24 seconds",
           "source": "Quest",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         },
         {
           "name": "Nature's Renewal",
@@ -586,13 +586,13 @@
           "name": "Absorb Elements",
           "description": "Target, Increase FR & CR by 55 ; Increase 15% based on WIS, 30min",
           "source": "Quest",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         },
         {
           "name": "Group Absorb Elements",
           "description": "Group, Increase FR & CR by 55 ; Increase 15% based on WIS, 30min",
           "source": "CM",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         }
       ]
     },
@@ -688,7 +688,7 @@
           "name": "Calefaction",
           "description": "Target, Decrease FR by 25, Decrease HP per tic by 163, 24 seconds",
           "source": "Quest",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         },
         {
           "name": "Chain Lightning",
@@ -706,7 +706,7 @@
           "name": "Emblaze",
           "description": "Target, Decrease FR by 15, Decrease HP per tic by 159, 24 seconds",
           "source": "Quest",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         },
         {
           "name": "Flowering Health",
@@ -776,13 +776,13 @@
           "name": "Consume Elements",
           "description": "Target, Increase FR & CR by 65 ; Increase 15% based on WIS, 30min",
           "source": "CM",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         },
         {
           "name": "Group Consume Elements",
           "description": "Group, Increase FR & CR by 65 ; Increase 15% based on WIS, 30min",
           "source": "CM",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         },
         {
           "name": "Nature Form",
@@ -898,7 +898,7 @@
           "name": "Nature's Cloak",
           "description": "Target, Increase FR & CR by 65 ; Increase 15% based on WIS, 30min",
           "source": "CM",
-          "icon": "Direct_damage_cold"
+          "icon": "Cold"
         },
         {
           "name": "Nature's Mantle",
@@ -916,7 +916,7 @@
           "name": "Scoriae",
           "description": "Target, Decrease Hitpoints by 770 ; Increase 15% based on DEX",
           "source": "Merchant",
-          "icon": "Direct_damage_fire"
+          "icon": "Fire"
         },
         {
           "name": "Storm Caller's Curse",

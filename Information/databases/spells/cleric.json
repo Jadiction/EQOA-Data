@@ -892,7 +892,7 @@
           "name": "Divine Revival",
           "description": "Target, 80% REZ",
           "source": "Exorcist MCA",
-          "icon": null
+          "icon": "Wand"
         },
         {
           "name": "Exorcise",

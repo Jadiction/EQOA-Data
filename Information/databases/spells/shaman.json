@@ -275,7 +275,7 @@
           "name": "Ursus Guise",
           "description": null,
           "source": null,
-          "icon": "physical_Alteration"
+          "icon": "Physical_Alteration"
         }
       ]
     },
@@ -366,7 +366,7 @@
           "name": "Bear Form",
           "description": null,
           "source": null,
-          "icon": "physical_Alteration"
+          "icon": "Physical_Alteration"
         },
         {
           "name": "Companion Spirit",
@@ -504,7 +504,7 @@
           "name": "Roaring Mask",
           "description": null,
           "source": null,
-          "icon": "physical_Alteration"
+          "icon": "Physical_Alteration"
         },
         {
           "name": "Superior Healing",
@@ -613,7 +613,7 @@
           "name": "Vessel Spirit",
           "description": null,
           "source": null,
-          "icon": "physical_Alteration"
+          "icon": "Physical_Alteration"
         }
       ]
     },
@@ -664,7 +664,7 @@
           "name": "Form of the Mauler",
           "description": null,
           "source": null,
-          "icon": "physical_Alteration"
+          "icon": "Physical_Alteration"
         },
         {
           "name": "Frenzied Spirit",
@@ -838,13 +838,13 @@
           "name": "Elder Form",
           "description": "Self, Form, Increase STR by 225, Increase MaxHP by 1250, Increase HP by 1250, 30min",
           "source": "Elder MCA",
-          "icon": "physical_Alteration"
+          "icon": "Physical_Alteration"
         },
         {
           "name": "Form of the Great Bear",
           "description": "Self, Form, Increase STR by 120, Increase MHP by 425, Increase Hp by 425, 30sec",
           "source": "Merchant",
-          "icon": "physical_Alteration"
+          "icon": "Physical_Alteration"
         },
         {
           "name": "Major Cannibalize",
