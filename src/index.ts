@@ -199,6 +199,7 @@ export const Images = {
   spell_icons_Profile_Web: new URL("../images/spell_icons/Profile_Web.png", import.meta.url).href,
   spell_icons_Red_Cross: new URL("../images/spell_icons/Red_Cross.png", import.meta.url).href,
   spell_icons_Scales: new URL("../images/spell_icons/Scales.png", import.meta.url).href,
+  spell_icons_Stun: new URL("../images/spell_icons/Stun.png", import.meta.url).href,
   spell_icons_Summon: new URL("../images/spell_icons/Summon.png", import.meta.url).href,
   spell_icons_Summoning: new URL("../images/spell_icons/Summoning.png", import.meta.url).href,
   spell_icons_Sword: new URL("../images/spell_icons/Sword.png", import.meta.url).href,
