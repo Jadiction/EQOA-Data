@@ -19,7 +19,7 @@
     { "name": "Qeynos"             , "x":  3923, "y":  6148, "alignment": "good" },
     { "name": "Honjour"            , "x":  5919, "y":  5292, "alignment": "evil", "aka": "Fog Marsh" },
     { "name": "Darvar Manor"       , "x":  7741, "y":  5276, "alignment": "neutral", "aka": "Jared's Blight" },
-    { "name": "Highpass Hold"      , "x":  9620, "y":  5316, "alignment": "neutral" },
+    { "name": "Highpass Hold"      , "x":  9631, "y":  5338, "alignment": "neutral" },
     { "name": "Muniel's Tea Garden", "x": 12687, "y":  7357, "alignment": "neutral" },
     { "name": "Highbourne"         , "x":  3930, "y":  8167, "alignment": "good" },
     { "name": "Forkwatch"          , "x":  7609, "y":  6945, "alignment": "good" },
@@ -193,6 +193,7 @@
     { "name": "Tree Sap"                      , "x":  6666, "y": 10760, "category": "quest", "questGuideIds": ["1-20/oggok/shadowknight"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Stump"                         , "x":  6632, "y": 10424, "category": "quest", "questGuideIds": ["1-20/oggok/shaman"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Gatekeeper Warvar - Oggok Gate", "x":  7219, "y": 12193, "category": "other", "icon": "info-circle", "style": {"color":"#f59e0b"} },
-    { "name": "Door to Oggok Gate"            , "x":  7280, "y": 12216, "category": "other", "icon": "info-circle", "style": {"color":"#f97316"} }
+    { "name": "Door to Oggok Gate"            , "x":  7280, "y": 12216, "category": "other", "icon": "info-circle", "style": {"color":"#f97316"} },
+    { "name": "Test Tree"                     , "x":  9642, "y":  4779, "category": "quest", "questGuideIds": ["23-47/30"], "poiImageKey": "guides_37_oasis_weary_treant", "icon": "Tree", "style": {"color":"#22c55e"} }
   ]
 }
