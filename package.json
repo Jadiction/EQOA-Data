@@ -1,6 +1,6 @@
 {
   "name": "eqoa-data",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "JSON file data for EQOA information such as guides/quests listed on Jadiction.com",
   "type": "module",
   "main": "./dist/index.mjs",
