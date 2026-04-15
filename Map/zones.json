@@ -210,6 +210,7 @@
     { "name": "Mayong Mistmoore (In Basement)", "x":  8631, "y":  7122, "category": "quest", "questGuideIds": ["weres/werehunter"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Toxxulia (In Den)"             , "x":  1349, "y": 10297, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
     { "name": "test camp POI"                 , "x":  9160, "y":  6651, "category": "camp", "poiImageKey": "guides_37_oasis_high_guard_ianant", "levelRange": "1-5", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
-    { "name": "test tree"                     , "x":  8262, "y":  6648, "category": "camp", "poiImageKey": "guides_43_growthor", "levelRange": "60-60", "icon": "Tree", "style": {"color":"#22c55e"} }
+    { "name": "test tree"                     , "x":  8262, "y":  6648, "category": "camp", "poiImageKey": "guides_43_growthor", "levelRange": "60-60", "icon": "Tree", "style": {"color":"#22c55e"} },
+    { "name": "normal"                        , "x":  5846, "y":  6494, "category": "other", "icon": "Skull", "style": {"color":"#f1f5f9"} }
   ]
 }
