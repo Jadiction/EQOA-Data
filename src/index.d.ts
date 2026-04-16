@@ -43,10 +43,11 @@ export interface Biome extends Location {
 export interface POI extends Location {
   name: string;
   icon: string;
-  style?: React.CSSProperties;
+  style?: Record<string, string | number>;
   category?: PoiCategory;
   questGuideIds?: string[];
   poiImageKey?: string;
+  levelRange?: `${number}-${number}`;
 }
 
 export interface MapData {
