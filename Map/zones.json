@@ -209,6 +209,6 @@
     { "name": "Quintashi (Underwater Cave)"   , "x":   295, "y": 10957, "category": "rare-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
     { "name": "Mayong Mistmoore (In Basement)", "x":  8631, "y":  7122, "category": "quest", "questGuideIds": ["weres/werehunter"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Toxxulia (In Den)"             , "x":  1349, "y": 10297, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
-    { "name": "Nasehir"                       , "x": 11512, "y":  5801, "category": "camp", "levelRange": "12-15", "icon": "users", "style": {"color":"#f1f5f9"} }
+    { "name": "Nasehir"                       , "x": 13129, "y":  5827, "category": "camp", "levelRange": "12-15", "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
