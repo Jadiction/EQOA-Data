@@ -2,10 +2,12 @@ import { Quests } from './QuestsData.js';
 import { Information } from './InformationData.js';
 import EQOAzones from '../Map/zones.json' with { type: "json" };
 import EQOACoachMap from '../Map/coach_map.json' with { type: "json" };
+import EQOAMapContributorsData from '../Map/contributors.json' with { type: "json" };
 
 export { Quests, Information };
 export const Map = EQOAzones;
 export const CoachMap = EQOACoachMap;
+export const MapContributors = EQOAMapContributorsData.contributors;
 
 const CMSClassToType = {
   Alchemist: 'Caster',
@@ -208,4 +210,4 @@ export const Images = {
   spell_icons_Weapons_Ranged: new URL("../images/spell_icons/Weapons_Ranged.png", import.meta.url).href,
 } as const;
 
-export default { Quests, Information, Map, CoachMap, Images, getCMSFilters };
+export default { Quests, Information, Map, CoachMap, MapContributors, Images, getCMSFilters };

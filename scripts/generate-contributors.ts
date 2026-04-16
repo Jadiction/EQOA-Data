@@ -11,7 +11,16 @@ const GITHUB_OWNER = "Jadiction";
 const GITHUB_REPO = "EQOA-Data";
 const QUESTS_DIR = path.join(rootDir, "Quests");
 const INFORMATION_DIR = path.join(rootDir, "Information");
+const MAP_DIR = path.join(rootDir, "Map");
+const MAP_CONTRIBUTORS_FILE = path.join(MAP_DIR, "contributors.json");
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const DEFAULT_CONTRIBUTOR_CONCURRENCY = 8;
+const CONTRIBUTOR_CONCURRENCY = Math.max(
+  1,
+  Number.parseInt(process.env.CONTRIBUTOR_CONCURRENCY ?? `${DEFAULT_CONTRIBUTOR_CONCURRENCY}`, 10) ||
+    DEFAULT_CONTRIBUTOR_CONCURRENCY,
+);
+const HTTPS_AGENT = new https.Agent({ keepAlive: true });
 
 interface Contributor {
   login: string;
@@ -33,6 +42,16 @@ interface ProcessResult {
   processedCount: number;
   contributorCount: number;
   processedPaths: string[];
+}
+
+interface DirectoryContributorsResult {
+  fileCount: number;
+  contributors: Contributor[];
+}
+
+interface ProcessedFileResult {
+  relativePath: string;
+  contributorCount: number;
 }
 
 function isObject(value: unknown): value is JsonObject {
@@ -78,6 +97,7 @@ function httpsRequest(url: string): Promise<RequestResult> {
     const request = https.get(
       url,
       {
+        agent: HTTPS_AGENT,
         headers,
         timeout: 10_000,
       },
@@ -201,49 +221,124 @@ async function collectJsonFiles(dir: string): Promise<string[]> {
   return jsonFiles;
 }
 
-async function processDirectory(dir: string): Promise<ProcessResult> {
-  let processedCount = 0;
-  let contributorCount = 0;
-  const processedPaths: string[] = [];
-
-  try {
-    const entries = await fs.readdir(dir, { withFileTypes: true });
-
-    for (const entry of entries) {
-      const fullPath = path.join(dir, entry.name);
-      const relativePath = path.relative(rootDir, fullPath);
-
-      if (entry.isDirectory()) {
-        const result = await processDirectory(fullPath);
-        processedCount += result.processedCount;
-        contributorCount += result.contributorCount;
-        processedPaths.push(...result.processedPaths);
-      } else if (entry.isFile() && path.extname(entry.name) === ".json" && entry.name !== "_meta.json") {
-        const count = await addContributorsToFile(fullPath, relativePath);
-        if (count > 0) {
-          console.log(`✓ ${relativePath}: ${count} contributor(s)`);
-          contributorCount += count;
-        }
-        processedCount += 1;
-        processedPaths.push(relativePath);
-      }
-    }
-  } catch {
-    // Continue on error.
+async function mapWithConcurrency<T, TResult>(
+  items: readonly T[],
+  concurrency: number,
+  worker: (item: T, index: number) => Promise<TResult>,
+): Promise<TResult[]> {
+  if (items.length === 0) {
+    return [];
   }
 
-  return { processedCount, contributorCount, processedPaths };
+  const results = new Array<TResult>(items.length);
+  let nextIndex = 0;
+
+  async function runWorker(): Promise<void> {
+    while (true) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+
+      if (currentIndex >= items.length) {
+        return;
+      }
+
+      results[currentIndex] = await worker(items[currentIndex]!, currentIndex);
+    }
+  }
+
+  const workerCount = Math.min(concurrency, items.length);
+  await Promise.all(Array.from({ length: workerCount }, () => runWorker()));
+
+  return results;
+}
+
+function sortContributors(contributors: Iterable<Contributor>): Contributor[] {
+  return [...contributors].sort((a, b) => {
+    if (b.commits !== a.commits) {
+      return b.commits - a.commits;
+    }
+
+    return a.login.localeCompare(b.login);
+  });
+}
+
+function mergeContributorMaps(target: Map<string, Contributor>, contributors: Contributor[]): void {
+  for (const contributor of contributors) {
+    const existing = target.get(contributor.login);
+    if (!existing) {
+      target.set(contributor.login, { ...contributor });
+      continue;
+    }
+
+    existing.commits += contributor.commits;
+    if (existing.id === 0 && contributor.id !== 0) {
+      existing.id = contributor.id;
+    }
+  }
+}
+
+async function buildDirectoryContributors(
+  dir: string,
+  excludedFileNames: string[] = [],
+): Promise<DirectoryContributorsResult> {
+  const excludedNames = new Set(excludedFileNames);
+  const files = (await collectJsonFiles(dir)).filter((relativePath) => !excludedNames.has(path.basename(relativePath)));
+  const contributors = new Map<string, Contributor>();
+  const fileContributors = await mapWithConcurrency(files, CONTRIBUTOR_CONCURRENCY, (relativePath) =>
+    fetchFileContributors(relativePath),
+  );
+
+  for (const contributorsForFile of fileContributors) {
+    mergeContributorMaps(contributors, contributorsForFile);
+  }
+
+  return {
+    fileCount: files.length,
+    contributors: sortContributors(contributors.values()),
+  };
+}
+
+async function writeMapContributorsFile(): Promise<DirectoryContributorsResult> {
+  const result = await buildDirectoryContributors(MAP_DIR, ["contributors.json"]);
+  if (result.contributors.length > 0) {
+    const payload = { contributors: result.contributors };
+    await fs.writeFile(MAP_CONTRIBUTORS_FILE, `${JSON.stringify(payload, null, 2)}\n`);
+  }
+  return result;
+}
+
+async function processJsonFiles(relativePaths: string[]): Promise<ProcessResult> {
+  const results = await mapWithConcurrency(relativePaths, CONTRIBUTOR_CONCURRENCY, async (relativePath) => {
+    const fullPath = path.join(rootDir, relativePath);
+    const contributorCount = await addContributorsToFile(fullPath, relativePath);
+    return { relativePath, contributorCount } satisfies ProcessedFileResult;
+  });
+
+  for (const result of results) {
+    if (result.contributorCount > 0) {
+      console.log(`✓ ${result.relativePath}: ${result.contributorCount} contributor(s)`);
+    }
+  }
+
+  return {
+    processedCount: results.length,
+    contributorCount: results.reduce((sum, result) => sum + result.contributorCount, 0),
+    processedPaths: results.map((result) => result.relativePath),
+  };
 }
 
 async function main(): Promise<void> {
   console.log(`\nFetching GitHub contributors for ${GITHUB_OWNER}/${GITHUB_REPO}...\n`);
+  console.log(`Using contributor concurrency: ${CONTRIBUTOR_CONCURRENCY}\n`);
 
   try {
     console.log("Processing Quests directory...");
-    const questResult = await processDirectory(QUESTS_DIR);
+    const questFiles = await collectJsonFiles(QUESTS_DIR);
+    const questResult = await processJsonFiles(questFiles);
 
     console.log("\nProcessing Information directory...");
-    const infoResult = await processDirectory(INFORMATION_DIR);
+    const infoFiles = await collectJsonFiles(INFORMATION_DIR);
+    const infoResult = await processJsonFiles(infoFiles);
     const infoDatabaseFiles = await collectJsonFiles(path.join(INFORMATION_DIR, "databases"));
     const processedInfoPaths = new Set(infoResult.processedPaths);
     const missingDatabaseFiles = infoDatabaseFiles.filter((file) => !processedInfoPaths.has(file));
@@ -254,13 +349,18 @@ async function main(): Promise<void> {
       );
     }
 
-    const totalProcessed = questResult.processedCount + infoResult.processedCount;
-    const totalContributors = questResult.contributorCount + infoResult.contributorCount;
+    console.log("\nProcessing Map directory...");
+    const mapResult = await writeMapContributorsFile();
+    console.log(`✓ ${path.relative(rootDir, MAP_CONTRIBUTORS_FILE)}: ${mapResult.contributors.length} contributor(s)`);
+
+    const totalProcessed = questResult.processedCount + infoResult.processedCount + mapResult.fileCount;
+    const totalContributors = questResult.contributorCount + infoResult.contributorCount + mapResult.contributors.length;
 
     console.log("\nComplete.");
     console.log(`  Files processed: ${totalProcessed}`);
     console.log(`  Contributors added: ${totalContributors}`);
     console.log(`  Information/databases JSON files accounted for: ${infoDatabaseFiles.length}`);
+    console.log(`  Map JSON files accounted for: ${mapResult.fileCount}`);
   } catch (error) {
     console.error("Fatal error:", error);
     process.exit(1);

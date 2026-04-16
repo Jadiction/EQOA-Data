@@ -2,6 +2,12 @@ export interface EQOAImages {
   [key: string]: string;
 }
 
+export interface Contributor {
+  login: string;
+  id: number;
+  commits: number;
+}
+
 export type CMSFilterId = 'race' | 'class' | 'type';
 export type CMSFilterCategory = 'Race' | 'Class' | 'Type';
 export type CMSClassType = 'Tank' | 'Healer' | 'Melee' | 'Caster';
@@ -62,6 +68,7 @@ export const Quests: Record<string, string | object>;
 export const Information: Record<string, string | object>;
 export const Map: MapData;
 export const CoachMap: CoachMapData;
+export const MapContributors: Contributor[];
 export const Images: EQOAImages;
 export const CMSRaceToClasses: CMSRaceToClassesMap;
 export const CMSClassTypes: CMSClassToTypeMap;
@@ -73,6 +80,7 @@ declare const _default: {
   Information: typeof Information;
   Map: typeof Map;
   CoachMap: typeof CoachMap;
+  MapContributors: typeof MapContributors;
   Images: typeof Images;
   getCMSFilters: typeof getCMSFilters;
 };
