@@ -6,7 +6,7 @@ Published as ESM for apps, sites, tools, and editors that need EQOA data without
 ## What This Package Includes
 - `Quests`: quest datasets split into per-guide files (`Quests/<set>/<guide>.json`), with `_meta.json` for set title, subtitle, and nested group labels.
 - `Information`: supplemental reference datasets, including top-level guides and nested database entries such as `Information["databases/spells/alchemist"]`.
-- `Map`: zone coordinate tuples exported from `Map/zones.json`.
+- `Map`: structured world map data exported from `Map/zones.json`, including `towns`, `biomes`, and `pois`.
 - `Images`: generated URL exports for all files in `images/`, including nested folders.
 - CMS helpers: exported class/type/filter helpers built from the Character Mastery System data.
 
@@ -32,12 +32,14 @@ const wizardGuide = lowLevelQuests.fayspire.wizard;
 const alchemistSpells = Information["databases/spells/alchemist"];
 const startingCities = Information.starting_cities;
 const bearWereImage = Images.weres_bearwere;
+const levelTaggedPoi = Map.pois.find((poi) => poi.levelRange);
 const filters = getCMSFilters();
 
 console.log(lowLevelQuests.title); // from _meta.json
 console.log(wizardGuide.guide); // markdown guide body
 console.log(alchemistSpells);
-console.log(Map[0]); // [zoneName, x, y]
+console.log(Map.towns[0]); // { name, x, y, alignment, aka? }
+console.log(levelTaggedPoi?.levelRange); // e.g. "20-25"
 console.log(filters.filters);
 console.log(CMSRaceToClasses.Human);
 console.log(CMSClassTypes.Wizard); // "Caster"
@@ -58,7 +60,7 @@ import mapImage from "eqoa-data/images/EQOA_Map.png";
 ## Export Overview
 - `Quests`: generated quest data assembled from the `Quests/` directory.
 - `Information`: generated information data assembled from the `Information/` directory, including nested database paths.
-- `Map`: zone coordinate data from `Map/zones.json`.
+- `Map`: structured map data from `Map/zones.json`, including `towns`, `biomes`, and `pois`.
 - `Images`: generated image URL map based on filenames under `images/`.
 - `CMSRaceToClasses`: race-to-class availability derived from CMS quest applicability data.
 - `CMSClassTypes`: class-to-type mapping (`Tank`, `Healer`, `Melee`, `Caster`).
