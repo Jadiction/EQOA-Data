@@ -204,7 +204,7 @@
     { "name": "Lady Vox"                      , "x":  4008, "y":   358, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
     { "name": "Grundle (Underwater Cave)"     , "x":  5359, "y":  9016, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
     { "name": "Norach (Isle of Dread Entry)"  , "x":  8881, "y": 12930, "category": "other", "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Siliskor"                      , "x":  8518, "y": 10779, "category": "raid-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Siliskor"                      , "x":  8518, "y": 10779, "category": "raid-mob", "poiImageKey": "guides_siliskor", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
     { "name": "Zaryn Boome (By Well)"         , "x":  8924, "y":  8899, "category": "other", "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Quintashi (Underwater Cave)"   , "x":   295, "y": 10957, "category": "rare-mob", "icon": "star-fill", "style": {"color":"#f1f5f9"} },
     { "name": "Mayong Mistmoore (In Basement)", "x":  8631, "y":  7122, "category": "quest", "questGuideIds": ["weres/werehunter"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
