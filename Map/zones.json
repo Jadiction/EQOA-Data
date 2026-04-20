@@ -14,7 +14,7 @@
     { "name": "Wyndhaven"          , "x":  4132, "y":  4308, "alignment": "neutral" },
     { "name": "Murnf"              , "x":  5898, "y":  3260, "alignment": "good" },
     { "name": "Mt. Hatespike"      , "x":  8152, "y":  3563, "alignment": "evil" },
-    { "name": "Freeport"           , "x": 13566, "y":  5593, "alignment": "neutral" },
+    { "name": "Freeport"           , "x": 13592, "y":  5414, "alignment": "neutral" },
     { "name": "Surefall Glade"     , "x":  5956, "y":  4307, "alignment": "good" },
     { "name": "Qeynos"             , "x":  3969, "y":  6266, "alignment": "good" },
     { "name": "Honjour"            , "x":  5919, "y":  5292, "alignment": "evil", "aka": "Fog Marsh" },
@@ -76,12 +76,12 @@
     { "name": "Moss Mouth Cavern"   , "x": 10613, "y":  4315 },
     { "name": "Whale Hill"          , "x":  4076, "y":  5289 },
     { "name": "Blackburrow"         , "x":  7726, "y":  4311 },
-    { "name": "Runnyeye"            , "x":  9671, "y":  4286 },
-    { "name": "Saerk Towers"        , "x": 11532, "y":  4314 },
+    { "name": "Runnyeye"            , "x":  9735, "y":  4414 },
+    { "name": "Saerk Towers"        , "x": 11634, "y":  4442 },
     { "name": "Crethley Manor"      , "x":  5042, "y":  5645 },
     { "name": "Al Karad Ruins"      , "x":  6871, "y":  5255 },
     { "name": "Bandit Hills"        , "x":  8742, "y":  5266 },
-    { "name": "Bastable Village"    , "x": 10641, "y":  5244 },
+    { "name": "Bastable Village"    , "x": 10692, "y":  4975 },
     { "name": "Temple of Light"     , "x": 12658, "y":  5116 },
     { "name": "Tomb of Kings"       , "x": 11905, "y":  5136 },
     { "name": "Northern Ro"         , "x": 13316, "y":  6180 },
@@ -258,6 +258,7 @@
     { "name": "Grocer Peltham (13)"           , "x": 10331, "y":  1723, "category": "quest", "questGuideIds": ["1-20/fayspire/cleric","1-20/fayspire/enchanter","1-20/fayspire/magician","1-20/fayspire/paladin","1-20/tethelin/bard"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Arion (15)"                    , "x": 10855, "y":  1525, "category": "quest", "questGuideIds": ["1-20/fayspire/cleric","1-20/fayspire/enchanter","1-20/fayspire/magician","1-20/fayspire/paladin","1-20/tethelin/bard"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Froglok Novitiates (5)"        , "x": 13126, "y": 12527, "category": "quest", "questGuideIds": ["1-20/grobb/shaman","1-20/grobb/shadowknight","1-20/grobb/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Test"                          , "x":  7182, "y":  2981, "category": "other", "icon": "Hat Wizard", "style": {"color":"#f1f5f9"} }
+    { "name": "Test"                          , "x":  7182, "y":  2981, "category": "other", "icon": "Hat Wizard", "style": {"color":"#f1f5f9"} },
+    { "name": "c"                             , "x":  7669, "y":  4556, "category": "other", "icon": "map", "style": {"color":"#f1f5f9"} }
   ]
 }
