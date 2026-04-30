@@ -343,6 +343,7 @@
     { "name": "Mildred Blightforge"           , "x":  8898, "y":  2559, "category": "quest", "questGuideIds": ["17/moradhim"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Telina the Dark Witch (20)"    , "x": 13766, "y":  5393, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Roj Eir Sew' Eil (20)"         , "x": 13245, "y":  6264, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Grobb Crab"                    , "x": 13768, "y": 12458, "category": "quest", "questGuideIds": ["1-20/neriak-nektulos/magician"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Sand Covered Chest (20)"       , "x": 12790, "y":  7283, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Waterlogged Chest (20)"        , "x": 12465, "y":  6243, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Chichan Eel (7)"               , "x": 13508, "y":  5036, "category": "quest", "questGuideIds": ["1-20/freeport/bard","1-20/freeport/cleric","1-20/freeport/magician","1-20/freeport/rogue","1-20/freeport/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
