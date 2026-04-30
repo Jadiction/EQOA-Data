@@ -342,6 +342,7 @@
     { "name": "Erollisian Viper"              , "x": 10825, "y":  2449, "category": "quest", "questGuideIds": ["17/moradhim"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Mildred Blightforge"           , "x":  8898, "y":  2559, "category": "quest", "questGuideIds": ["17/moradhim"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Telina the Dark Witch (20)"    , "x": 13766, "y":  5393, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Roj Eir Sew' Eil (20)"         , "x": 13245, "y":  6264, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter"], "icon": "info-circle", "style": {"color":"#f1f5f9"} }
+    { "name": "Roj Eir Sew' Eil (20)"         , "x": 13245, "y":  6264, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Grobb Crab"                    , "x": 13768, "y": 12458, "category": "quest", "questGuideIds": ["1-20/neriak-nektulos/magician"], "icon": "info-circle", "style": {"color":"#f1f5f9"} }
   ]
 }
