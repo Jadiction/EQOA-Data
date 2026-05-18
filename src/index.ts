@@ -149,6 +149,7 @@ export const Images = {
   guides_45_cultist_akuion: new URL("../images/guides/45_cultist_akuion.png", import.meta.url).href,
   guides_45_marrow_maw: new URL("../images/guides/45_marrow_maw.png", import.meta.url).href,
   guides_aeyinar: new URL("../images/guides/aeyinar.png", import.meta.url).href,
+  guides_Kratasqs: new URL("../images/guides/Kratasqs.png", import.meta.url).href,
   guides_siliskor: new URL("../images/guides/siliskor.png", import.meta.url).href,
   guides_skahyir: new URL("../images/guides/skahyir.png", import.meta.url).href,
   guides_snek: new URL("../images/guides/snek.png", import.meta.url).href,
