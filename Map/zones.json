@@ -1226,6 +1226,9 @@
     { "name": "Deathfist Pawn"                , "x": 12718, "y":  5377, "category": "camp", "levelRange": "8-10", "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Ice Statue"                    , "x":  9371, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Spirit of Manger McGray"       , "x":  9385, "y":   259, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Frosty Chest"                  , "x":  9364, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} }
+    { "name": "Frosty Chest"                  , "x":  9364, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "statue"                        , "x":  7385, "y":  5845, "category": "other", "icon": "map-marker", "style": {"color":"#3b82f6"} },
+    { "name": "Shinlos"                       , "x":  3571, "y": 12296, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Waterlogged Chest (20)"        , "x":  5175, "y":  6973, "category": "other", "poiImageKey": "guides_37_oasis_high_guard_ianant", "icon": "heart", "style": {"color":"#f1f5f9"} }
   ]
 }
