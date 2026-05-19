@@ -1220,7 +1220,7 @@
     { "name": "Leandro Novan (20)"            , "x": 12577, "y":  5567, "category": "quest", "questGuideIds": ["1-20/freeport/bard","1-20/freeport/cleric","1-20/freeport/magician","1-20/freeport/rogue","1-20/freeport/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Praetor Gunner (20)"           , "x": 12581, "y":  5567, "category": "quest", "questGuideIds": ["1-20/freeport/bard","1-20/freeport/cleric","1-20/freeport/magician","1-20/freeport/rogue","1-20/freeport/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Merchant Yulia"                , "x": 13578, "y":  5510, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "statue"                        , "x": 10078, "y":   504, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "statue"                        , "x":   584, "y":  5269, "category": "other", "icon": "apple", "style": {"color":"#3b82f6"} },
     { "name": "Iceflesh Zombie"               , "x":  9477, "y":   342, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Guard Smitty"                  , "x": 13535, "y":  5516, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Deathfist Pawn"                , "x": 12718, "y":  5377, "category": "camp", "levelRange": "8-10", "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
