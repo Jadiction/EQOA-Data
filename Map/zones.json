@@ -1195,7 +1195,7 @@
     { "name": "Bram D'Lizo"                   , "x":  9792, "y":   612, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Arctic Bandit (with red hair)" , "x":  9982, "y":   776, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Drew Huckert"                  , "x": 13044, "y":  4209, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Alana (10)"                    , "x": 13761, "y":  5289, "category": "quest", "questGuideIds": ["1-20/freeport/alchemist"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "Alana (10)"                    , "x":   751, "y":  2502, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Blue Raven (13)"               , "x": 13166, "y":  5983, "category": "quest", "questGuideIds": ["1-20/freeport/alchemist"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Johnny Jorn (13)"              , "x": 13074, "y":  4229, "category": "quest", "questGuideIds": ["1-20/freeport/alchemist"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Merchant Lorili Ashgo (13)"    , "x": 12574, "y":  5489, "category": "quest", "questGuideIds": ["1-20/freeport/alchemist"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
@@ -1226,6 +1226,7 @@
     { "name": "Deathfist Pawn"                , "x": 12718, "y":  5377, "category": "camp", "levelRange": "8-10", "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Ice Statue"                    , "x":  9371, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Spirit of Manger McGray"       , "x":  9385, "y":   259, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Frosty Chest"                  , "x":  9364, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} }
+    { "name": "Frosty Chest"                  , "x":  9364, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "aaaaaaaa"                      , "x":  7500, "y":  6626, "category": "other", "icon": "heart-fill", "style": {"color":"#f1f5f9"} }
   ]
 }
