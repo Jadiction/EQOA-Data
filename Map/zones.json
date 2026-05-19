@@ -1227,6 +1227,6 @@
     { "name": "Ice Statue"                    , "x":  9371, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Spirit of Manger McGray"       , "x":  9385, "y":   259, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Frosty Chest"                  , "x":  9364, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "test"                          , "x":  8452, "y":  4934, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} }
+    { "name": "test"                          , "x":  8997, "y":  5064, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} }
   ]
 }
