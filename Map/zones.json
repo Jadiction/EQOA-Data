@@ -1226,6 +1226,7 @@
     { "name": "Deathfist Pawn"                , "x": 12718, "y":  5377, "category": "camp", "levelRange": "8-10", "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Ice Statue"                    , "x":  9371, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Spirit of Manger McGray"       , "x":  9385, "y":   259, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Frosty Chest"                  , "x":  9364, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} }
+    { "name": "Frosty Chest"                  , "x":  9364, "y":   256, "category": "quest", "questGuideIds": ["23-47/23"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
+    { "name": "new"                           , "x":  1622, "y":  3745, "category": "other", "icon": "Dragon", "style": {"color":"#f1f5f9"} }
   ]
 }
