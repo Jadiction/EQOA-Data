@@ -799,7 +799,7 @@
                 "stats": {
                   "STAMax": 50,
                   "AGIMax": 50,
-                  "HPMax": 300,
+                  "HP": 300,
                   "FR": 25,
                   "CR": 25,
                   "LR": 25,
@@ -819,7 +819,7 @@
                   "AR": 55,
                   "PR": 55,
                   "DR": 55,
-                  "HPMax": 200,
+                  "HP": 200,
                   "PWRMax": 200
                 },
                 "addAbilities": [
@@ -939,7 +939,7 @@
     {
       "login": "Jadiction",
       "id": 8557785,
-      "commits": 1
+      "commits": 2
     }
   ]
 }

@@ -53,7 +53,7 @@
             "DUR": 80,
             "stats": {
               "STR": 15,
-              "HPMax": 70
+              "HP": 70
             }
           },
           {
@@ -63,7 +63,7 @@
             "DUR": 80,
             "stats": {
               "STR": 25,
-              "HPMax": 70
+              "HP": 70
             },
             "proc": 80
           }
@@ -77,7 +77,7 @@
             "stats": {
               "DEX": 24,
               "WIS": 6,
-              "HPMax": 100,
+              "HP": 100,
               "PoT": 13,
               "FR": 24
             }
@@ -103,8 +103,8 @@
             "stats": {
               "WIS": 20,
               "CHA": 15,
-              "HPMax": 60,
-              "Power": 60
+              "HP": 60,
+              "POW": 60
             }
           },
           {
@@ -142,7 +142,7 @@
             "stats": {
               "STA": 20,
               "CHA": 13,
-              "HPMax": 100,
+              "HP": 100,
               "PoT": 15
             }
           }
@@ -155,7 +155,7 @@
             "DMG": 580,
             "DUR": 65,
             "stats": {
-              "HPMax": 50,
+              "HP": 50,
               "HoT": 8
             }
           },
@@ -167,7 +167,7 @@
             "DUR": 50,
             "stats": {
               "DEX": 13,
-              "HPMax": 50
+              "HP": 50
             },
             "proc": 140
           }
@@ -191,7 +191,7 @@
             "DMG": 568,
             "DUR": 55,
             "stats": {
-              "HPMax": 100
+              "HP": 100
             },
             "proc": 100
           }
@@ -246,7 +246,7 @@
             "stats": {
               "INT": 25,
               "CHA": 10,
-              "Power": 50,
+              "POW": 50,
               "PoT": 10,
               "AR": 25,
               "LR": 10
@@ -259,7 +259,7 @@
             "DUR": 50,
             "stats": {
               "CHA": 25,
-              "Power": 200,
+              "POW": 200,
               "PoT": 10,
               "AR": 25
             }
@@ -273,7 +273,7 @@
             "stats": {
               "INT": 25,
               "DEX": 10,
-              "Power": 50,
+              "POW": 50,
               "PoT": 10,
               "LR": 25,
               "CR": 10
@@ -286,7 +286,7 @@
             "DUR": 50,
             "stats": {
               "DEX": 25,
-              "Power": 200,
+              "POW": 200,
               "PoT": 10,
               "CR": 25
             }
@@ -300,7 +300,7 @@
             "stats": {
               "INT": 25,
               "AGI": 10,
-              "Power": 50,
+              "POW": 50,
               "PoT": 10,
               "FR": 25,
               "AR": 10
@@ -313,7 +313,7 @@
             "DUR": 50,
             "stats": {
               "AGI": 25,
-              "Power": 200,
+              "POW": 200,
               "PoT": 10,
               "LR": 25
             }
@@ -327,7 +327,7 @@
             "stats": {
               "INT": 25,
               "STA": 10,
-              "Power": 50,
+              "POW": 50,
               "PoT": 10,
               "PR": 25,
               "AR": 10
@@ -339,7 +339,7 @@
             "DMG": 490,
             "DUR": 50,
             "stats": {
-              "Power": 125,
+              "POW": 125,
               "PoT": 15,
               "AC": 43
             }
@@ -353,7 +353,7 @@
             "stats": {
               "STA": 10,
               "WIS": 25,
-              "HPMax": 80,
+              "HP": 80,
               "Resist": 30
             },
             "notes": "Includes a stone to change robe color and resist: Red=FR, Green=PR, Yellow=LR, Blue=CR"
@@ -365,7 +365,7 @@
             "stats": {
               "STA": 23,
               "DEX": 12,
-              "HPMax": 100,
+              "HP": 100,
               "PR": 20,
               "AC": 186
             }
@@ -395,7 +395,7 @@
     {
       "login": "Jadiction",
       "id": 8557785,
-      "commits": 2
+      "commits": 3
     }
   ]
 }
