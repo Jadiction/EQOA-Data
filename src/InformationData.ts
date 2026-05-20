@@ -20,7 +20,14 @@ import Information_databases_cms_warrior from '../Information/databases/cms/warr
 import Information_databases_cms_were from '../Information/databases/cms/were.json' with { type: "json" };
 import Information_databases_cms_werehunter from '../Information/databases/cms/werehunter.json' with { type: "json" };
 import Information_databases_cms_wizard from '../Information/databases/cms/wizard.json' with { type: "json" };
-import Information_databases_items_items_list from '../Information/databases/items/items_list.json' with { type: "json" };
+import Information_databases_items_armor from '../Information/databases/items/armor.json' with { type: "json" };
+import Information_databases_items_crafting from '../Information/databases/items/crafting.json' with { type: "json" };
+import Information_databases_items_gems from '../Information/databases/items/gems.json' with { type: "json" };
+import Information_databases_items_held from '../Information/databases/items/held.json' with { type: "json" };
+import Information_databases_items_jewelry from '../Information/databases/items/jewelry.json' with { type: "json" };
+import Information_databases_items_miscellaneous from '../Information/databases/items/miscellaneous.json' with { type: "json" };
+import Information_databases_items_unknown from '../Information/databases/items/unknown.json' with { type: "json" };
+import Information_databases_items_weapons from '../Information/databases/items/weapons.json' with { type: "json" };
 import Information_databases_spells_alchemist from '../Information/databases/spells/alchemist.json' with { type: "json" };
 import Information_databases_spells_bard from '../Information/databases/spells/bard.json' with { type: "json" };
 import Information_databases_spells_cleric from '../Information/databases/spells/cleric.json' with { type: "json" };
@@ -38,6 +45,7 @@ import Information_databases_spells_warrior from '../Information/databases/spell
 import Information_databases_spells_wizard from '../Information/databases/spells/wizard.json' with { type: "json" };
 import Information_epics from '../Information/epics.json' with { type: "json" };
 import Information_how_to_play from '../Information/how_to_play.json' with { type: "json" };
+import Information_mastercraft from '../Information/mastercraft.json' with { type: "json" };
 import Information_race_class_stats from '../Information/race_class_stats.json' with { type: "json" };
 import Information_starting_cities from '../Information/starting_cities.json' with { type: "json" };
 import Information_xp_camps from '../Information/xp_camps.json' with { type: "json" };
@@ -63,7 +71,14 @@ export const Information = {
   'databases/cms/were': Information_databases_cms_were,
   'databases/cms/werehunter': Information_databases_cms_werehunter,
   'databases/cms/wizard': Information_databases_cms_wizard,
-  'databases/items/items_list': Information_databases_items_items_list,
+  'databases/items/armor': Information_databases_items_armor,
+  'databases/items/crafting': Information_databases_items_crafting,
+  'databases/items/gems': Information_databases_items_gems,
+  'databases/items/held': Information_databases_items_held,
+  'databases/items/jewelry': Information_databases_items_jewelry,
+  'databases/items/miscellaneous': Information_databases_items_miscellaneous,
+  'databases/items/unknown': Information_databases_items_unknown,
+  'databases/items/weapons': Information_databases_items_weapons,
   'databases/spells/alchemist': Information_databases_spells_alchemist,
   'databases/spells/bard': Information_databases_spells_bard,
   'databases/spells/cleric': Information_databases_spells_cleric,
@@ -81,6 +96,7 @@ export const Information = {
   'databases/spells/wizard': Information_databases_spells_wizard,
   'epics': Information_epics,
   'how_to_play': Information_how_to_play,
+  'mastercraft': Information_mastercraft,
   'race_class_stats': Information_race_class_stats,
   'starting_cities': Information_starting_cities,
   'xp_camps': Information_xp_camps,
