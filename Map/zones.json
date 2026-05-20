@@ -168,7 +168,6 @@
     { "name": "Envar"               , "x":  5066, "y": 11824 }
   ],
   "pois":   [
-    { "name": "Example POI"                   , "x": 12438, "y":   600, "category": "other", "icon": "map-marker", "style": {"color":"blue"} },
     { "name": "Lizardman Outcast (5)"         , "x":  6553, "y": 11193, "category": "quest", "questGuideIds": ["1-20/oggok/necromancer","1-20/oggok/shaman","1-20/oggok/shadowknight","1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Shimmering Portal to Neriak"   , "x":  6773, "y": 11033, "category": "other", "icon": "arrow-right", "style": {"color":"#ef4444"} },
     { "name": "Lizardman Sneak (15)"          , "x":  7177, "y": 11520, "category": "quest", "questGuideIds": ["1-20/oggok/necromancer"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
