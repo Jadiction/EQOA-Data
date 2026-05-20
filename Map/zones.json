@@ -972,7 +972,7 @@
     { "name": "branch 1?"                     , "x":  6916, "y":  2564, "category": "quest", "questGuideIds": ["23-47/47"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Tilmiraen"                     , "x": 11275, "y":  5984, "category": "quest", "questGuideIds": ["23-47/47"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Mugwort"                       , "x":  5172, "y":  3675, "category": "quest", "questGuideIds": ["23-47/47"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Twizzletwig"                   , "x": 10840, "y": 11046, "category": "quest", "questGuideIds": ["23-47/47"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Twizzletwig"                   , "x": 10853, "y": 10977, "category": "quest", "questGuideIds": ["23-47/47"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Dark Elf Miner"                , "x":  8661, "y": 12581, "category": "quest", "questGuideIds": ["23-47/47"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Maerik N'Toxis"                , "x": 13478, "y": 12076, "category": "quest", "questGuideIds": ["23-47/47"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Feldink Shortquill"            , "x":  9581, "y":  4866, "category": "quest", "questGuideIds": ["23-47/47","30-40-49/group-4-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
@@ -1069,11 +1069,11 @@
     { "name": "Cipher pop-up (49)"            , "x": 11614, "y": 10901, "category": "quest", "questGuideIds": ["30-40-49/group-3-good"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Cipher pop-up (49)"            , "x":  8387, "y": 10870, "category": "quest", "questGuideIds": ["30-40-49/group-3-good"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Sorroian (49)"                 , "x":  4238, "y":  2476, "category": "quest", "questGuideIds": ["30-40-49/group-3-good"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Archmagus Terathin (49)"       , "x": 10371, "y": 11136, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Sun Magi (49)"                 , "x": 10371, "y": 11151, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Star Magi (49)"                , "x": 10374, "y": 11167, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Moon Magi (49)"                , "x": 10371, "y": 11182, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Lord Chardith (49)"            , "x": 10373, "y": 11201, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Archmagus Terathin (49)"       , "x": 10864, "y": 11150, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Sun Magi (49)"                 , "x": 10821, "y": 11185, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Star Magi (49)"                , "x": 10865, "y": 11183, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Moon Magi (49)"                , "x": 10845, "y": 11161, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Lord Chardith (49)"            , "x": 10879, "y": 11160, "category": "quest", "questGuideIds": ["30-40-49/group-3-good","30-40-49/group-4-evil","30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Belran Nightrift"              , "x":  7751, "y":  8053, "category": "quest", "questGuideIds": ["30-40-49/group-4-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Jolin Tofeph (30)"             , "x": 12712, "y":  7507, "category": "quest", "questGuideIds": ["30-40-49/group-4-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Holciel Rowen'Dal (30)"        , "x": 13429, "y":  5427, "category": "quest", "questGuideIds": ["30-40-49/group-4-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
@@ -1143,6 +1143,7 @@
     { "name": "Xannasu (49)"                  , "x": 12546, "y":  9026, "category": "quest", "questGuideIds": ["30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Lantik (49)"                   , "x": 11732, "y":  7843, "category": "quest", "questGuideIds": ["30-40-49/group-6-evil"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Julaech - Kratas Quest Giver"  , "x":  7880, "y": 12523, "category": "raid-mob", "icon": "Exclamation", "style": {"color":"#f59e0b"} },
-    { "name": "Kizdean Gix - ToL Quest"       , "x": 13656, "y":  2410, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "Exclamation", "style": {"color":"#f59e0b"} }
+    { "name": "Kizdean Gix - ToL Quest"       , "x": 13656, "y":  2410, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "Exclamation", "style": {"color":"#f59e0b"} },
+    { "name": "Nolram Barro - ToL Quest"      , "x": 10571, "y": 10945, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "Exclamation", "style": {"color":"#f59e0b"} }
   ]
 }
