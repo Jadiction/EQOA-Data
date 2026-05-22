@@ -12,7 +12,7 @@
     { "name": "Castle Felstar"     , "x": 11927, "y":  2156, "alignment": "evil", "aka": "Fort Seriak" },
     { "name": "Rivervale"          , "x": 10313, "y":  3545, "alignment": "good" },
     { "name": "Wyndhaven"          , "x":  3916, "y":  4415, "alignment": "neutral" },
-    { "name": "Murnf"              , "x":  5898, "y":  3260, "alignment": "good" },
+    { "name": "Murnf"              , "x":  5877, "y":  3217, "alignment": "good" },
     { "name": "Mt. Hatespike"      , "x":  8165, "y":  3565, "alignment": "evil" },
     { "name": "Freeport"           , "x": 13566, "y":  5593, "alignment": "neutral" },
     { "name": "Surefall Glade"     , "x":  5956, "y":  4307, "alignment": "good" },
@@ -1230,6 +1230,7 @@
     { "name": "Kizdean Gix - ToL Quest"       , "x": 13656, "y":  2410, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "Exclamation", "style": {"color":"#f59e0b"} },
     { "name": "Nolram Barro - ToL Quest"      , "x": 10571, "y": 10945, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "Exclamation", "style": {"color":"#f59e0b"} },
     { "name": "Skahyir (Inside Cave)"         , "x": 11844, "y":  8091, "category": "raid-mob", "poiImageKey": "guides_skahyir", "icon": "Dragon", "style": {"color":"#f97316"} },
-    { "name": "Treasure chest"                , "x":  1539, "y":  1849, "category": "other", "icon": "star", "style": {"color":"#22c55e"} }
+    { "name": "Treasure chest"                , "x":  1475, "y":  2116, "category": "other", "icon": "star", "style": {"color":"#22c55e"} },
+    { "name": "Bookcase"                      , "x":  1293, "y":  2498, "category": "rare-mob", "icon": "align-center", "style": {"color":"#f1f5f9"} }
   ]
 }
