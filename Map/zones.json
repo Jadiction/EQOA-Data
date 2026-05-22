@@ -1229,6 +1229,7 @@
     { "name": "Julaech - Kratas Quest Giver"  , "x":  7880, "y": 12523, "category": "raid-mob", "icon": "Exclamation", "style": {"color":"#f59e0b"} },
     { "name": "Kizdean Gix - ToL Quest"       , "x": 13656, "y":  2410, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "Exclamation", "style": {"color":"#f59e0b"} },
     { "name": "Nolram Barro - ToL Quest"      , "x": 10571, "y": 10945, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "Exclamation", "style": {"color":"#f59e0b"} },
-    { "name": "Skahyir (Inside Cave)"         , "x": 11844, "y":  8091, "category": "raid-mob", "poiImageKey": "guides_skahyir", "icon": "Dragon", "style": {"color":"#f97316"} }
+    { "name": "Skahyir (Inside Cave)"         , "x": 11844, "y":  8091, "category": "raid-mob", "poiImageKey": "guides_skahyir", "icon": "Dragon", "style": {"color":"#f97316"} },
+    { "name": "Treasure chest"                , "x":  1539, "y":  1849, "category": "other", "icon": "star", "style": {"color":"#22c55e"} }
   ]
 }
