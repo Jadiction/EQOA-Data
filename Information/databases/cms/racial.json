@@ -923,7 +923,10 @@
       ]
     },
     {
-      "name": ["Human Western", "Human Eastern"],
+      "name": [
+        "Human Western",
+        "Human Eastern"
+      ],
       "cms": [
         {
           "name": "Retreat",
@@ -1330,7 +1333,7 @@
     {
       "login": "Jadiction",
       "id": 8557785,
-      "commits": 1
+      "commits": 2
     }
   ]
 }
