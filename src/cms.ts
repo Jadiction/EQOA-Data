@@ -3,8 +3,107 @@ import { Quests } from './QuestsData.js';
 export type CMSFilterId = 'race' | 'class' | 'type';
 export type CMSFilterCategory = 'Race' | 'Class' | 'Type';
 export type CMSClassType = 'Tank' | 'Healer' | 'Melee' | 'Caster';
+export type CMSClassName =
+  | 'Alchemist'
+  | 'Bard'
+  | 'Cleric'
+  | 'Druid'
+  | 'Enchanter'
+  | 'Magician'
+  | 'Monk'
+  | 'Necromancer'
+  | 'Paladin'
+  | 'Ranger'
+  | 'Rogue'
+  | 'Shadowknight'
+  | 'Shaman'
+  | 'Warrior'
+  | 'Wizard';
 export type CMSRaceToClassesMap = Record<string, string[]>;
 export type CMSClassToTypeMap = Record<string, CMSClassType>;
+export type CMSStatKey =
+  | 'AC'
+  | 'AGI'
+  | 'AGIMax'
+  | 'AR'
+  | 'CHA'
+  | 'CHAMax'
+  | 'CR'
+  | 'Def Mod'
+  | 'DEX'
+  | 'DEXMax'
+  | 'DR'
+  | 'FR'
+  | 'HoT'
+  | 'HP'
+  | 'HP Factor'
+  | 'INT'
+  | 'INTMax'
+  | 'LR'
+  | 'MovRate'
+  | 'Off Mod'
+  | 'PoT'
+  | 'Pow'
+  | 'PR'
+  | 'PWRMax'
+  | 'STA'
+  | 'STAMax'
+  | 'STR'
+  | 'STRMax'
+  | 'WIS'
+  | 'WISMax';
+export type CMSStatValues = Partial<Record<CMSStatKey, number>>;
+
+export interface CMSContributor {
+  login: string;
+  id: number;
+  commits: number;
+}
+
+export interface CMSAbilityReference {
+  name: string;
+  level: number | null;
+}
+
+export interface CMSRankRequirements {
+  level?: number;
+  spent?: number;
+  stats?: CMSStatValues;
+  requiredAbilities?: CMSAbilityReference[];
+}
+
+export interface CMSRankEffects {
+  stats?: CMSStatValues;
+  addAbilities?: CMSAbilityReference[];
+  removeAbilities?: CMSAbilityReference[];
+}
+
+export interface CMSRank {
+  name: string;
+  cmCost: number;
+  requirements?: CMSRankRequirements;
+  effects?: CMSRankEffects;
+  notes?: string[];
+}
+
+export interface CMSMastery {
+  name: string;
+  ranks: CMSRank[];
+  description?: string;
+}
+
+export interface CMSGroup {
+  name: string | string[];
+  cms: CMSMastery[];
+}
+
+export interface CMSData {
+  title: string;
+  class?: CMSClassName;
+  type?: CMSClassType;
+  contributors: CMSContributor[];
+  groups: CMSGroup[];
+}
 
 export interface CMSFilterDefinition {
   id: CMSFilterId;

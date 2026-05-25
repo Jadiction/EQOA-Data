@@ -22,6 +22,17 @@ export type JewelryItemType = 'earring' | 'neck' | 'ring' | 'belt';
 
 export type WeaponItemType = 'primary' | 'secondary' | 'twoHand' | 'bow' | 'thrown';
 
+export type ItemAttackType =
+  | 'oneHandSlash'
+  | 'twoHandSlash'
+  | 'oneHandBlunt'
+  | 'twoHandBlunt'
+  | 'oneHandPierce'
+  | 'twoHandPierce'
+  | 'bow'
+  | 'crossbow'
+  | 'throw';
+
 export type HeldItemType = 'shield' | 'held';
 
 export type CraftingItemType =
@@ -83,6 +94,12 @@ export type ItemType =
   | CraftingItemType
   | MiscellaneousItemType
   | UnknownItemType;
+
+export interface ItemContributor {
+  login: string;
+  id: number;
+  commits: number;
+}
 
 export type ItemClassRequirement =
   | 'ALL'
@@ -164,16 +181,16 @@ export interface ItemStats {
   proc?: number;
 }
 
-export interface Item {
+export interface Item<TType extends ItemType = ItemType> {
   name: string;
-  type: ItemType;
-  description: string | null;
+  type: TType;
+  description?: string | null;
   requirements?: ItemRequirements;
   maxStack?: number;
   itemHp?: number;
   durability?: number;
   damage?: number;
-  attackType?: number;
+  attackType?: ItemAttackType;
   stats?: ItemStats;
   noTrade?: true;
   rent?: true;
@@ -188,18 +205,28 @@ export interface GemItem {
   rarity: GemRarity | null;
 }
 
-export interface ItemCategoryData {
-  items: Item[];
-}
-
 export interface GemsItemsData {
+  contributors: ItemContributor[];
   items: GemItem[];
 }
 
-export type ArmorItemsData = ItemCategoryData;
-export type JewelryItemsData = ItemCategoryData;
-export type WeaponsItemsData = ItemCategoryData;
-export type HeldItemsData = ItemCategoryData;
-export type CraftingItemsData = ItemCategoryData;
-export type MiscellaneousItemsData = ItemCategoryData;
-export type UnknownItemsData = ItemCategoryData;
+export interface ItemCategoryData<TItem extends Item = Item> {
+  contributors: ItemContributor[];
+  items: TItem[];
+}
+
+export type ArmorItem = Item<ArmorItemType>;
+export type JewelryItem = Item<JewelryItemType>;
+export type WeaponItem = Item<WeaponItemType>;
+export type HeldItem = Item<HeldItemType>;
+export type CraftingItem = Item<CraftingItemType>;
+export type MiscellaneousItem = Item<MiscellaneousItemType>;
+export type UnknownItem = Item<UnknownItemType>;
+
+export type ArmorItemsData = ItemCategoryData<ArmorItem>;
+export type JewelryItemsData = ItemCategoryData<JewelryItem>;
+export type WeaponsItemsData = ItemCategoryData<WeaponItem>;
+export type HeldItemsData = ItemCategoryData<HeldItem>;
+export type CraftingItemsData = ItemCategoryData<CraftingItem>;
+export type MiscellaneousItemsData = ItemCategoryData<MiscellaneousItem>;
+export type UnknownItemsData = ItemCategoryData<UnknownItem>;

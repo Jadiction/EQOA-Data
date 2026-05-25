@@ -14,6 +14,7 @@ export {
 } from './cms.js';
 export type * from './cms.js';
 export type * from './items.js';
+export type * from './spells.js';
 export const Map = EQOAzones;
 export const CoachMap = EQOACoachMap;
 export const MapContributors = EQOAMapContributorsData.contributors;
