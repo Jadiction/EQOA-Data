@@ -923,7 +923,7 @@
       ]
     },
     {
-      "name": "Human Western",
+      "name": ["Human Western", "Human Eastern"],
       "cms": [
         {
           "name": "Retreat",
