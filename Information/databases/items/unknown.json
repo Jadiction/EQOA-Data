@@ -14,7 +14,7 @@
         ]
       },
       "damage": 1276,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "hp": 350
       }
@@ -32,7 +32,7 @@
           "ALL"
         ]
       },
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "str": 10,
         "sta": 10,
@@ -65,7 +65,7 @@
         ]
       },
       "damage": 640,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 35,
         "hp": 100,
@@ -86,7 +86,7 @@
         ]
       },
       "damage": 661,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "str": 25,
         "dex": 20
@@ -106,7 +106,7 @@
         ]
       },
       "damage": 668,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "sta": 5,
         "agi": 25,
@@ -127,7 +127,7 @@
         ]
       },
       "damage": 655,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "agi": 20,
         "ac": 30
@@ -147,7 +147,7 @@
         ]
       },
       "damage": 700,
-      "attackType": 1
+      "attackType": "oneHandSlash"
     },
     {
       "name": "dragon claw",
@@ -163,7 +163,7 @@
         ]
       },
       "damage": 730,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 30,
         "sta": 10,
@@ -184,7 +184,7 @@
         ]
       },
       "damage": 680,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 20
       }
@@ -203,7 +203,7 @@
         ]
       },
       "damage": 675,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 20,
         "dex": 9
@@ -223,7 +223,7 @@
         ]
       },
       "damage": 687,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 50,
         "pow": 20
@@ -243,7 +243,7 @@
         ]
       },
       "damage": 640,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 20,
         "dex": 20,
@@ -265,7 +265,7 @@
         ]
       },
       "damage": 798,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "str": 60
       }
@@ -284,7 +284,7 @@
         ]
       },
       "damage": 640,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "agi": 20,
         "dex": 20,
@@ -306,7 +306,7 @@
         ]
       },
       "damage": 635,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "hp": 150
       }
@@ -325,7 +325,7 @@
         ]
       },
       "damage": 700,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 15,
         "dex": 15
@@ -345,7 +345,7 @@
         ]
       },
       "damage": 600,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "dex": 15,
         "hp": 50
@@ -365,7 +365,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "hp": 125,
         "hot": 20,
@@ -387,7 +387,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "agi": 35,
         "dex": 30,
@@ -411,7 +411,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 30,
         "dex": 30,
@@ -434,7 +434,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 30,
         "dex": 30,
@@ -522,7 +522,7 @@
         ]
       },
       "damage": 640,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "agi": 20,
         "dex": 20,
@@ -562,7 +562,7 @@
         ]
       },
       "damage": 638,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "dex": 25,
         "hp": 50,
@@ -583,7 +583,7 @@
         ]
       },
       "damage": 560,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "sta": 20,
         "agi": 10,
@@ -605,7 +605,7 @@
         ]
       },
       "damage": 687,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "sta": 50,
         "pow": 20
@@ -625,7 +625,7 @@
         ]
       },
       "damage": 800,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 100,
         "sta": 100,
@@ -655,7 +655,7 @@
         ]
       },
       "damage": 687,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "sta": 50,
         "pow": 20
@@ -675,7 +675,7 @@
         ]
       },
       "damage": 664,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "sta": 15,
         "agi": 15,
@@ -697,7 +697,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "dex": 30,
         "hp": 150,
@@ -718,7 +718,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "dex": 30,
         "hp": 150,
@@ -739,7 +739,7 @@
         ]
       },
       "damage": 580,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "hp": 50,
         "hot": 8
@@ -759,7 +759,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 30,
         "sta": 35,
@@ -780,7 +780,7 @@
         ]
       },
       "damage": 550,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 15,
         "sta": 15,
@@ -801,7 +801,7 @@
         ]
       },
       "damage": 928,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "sta": 45,
         "hp": 200,
@@ -823,7 +823,7 @@
         ]
       },
       "damage": 687,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 50,
         "hp": 20
@@ -843,7 +843,7 @@
         ]
       },
       "damage": 687,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "sta": 20,
         "agi": 25,
@@ -864,7 +864,7 @@
         ]
       },
       "damage": 640,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 16,
         "hp": 150
@@ -884,7 +884,7 @@
         ]
       },
       "damage": 700,
-      "attackType": 1
+      "attackType": "oneHandSlash"
     },
     {
       "name": "Beheader of Isthiak",
@@ -900,7 +900,7 @@
         ]
       },
       "damage": 664,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "str": 31,
         "sta": 14,
@@ -921,7 +921,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 35,
         "hp": 180,
@@ -943,7 +943,7 @@
         ]
       },
       "damage": 660,
-      "attackType": 6,
+      "attackType": "twoHandPierce",
       "stats": {
         "str": 30,
         "sta": 30
@@ -963,7 +963,7 @@
         ]
       },
       "damage": 787,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "str": 60
       }
@@ -982,7 +982,7 @@
         ]
       },
       "damage": 697,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 15,
         "sta": 15,
@@ -1003,7 +1003,7 @@
         ]
       },
       "damage": 540,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 10,
         "wis": 20,
@@ -1026,7 +1026,7 @@
         ]
       },
       "damage": 578,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "wis": 20,
         "pow": 170,
@@ -1047,7 +1047,7 @@
         ]
       },
       "damage": 670,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "wis": 10,
         "cha": 20,
@@ -1068,7 +1068,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "wis": 30,
         "pow": 150,
@@ -1091,7 +1091,7 @@
         ]
       },
       "damage": 801,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "wis": 30,
         "pow": 150,
@@ -1113,7 +1113,7 @@
           "ALL"
         ]
       },
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "pow": 125,
         "pot": 15,
@@ -1134,7 +1134,7 @@
         ]
       },
       "damage": 687,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "int": 50,
         "pow": 20
@@ -1154,7 +1154,7 @@
         ]
       },
       "damage": 928,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "dex": 30,
         "int": 35,
@@ -1177,7 +1177,7 @@
         ]
       },
       "damage": 687,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "int": 50,
         "pow": 20
@@ -1197,7 +1197,7 @@
         ]
       },
       "damage": 928,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "agi": 30,
         "int": 35,
@@ -1220,7 +1220,7 @@
         ]
       },
       "damage": 626,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "agi": 25,
         "pow": 200,
@@ -1242,7 +1242,7 @@
         ]
       },
       "damage": 517,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "agi": 10,
         "int": 20,
@@ -1266,7 +1266,7 @@
         ]
       },
       "damage": 580,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "int": 10,
         "cha": 30,
@@ -1303,7 +1303,7 @@
         ]
       },
       "damage": 730,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 25,
         "dex": 30,
@@ -1324,7 +1324,7 @@
         ]
       },
       "damage": 589,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 30,
         "hp": 70,
@@ -1345,7 +1345,7 @@
         ]
       },
       "damage": 460,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 10,
         "agi": 5,
@@ -1391,7 +1391,7 @@
         ]
       },
       "damage": 565,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 10,
         "agi": 10,
@@ -1412,7 +1412,7 @@
         ]
       },
       "damage": 563,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 10,
         "agi": 10,
@@ -1433,7 +1433,7 @@
         ]
       },
       "damage": 610,
-      "attackType": 1
+      "attackType": "oneHandSlash"
     },
     {
       "name": "dirk of dismay",
@@ -1449,7 +1449,7 @@
         ]
       },
       "damage": 580,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "hp": 50
       }
@@ -1468,7 +1468,7 @@
         ]
       },
       "damage": 806,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "str": 40,
         "sta": 20,
@@ -1489,7 +1489,7 @@
         ]
       },
       "damage": 745,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 55,
         "hp": 100,
@@ -1510,7 +1510,7 @@
         ]
       },
       "damage": 580,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 10,
         "sta": 10,
@@ -1533,7 +1533,7 @@
         ]
       },
       "damage": 789,
-      "attackType": 2
+      "attackType": "twoHandSlash"
     },
     {
       "name": "etheric no-dachi",
@@ -1549,7 +1549,7 @@
         ]
       },
       "damage": 680,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "wis": 30,
         "hp": 100,
@@ -1572,7 +1572,7 @@
         ]
       },
       "damage": 810,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "hp": 75
       }
@@ -1591,7 +1591,7 @@
         ]
       },
       "damage": 625,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "hp": 200
       }
@@ -1610,7 +1610,7 @@
         ]
       },
       "damage": 720,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "hp": 200
       }
@@ -1629,7 +1629,7 @@
         ]
       },
       "damage": 663,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 30,
         "hp": 20
@@ -1649,7 +1649,7 @@
         ]
       },
       "damage": 795,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "str": 20,
         "sta": 10,
@@ -1672,7 +1672,7 @@
         ]
       },
       "damage": 602,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "str": 30,
         "sta": 30
@@ -1692,7 +1692,7 @@
         ]
       },
       "damage": 847,
-      "attackType": 2
+      "attackType": "twoHandSlash"
     },
     {
       "name": "Sword of the Knight",
@@ -1708,7 +1708,7 @@
         ]
       },
       "damage": 740,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "agi": 50,
         "hp": 50
@@ -1728,7 +1728,7 @@
         ]
       },
       "damage": 885,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "wis": 35,
         "cha": 35,
@@ -1749,7 +1749,7 @@
         ]
       },
       "damage": 646,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "cha": 10,
         "pot": 28
@@ -1769,7 +1769,7 @@
         ]
       },
       "damage": 663,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "wis": 30,
         "pow": 20
@@ -1789,7 +1789,7 @@
         ]
       },
       "damage": 600,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "dex": 5,
         "wis": 45,
@@ -1812,7 +1812,7 @@
         ]
       },
       "damage": 580,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 10,
         "wis": 35,
@@ -1834,7 +1834,7 @@
         ]
       },
       "damage": 731,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "int": 60,
         "pow": 150,
@@ -1856,7 +1856,7 @@
         ]
       },
       "damage": 745,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "int": 55,
         "hp": 100,
@@ -1877,7 +1877,7 @@
         ]
       },
       "damage": 570,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "agi": 40,
         "int": 30,
@@ -1901,7 +1901,7 @@
         ]
       },
       "damage": 663,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "int": 30,
         "pow": 20
@@ -1921,7 +1921,7 @@
         ]
       },
       "damage": 684,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "wis": 10,
         "int": 40,
@@ -1943,7 +1943,7 @@
         ]
       },
       "damage": 673,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "sta": 10,
         "dex": 30,
@@ -1967,7 +1967,7 @@
         ]
       },
       "damage": 590,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "sta": 10,
         "int": 10,
@@ -1990,7 +1990,7 @@
         ]
       },
       "damage": 550,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 63,
         "agi": 63,
@@ -2012,7 +2012,7 @@
         ]
       },
       "damage": 690,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "dex": 50,
         "hp": 100
@@ -2032,7 +2032,7 @@
         ]
       },
       "damage": 588,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "dex": 20,
         "cha": 10,
@@ -2053,7 +2053,7 @@
         ]
       },
       "damage": 715,
-      "attackType": 1
+      "attackType": "oneHandSlash"
     },
     {
       "name": "wicker man bow",
@@ -2091,7 +2091,7 @@
         ]
       },
       "damage": 693,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "agi": 15,
         "dex": 40,
@@ -2112,7 +2112,7 @@
         ]
       },
       "damage": 715,
-      "attackType": 5
+      "attackType": "oneHandPierce"
     },
     {
       "name": "prop sword",
@@ -2127,7 +2127,7 @@
           "ALL"
         ]
       },
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "agi": 25,
         "hp": 75
@@ -2147,7 +2147,7 @@
         ]
       },
       "damage": 510,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 10,
         "sta": 10,
@@ -2169,7 +2169,7 @@
         ]
       },
       "damage": 670,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 20,
         "dex": 10,
@@ -2190,7 +2190,7 @@
         ]
       },
       "damage": 577,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "cr": 28
       }
@@ -2209,7 +2209,7 @@
         ]
       },
       "damage": 568,
-      "attackType": 1
+      "attackType": "oneHandSlash"
     },
     {
       "name": "darkweed dagger",
@@ -2225,7 +2225,7 @@
         ]
       },
       "damage": 580,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "sta": 15,
         "agi": 10,
@@ -2247,7 +2247,7 @@
         ]
       },
       "damage": 568,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "fr": 63
       }
@@ -2266,7 +2266,7 @@
         ]
       },
       "damage": 581,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 10,
         "agi": 63,
@@ -2287,7 +2287,7 @@
         ]
       },
       "damage": 725,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "agi": 45
       }
@@ -2306,7 +2306,7 @@
         ]
       },
       "damage": 806,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "hp": 125,
         "pow": 75
@@ -2364,7 +2364,7 @@
         ]
       },
       "damage": 716,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 20,
         "dex": 20
@@ -2384,7 +2384,7 @@
         ]
       },
       "damage": 655,
-      "attackType": 6
+      "attackType": "twoHandPierce"
     },
     {
       "name": "trident of the merkings",
@@ -2400,7 +2400,7 @@
         ]
       },
       "damage": 704,
-      "attackType": 6,
+      "attackType": "twoHandPierce",
       "stats": {
         "str": 20,
         "agi": 20,
@@ -2422,7 +2422,7 @@
         ]
       },
       "damage": 592,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "str": 28,
         "dex": 7,
@@ -2445,7 +2445,7 @@
         ]
       },
       "damage": 500,
-      "attackType": 2
+      "attackType": "twoHandSlash"
     },
     {
       "name": "Bleeding Harpoon of Aszec",
@@ -2461,7 +2461,7 @@
         ]
       },
       "damage": 608,
-      "attackType": 6,
+      "attackType": "twoHandPierce",
       "stats": {
         "agi": 20,
         "int": 20
@@ -2481,7 +2481,7 @@
         ]
       },
       "damage": 759,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "str": 30,
         "dex": 20,
@@ -2503,7 +2503,7 @@
         ]
       },
       "damage": 700,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "str": 25
       }
@@ -2547,7 +2547,7 @@
         ]
       },
       "damage": 782,
-      "attackType": 6
+      "attackType": "twoHandPierce"
     },
     {
       "name": "Grrkill",
@@ -2563,7 +2563,7 @@
         ]
       },
       "damage": 825,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "hp": 150
       }
@@ -2582,7 +2582,7 @@
         ]
       },
       "damage": 774,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "sta": 30,
         "hp": 110,
@@ -2603,7 +2603,7 @@
         ]
       },
       "damage": 660,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 20,
         "wis": 20
@@ -2623,7 +2623,7 @@
         ]
       },
       "damage": 565,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "str": 12,
         "dex": 12,
@@ -2644,7 +2644,7 @@
         ]
       },
       "damage": 678,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "str": 25,
         "sta": 25
@@ -2664,7 +2664,7 @@
         ]
       },
       "damage": 607,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "agi": 20,
         "dex": 10,
@@ -2685,7 +2685,7 @@
         ]
       },
       "damage": 585,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 11,
         "dex": 20,
@@ -2706,7 +2706,7 @@
         ]
       },
       "damage": 650,
-      "attackType": 2,
+      "attackType": "twoHandSlash",
       "stats": {
         "sta": 40
       }
@@ -2725,7 +2725,7 @@
         ]
       },
       "damage": 803,
-      "attackType": 6,
+      "attackType": "twoHandPierce",
       "stats": {
         "hp": 200
       }
@@ -2744,7 +2744,7 @@
         ]
       },
       "damage": 730,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "pow": 100
       }
@@ -2763,7 +2763,7 @@
         ]
       },
       "damage": 660,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "sta": 20,
         "agi": 20
@@ -2783,7 +2783,7 @@
         ]
       },
       "damage": 625,
-      "attackType": 1
+      "attackType": "oneHandSlash"
     },
     {
       "name": "Gorereaver",
@@ -2799,7 +2799,7 @@
         ]
       },
       "damage": 675,
-      "attackType": 5
+      "attackType": "oneHandPierce"
     },
     {
       "name": "Elen Estel",
@@ -2815,7 +2815,7 @@
         ]
       },
       "damage": 537,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "sta": 15,
         "dex": 35,
@@ -2840,7 +2840,7 @@
         ]
       },
       "damage": 690,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 40,
         "sta": 10,
@@ -2861,7 +2861,7 @@
         ]
       },
       "damage": 565,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "dex": 40,
         "hp": 40,
@@ -2883,7 +2883,7 @@
         ]
       },
       "damage": 585,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 15,
         "dex": 25,
@@ -2904,7 +2904,7 @@
         ]
       },
       "damage": 568,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "fr": 63
       }
@@ -2923,7 +2923,7 @@
         ]
       },
       "damage": 715,
-      "attackType": 3
+      "attackType": "oneHandBlunt"
     },
     {
       "name": "bladed mace of noroxus",
@@ -2939,7 +2939,7 @@
         ]
       },
       "damage": 700,
-      "attackType": 3
+      "attackType": "oneHandBlunt"
     },
     {
       "name": "Worldbreaker Sledge",
@@ -2955,7 +2955,7 @@
         ]
       },
       "damage": 713,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "str": 26,
         "hp": 100,
@@ -2976,7 +2976,7 @@
         ]
       },
       "damage": 641,
-      "attackType": 3,
+      "attackType": "oneHandBlunt",
       "stats": {
         "str": 50,
         "sta": 20
@@ -2996,7 +2996,7 @@
         ]
       },
       "damage": 740,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "dex": 30
       }
@@ -3015,7 +3015,7 @@
         ]
       },
       "damage": 710,
-      "attackType": 1,
+      "attackType": "oneHandSlash",
       "stats": {
         "hp": 100,
         "pr": 15
@@ -3035,7 +3035,7 @@
         ]
       },
       "damage": 622,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "str": 15,
         "hp": 100
@@ -3055,7 +3055,7 @@
         ]
       },
       "damage": 791,
-      "attackType": 4,
+      "attackType": "twoHandBlunt",
       "stats": {
         "sta": 10,
         "dex": 30,
@@ -3076,7 +3076,7 @@
         ]
       },
       "damage": 570,
-      "attackType": 5,
+      "attackType": "oneHandPierce",
       "stats": {
         "agi": 15,
         "dex": 10,
