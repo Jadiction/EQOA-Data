@@ -250,7 +250,6 @@
     { "name": "Sand Skipper (15)"             , "x": 13330, "y":  6564, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter","1-20/neriak-nektulos/rogue"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Gargantula (15)"               , "x": 12758, "y":  5893, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter","1-20/neriak-nektulos/rogue"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Dteven Savis (15)"             , "x": 13540, "y":  5594, "category": "quest", "questGuideIds": ["1-20/freeport/enchanter","1-20/neriak-nektulos/rogue"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Tesarin Moonstrider"           , "x": 12363, "y": 11976, "category": "quest", "questGuideIds": ["17/fayspire"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Adrwyiel Niteshyre"            , "x": 10707, "y":  1189, "category": "quest", "questGuideIds": ["17/fayspire"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Vaelian Wyndsorrow"            , "x": 10564, "y":  1282, "category": "quest", "questGuideIds": ["17/fayspire"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
     { "name": "Lutherian Doomsinger"          , "x": 10697, "y":  1189, "category": "quest", "questGuideIds": ["17/fayspire"], "icon": "exclamation-circle", "style": {"color":"#f1f5f9"} },
@@ -1474,6 +1473,8 @@
     { "name": "Dercas Warden"                 , "x":  9604, "y": 12870, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Page 3 chest"                  , "x":  3736, "y":  8328, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "The Dead Guardian"             , "x": 13638, "y":  2515, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Sir Rodger Rodgers"            , "x": 12586, "y":  5609, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} }
+    { "name": "Sir Rodger Rodgers"            , "x": 12586, "y":  5609, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Phantoms 50-51"                , "x":  1296, "y":  8637, "category": "other", "icon": "circle-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Great Ratwere (50)"            , "x":  2922, "y": 11105, "category": "quest", "questGuideIds": ["weres/ratwere"], "icon": "circle-on", "style": {"color":"#f1f5f9"} }
   ]
 }
