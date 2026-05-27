@@ -1475,6 +1475,7 @@
     { "name": "The Dead Guardian"             , "x": 13638, "y":  2515, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Sir Rodger Rodgers"            , "x": 12586, "y":  5609, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Phantoms 50-51"                , "x":  1296, "y":  8637, "category": "other", "icon": "circle-fill", "style": {"color":"#f1f5f9"} },
-    { "name": "Great Ratwere (50)"            , "x":  2922, "y": 11105, "category": "quest", "questGuideIds": ["weres/ratwere"], "icon": "circle-on", "style": {"color":"#f1f5f9"} }
+    { "name": "Great Ratwere (50)"            , "x":  2922, "y": 11105, "category": "quest", "questGuideIds": ["weres/ratwere"], "icon": "circle-on", "style": {"color":"#f1f5f9"} },
+    { "name": "Great Ratwere (47)"            , "x":  3049, "y": 11294, "category": "quest", "questGuideIds": ["weres/ratwere"], "icon": "circle-on", "style": {"color":"#f1f5f9"} }
   ]
 }
