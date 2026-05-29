@@ -1474,6 +1474,7 @@
     { "name": "Dercas Warden"                 , "x":  9604, "y": 12870, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Page 3 chest"                  , "x":  3736, "y":  8328, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "The Dead Guardian"             , "x": 13638, "y":  2515, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Sir Rodger Rodgers"            , "x": 12586, "y":  5609, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} }
+    { "name": "Sir Rodger Rodgers"            , "x": 12586, "y":  5609, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Cracktooth Orcs"               , "x": 13492, "y":  4061, "category": "other", "icon": "Skull", "style": {"color":"#f1f5f9"} }
   ]
 }
