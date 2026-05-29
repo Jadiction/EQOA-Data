@@ -6,7 +6,7 @@ Published as ESM for apps, sites, tools, and editors that need EQOA data without
 ## What This Package Includes
 - `Quests`: quest datasets split into per-guide files (`Quests/<set>/<guide>.json`), with `_meta.json` for set title, subtitle, and nested group labels.
 - `Information`: supplemental reference datasets, including top-level guides and nested database entries such as `Information["databases/spells/alchemist"]`.
-- `Map`: structured world map data exported from `Map/zones.json`, including `towns`, `biomes`, and `pois`.
+- `Map`: structured world map data exported from `Map/zones.json`, including `towns`, `zones`, and `pois`; towns and zones include `biomes`.
 - `MapContributors`: contributor metadata for the map sources, exported from `Map/contributors.json`.
 - `Images`: generated URL exports for all files in `images/`, including nested folders.
 - CMS helpers: exported class/type/filter helpers built from the Character Mastery System data.
@@ -63,7 +63,7 @@ import mapImage from "eqoa-data/images/EQOA_Map.png";
 ## Export Overview
 - `Quests`: generated quest data assembled from the `Quests/` directory.
 - `Information`: generated information data assembled from the `Information/` directory, including nested database paths.
-- `Map`: structured map data from `Map/zones.json`, including `towns`, `biomes`, and `pois`.
+- `Map`: structured map data from `Map/zones.json`, including `towns`, `zones`, and `pois`; towns and zones include `biomes`.
 - `MapContributors`: aggregated contributor list for the map data from `Map/contributors.json`.
 - `Images`: generated image URL map based on filenames under `images/`.
 - `CMSRaceToClasses`: race-to-class availability derived from CMS quest applicability data.
