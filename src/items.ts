@@ -181,6 +181,18 @@ export interface ItemStats {
   proc?: number;
 }
 
+export type ItemSourceType =
+  | 'merchant'
+  | 'mobDrop'
+  | 'questReward'
+  | 'crafting';
+
+export interface ItemSource {
+  type: ItemSourceType;
+  name?: string;
+  location?: string;
+}
+
 export interface Item<TType extends ItemType = ItemType> {
   name: string;
   type: TType;
@@ -196,6 +208,7 @@ export interface Item<TType extends ItemType = ItemType> {
   rent?: true;
   lore?: true;
   craft?: true;
+  source?: ItemSource;
 }
 
 export interface GemItem {
@@ -203,6 +216,7 @@ export interface GemItem {
   type: GemCraftingType;
   assignedAttributes: GemAssignedAttribute[];
   rarity: GemRarity | null;
+  source?: ItemSource;
 }
 
 export interface GemsItemsData {

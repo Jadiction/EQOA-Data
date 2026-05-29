@@ -33,6 +33,21 @@ export interface Contributor {
 
 export type Alignment = 'good' | 'neutral' | 'evil';
 export type PoiCategory = 'quest' | 'rare-mob' | 'raid-mob' | 'other';
+export type BiomeName =
+  | 'unknown'
+  | 'Arctic'
+  | 'Deep Jungle'
+  | 'Desert'
+  | 'Forest'
+  | 'Generic'
+  | 'Marine'
+  | 'Mountain'
+  | 'Plains'
+  | 'Rathe Mountains'
+  | 'Red Desert'
+  | 'Swamp'
+  | 'Wastelands'
+  | 'Wetlands';
 
 export interface Location {
   x: number;
@@ -43,10 +58,12 @@ export interface Town extends Location {
   name: string;
   alignment: Alignment;
   aka?: string;
+  biomes?: BiomeName[];
 }
 
-export interface Biome extends Location {
+export interface Zone extends Location {
   name: string;
+  biomes?: BiomeName[];
 }
 
 export interface POI extends Location {
@@ -61,7 +78,7 @@ export interface POI extends Location {
 
 export interface MapData {
   towns: Town[];
-  biomes: Biome[];
+  zones: Zone[];
   pois: POI[];
 }
 
