@@ -14,7 +14,12 @@
       "assignedAttributes": [
         "pow minor"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Black Bloodstone",
@@ -94,7 +99,12 @@
       "assignedAttributes": [
         "pow major"
       ],
-      "rarity": "rare"
+      "rarity": "rare",
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "Fire Emerald",
@@ -163,7 +173,12 @@
       "assignedAttributes": [
         "pr"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Onyx",
@@ -180,7 +195,12 @@
         "sta",
         "cha"
       ],
-      "rarity": "uncommon"
+      "rarity": "uncommon",
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
+      }
     },
     {
       "name": "Pearl",
@@ -214,7 +234,12 @@
       "assignedAttributes": [
         "hp major"
       ],
-      "rarity": "rare"
+      "rarity": "rare",
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "Sapphire",
@@ -250,7 +275,12 @@
         "lr",
         "ar"
       ],
-      "rarity": "uncommon"
+      "rarity": "uncommon",
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "Tourmaline",
@@ -435,7 +465,12 @@
       "assignedAttributes": [
         "dr"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Coridon",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Sinhalite",
@@ -519,7 +554,12 @@
         "ar",
         "hp"
       ],
-      "rarity": "ultra rare"
+      "rarity": "ultra rare",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mianda",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Idocrase",
@@ -609,7 +649,12 @@
       "assignedAttributes": [
         "dr"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Coridon",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Sinhalite",
@@ -667,7 +712,12 @@
       "assignedAttributes": [
         "str"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "Citrine",

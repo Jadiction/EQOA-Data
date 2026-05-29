@@ -41,6 +41,11 @@
       "attackType": "bow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
       }
     },
     {
@@ -62,6 +67,11 @@
       "attackType": "crossbow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
       }
     },
     {
@@ -83,6 +93,11 @@
       "attackType": "bow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
       }
     },
     {
@@ -104,6 +119,11 @@
       "attackType": "crossbow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
       }
     },
     {
@@ -125,6 +145,11 @@
       "attackType": "bow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
       }
     },
     {
@@ -168,6 +193,11 @@
       "attackType": "crossbow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
       }
     },
     {
@@ -189,6 +219,11 @@
       "attackType": "bow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
       }
     },
     {
@@ -210,6 +245,11 @@
       "attackType": "crossbow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
       }
     },
     {
@@ -344,6 +384,11 @@
       "attackType": "bow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Tristinia",
+        "location": "Halas"
       }
     },
     {
@@ -365,6 +410,11 @@
       "attackType": "crossbow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Tristinia",
+        "location": "Halas"
       }
     },
     {
@@ -409,6 +459,11 @@
       "attackType": "bow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Tristinia",
+        "location": "Halas"
       }
     },
     {
@@ -451,6 +506,11 @@
       "attackType": "bow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Tristinia",
+        "location": "Halas"
       }
     },
     {
@@ -495,6 +555,11 @@
       "attackType": "bow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Tristinia",
+        "location": "Halas"
       }
     },
     {
@@ -516,6 +581,11 @@
       "attackType": "crossbow",
       "stats": {
         "proc": 25
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Tristinia",
+        "location": "Halas"
       }
     },
     {
@@ -1587,6 +1657,11 @@
       "stats": {
         "str": 25,
         "cr": 18
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -1785,6 +1860,11 @@
       "stats": {
         "sta": 5,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -2429,6 +2509,11 @@
       "stats": {
         "str": 1,
         "sta": 1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -2486,6 +2571,11 @@
       "stats": {
         "dex": 1,
         "int": 1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -2540,6 +2630,11 @@
       "stats": {
         "dex": 5,
         "hp": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -2561,6 +2656,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "sta": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2628,6 +2728,11 @@
       "stats": {
         "wis": 5,
         "cr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2699,7 +2804,12 @@
       "itemHp": 1800,
       "durability": 50,
       "damage": 96,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Goblin Beheader",
@@ -2858,6 +2968,11 @@
         "int": 5,
         "pr": 5,
         "dr": 5
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Freeport Quest",
+        "location": "Freeport"
       }
     },
     {
@@ -3157,6 +3272,11 @@
       "stats": {
         "wis": 2,
         "pr": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3680,6 +3800,11 @@
       "stats": {
         "sta": 4,
         "dex": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3717,6 +3842,11 @@
       "stats": {
         "wis": 5,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -3738,6 +3868,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "wis": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -3760,6 +3895,11 @@
       "stats": {
         "str": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -3781,6 +3921,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "ar": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -3823,6 +3968,11 @@
         "str": 5,
         "sta": 5,
         "hp": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -3856,7 +4006,12 @@
       "itemHp": 2900,
       "durability": 55,
       "damage": 126,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
+      }
     },
     {
       "name": "Rough Granite Mace",
@@ -3893,6 +4048,11 @@
       "stats": {
         "pow": 25,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -3930,6 +4090,11 @@
       "stats": {
         "agi": 3,
         "dex": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3953,6 +4118,11 @@
         "cha": 2,
         "pow": 15,
         "lr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -3971,7 +4141,12 @@
       "itemHp": 2400,
       "durability": 50,
       "damage": 140,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "bronze hatchet",
@@ -3989,7 +4164,12 @@
       "itemHp": 2600,
       "durability": 50,
       "damage": 130,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Channeling Staff",
@@ -4011,6 +4191,11 @@
       "stats": {
         "str": 5,
         "sta": 45
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -4051,6 +4236,11 @@
       "stats": {
         "str": 8,
         "wis": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -4094,6 +4284,11 @@
         "pow": 20,
         "cr": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -4117,6 +4312,11 @@
         "cha": 4,
         "pow": 20,
         "ac": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -4160,6 +4360,11 @@
         "sta": 2,
         "agi": 2,
         "ac": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -4181,6 +4386,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "pow": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -4239,6 +4449,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "sta": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -4318,6 +4533,11 @@
         "str": 8,
         "sta": 15,
         "agi": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -4340,6 +4560,11 @@
       "stats": {
         "sta": 5,
         "agi": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -4442,6 +4667,11 @@
       "stats": {
         "dex": 5,
         "wis": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -4464,6 +4694,11 @@
       "stats": {
         "sta": 10,
         "agi": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -4486,6 +4721,11 @@
       "stats": {
         "agi": 6,
         "wis": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -4507,6 +4747,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "wis": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -4548,6 +4793,11 @@
         "dex": 5,
         "int": 5,
         "pow": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -4572,6 +4822,11 @@
         "pr": 5,
         "dr": 2,
         "ar": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -4590,7 +4845,12 @@
       "itemHp": 3750,
       "durability": 60,
       "damage": 160,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
+      }
     },
     {
       "name": "Pious Mace",
@@ -4611,6 +4871,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "wis": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -4632,6 +4897,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -4655,6 +4925,11 @@
         "str": 2,
         "agi": 8,
         "dex": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -4795,6 +5070,11 @@
         "pow": 25,
         "pr": 4,
         "ar": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -4838,6 +5118,11 @@
         "sta": 3,
         "agi": 3,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -4880,6 +5165,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -4902,6 +5192,11 @@
       "stats": {
         "sta": 4,
         "dex": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -4945,6 +5240,11 @@
         "int": 9,
         "hp": 6,
         "lr": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -4966,6 +5266,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "wis": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -4987,6 +5292,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "lr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -5087,6 +5397,11 @@
       "stats": {
         "str": 10,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -5111,6 +5426,11 @@
         "pow": 10,
         "lr": 6,
         "ar": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -5151,7 +5471,12 @@
       "itemHp": 3800,
       "durability": 50,
       "damage": 190,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Dirk of Timbers",
@@ -5173,6 +5498,11 @@
       "stats": {
         "pr": 9,
         "dr": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -5216,6 +5546,11 @@
         "str": 10,
         "agi": 4,
         "dex": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -5253,6 +5588,11 @@
       "stats": {
         "agi": 10,
         "wis": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -5339,6 +5679,11 @@
       "stats": {
         "str": 15,
         "sta": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -5396,7 +5741,12 @@
       "itemHp": 4000,
       "durability": 50,
       "damage": 200,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Bronze Sabre",
@@ -5913,6 +6263,11 @@
       "stats": {
         "agi": 7,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -6002,6 +6357,11 @@
       "stats": {
         "dex": 8,
         "cha": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6128,6 +6488,11 @@
         "sta": 5,
         "agi": 5,
         "dex": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6213,6 +6578,11 @@
       "damage": 202,
       "stats": {
         "wis": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -6234,6 +6604,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "lr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6317,6 +6692,11 @@
         "pow": 35,
         "lr": 5,
         "ar": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -6340,6 +6720,11 @@
         "agi": 5,
         "dr": 6,
         "cr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -6366,6 +6751,11 @@
         "pow": 20,
         "fr": 5,
         "ar": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -6387,6 +6777,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "hp": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -6402,7 +6797,12 @@
           "ALL"
         ]
       },
-      "damage": 255
+      "damage": 255,
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Tristinia",
+        "location": "Halas"
+      }
     },
     {
       "name": "Gloomfog Shard",
@@ -6446,6 +6846,11 @@
       "stats": {
         "str": 6,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -6585,6 +6990,11 @@
         "pow": 40,
         "ac": 10,
         "dr": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6666,6 +7076,11 @@
         "str": 10,
         "sta": 10,
         "agi": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -6703,6 +7118,11 @@
       "stats": {
         "sta": 9,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -6753,6 +7173,11 @@
         "wis": 8,
         "cha": 6,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6793,6 +7218,11 @@
       "stats": {
         "str": 2,
         "int": 13
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -6837,6 +7267,11 @@
         "pow": 30,
         "fr": 5,
         "cr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6879,6 +7314,11 @@
         "agi": 6,
         "dex": 12,
         "pr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6901,6 +7341,11 @@
       "stats": {
         "cha": 15,
         "fr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -6945,6 +7390,11 @@
       "stats": {
         "dex": 8,
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6967,6 +7417,11 @@
       "stats": {
         "sta": 15,
         "wis": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6990,6 +7445,11 @@
         "agi": 12,
         "dex": 5,
         "wis": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -7045,6 +7505,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "agi": 24
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -7067,6 +7532,11 @@
       "stats": {
         "str": 10,
         "hp": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -7110,6 +7580,11 @@
       "stats": {
         "str": 5,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -7133,6 +7608,11 @@
         "str": 7,
         "sta": 7,
         "hp": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -7217,6 +7697,11 @@
       "stats": {
         "wis": 10,
         "pr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7232,7 +7717,12 @@
           "ALL"
         ]
       },
-      "damage": 279
+      "damage": 279,
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Strongfang Gutwrencher",
@@ -7295,6 +7785,11 @@
         "str": 6,
         "sta": 6,
         "agi": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -7317,6 +7812,11 @@
       "stats": {
         "pr": 12,
         "dr": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -7336,6 +7836,11 @@
       "stats": {
         "sta": 5,
         "wis": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -7356,6 +7861,11 @@
         "agi": 8,
         "dex": 8,
         "pow": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7436,6 +7946,11 @@
         "str": 10,
         "sta": 10,
         "agi": 35
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -7470,6 +7985,11 @@
       "stats": {
         "fr": 14,
         "lr": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -7491,6 +8011,11 @@
         "int": 10,
         "hp": 30,
         "pow": 55
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -7510,6 +8035,11 @@
       "stats": {
         "str": 5,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -7560,7 +8090,12 @@
           "ALL"
         ]
       },
-      "damage": 360
+      "damage": 360,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "ironwood gnarled club",
@@ -7578,7 +8113,12 @@
       "itemHp": 5200,
       "durability": 50,
       "damage": 260,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Evenson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Lightning Club",
@@ -7597,6 +8137,11 @@
       "stats": {
         "wis": 10,
         "lr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7632,6 +8177,11 @@
         "ac": 14,
         "dr": 12,
         "fr": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7766,6 +8316,11 @@
       "stats": {
         "str": 10,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -7785,6 +8340,11 @@
       "stats": {
         "sta": 10,
         "wis": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -7852,6 +8412,11 @@
       "damage": 292,
       "stats": {
         "agi": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7911,6 +8476,11 @@
         "pow": 80,
         "cr": 5,
         "lr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -7949,6 +8519,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -7970,6 +8545,11 @@
         "hp": 30,
         "pow": 30,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7989,6 +8569,11 @@
       "stats": {
         "dex": 8,
         "pow": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -8007,6 +8592,11 @@
       "damage": 436,
       "stats": {
         "pow": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -8026,6 +8616,11 @@
       "stats": {
         "str": 6,
         "hp": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8041,7 +8636,12 @@
           "ALL"
         ]
       },
-      "damage": 345
+      "damage": 345,
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "Desert Moon",
@@ -8066,6 +8666,11 @@
         "hp": 25,
         "pow": 50,
         "dr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -8085,6 +8690,11 @@
       "stats": {
         "sta": 15,
         "wis": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8107,6 +8717,11 @@
       "stats": {
         "str": 5,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8126,6 +8741,11 @@
       "stats": {
         "wis": 5,
         "cr": 24
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8144,6 +8764,11 @@
       "damage": 302,
       "stats": {
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -8159,7 +8784,12 @@
           "ALL"
         ]
       },
-      "damage": 396
+      "damage": 396,
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
+      }
     },
     {
       "name": "Lacquered Warclub",
@@ -8174,7 +8804,12 @@
           "ALL"
         ]
       },
-      "damage": 355
+      "damage": 355,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Plague Wand",
@@ -8198,6 +8833,11 @@
         "sta": 10,
         "agi": 25,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8240,6 +8880,11 @@
         "wis": 5,
         "pr": 5,
         "dr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8259,6 +8904,11 @@
       "stats": {
         "cr": 15,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -8274,7 +8924,12 @@
           "ALL"
         ]
       },
-      "damage": 336
+      "damage": 336,
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Tristinia",
+        "location": "Halas"
+      }
     },
     {
       "name": "Dark Implement",
@@ -8300,6 +8955,11 @@
         "dex": 25,
         "wis": 10,
         "int": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8338,6 +8998,11 @@
       "stats": {
         "str": 14,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -8383,6 +9048,11 @@
         "dex": 25,
         "wis": 15,
         "int": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8454,7 +9124,12 @@
           "ALL"
         ]
       },
-      "damage": 431
+      "damage": 431,
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
+      }
     },
     {
       "name": "Pixie Stabber",
@@ -8469,7 +9144,12 @@
           "ALL"
         ]
       },
-      "damage": 290
+      "damage": 290,
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
+      }
     },
     {
       "name": "Sword of the Rose",
@@ -8948,6 +9628,11 @@
         "agi": 5,
         "dex": 5,
         "hp": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -8963,7 +9648,12 @@
           "ALL"
         ]
       },
-      "damage": 355
+      "damage": 355,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Windbind Wand",
@@ -8985,6 +9675,11 @@
       "stats": {
         "str": 5,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -9022,6 +9717,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -9056,6 +9756,11 @@
       "stats": {
         "wis": 20,
         "int": 63
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9106,7 +9811,12 @@
           "ALL"
         ]
       },
-      "damage": 362
+      "damage": 362,
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
+      }
     },
     {
       "name": "Murkthorn Club",
@@ -9127,6 +9837,11 @@
         "hp": 20,
         "cr": 8,
         "lr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -9171,6 +9886,11 @@
       "stats": {
         "str": 15,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -9212,6 +9932,11 @@
         "str": 15,
         "cha": 10,
         "ar": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -9291,6 +10016,11 @@
         "sta": 20,
         "agi": 15,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -9314,6 +10044,11 @@
         "hp": 8,
         "fr": 5,
         "lr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -9348,6 +10083,11 @@
       "stats": {
         "dex": 26,
         "wis": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -9370,6 +10110,11 @@
         "pow": 20,
         "ac": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -9390,6 +10135,11 @@
         "str": 4,
         "sta": 4,
         "dex": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -9410,6 +10160,11 @@
         "dex": 10,
         "hp": 40,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -9428,6 +10183,11 @@
       "damage": 348,
       "stats": {
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9463,6 +10223,11 @@
         "pow": 55,
         "fr": 10,
         "lr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -9592,6 +10357,11 @@
       "damage": 330,
       "stats": {
         "str": 29
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -9607,7 +10377,12 @@
           "ALL"
         ]
       },
-      "damage": 416
+      "damage": 416,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Northwind Staff",
@@ -9630,6 +10405,11 @@
         "str": 20,
         "sta": 10,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -9671,6 +10451,11 @@
         "wis": 10,
         "hp": 35,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -9691,6 +10476,11 @@
         "int": 10,
         "hp": 30,
         "fr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -9711,6 +10501,11 @@
         "str": 15,
         "sta": 8,
         "agi": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -9750,6 +10545,11 @@
       "stats": {
         "sta": 15,
         "wis": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9769,6 +10569,11 @@
       "stats": {
         "fr": 15,
         "lr": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -9792,6 +10597,11 @@
         "wis": 20,
         "cha": 10,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -9813,6 +10623,11 @@
         "fr": 10,
         "cr": 10,
         "lr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -9850,6 +10665,11 @@
       "stats": {
         "sta": 15,
         "wis": 14
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -9869,6 +10689,11 @@
       "stats": {
         "str": 16,
         "sta": 14
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -9991,6 +10816,11 @@
       "stats": {
         "sta": 10,
         "wis": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -10009,6 +10839,11 @@
       "damage": 351,
       "stats": {
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -10051,6 +10886,11 @@
         "str": 5,
         "sta": 15,
         "agi": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -10071,6 +10911,11 @@
         "wis": 8,
         "int": 8,
         "cha": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -10091,6 +10936,11 @@
         "wis": 15,
         "cha": 12,
         "pow": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -10126,6 +10976,11 @@
         "str": 6,
         "sta": 6,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -10145,6 +11000,11 @@
       "stats": {
         "str": 20,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -10167,6 +11027,11 @@
         "dex": 10,
         "wis": 10,
         "pow": 55
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -10206,6 +11071,11 @@
         "agi": 12,
         "dex": 12,
         "int": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -10228,6 +11098,11 @@
       "stats": {
         "wis": 15,
         "pow": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -10306,6 +11181,11 @@
       "stats": {
         "str": 1,
         "sta": 21
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -10359,6 +11239,11 @@
         "fr": 10,
         "cr": 7,
         "lr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -10423,6 +11308,11 @@
       "stats": {
         "fr": 18,
         "lr": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -10497,6 +11387,11 @@
         "pr": 10,
         "dr": 7,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -10545,6 +11440,11 @@
         "cha": 5,
         "hp": 25,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -10635,6 +11535,11 @@
       "stats": {
         "str": 15,
         "ar": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -10680,7 +11585,12 @@
       "itemHp": 7336,
       "durability": 50,
       "damage": 383,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Dimunutive Shortblade",
@@ -10713,7 +11623,12 @@
       "itemHp": 7200,
       "durability": 50,
       "damage": 360,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
+      }
     },
     {
       "name": "Granite War Club",
@@ -10774,6 +11689,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "str": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -10796,6 +11716,11 @@
       "stats": {
         "str": 10,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -10818,6 +11743,11 @@
       "stats": {
         "str": 5,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -10842,6 +11772,11 @@
         "dex": 7,
         "wis": 7,
         "pow": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -10895,6 +11830,11 @@
         "agi": 10,
         "dex": 15,
         "hp": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -10920,6 +11860,11 @@
         "pow": 50,
         "pr": 5,
         "dr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -10945,6 +11890,11 @@
         "pow": 50,
         "pr": 5,
         "dr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -10967,6 +11917,11 @@
       "stats": {
         "wis": 16,
         "cha": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -10989,6 +11944,11 @@
       "stats": {
         "str": 5,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -11034,6 +11994,11 @@
         "int": 5,
         "hp": 50,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -11057,6 +12022,11 @@
         "agi": 1,
         "dex": 3,
         "ac": -10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -11099,6 +12069,11 @@
         "cha": 8,
         "pr": 8,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -11122,6 +12097,11 @@
         "str": 5,
         "wis": 20,
         "fr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -11147,6 +12127,11 @@
         "agi": 10,
         "dex": 50,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -11204,6 +12189,11 @@
       "stats": {
         "agi": 10,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -11226,6 +12216,11 @@
       "stats": {
         "wis": 15,
         "cha": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -11252,6 +12247,11 @@
         "hp": 25,
         "pr": 5,
         "dr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -11273,6 +12273,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -11295,6 +12300,11 @@
       "stats": {
         "str": 10,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -11321,6 +12331,11 @@
         "dex": 25,
         "wis": 15,
         "int": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -11344,6 +12359,11 @@
         "sta": 15,
         "cha": 10,
         "pow": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -11367,6 +12387,11 @@
         "str": 6,
         "wis": 5,
         "fr": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -11406,6 +12431,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "pow": 130
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -11429,6 +12459,11 @@
         "str": 15,
         "hp": 35,
         "proc": 1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -11450,6 +12485,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "hp": 35
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -11472,6 +12512,11 @@
       "stats": {
         "dr": 10,
         "ar": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -11491,6 +12536,11 @@
       "stats": {
         "str": 10,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -11528,6 +12578,11 @@
       "stats": {
         "str": 4,
         "hp": 90
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -11552,6 +12607,11 @@
         "dex": 30,
         "fr": 5,
         "cr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -11573,6 +12633,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "pow": 110
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -11595,6 +12660,11 @@
       "stats": {
         "str": 15,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -11616,6 +12686,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "pow": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -11653,6 +12728,11 @@
       "stats": {
         "str": 8,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -11674,6 +12754,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -11750,6 +12835,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "agi": 34
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -11790,6 +12880,11 @@
         "agi": 10,
         "hp": 8,
         "cr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -11812,6 +12907,11 @@
       "stats": {
         "str": 25,
         "fr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -11833,6 +12933,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -11918,7 +13023,12 @@
       "itemHp": 9000,
       "durability": 50,
       "damage": 495,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
+      }
     },
     {
       "name": "Dainty Rapier",
@@ -11940,6 +13050,11 @@
       "stats": {
         "str": 10,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -12117,6 +13232,11 @@
       "stats": {
         "str": 10,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12139,6 +13259,11 @@
       "stats": {
         "int": 15,
         "pow": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -12183,6 +13308,11 @@
       "stats": {
         "fr": 16,
         "lr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -12207,6 +13337,11 @@
         "sta": 15,
         "agi": 10,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -12229,6 +13364,11 @@
       "stats": {
         "wis": 25,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -12252,6 +13392,11 @@
         "wis": 10,
         "cha": 10,
         "pow": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -12274,6 +13419,11 @@
       "stats": {
         "sta": 15,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12316,6 +13466,11 @@
         "sta": 10,
         "dex": 10,
         "pow": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12340,6 +13495,11 @@
         "dex": 10,
         "hp": 35,
         "ac": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -12364,6 +13524,11 @@
         "cha": 10,
         "hp": 40,
         "pow": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12389,6 +13554,11 @@
         "cha": 10,
         "hp": 40,
         "pow": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12414,6 +13584,11 @@
         "wis": 10,
         "hp": 40,
         "pow": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12438,6 +13613,11 @@
         "sta": 10,
         "wis": 10,
         "hp": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12462,6 +13642,11 @@
         "sta": 10,
         "dex": 10,
         "hp": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -12485,6 +13670,11 @@
         "sta": 15,
         "wis": 15,
         "hp": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12507,6 +13697,11 @@
       "stats": {
         "cha": 15,
         "hp": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -12586,6 +13781,11 @@
         "int": 10,
         "fr": 5,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -12612,6 +13812,11 @@
         "pow": 16,
         "pr": 3,
         "lr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -12672,6 +13877,11 @@
         "pow": 16,
         "fr": 15,
         "cr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -12720,6 +13930,11 @@
         "agi": 10,
         "dex": 50,
         "int": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -12745,6 +13960,11 @@
         "pr": 9,
         "dr": 9,
         "ar": 9
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -12790,6 +14010,11 @@
         "int": 10,
         "cha": 5,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -12814,6 +14039,11 @@
         "wis": 12,
         "hp": 32,
         "pow": 32
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -12855,6 +14085,11 @@
       "stats": {
         "str": 15,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -12920,6 +14155,11 @@
         "hp": 25,
         "pow": 75,
         "fr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -12941,6 +14181,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "pow": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -12984,6 +14229,11 @@
       "stats": {
         "pow": 60,
         "dr": 18
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -13007,6 +14257,11 @@
         "str": 20,
         "sta": 50,
         "agi": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -13029,6 +14284,11 @@
       "stats": {
         "fr": 15,
         "lr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -13054,6 +14314,11 @@
         "agi": 25,
         "dex": 100,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -13077,6 +14342,11 @@
         "str": 14,
         "cha": 25,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -13100,6 +14370,11 @@
         "str": 16,
         "sta": 6,
         "agi": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -13177,6 +14452,11 @@
         "dex": 25,
         "wis": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -13200,6 +14480,11 @@
         "sta": 10,
         "wis": 10,
         "pow": 55
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -13242,6 +14527,11 @@
         "cha": 3,
         "fr": 5,
         "lr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -13285,6 +14575,11 @@
         "dex": 1,
         "wis": 4,
         "cha": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -13308,6 +14603,11 @@
         "str": 16,
         "dex": 16,
         "wis": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -13329,6 +14629,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "str": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -13389,6 +14694,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -13411,6 +14721,11 @@
       "stats": {
         "str": 20,
         "dex": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -13435,6 +14750,11 @@
         "agi": 7,
         "dex": 7,
         "wis": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -13505,6 +14825,11 @@
       "stats": {
         "str": 20,
         "sta": 19
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -13561,6 +14886,11 @@
         "cr": 6,
         "lr": 6,
         "ar": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -13618,6 +14948,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -13642,6 +14977,11 @@
         "cr": 6,
         "lr": 6,
         "ar": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -13707,6 +15047,11 @@
       "stats": {
         "agi": 22,
         "wis": 28
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -13729,6 +15074,11 @@
       "stats": {
         "fr": 10,
         "ar": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -13774,6 +15124,11 @@
         "str": 5,
         "int": 15,
         "pow": 150
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -13797,6 +15152,11 @@
         "str": 15,
         "sta": 20,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -13852,6 +15212,11 @@
       "stats": {
         "hp": 90,
         "pow": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -13963,6 +15328,11 @@
         "dex": 7,
         "int": 7,
         "cha": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -13985,6 +15355,11 @@
       "stats": {
         "str": 22,
         "sta": 18
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -14022,6 +15397,11 @@
       "stats": {
         "dex": 30,
         "cha": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -14059,6 +15439,11 @@
       "stats": {
         "agi": 5,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -14120,6 +15505,11 @@
       "stats": {
         "agi": 10,
         "hp": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -14138,7 +15528,12 @@
       "itemHp": 9200,
       "durability": 50,
       "damage": 460,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
+      }
     },
     {
       "name": "Arcane Rallosian Dagger",
@@ -14193,6 +15588,11 @@
         "int": 25,
         "pow": 100,
         "cr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -14273,6 +15673,11 @@
       "stats": {
         "str": 20,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -14296,6 +15701,11 @@
         "str": 7,
         "sta": 7,
         "pot": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -14334,6 +15744,11 @@
         "str": 15,
         "agi": 15,
         "dex": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -14373,6 +15788,11 @@
         "sta": 15,
         "cha": 22,
         "hp": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -14416,6 +15836,11 @@
         "str": 15,
         "wis": 10,
         "pow": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -14440,6 +15865,11 @@
         "pr": 5,
         "dr": 5,
         "lr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -14464,6 +15894,11 @@
         "sta": 15,
         "int": 22,
         "hp": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -14507,6 +15942,11 @@
         "str": 20,
         "sta": 20,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -14548,6 +15988,11 @@
       "stats": {
         "str": 10,
         "dex": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -14566,7 +16011,12 @@
       "itemHp": 10600,
       "durability": 50,
       "damage": 555,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Golden Spiked Knuckles",
@@ -14631,6 +16081,11 @@
       "stats": {
         "str": 7,
         "wis": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -14703,7 +16158,12 @@
         "str": 10,
         "dex": 20
       },
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
+      }
     },
     {
       "name": "Minstrel's Edge",
@@ -14725,6 +16185,11 @@
       "stats": {
         "str": 10,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -14743,7 +16208,12 @@
       "itemHp": 9600,
       "durability": 50,
       "damage": 486,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Rocksmasher",
@@ -14768,6 +16238,11 @@
         "agi": 5,
         "dex": 5,
         "hp": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -14792,6 +16267,11 @@
         "sta": 16,
         "ac": 30,
         "pr": 22
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -14814,6 +16294,11 @@
       "stats": {
         "sta": 15,
         "pow": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -14837,6 +16322,11 @@
         "cha": 10,
         "dr": 5,
         "fr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -14861,6 +16351,11 @@
         "agi": 20,
         "pow": 100,
         "pr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -14887,6 +16382,11 @@
         "dex": 25,
         "wis": 10,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -14909,6 +16409,11 @@
       "stats": {
         "pow": 60,
         "cr": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -14931,6 +16436,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -14974,6 +16484,11 @@
         "sta": 20,
         "dex": 5,
         "hp": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -14997,6 +16512,11 @@
         "wis": 15,
         "pow": 100,
         "lr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -15036,6 +16556,11 @@
         "sta": 8,
         "fr": 8,
         "lr": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -15060,6 +16585,11 @@
         "sta": 2,
         "wis": 2,
         "ac": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -15085,6 +16615,11 @@
         "cha": 10,
         "hp": 100,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -15127,6 +16662,11 @@
         "str": 16,
         "wis": 22,
         "cha": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -15150,6 +16690,11 @@
         "str": 8,
         "sta": 22,
         "dex": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -15194,6 +16739,11 @@
       "stats": {
         "str": 3,
         "wis": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -15219,6 +16769,11 @@
         "fr": 8,
         "cr": 8,
         "ar": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -15245,6 +16800,11 @@
         "dex": 5,
         "wis": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -15266,6 +16826,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -15289,6 +16854,11 @@
         "str": 22,
         "dex": 16,
         "cha": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -15315,6 +16885,11 @@
         "pow": 20,
         "cr": 5,
         "lr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -15338,6 +16913,11 @@
         "str": 20,
         "sta": 20,
         "agi": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -15386,6 +16966,11 @@
         "pow": 90,
         "fr": 10,
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -15424,6 +17009,11 @@
         "pr": 10,
         "dr": 10,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -15465,6 +17055,11 @@
         "dex": 75,
         "wis": 15,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -15492,6 +17087,11 @@
         "pr": 5,
         "dr": 5,
         "ar": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -15563,6 +17163,11 @@
       "stats": {
         "str": 20,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -15605,6 +17210,11 @@
         "pow": 75,
         "lr": 15,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -15746,6 +17356,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -15767,6 +17382,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "dr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -15808,6 +17428,11 @@
         "str": 30,
         "agi": 10,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -15832,6 +17457,11 @@
         "dex": 10,
         "hp": 45,
         "pow": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -15889,6 +17519,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "dr": 27
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -15911,6 +17546,11 @@
       "stats": {
         "str": 20,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -15935,6 +17575,11 @@
         "dex": 15,
         "hp": 60,
         "pow": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -15957,6 +17602,11 @@
       "stats": {
         "hp": 60,
         "pow": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -15980,6 +17630,11 @@
         "str": 41,
         "sta": 15,
         "dr": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -16006,6 +17661,11 @@
         "ac": 15,
         "cr": 10,
         "lr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -16031,6 +17691,11 @@
         "wis": 20,
         "hp": 45,
         "pow": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -16053,6 +17718,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -16075,6 +17745,11 @@
       "stats": {
         "hp": 60,
         "pow": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -16096,6 +17771,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "pow": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -16122,7 +17802,11 @@
         "pr": 25
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "Khal Viceroy"
+      }
     },
     {
       "name": "Obliterator",
@@ -16170,7 +17854,11 @@
         "fr": 25
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "Khal Viceroy"
+      }
     },
     {
       "name": "Scimitar of Rending",
@@ -16213,6 +17901,11 @@
         "dex": 10,
         "hp": 55,
         "pow": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -16239,7 +17932,11 @@
         "lr": 25
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "Khal Viceroy"
+      }
     },
     {
       "name": "Bogwater Hammer",
@@ -16262,6 +17959,11 @@
         "wis": 20,
         "hp": 45,
         "pow": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -16286,6 +17988,11 @@
         "wis": 20,
         "hp": 45,
         "pow": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -16310,6 +18017,11 @@
         "dex": 10,
         "hp": 75,
         "pow": 55
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -16333,6 +18045,11 @@
         "dex": 30,
         "wis": 15,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -16356,6 +18073,11 @@
         "sta": 10,
         "agi": 15,
         "dex": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -16381,6 +18103,11 @@
         "wis": 10,
         "cha": 10,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -16404,6 +18131,11 @@
         "str": 30,
         "agi": 10,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -16427,6 +18159,11 @@
         "sta": 35,
         "agi": 10,
         "pr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -16453,6 +18190,11 @@
         "dex": 10,
         "hp": 100,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -16475,6 +18217,11 @@
       "stats": {
         "agi": 25,
         "ac": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -16514,7 +18261,12 @@
       "itemHp": 12600,
       "durability": 70,
       "damage": 689,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
+      }
     },
     {
       "name": "Sword of Virtue",
@@ -16564,6 +18316,11 @@
         "str": 10,
         "dex": 50,
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -16625,7 +18382,12 @@
       "itemHp": 400,
       "durability": 50,
       "damage": 20,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "worn club",
@@ -16642,7 +18404,12 @@
       },
       "itemHp": 400,
       "durability": 50,
-      "damage": 20
+      "damage": 20,
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty handaxe",
@@ -16660,7 +18427,12 @@
       "itemHp": 600,
       "durability": 50,
       "damage": 30,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty sickle",
@@ -16678,7 +18450,12 @@
       "itemHp": 800,
       "durability": 50,
       "damage": 40,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "smoky dagger",
@@ -16720,7 +18497,12 @@
       "itemHp": 1200,
       "durability": 50,
       "damage": 60,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty longspear",
@@ -16756,7 +18538,12 @@
       "itemHp": 1400,
       "durability": 50,
       "damage": 70,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty smithing hammer",
@@ -16774,7 +18561,12 @@
       "itemHp": 1400,
       "durability": 50,
       "damage": 70,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Marinite Dagger",
@@ -16796,6 +18588,11 @@
       "stats": {
         "dex": 5,
         "fr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -16814,7 +18611,12 @@
       "itemHp": 1200,
       "durability": 50,
       "damage": 60,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty dirk",
@@ -16832,7 +18634,12 @@
       "itemHp": 1400,
       "durability": 50,
       "damage": 90,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Landi",
+        "location": "Freeport"
+      }
     },
     {
       "name": "rusty kama",
@@ -16850,7 +18657,12 @@
       "itemHp": 1800,
       "durability": 50,
       "damage": 90,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty shortblade",
@@ -16868,7 +18680,12 @@
       "itemHp": 1800,
       "durability": 50,
       "damage": 90,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty mace",
@@ -16886,7 +18703,12 @@
       "itemHp": 2000,
       "durability": 50,
       "damage": 100,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty mace",
@@ -16904,7 +18726,12 @@
       "itemHp": 1500,
       "durability": 50,
       "damage": 100,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty scimitar",
@@ -16922,7 +18749,12 @@
       "itemHp": 2000,
       "durability": 50,
       "damage": 100,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze sickle",
@@ -16940,7 +18772,12 @@
       "itemHp": 2400,
       "durability": 50,
       "damage": 120,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze smithing hammer",
@@ -16958,7 +18795,12 @@
       "itemHp": 2400,
       "durability": 50,
       "damage": 120,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Brawler's Club",
@@ -16980,6 +18822,11 @@
       "stats": {
         "hp": 20,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -17037,6 +18884,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -17055,7 +18907,12 @@
       "itemHp": 3050,
       "durability": 50,
       "damage": 140,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
+      }
     },
     {
       "name": "Crimson Hatchet",
@@ -17076,6 +18933,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "fr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -17097,6 +18959,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -17119,6 +18986,11 @@
       "stats": {
         "str": 3,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -17137,7 +19009,12 @@
       "itemHp": 2800,
       "durability": 50,
       "damage": 140,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Dagger of Stone",
@@ -17161,6 +19038,11 @@
         "dex": 5,
         "hp": 10,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -17182,6 +19064,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -17204,6 +19091,11 @@
       "stats": {
         "int": 5,
         "lr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -17222,7 +19114,12 @@
       "itemHp": 2800,
       "durability": 50,
       "damage": 142,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Icey Foil",
@@ -17243,6 +19140,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -17261,7 +19163,12 @@
       "itemHp": 3200,
       "durability": 50,
       "damage": 160,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze mace",
@@ -17279,7 +19186,12 @@
       "itemHp": 3200,
       "durability": 50,
       "damage": 160,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze shortblade",
@@ -17297,7 +19209,12 @@
       "itemHp": 3200,
       "durability": 50,
       "damage": 160,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze shortspear",
@@ -17340,6 +19257,11 @@
         "hp": 6,
         "pow": 20,
         "ar": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -17358,7 +19280,12 @@
       "itemHp": 3400,
       "durability": 50,
       "damage": 170,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Centaur Smithy Hammer",
@@ -17403,6 +19330,11 @@
       "stats": {
         "str": 13,
         "ac": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -17425,6 +19357,11 @@
       "stats": {
         "str": 4,
         "sta": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -17447,6 +19384,11 @@
       "stats": {
         "agi": 6,
         "dex": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -17470,6 +19412,11 @@
         "hp": 16,
         "fr": 3,
         "lr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -17509,6 +19456,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "dex": 14
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -17527,7 +19479,12 @@
       "itemHp": 3900,
       "durability": 50,
       "damage": 190,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze dagger",
@@ -17548,6 +19505,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "ac": 5
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Yelda",
+        "location": "Halas"
       }
     },
     {
@@ -17566,7 +19528,12 @@
       "itemHp": 4000,
       "durability": 50,
       "damage": 200,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze shotel",
@@ -17650,7 +19617,12 @@
       "itemHp": 5050,
       "durability": 65,
       "damage": 246,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "Bloodmorrow Shotel",
@@ -17668,7 +19640,12 @@
       "itemHp": 5000,
       "durability": 61,
       "damage": 222,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
+      }
     },
     {
       "name": "Mountain Giant's Club",
@@ -17689,6 +19666,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -17710,6 +19692,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "pow": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -17734,6 +19721,11 @@
         "dex": 8,
         "hp": 20,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -17755,6 +19747,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -17777,6 +19774,11 @@
       "stats": {
         "str": 10,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -17799,6 +19801,11 @@
       "stats": {
         "str": 5,
         "hp": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -17821,6 +19828,11 @@
       "stats": {
         "sta": 8,
         "dex": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -17839,7 +19851,12 @@
       "itemHp": 4400,
       "durability": 50,
       "damage": 220,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Tidal Hammer",
@@ -17865,6 +19882,11 @@
         "pow": 33,
         "dr": 6,
         "ar": 1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -17887,6 +19909,11 @@
       "stats": {
         "agi": 10,
         "ac": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -17912,6 +19939,11 @@
         "pow": 40,
         "pr": 10,
         "dr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -17934,6 +19966,11 @@
       "stats": {
         "str": 6,
         "dex": 17
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -17957,6 +19994,11 @@
         "sta": 4,
         "agi": 4,
         "dex": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -17979,6 +20021,11 @@
       "stats": {
         "cha": 10,
         "pow": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -17997,7 +20044,12 @@
       "itemHp": 4600,
       "durability": 50,
       "damage": 230,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Warbone Knife",
@@ -18018,6 +20070,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "pow": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -18042,6 +20099,11 @@
         "pow": 41,
         "cr": 7,
         "ar": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -18066,6 +20128,11 @@
         "agi": 5,
         "dex": 5,
         "hp": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -18087,6 +20154,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "wis": 21
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -18109,6 +20181,11 @@
       "stats": {
         "agi": 10,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -18132,6 +20209,11 @@
         "agi": 9,
         "int": 20,
         "fr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -18153,6 +20235,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "int": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -18171,7 +20258,12 @@
       "itemHp": 4800,
       "durability": 50,
       "damage": 240,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Blue Iron Sabre",
@@ -18193,6 +20285,11 @@
       "stats": {
         "str": 5,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18215,6 +20312,11 @@
       "stats": {
         "str": 5,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18233,7 +20335,12 @@
       "itemHp": 5000,
       "durability": 50,
       "damage": 250,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Zhegon's Backup",
@@ -18255,6 +20362,11 @@
       "stats": {
         "str": 5,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18279,6 +20391,11 @@
         "sta": 10,
         "agi": 10,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18297,7 +20414,12 @@
       "itemHp": 5400,
       "durability": 50,
       "damage": 270,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "steel gladius",
@@ -18315,7 +20437,12 @@
       "itemHp": 5400,
       "durability": 50,
       "damage": 270,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Elegant Dirk",
@@ -18337,6 +20464,11 @@
       "stats": {
         "str": 5,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -18355,7 +20487,12 @@
       "itemHp": 5600,
       "durability": 70,
       "damage": 293,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
+      }
     },
     {
       "name": "Layered Bark Dagger",
@@ -18376,6 +20513,11 @@
         "wis": 8,
         "int": 7,
         "cha": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -18394,7 +20536,12 @@
       "itemHp": 3600,
       "durability": 50,
       "damage": 280,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Nomad Edge",
@@ -18417,6 +20564,11 @@
         "str": 10,
         "agi": 10,
         "hp": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -18435,7 +20587,12 @@
       "itemHp": 5800,
       "durability": 50,
       "damage": 290,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Darsa's Splitter",
@@ -18453,7 +20610,12 @@
       "itemHp": 6600,
       "durability": 60,
       "damage": 361,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
+      }
     },
     {
       "name": "Gladiate",
@@ -18475,6 +20637,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18492,7 +20659,12 @@
       },
       "itemHp": 6000,
       "durability": 50,
-      "damage": 300
+      "damage": 300,
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "steel shamshir",
@@ -18510,7 +20682,12 @@
       "itemHp": 6000,
       "durability": 50,
       "damage": 300,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Trekker's Stiletto",
@@ -18532,6 +20709,11 @@
       "stats": {
         "str": 5,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -18555,6 +20737,11 @@
         "str": 10,
         "sta": 10,
         "agi": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18577,6 +20764,11 @@
       "stats": {
         "str": 10,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18599,6 +20791,11 @@
       "stats": {
         "str": 10,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -18625,6 +20822,11 @@
         "dex": 45,
         "wis": 13,
         "int": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -18646,6 +20848,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "str": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -18668,6 +20875,11 @@
       "stats": {
         "str": 30,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -18690,6 +20902,11 @@
       "stats": {
         "str": 5,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -18711,6 +20928,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -18733,6 +20955,11 @@
       "stats": {
         "str": 8,
         "sta": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -18756,6 +20983,11 @@
         "str": 15,
         "sta": 5,
         "agi": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -18778,6 +21010,11 @@
       "stats": {
         "str": 25,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -18800,6 +21037,11 @@
       "stats": {
         "str": 18,
         "sta": 13
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -18821,6 +21063,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18843,6 +21090,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -18899,6 +21151,11 @@
       "stats": {
         "str": 15,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -18947,6 +21204,11 @@
       "stats": {
         "str": 10,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -18969,6 +21231,11 @@
       "stats": {
         "str": 75,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -18993,6 +21260,11 @@
         "sta": 20,
         "agi": 10,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19015,6 +21287,11 @@
       "stats": {
         "sta": 15,
         "agi": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -19036,6 +21313,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19054,7 +21336,12 @@
       "itemHp": 8200,
       "durability": 60,
       "damage": 450,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
+      }
     },
     {
       "name": "Staccato",
@@ -19076,6 +21363,11 @@
       "stats": {
         "str": 15,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -19097,6 +21389,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -19120,6 +21417,11 @@
         "str": 15,
         "sta": 10,
         "agi": 45
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -19164,6 +21466,11 @@
       "stats": {
         "str": 30,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -19187,6 +21494,11 @@
         "str": 15,
         "sta": 10,
         "agi": 45
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -19211,6 +21523,11 @@
         "sta": 4,
         "agi": 3,
         "dex": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -19232,6 +21549,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -19256,6 +21578,11 @@
         "sta": 10,
         "agi": 10,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -19278,6 +21605,11 @@
       "stats": {
         "str": 15,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -19299,6 +21631,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -19342,6 +21679,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "str": 17
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19365,6 +21707,11 @@
         "str": 5,
         "sta": 15,
         "agi": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -19411,6 +21758,11 @@
         "sta": 4,
         "agi": 3,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -19432,6 +21784,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -19450,7 +21807,12 @@
       "itemHp": 9252,
       "durability": 50,
       "damage": 506,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Frostpoint",
@@ -19468,7 +21830,12 @@
       "itemHp": 8200,
       "durability": 50,
       "damage": 448,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
+      }
     },
     {
       "name": "Greater Corrosive Stick",
@@ -19513,6 +21880,11 @@
       "stats": {
         "str": 12,
         "sta": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19535,6 +21907,11 @@
       "stats": {
         "str": 5,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -19556,6 +21933,11 @@
       "attackType": "oneHandBlunt",
       "stats": {
         "str": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19580,6 +21962,11 @@
         "sta": 10,
         "agi": 10,
         "dex": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -19602,6 +21989,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19625,6 +22017,11 @@
         "str": 10,
         "sta": 10,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -19647,6 +22044,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -19670,6 +22072,11 @@
         "str": 5,
         "sta": 5,
         "agi": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -19694,6 +22101,11 @@
         "sta": 9,
         "agi": 13,
         "dex": 13
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19718,6 +22130,11 @@
         "sta": 5,
         "agi": 8,
         "dex": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -19744,6 +22161,11 @@
         "dex": 17,
         "wis": 3,
         "int": 19
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -19768,6 +22190,11 @@
         "sta": 65,
         "agi": 5,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19786,7 +22213,12 @@
       "itemHp": 9600,
       "durability": 80,
       "damage": 515,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
+      }
     },
     {
       "name": "Slayer's Battle Knife",
@@ -19809,6 +22241,11 @@
         "sta": 10,
         "agi": 15,
         "ac": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -19831,6 +22268,11 @@
         "str": 13,
         "sta": 21,
         "agi": 18
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -19853,6 +22295,11 @@
       "stats": {
         "str": 10,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -19873,6 +22320,11 @@
       "damage": 460,
       "stats": {
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -19891,7 +22343,12 @@
       "itemHp": 8400,
       "durability": 50,
       "damage": 451,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Knuckle Dusters",
@@ -19912,6 +22369,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 18
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -19934,6 +22396,11 @@
       "stats": {
         "str": 32,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -19956,6 +22423,11 @@
       "stats": {
         "str": 10,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -19978,6 +22450,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -20023,6 +22500,11 @@
         "str": 8,
         "sta": 20,
         "agi": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -20085,6 +22567,11 @@
       "stats": {
         "str": 20,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -20107,6 +22594,11 @@
       "stats": {
         "str": 20,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -20132,6 +22624,11 @@
         "agi": 5,
         "dex": 5,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -20153,6 +22650,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -20175,6 +22677,11 @@
       "stats": {
         "str": 12,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -20196,6 +22703,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -20242,6 +22754,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 22
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -20260,7 +22777,12 @@
       "itemHp": 10450,
       "durability": 50,
       "damage": 544,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Captain's Hammer",
@@ -20286,6 +22808,11 @@
         "dex": 58,
         "wis": 3,
         "int": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -20304,7 +22831,12 @@
       "itemHp": 9826,
       "durability": 50,
       "damage": 526,
-      "attackType": "oneHandBlunt"
+      "attackType": "oneHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Etched Sandy Dagger",
@@ -20329,6 +22861,11 @@
         "agi": 25,
         "dex": 18,
         "int": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -20351,6 +22888,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -20373,6 +22915,11 @@
       "stats": {
         "str": 21,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -20396,6 +22943,11 @@
         "str": 10,
         "sta": 20,
         "agi": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -20418,6 +22970,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -20436,7 +22993,12 @@
       "itemHp": 9400,
       "durability": 75,
       "damage": 505,
-      "attackType": "oneHandPierce"
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
+      }
     },
     {
       "name": "Crustacean Hammer",
@@ -20462,6 +23024,11 @@
         "dex": 18,
         "wis": 4,
         "int": 18
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -20484,6 +23051,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -20507,6 +23079,11 @@
         "str": 10,
         "sta": 10,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -20529,6 +23106,11 @@
       "stats": {
         "str": 5,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -20547,7 +23129,12 @@
       "itemHp": 9400,
       "durability": 70,
       "damage": 512,
-      "attackType": "oneHandSlash"
+      "attackType": "oneHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
+      }
     },
     {
       "name": "Warbone Battle Shard",
@@ -20568,6 +23155,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -20591,6 +23183,11 @@
         "str": 15,
         "sta": 15,
         "ac": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -20613,6 +23210,11 @@
       "stats": {
         "str": 10,
         "sta": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -20637,6 +23239,11 @@
         "sta": 15,
         "agi": 15,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -20660,6 +23267,11 @@
         "str": 3,
         "sta": 5,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -20682,6 +23294,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -20706,6 +23323,11 @@
         "sta": 20,
         "agi": 10,
         "dex": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -20730,6 +23352,11 @@
         "sta": 15,
         "agi": 10,
         "dex": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -20752,6 +23379,11 @@
       "stats": {
         "str": 20,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -20781,7 +23413,12 @@
         "str": 15,
         "dex": 15
       },
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
+      }
     },
     {
       "name": "Spiritrend",
@@ -20849,6 +23486,11 @@
         "str": 10,
         "sta": 5,
         "dex": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -20871,6 +23513,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -20893,6 +23540,11 @@
       "stats": {
         "str": 5,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -20918,6 +23570,11 @@
         "agi": 4,
         "dex": 4,
         "int": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -20939,6 +23596,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -20961,6 +23623,11 @@
       "stats": {
         "str": 10,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -20984,6 +23651,11 @@
         "str": 15,
         "sta": 20,
         "agi": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -21008,6 +23680,11 @@
         "sta": 10,
         "agi": 5,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -21030,6 +23707,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -21053,6 +23735,11 @@
         "str": 12,
         "sta": 25,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -21077,6 +23764,11 @@
         "sta": 12,
         "agi": 12,
         "dex": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -21099,6 +23791,11 @@
       "stats": {
         "str": 10,
         "sta": 35
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -21121,6 +23818,11 @@
       "stats": {
         "str": 12,
         "sta": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -21143,6 +23845,11 @@
       "stats": {
         "str": 15,
         "sta": 35
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -21191,6 +23898,11 @@
         "str": 10,
         "sta": 10,
         "agi": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -21214,6 +23926,11 @@
         "str": 15,
         "sta": 40,
         "agi": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -21236,6 +23953,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -21260,6 +23982,11 @@
         "sta": 15,
         "agi": 75,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -21307,6 +24034,11 @@
         "sta": 10,
         "agi": 68,
         "dex": 45
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -21331,6 +24063,11 @@
         "sta": 40,
         "agi": 75,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -21356,6 +24093,11 @@
         "agi": 10,
         "dex": 45,
         "int": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -21383,6 +24125,11 @@
         "wis": 6,
         "int": 2,
         "cha": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -21425,6 +24172,11 @@
         "sta": 22,
         "agi": 5,
         "dex": 18
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -21446,6 +24198,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "pow": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -21467,6 +24224,11 @@
       "attackType": "oneHandSlash",
       "stats": {
         "str": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -21488,6 +24250,11 @@
       "attackType": "oneHandPierce",
       "stats": {
         "str": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -21513,6 +24280,11 @@
         "agi": 50,
         "dex": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -21535,6 +24307,11 @@
       "stats": {
         "str": 40,
         "sta": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -21561,6 +24338,11 @@
         "dex": 10,
         "wis": 50,
         "int": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -21582,6 +24364,11 @@
       "stats": {
         "dex": 25,
         "ac": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -21606,6 +24393,11 @@
         "sta": 10,
         "agi": 60,
         "dex": 45
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -21640,7 +24432,11 @@
         "lr": 927,
         "ar": 123
       },
-      "noTrade": true
+      "noTrade": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "the Khal Warlord's"
+      }
     },
     {
       "name": "Sabre of the Sands",
@@ -21662,6 +24458,11 @@
       "stats": {
         "str": 50,
         "sta": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -21729,6 +24530,11 @@
         "sta": 15,
         "hp": 75,
         "ac": 383
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -21754,6 +24560,11 @@
         "cr": 8,
         "lr": 8,
         "ar": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -21818,7 +24629,12 @@
       "itemHp": 600,
       "durability": 50,
       "damage": 35,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "worn quarterstaff",
@@ -21836,7 +24652,12 @@
       "itemHp": 600,
       "durability": 50,
       "damage": 35,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "crafted glade staff",
@@ -21879,7 +24700,12 @@
       "itemHp": 800,
       "durability": 50,
       "damage": 46,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "staff of evocation",
@@ -21925,7 +24751,12 @@
       "itemHp": 800,
       "durability": 50,
       "damage": 47,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Polished Scythe",
@@ -21943,7 +24774,12 @@
       "itemHp": 1425,
       "durability": 50,
       "damage": 89,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "rusty claymore",
@@ -21961,7 +24797,12 @@
       "itemHp": 1400,
       "durability": 50,
       "damage": 81,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty glaive",
@@ -21979,7 +24820,12 @@
       "itemHp": 1400,
       "durability": 50,
       "damage": 81,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "worn crook staff",
@@ -21997,7 +24843,12 @@
       "itemHp": 1200,
       "durability": 50,
       "damage": 81,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "worn maul",
@@ -22015,7 +24866,12 @@
       "itemHp": 1400,
       "durability": 50,
       "damage": 82,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "notched beheader",
@@ -22037,6 +24893,11 @@
       "stats": {
         "sta": 2,
         "agi": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -22059,6 +24920,11 @@
       "stats": {
         "sta": 2,
         "agi": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -22077,7 +24943,12 @@
       "itemHp": 1800,
       "durability": 50,
       "damage": 104,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "staff of learning",
@@ -22108,6 +24979,11 @@
       "stats": {
         "int": 5,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -22130,6 +25006,11 @@
       "stats": {
         "int": 5,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -22148,7 +25029,12 @@
       "itemHp": 1800,
       "durability": 50,
       "damage": 105,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "deadwood staff",
@@ -22191,7 +25077,12 @@
       "itemHp": 2000,
       "durability": 50,
       "damage": 116,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Karlsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "rusty guisarme",
@@ -22290,7 +25181,12 @@
         "wis": 5,
         "pow": 20
       },
-      "noTrade": true
+      "noTrade": true,
+      "source": {
+        "type": "questReward",
+        "name": "Guard Sareken",
+        "location": "Freeport"
+      }
     },
     {
       "name": "sturdy two-handed sword",
@@ -22329,7 +25225,12 @@
       "itemHp": 2000,
       "durability": 50,
       "damage": 116,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Darrson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Beren's Crusher",
@@ -22347,7 +25248,12 @@
       "itemHp": 2824,
       "durability": 50,
       "damage": 178,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Bright Shining Staff",
@@ -22368,6 +25274,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "pow": 48
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -22392,6 +25303,11 @@
         "dex": 5,
         "hp": 10,
         "pow": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -22414,6 +25330,11 @@
       "stats": {
         "hp": 20,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -22436,6 +25357,11 @@
       "stats": {
         "int": 5,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -22459,6 +25385,11 @@
         "sta": 3,
         "pr": 2,
         "dr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -22481,6 +25412,11 @@
       "stats": {
         "dex": 5,
         "hp": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -22506,6 +25442,11 @@
         "hp": 6,
         "pow": 20,
         "cr": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -22528,6 +25469,11 @@
       "stats": {
         "wis": 5,
         "lr": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -22546,7 +25492,12 @@
       "itemHp": 2400,
       "durability": 50,
       "damage": 139,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Skycaller's Staff",
@@ -22568,6 +25519,11 @@
       "stats": {
         "int": 5,
         "lr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -22591,6 +25547,11 @@
         "str": 10,
         "sta": 5,
         "hp": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -22614,6 +25575,11 @@
         "str": 10,
         "sta": 25,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -22632,7 +25598,12 @@
       "itemHp": 2600,
       "durability": 50,
       "damage": 152,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Beanpole",
@@ -22655,6 +25626,11 @@
         "int": 5,
         "cha": 5,
         "pow": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -22677,6 +25653,11 @@
       "stats": {
         "str": 5,
         "fr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -22695,7 +25676,12 @@
       "itemHp": 2600,
       "durability": 50,
       "damage": 151,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze longspear",
@@ -22731,7 +25717,12 @@
       "itemHp": 3375,
       "durability": 50,
       "damage": 177,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
+      }
     },
     {
       "name": "Giant's Needle",
@@ -22754,6 +25745,11 @@
         "str": 10,
         "dex": 6,
         "hp": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -22776,6 +25772,11 @@
       "stats": {
         "str": 3,
         "agi": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -22794,7 +25795,12 @@
       "itemHp": 2600,
       "durability": 50,
       "damage": 151,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Petrified Spiked Crook",
@@ -22816,6 +25822,11 @@
       "stats": {
         "pow": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -22864,6 +25875,11 @@
       "stats": {
         "pr": 3,
         "ar": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -22886,6 +25902,11 @@
       "stats": {
         "str": 5,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -22904,7 +25925,12 @@
       "itemHp": 2800,
       "durability": 50,
       "damage": 162,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze warblade",
@@ -22922,7 +25948,12 @@
       "itemHp": 2800,
       "durability": 50,
       "damage": 163,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "oaken maul",
@@ -22940,7 +25971,12 @@
       "itemHp": 2800,
       "durability": 50,
       "damage": 163,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Weathered Maul",
@@ -22962,6 +25998,11 @@
       "stats": {
         "str": 5,
         "pow": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -23024,7 +26065,12 @@
       "itemHp": 3700,
       "durability": 58,
       "damage": 198,
-      "attackType": "twoHandPierce"
+      "attackType": "twoHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
+      }
     },
     {
       "name": "oaken gnarled staff",
@@ -23042,7 +26088,12 @@
       "itemHp": 3200,
       "durability": 50,
       "damage": 186,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "oaken greatclub",
@@ -23060,7 +26111,12 @@
       "itemHp": 3200,
       "durability": 50,
       "damage": 187,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Walking Staff",
@@ -23081,6 +26137,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "wis": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -23099,7 +26160,12 @@
       "itemHp": 3400,
       "durability": 50,
       "damage": 197,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze guisarme",
@@ -23117,7 +26183,12 @@
       "itemHp": 3400,
       "durability": 50,
       "damage": 197,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Evergreen Staff",
@@ -23135,7 +26206,12 @@
       "itemHp": 3400,
       "durability": 50,
       "damage": 297,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
+      }
     },
     {
       "name": "Moorblood Great Club",
@@ -23161,6 +26237,11 @@
         "pow": 20,
         "fr": 6,
         "lr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -23186,6 +26267,11 @@
         "wis": 5,
         "ac": 5,
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -23207,6 +26293,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -23230,6 +26321,11 @@
         "agi": 5,
         "ac": 10,
         "dr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -23274,7 +26370,12 @@
       "itemHp": 3800,
       "durability": 50,
       "damage": 221,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Coral Trident",
@@ -23295,6 +26396,11 @@
       "attackType": "twoHandPierce",
       "stats": {
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -23317,6 +26423,11 @@
       "stats": {
         "int": 25,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -23339,6 +26450,11 @@
       "stats": {
         "str": 6,
         "wis": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -23357,7 +26473,12 @@
       "itemHp": 3800,
       "durability": 50,
       "damage": 221,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Twisted Branches Sword",
@@ -23397,7 +26518,12 @@
       "itemHp": 4000,
       "durability": 50,
       "damage": 232,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze greatsword",
@@ -23415,7 +26541,12 @@
       "itemHp": 4000,
       "durability": 50,
       "damage": 232,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Fredrickson",
+        "location": "Halas"
+      }
     },
     {
       "name": "bronze warhammer",
@@ -23433,7 +26564,12 @@
       "itemHp": 4000,
       "durability": 50,
       "damage": 232,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Poulsson",
+        "location": "Halas"
+      }
     },
     {
       "name": "dark oak staff",
@@ -23528,6 +26664,11 @@
       "stats": {
         "str": 15,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -23655,6 +26796,11 @@
         "str": 10,
         "sta": 10,
         "hp": 45
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -23678,6 +26824,11 @@
         "sta": 10,
         "wis": 10,
         "lr": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -23744,6 +26895,11 @@
         "sta": 8,
         "hp": 65,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -23762,7 +26918,12 @@
       "itemHp": 4950,
       "durability": 62,
       "damage": 275,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
+      }
     },
     {
       "name": "Bonecracker",
@@ -23784,6 +26945,11 @@
       "stats": {
         "str": 10,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -23802,7 +26968,12 @@
       "itemHp": 4400,
       "durability": 50,
       "damage": 252,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Evenson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Mountainwalker Crook",
@@ -23826,6 +26997,11 @@
         "wis": 5,
         "pow": 40,
         "fr": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -23848,6 +27024,11 @@
       "stats": {
         "wis": 32,
         "pr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -23871,6 +27052,11 @@
         "str": 10,
         "sta": 4,
         "pow": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -23895,6 +27081,11 @@
         "pow": 30,
         "ac": 10,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -23919,6 +27110,11 @@
         "wis": 5,
         "ac": 15,
         "fr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -23988,7 +27184,12 @@
       "itemHp": 2600,
       "durability": 50,
       "damage": 267,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Evenson",
+        "location": "Halas"
+      }
     },
     {
       "name": "Staff of Maiming",
@@ -24009,6 +27210,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "dex": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -24096,6 +27302,11 @@
       "stats": {
         "str": 5,
         "dex": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -24118,6 +27329,11 @@
       "stats": {
         "str": 5,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -24139,6 +27355,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "pow": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -24161,6 +27382,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -24182,6 +27408,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -24200,7 +27431,12 @@
       "itemHp": 4800,
       "durability": 50,
       "damage": 278,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Evenson",
+        "location": "Halas"
+      }
     },
     {
       "name": "steel beheader",
@@ -24218,7 +27454,12 @@
       "itemHp": 4800,
       "durability": 50,
       "damage": 278,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "steel claymore",
@@ -24236,7 +27477,12 @@
       "itemHp": 4800,
       "durability": 50,
       "damage": 279,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Thickets Hammer",
@@ -24258,6 +27504,11 @@
       "stats": {
         "cr": 16,
         "ar": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -24280,6 +27531,11 @@
       "stats": {
         "agi": 12,
         "dex": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -24302,6 +27558,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -24325,6 +27586,11 @@
         "str": 20,
         "sta": 15,
         "agi": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -24343,7 +27609,12 @@
       "itemHp": 6425,
       "durability": 50,
       "damage": 383,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
+      }
     },
     {
       "name": "ironwood spiked staff",
@@ -24361,7 +27632,12 @@
       "itemHp": 5200,
       "durability": 50,
       "damage": 302,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy Evenson",
+        "location": "Halas"
+      }
     },
     {
       "name": "steel fellaxe",
@@ -24379,7 +27655,12 @@
       "itemHp": 5400,
       "durability": 50,
       "damage": 313,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "steel greatsword",
@@ -24397,7 +27678,12 @@
       "itemHp": 5400,
       "durability": 50,
       "damage": 313,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Hard Iron Great Sword",
@@ -24437,6 +27723,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -24458,6 +27749,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -24482,6 +27778,11 @@
         "sta": 5,
         "agi": 5,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -24505,6 +27806,11 @@
         "str": 15,
         "dex": 10,
         "hp": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -24541,7 +27847,12 @@
       "itemHp": 5800,
       "durability": 50,
       "damage": 337,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Whistling Staff",
@@ -24564,6 +27875,11 @@
         "str": 15,
         "sta": 20,
         "agi": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -24591,6 +27907,11 @@
         "wis": 50,
         "int": 50,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -24630,7 +27951,12 @@
       "itemHp": 6000,
       "durability": 50,
       "damage": 348,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Sabrefang Club",
@@ -24648,7 +27974,12 @@
       "itemHp": 6600,
       "durability": 55,
       "damage": 418,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
+      }
     },
     {
       "name": "Sand Mauler",
@@ -24670,6 +28001,11 @@
       "stats": {
         "str": 5,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -24716,6 +28052,11 @@
         "sta": 15,
         "agi": 40,
         "dex": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -24738,6 +28079,11 @@
       "stats": {
         "str": 12,
         "sta": 35
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -24759,6 +28105,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -24780,6 +28131,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": -10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -24805,6 +28161,11 @@
         "hp": 15,
         "cr": 10,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -24830,6 +28191,11 @@
         "agi": 15,
         "dex": 5,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -24851,6 +28217,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 80
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -24876,6 +28247,11 @@
         "agi": 75,
         "dex": 15,
         "int": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -24925,6 +28301,11 @@
         "dex": 16,
         "wis": 2,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -24997,6 +28378,11 @@
         "agi": 60,
         "dex": 25,
         "int": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -25020,6 +28406,11 @@
         "str": 12,
         "sta": 12,
         "agi": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -25047,6 +28438,11 @@
         "str": 15,
         "sta": 150,
         "pot": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -25072,6 +28468,11 @@
         "agi": 10,
         "dex": 10,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25094,6 +28495,11 @@
       "stats": {
         "str": 20,
         "sta": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25116,6 +28522,11 @@
       "stats": {
         "str": 8,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -25137,6 +28548,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -25159,6 +28575,11 @@
       "stats": {
         "str": 20,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -25180,6 +28601,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "str": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -25206,6 +28632,11 @@
         "dex": 8,
         "wis": 10,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25228,6 +28659,11 @@
       "stats": {
         "str": 20,
         "sta": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -25250,6 +28686,11 @@
       "stats": {
         "str": 10,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25272,6 +28713,11 @@
       "stats": {
         "str": 50,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -25294,6 +28740,11 @@
       "stats": {
         "str": 20,
         "sta": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -25318,6 +28769,11 @@
         "sta": 4,
         "agi": 25,
         "dex": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25336,7 +28792,12 @@
       "itemHp": 7800,
       "durability": 50,
       "damage": 497,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
+      }
     },
     {
       "name": "Grim",
@@ -25359,6 +28820,11 @@
         "str": 15,
         "sta": 10,
         "hp": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -25382,6 +28848,11 @@
         "str": 10,
         "sta": 20,
         "agi": 35
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -25407,6 +28878,11 @@
         "agi": 10,
         "dex": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25429,6 +28905,11 @@
       "stats": {
         "str": 100,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -25454,6 +28935,11 @@
         "agi": 10,
         "dex": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25474,6 +28960,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -25528,6 +29019,11 @@
         "sta": 15,
         "agi": 25,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -25550,6 +29046,11 @@
       "stats": {
         "str": 15,
         "sta": 35
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -25577,6 +29078,11 @@
         "wis": 30,
         "int": 5,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25598,6 +29104,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -25641,6 +29152,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -25663,6 +29179,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -25687,6 +29208,11 @@
         "sta": 20,
         "agi": 30,
         "dex": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -25710,6 +29236,11 @@
         "str": 15,
         "sta": 15,
         "agi": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25733,6 +29264,11 @@
         "str": 20,
         "sta": 20,
         "agi": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25759,6 +29295,11 @@
         "dex": 5,
         "wis": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -25780,6 +29321,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "ac": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25801,6 +29347,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -25825,6 +29376,11 @@
         "sta": 5,
         "agi": 10,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -25849,6 +29405,11 @@
         "sta": 10,
         "agi": 80,
         "dex": 80
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -25867,7 +29428,12 @@
       "itemHp": 8956,
       "durability": 78,
       "damage": 546,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Teir`Dal Partizan",
@@ -25889,6 +29455,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -25912,6 +29483,11 @@
         "str": 20,
         "sta": 17,
         "agi": 55
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -25937,6 +29513,11 @@
         "agi": 70,
         "dex": 12,
         "int": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -25959,6 +29540,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -25977,7 +29563,12 @@
       "itemHp": 8658,
       "durability": 50,
       "damage": 549,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Glowing Jade Staff",
@@ -25998,6 +29589,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 53
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -26024,6 +29620,11 @@
         "dex": 7,
         "wis": 50,
         "int": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -26046,6 +29647,11 @@
       "stats": {
         "str": 10,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -26064,7 +29670,12 @@
       "itemHp": 8721,
       "durability": 70,
       "damage": 539,
-      "attackType": "twoHandPierce"
+      "attackType": "twoHandPierce",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Insidious Scythe",
@@ -26091,6 +29702,11 @@
         "wis": 10,
         "int": 100,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -26136,6 +29752,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -26160,6 +29781,11 @@
         "sta": 16,
         "agi": 50,
         "dex": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -26181,6 +29807,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -26206,6 +29837,11 @@
         "agi": 5,
         "dex": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -26250,6 +29886,11 @@
       "stats": {
         "str": 15,
         "sta": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -26324,6 +29965,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -26345,6 +29991,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -26363,7 +30014,12 @@
       "itemHp": 9482,
       "durability": 65,
       "damage": 584,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Old Mage's Crook",
@@ -26390,6 +30046,11 @@
         "wis": 20,
         "int": 5,
         "cha": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -26416,6 +30077,11 @@
         "dex": 7,
         "wis": 7,
         "int": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -26437,6 +30103,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "str": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -26463,6 +30134,11 @@
         "dex": 40,
         "wis": 8,
         "int": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -26486,6 +30162,11 @@
         "str": 20,
         "sta": 30,
         "agi": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -26504,7 +30185,12 @@
       "itemHp": 10400,
       "durability": 70,
       "damage": 658,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
+      }
     },
     {
       "name": "Centaurian Runic Staff",
@@ -26529,6 +30215,11 @@
         "agi": 10,
         "dex": 40,
         "int": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -26569,6 +30260,11 @@
       "stats": {
         "str": 150,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -26590,6 +30286,11 @@
       "attackType": "twoHandBlunt",
       "stats": {
         "str": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -26608,7 +30309,12 @@
       "itemHp": 9400,
       "durability": 70,
       "damage": 590,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
+      }
     },
     {
       "name": "Plainswood Runic Staff",
@@ -26632,6 +30338,11 @@
         "sta": 75,
         "agi": 5,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -26653,6 +30364,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "str": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -26674,6 +30390,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "str": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -26702,6 +30423,11 @@
         "int": 5,
         "cha": 10,
         "hp": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -26725,6 +30451,11 @@
         "str": 15,
         "sta": 15,
         "agi": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -26747,6 +30478,11 @@
       "stats": {
         "str": 15,
         "sta": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -26765,7 +30501,12 @@
       "itemHp": 9600,
       "durability": 30,
       "damage": 547,
-      "attackType": "twoHandBlunt"
+      "attackType": "twoHandBlunt",
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
+      }
     },
     {
       "name": "Boon's Walking Stick",
@@ -26790,6 +30531,11 @@
         "agi": 10,
         "dex": 100,
         "int": 80
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -26808,7 +30554,12 @@
       "itemHp": 9321,
       "durability": 50,
       "damage": 584,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Flamberge of Rending",
@@ -26830,6 +30581,11 @@
       "stats": {
         "str": 15,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -26852,6 +30608,11 @@
       "stats": {
         "str": 15,
         "sta": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -26876,6 +30637,11 @@
         "sta": 15,
         "cha": 11,
         "pow": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -26899,6 +30665,11 @@
         "str": 20,
         "cha": 15,
         "pow": 80
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -26923,6 +30694,11 @@
         "sta": 12,
         "agi": 10,
         "dex": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -26947,6 +30723,11 @@
         "sta": 16,
         "agi": 75,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -26969,6 +30750,11 @@
       "stats": {
         "str": 10,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -26996,6 +30782,11 @@
         "wis": 5,
         "int": 10,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -27037,6 +30828,11 @@
       "stats": {
         "str": 15,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -27061,6 +30857,11 @@
         "sta": 10,
         "agi": 25,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -27102,6 +30903,11 @@
         "str": 5,
         "sta": 15,
         "agi": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -27150,6 +30956,11 @@
         "agi": 10,
         "dex": 8,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -27172,6 +30983,11 @@
       "stats": {
         "str": 12,
         "sta": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -27190,7 +31006,12 @@
       "itemHp": 11000,
       "durability": 50,
       "damage": 658,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Gilded Fyrebone Greataxe",
@@ -27252,7 +31073,12 @@
       "itemHp": 10000,
       "durability": 75,
       "damage": 627,
-      "attackType": "twoHandSlash"
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "Nitefyre Warsword",
@@ -27275,6 +31101,11 @@
         "str": 5,
         "sta": 10,
         "agi": 45
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -27298,6 +31129,11 @@
         "str": 10,
         "sta": 50,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -27320,6 +31156,11 @@
       "stats": {
         "str": 15,
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -27386,6 +31227,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "str": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -27409,6 +31255,11 @@
         "str": 20,
         "dex": 15,
         "hp": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -27435,6 +31286,11 @@
         "dex": 5,
         "wis": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -27463,6 +31319,11 @@
         "int": 8,
         "pot": 5,
         "hot": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -27509,6 +31370,11 @@
         "str": 10,
         "sta": 20,
         "agi": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -27532,6 +31398,11 @@
         "str": 20,
         "sta": 10,
         "agi": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -27579,6 +31450,11 @@
         "sta": 20,
         "agi": 80,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {

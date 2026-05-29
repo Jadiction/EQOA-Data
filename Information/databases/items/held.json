@@ -76,6 +76,11 @@
         "int": 5,
         "pow": 23,
         "cr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -115,6 +120,11 @@
       "durability": 50,
       "stats": {
         "pow": 48
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -136,6 +146,11 @@
         "wis": 2,
         "pr": 3,
         "ar": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -159,6 +174,11 @@
         "int": 6,
         "hp": 10,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -183,6 +203,11 @@
         "cr": 1,
         "lr": 1,
         "ar": 1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -204,6 +229,11 @@
         "sta": 5,
         "wis": 10,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -225,6 +255,11 @@
         "dex": 5,
         "int": 10,
         "pow": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -295,6 +330,11 @@
         "sta": 5,
         "int": 10,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -316,6 +356,11 @@
         "sta": 5,
         "int": 10,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -337,6 +382,11 @@
         "wis": 5,
         "hp": 10,
         "lr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -386,6 +436,11 @@
         "int": 10,
         "cha": 5,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -407,6 +462,11 @@
         "int": 10,
         "cha": 5,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -431,6 +491,11 @@
         "ac": 16,
         "fr": 4,
         "cr": 1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -469,6 +534,11 @@
       "stats": {
         "int": 20,
         "pow": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -506,6 +576,11 @@
       "durability": 50,
       "stats": {
         "pow": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -531,6 +606,11 @@
         "ac": 24,
         "pr": 1,
         "fr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -552,6 +632,11 @@
         "agi": 5,
         "cr": 4,
         "ar": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -572,6 +657,11 @@
       "stats": {
         "int": 15,
         "pow": 40
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -656,6 +746,11 @@
         "cr": 1,
         "lr": 1,
         "ar": 1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -680,6 +775,11 @@
         "pr": 5,
         "dr": 5,
         "fr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -700,6 +800,11 @@
       "stats": {
         "wis": 5,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -728,6 +833,11 @@
         "hp": 12,
         "pow": 12,
         "ac": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -748,6 +858,11 @@
       "stats": {
         "wis": 10,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -788,6 +903,11 @@
       "stats": {
         "sta": 10,
         "wis": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -826,6 +946,11 @@
       "stats": {
         "int": 10,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -846,6 +971,11 @@
       "stats": {
         "dex": 10,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -866,6 +996,11 @@
       "stats": {
         "agi": 10,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -886,6 +1021,11 @@
       "stats": {
         "sta": 10,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -924,6 +1064,11 @@
       "stats": {
         "int": 20,
         "pow": 32
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -973,6 +1118,11 @@
         "pow": 40,
         "lr": 5,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -1217,6 +1367,11 @@
       "durability": 50,
       "stats": {
         "pow": 56
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -1239,6 +1394,11 @@
         "int": 12,
         "ac": 25,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -1262,6 +1422,11 @@
         "pow": 25,
         "fr": 10,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -1284,6 +1449,11 @@
         "fr": 4,
         "lr": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -1306,6 +1476,11 @@
         "pr": 5,
         "dr": 5,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -1331,6 +1506,11 @@
         "ac": 37,
         "pr": 2,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -1352,6 +1532,11 @@
         "wis": 13,
         "int": 8,
         "cr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -1370,6 +1555,11 @@
       "stats": {
         "cha": 20,
         "pow": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -1425,6 +1615,11 @@
       "stats": {
         "wis": 6,
         "int": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -1444,6 +1639,11 @@
         "sta": 15,
         "int": 15,
         "cha": 63
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -1464,6 +1664,11 @@
         "cha": 10,
         "lr": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -1503,6 +1708,11 @@
         "hp": 30,
         "pow": 20,
         "ac": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -1524,6 +1734,11 @@
         "str": 10,
         "sta": 50,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -1546,6 +1761,11 @@
         "ac": 30,
         "fr": 5,
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -1566,6 +1786,11 @@
         "hp": 30,
         "pow": 30,
         "ac": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -1603,6 +1828,11 @@
       "stats": {
         "sta": 30,
         "hp": 55
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -1722,6 +1952,11 @@
         "pow": 50,
         "cr": 10,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -1741,6 +1976,11 @@
         "hp": 10,
         "pow": 5,
         "pr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -1784,6 +2024,11 @@
         "ac": 44,
         "cr": 3,
         "lr": 13
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -1806,6 +2051,11 @@
         "sta": 50,
         "agi": 75,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -1827,6 +2077,11 @@
         "pr": 3,
         "dr": 2,
         "fr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -1890,6 +2145,11 @@
         "fr": 5,
         "cr": 5,
         "ar": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -1908,6 +2168,11 @@
       "stats": {
         "int": 15,
         "hp": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -1931,6 +2196,11 @@
         "agi": 75,
         "dex": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -1993,6 +2263,11 @@
       "stats": {
         "cha": 10,
         "pow": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -2017,6 +2292,11 @@
         "fr": 3,
         "cr": 3,
         "lr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -2063,6 +2343,11 @@
         "fr": 3,
         "cr": 3,
         "lr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -2109,6 +2394,11 @@
         "fr": 3,
         "cr": 3,
         "lr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -2131,6 +2421,11 @@
         "sta": 20,
         "hp": 55,
         "hot": -1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -2154,6 +2449,11 @@
         "wis": 10,
         "cha": 5,
         "pow": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -2176,6 +2476,11 @@
         "pr": 5,
         "dr": 8,
         "ar": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -2197,6 +2502,11 @@
         "str": 3,
         "hp": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -2220,6 +2530,11 @@
         "wis": 10,
         "pow": 50,
         "ar": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2241,6 +2556,11 @@
         "sta": 15,
         "wis": 13,
         "pow": 80
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -2287,6 +2607,11 @@
         "pow": 57,
         "pr": 11,
         "fr": 11
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -2307,6 +2632,11 @@
       "stats": {
         "int": 45,
         "pow": 65
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2329,6 +2659,11 @@
         "int": 20,
         "dr": 5,
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -2372,6 +2707,11 @@
         "ac": 15,
         "dr": 10,
         "cr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -2394,6 +2734,11 @@
         "dex": 7,
         "cha": 7,
         "pow": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2416,6 +2761,11 @@
         "sta": 100,
         "agi": 15,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -2438,6 +2788,11 @@
         "wis": 15,
         "hp": 30,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -2469,6 +2824,11 @@
         "fr": 2,
         "cr": 2,
         "lr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2489,6 +2849,11 @@
       "stats": {
         "str": 13,
         "int": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2533,6 +2898,11 @@
         "ac": 65,
         "fr": 4,
         "ar": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -2579,7 +2949,12 @@
         "cha": 2
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Grizzar",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Maelif",
@@ -2655,7 +3030,12 @@
         "int": 50,
         "pow": 50
       },
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Book of Ro",
@@ -2694,6 +3074,11 @@
         "int": 16,
         "pow": 70,
         "ar": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -2718,6 +3103,11 @@
         "ac": 65,
         "cr": 20,
         "ar": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -2740,6 +3130,11 @@
         "int": 20,
         "pr": 10,
         "dr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2763,6 +3158,11 @@
         "wis": 25,
         "cha": 8,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2784,6 +3184,11 @@
         "str": 30,
         "sta": 65,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -2806,6 +3211,11 @@
         "pow": 100,
         "lr": 8,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -2829,6 +3239,11 @@
         "dr": 7,
         "lr": 7,
         "ar": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -2849,6 +3264,11 @@
       "stats": {
         "str": 6,
         "pow": 60
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -2872,6 +3292,11 @@
         "ac": 67,
         "pr": 4,
         "cr": 23
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -2898,6 +3323,11 @@
         "dr": 5,
         "lr": 8,
         "ar": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -2921,6 +3351,11 @@
         "int": 10,
         "hp": 50,
         "pow": 50
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -2946,6 +3381,11 @@
         "cr": 5,
         "lr": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -2971,6 +3411,11 @@
         "ac": 71,
         "fr": 25,
         "lr": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -2996,6 +3441,11 @@
         "fr": 5,
         "cr": 5,
         "lr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -3016,6 +3466,11 @@
       "stats": {
         "str": 10,
         "cha": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -3038,6 +3493,11 @@
         "dex": 8,
         "wis": 20,
         "cha": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -3060,6 +3520,11 @@
         "cr": 5,
         "lr": 5,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3087,6 +3552,11 @@
         "cha": 5,
         "hp": 5,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -3107,6 +3577,11 @@
       "stats": {
         "hp": 30,
         "pow": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -3132,6 +3607,11 @@
         "ac": 55,
         "pr": 23,
         "cr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -3152,6 +3632,11 @@
       "stats": {
         "wis": 25,
         "lr": 18
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3177,6 +3662,11 @@
         "ac": 55,
         "pr": 23,
         "cr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -3201,6 +3691,11 @@
         "cha": 5,
         "pow": 110,
         "ac": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -3221,6 +3716,11 @@
       "stats": {
         "str": 15,
         "wis": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -3266,6 +3766,11 @@
         "dr": 8,
         "fr": 5,
         "ar": 13
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -3330,6 +3835,11 @@
         "pr": 9,
         "dr": 9,
         "ar": 9
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3350,6 +3860,11 @@
       "stats": {
         "cha": 15,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -3371,6 +3886,11 @@
         "str": 15,
         "pr": 20,
         "dr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -3453,6 +3973,11 @@
         "int": 5,
         "lr": 7,
         "ar": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3476,6 +4001,11 @@
         "hp": 45,
         "pow": 80,
         "ac": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -3500,6 +4030,11 @@
         "int": 15,
         "cha": 8,
         "pow": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -3524,6 +4059,11 @@
         "pow": 75,
         "ac": 75,
         "ar": 26
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -3555,6 +4095,11 @@
         "fr": 1,
         "cr": 1,
         "lr": 1
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3672,6 +4217,11 @@
         "ac": 25,
         "dr": 8,
         "fr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -3694,6 +4244,11 @@
         "hp": 30,
         "ac": 15,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -3738,6 +4293,11 @@
         "cha": 20,
         "pow": 80,
         "fr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -3782,6 +4342,11 @@
         "wis": 40,
         "dr": 20,
         "ar": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -3803,6 +4368,11 @@
         "hp": 20,
         "fr": 5,
         "lr": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -3909,6 +4479,11 @@
         "int": 15,
         "hp": 100,
         "dr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -3952,6 +4527,11 @@
         "sta": 24,
         "wis": 31,
         "lr": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -4019,6 +4599,11 @@
         "wis": 5,
         "int": 75,
         "cha": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -4045,6 +4630,11 @@
         "int": 50,
         "cha": 15,
         "hp": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -4065,6 +4655,11 @@
       "stats": {
         "str": 15,
         "wis": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -4090,6 +4685,11 @@
         "pow": 60,
         "dr": 8,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -4228,6 +4828,11 @@
         "int": 12,
         "ac": 20,
         "lr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -4272,6 +4877,11 @@
         "int": 10,
         "fr": 15,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -4355,6 +4965,11 @@
         "wis": 10,
         "int": 10,
         "cha": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -4418,6 +5033,11 @@
         "pow": 80,
         "ac": 25,
         "pr": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -4489,6 +5109,11 @@
         "cr": 10,
         "lr": 10,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -4554,6 +5179,11 @@
       "durability": 50,
       "stats": {
         "pow": 140
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -4815,6 +5445,11 @@
         "ac": 30,
         "pr": 15,
         "dr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -4836,6 +5471,11 @@
         "wis": 35,
         "pow": 125,
         "ac": 35
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -5104,6 +5744,11 @@
       "durability": 50,
       "stats": {
         "pow": 140
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -5184,6 +5829,11 @@
         "dex": 29,
         "wis": 41,
         "fr": 16
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -5534,6 +6184,11 @@
       "durability": 50,
       "stats": {
         "ac": 5
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Olkan",
+        "location": "Freeport"
       }
     },
     {
@@ -5570,6 +6225,11 @@
       "durability": 50,
       "stats": {
         "ac": 9
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Shieldsmith Torkug",
+        "location": "Grobb"
       }
     },
     {
@@ -5609,6 +6269,11 @@
       "stats": {
         "wis": 4,
         "ac": 22
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -5650,6 +6315,11 @@
         "wis": 5,
         "hp": 15,
         "ac": 49
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -5723,6 +6393,11 @@
       "durability": 50,
       "stats": {
         "ac": 35
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Shieldsmith Torkug",
+        "location": "Grobb"
       }
     },
     {
@@ -5764,6 +6439,11 @@
       "durability": 50,
       "stats": {
         "ac": 99
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -5785,6 +6465,11 @@
         "pow": 20,
         "ac": 56,
         "lr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -5804,6 +6489,11 @@
       "durability": 50,
       "stats": {
         "dr": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -5841,6 +6531,11 @@
       "stats": {
         "sta": 5,
         "fr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -5862,6 +6557,11 @@
         "str": 5,
         "sta": 15,
         "agi": 103
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -5883,6 +6583,11 @@
         "cha": 5,
         "ac": 47,
         "cr": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -5903,6 +6608,11 @@
       "stats": {
         "pow": 20,
         "ac": 68
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -5959,6 +6669,11 @@
       "durability": 50,
       "stats": {
         "ac": 53
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Shieldsmith Torkug",
+        "location": "Grobb"
       }
     },
     {
@@ -5979,6 +6694,11 @@
       "stats": {
         "wis": 15,
         "ac": 112
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -6020,6 +6740,11 @@
         "pow": 20,
         "ac": 72,
         "pr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -6042,6 +6767,11 @@
         "sta": 10,
         "agi": 20,
         "dex": 112
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -6065,6 +6795,11 @@
         "hp": 15,
         "ac": 87,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -6084,6 +6819,11 @@
       "durability": 50,
       "stats": {
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6105,6 +6845,11 @@
         "sta": 5,
         "wis": 10,
         "ac": 105
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6125,6 +6870,11 @@
       "stats": {
         "cha": 8,
         "fr": 17
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -6147,6 +6897,11 @@
         "hp": 10,
         "dr": 5,
         "lr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6166,6 +6921,11 @@
       "durability": 50,
       "stats": {
         "ac": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -6223,6 +6983,11 @@
         "str": 10,
         "hp": 50,
         "ac": 105
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -6248,6 +7013,11 @@
         "dr": 3,
         "fr": 3,
         "lr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6289,6 +7059,11 @@
       "durability": 50,
       "stats": {
         "ac": 105
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Shieldsmith Torkug",
+        "location": "Grobb"
       }
     },
     {
@@ -6309,6 +7084,11 @@
       "stats": {
         "ac": 122,
         "pr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -6328,6 +7108,11 @@
       "durability": 50,
       "stats": {
         "ac": 122
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6345,6 +7130,11 @@
       },
       "stats": {
         "ac": 147
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wastelands Loot Table",
+        "location": "Wastelands"
       }
     },
     {
@@ -6367,6 +7157,11 @@
         "pow": 5,
         "fr": 6,
         "ar": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -6409,6 +7204,11 @@
       "stats": {
         "str": 10,
         "sta": 154
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -6429,6 +7229,11 @@
       "stats": {
         "ac": 131,
         "fr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -6487,6 +7292,11 @@
       "durability": 55,
       "stats": {
         "str": 201
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -6547,6 +7357,11 @@
         "str": 10,
         "hp": 25,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -6570,6 +7385,11 @@
         "pow": 50,
         "ac": 157,
         "lr": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -6591,6 +7411,11 @@
         "str": 10,
         "hp": 30,
         "fr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -6633,6 +7458,11 @@
         "sta": 35,
         "agi": 180,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -6716,6 +7546,11 @@
       "durability": 50,
       "stats": {
         "ac": 175
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Shieldsmith Torkug",
+        "location": "Grobb"
       }
     },
     {
@@ -6736,6 +7571,11 @@
         "sta": 5,
         "hp": 35,
         "ac": 175
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -6773,6 +7613,11 @@
       },
       "stats": {
         "ac": 210
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -6811,6 +7656,11 @@
         "wis": 5,
         "ac": 202,
         "lr": 22
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6830,6 +7680,11 @@
         "sta": 5,
         "agi": 10,
         "ac": 224
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6849,6 +7704,11 @@
         "wis": 10,
         "hp": 50,
         "ac": 195
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -6867,6 +7727,11 @@
       "stats": {
         "wis": 35,
         "ac": 246
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6887,6 +7752,11 @@
       "stats": {
         "str": 5,
         "sta": 195
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -6906,6 +7776,11 @@
         "sta": 10,
         "agi": 10,
         "ac": 100
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6929,6 +7804,11 @@
         "ac": 219,
         "cr": 7,
         "ar": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -6951,6 +7831,11 @@
         "pow": 20,
         "ac": 199,
         "pr": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6971,6 +7856,11 @@
         "ac": 47,
         "fr": 3,
         "lr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -7080,6 +7970,11 @@
       },
       "stats": {
         "ac": 246
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -7101,6 +7996,11 @@
         "pow": 20,
         "ac": 231,
         "fr": 22
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7139,6 +8039,11 @@
       "durability": 50,
       "stats": {
         "ac": 210
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Shieldsmith Torkug",
+        "location": "Grobb"
       }
     },
     {
@@ -7175,6 +8080,11 @@
         "str": 10,
         "agi": 10,
         "ac": 139
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7235,6 +8145,11 @@
         "wis": 15,
         "pow": 25,
         "ac": 259
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7256,6 +8171,11 @@
         "wis": 20,
         "pow": 50,
         "ac": 282
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -7278,6 +8198,11 @@
         "sta": 50,
         "agi": 289,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -7300,6 +8225,11 @@
         "int": 10,
         "hp": 50,
         "ac": 298
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -7323,6 +8253,11 @@
         "agi": 5,
         "dex": 25,
         "int": 291
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -7345,6 +8280,11 @@
         "hp": 30,
         "pow": 20,
         "ac": 231
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -7366,6 +8306,11 @@
         "wis": 15,
         "pow": 75,
         "ac": 251
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -7387,6 +8332,11 @@
         "hp": 65,
         "ac": 225,
         "ar": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -7410,6 +8360,11 @@
         "pow": 50,
         "ac": 279,
         "dr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -7488,6 +8443,11 @@
         "wis": 12,
         "pow": 75,
         "ac": 145
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -7563,6 +8523,11 @@
         "pow": 20,
         "ac": 265,
         "ar": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7620,6 +8585,11 @@
         "str": 23,
         "sta": 19,
         "agi": 68
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -7663,6 +8633,11 @@
         "agi": 10,
         "dex": 10,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -7682,6 +8657,11 @@
       "durability": 75,
       "stats": {
         "str": 309
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7703,6 +8683,11 @@
         "str": 20,
         "sta": 16,
         "agi": 280
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -7766,6 +8751,11 @@
         "str": 40,
         "sta": 255,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -7787,6 +8777,11 @@
         "str": 20,
         "sta": 16,
         "agi": 280
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -7808,6 +8803,11 @@
         "str": 289,
         "sta": 12,
         "agi": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -7830,6 +8830,11 @@
         "sta": 10,
         "agi": 25,
         "dex": 309
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -7852,6 +8857,11 @@
         "pow": 10,
         "ac": 176,
         "lr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -7874,6 +8884,11 @@
         "sta": 5,
         "agi": 176,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -7897,6 +8912,11 @@
         "agi": 6,
         "dex": 295,
         "int": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -7920,6 +8940,11 @@
         "agi": 50,
         "dex": 365,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -7942,6 +8967,11 @@
         "sta": 25,
         "agi": 266,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -7963,6 +8993,11 @@
         "hp": 80,
         "ac": 161,
         "ar": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -7984,6 +9019,11 @@
         "cha": 10,
         "pow": 100,
         "ac": 267
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -8027,6 +9067,11 @@
         "sta": 10,
         "agi": 10,
         "dex": 287
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8048,6 +9093,11 @@
         "str": 5,
         "sta": 240,
         "agi": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -8070,6 +9120,11 @@
         "sta": 235,
         "agi": 10,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -8099,6 +9154,11 @@
         "pow": 2,
         "pot": 2,
         "hot": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8120,6 +9180,11 @@
         "str": 353,
         "sta": 10,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -8184,6 +9249,11 @@
         "pow": 280,
         "ac": 1,
         "ar": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8206,6 +9276,11 @@
         "agi": 15,
         "hp": 25,
         "ac": 351
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -8228,6 +9303,11 @@
         "sta": 10,
         "agi": 50,
         "dex": 335
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8249,6 +9329,11 @@
         "str": 15,
         "sta": 15,
         "agi": 333
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8290,6 +9375,11 @@
         "sta": 90,
         "agi": 50,
         "dex": 294
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -8312,6 +9402,11 @@
         "sta": 50,
         "agi": 329,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8357,6 +9452,11 @@
         "int": 4,
         "cha": 4,
         "hp": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -8378,6 +9478,11 @@
         "str": 10,
         "sta": 10,
         "agi": 11
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -8403,6 +9508,11 @@
         "ac": 354,
         "pr": 10,
         "dr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -8446,6 +9556,11 @@
         "sta": 25,
         "ac": 347,
         "cr": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -8468,6 +9583,11 @@
         "sta": 25,
         "agi": 326,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8491,6 +9611,11 @@
         "agi": 50,
         "dex": 410,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -8532,6 +9657,11 @@
         "sta": 50,
         "agi": 50,
         "dex": 352
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8574,6 +9704,11 @@
       "durability": 90,
       "stats": {
         "str": 387
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -8645,6 +9780,11 @@
         "cha": 5,
         "hp": 5,
         "pow": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8691,6 +9831,11 @@
         "hp": 315,
         "pow": 4,
         "hot": 4
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8713,6 +9858,11 @@
         "sta": 50,
         "agi": 10,
         "dex": 340
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -8754,6 +9904,11 @@
         "str": 40,
         "sta": 15,
         "agi": 375
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -8794,6 +9949,11 @@
         "sta": -10,
         "agi": 40,
         "dex": 405
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -8817,6 +9977,11 @@
         "agi": 40,
         "dex": 5,
         "int": 350
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -8840,6 +10005,11 @@
         "agi": 373,
         "dex": 13,
         "int": 13
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -8861,6 +10031,11 @@
         "str": 15,
         "sta": 15,
         "agi": 343
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -8883,6 +10058,11 @@
         "sta": 16,
         "agi": 340,
         "dex": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8905,6 +10085,11 @@
         "sta": 20,
         "agi": 5,
         "dex": 372
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -8948,6 +10133,11 @@
         "dex": 5,
         "wis": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -8969,6 +10159,11 @@
         "str": 20,
         "sta": 50,
         "agi": 397
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -8991,6 +10186,11 @@
         "sta": 10,
         "agi": 100,
         "dex": 322
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -9013,6 +10213,11 @@
         "sta": 15,
         "agi": 50,
         "dex": 424
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Rathe Mountains Loot Table",
+        "location": "Rathe Mountains"
       }
     },
     {
@@ -9075,6 +10280,11 @@
         "str": 15,
         "sta": 10,
         "agi": 381
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -9097,6 +10307,11 @@
         "sta": 35,
         "agi": 50,
         "dex": 434
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -9179,6 +10394,11 @@
         "sta": 352,
         "agi": 15,
         "dex": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -9201,6 +10421,11 @@
         "sta": 15,
         "agi": 20,
         "dex": 370
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -9222,6 +10447,11 @@
         "ac": 336,
         "pr": 8,
         "lr": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wastelands Loot Table",
+        "location": "Wastelands"
       }
     },
     {
@@ -9275,6 +10505,11 @@
         "fr": 5,
         "cr": 5,
         "lr": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -9299,6 +10534,11 @@
         "dex": 5,
         "wis": 5,
         "int": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -9339,6 +10579,11 @@
         "agi": 12,
         "dex": 50,
         "int": 371
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -9361,6 +10606,11 @@
         "sta": 25,
         "agi": 393,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -9382,6 +10632,11 @@
         "str": 421,
         "sta": 25,
         "agi": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -9461,6 +10716,11 @@
         "agi": 50,
         "dex": 408,
         "int": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -9483,6 +10743,11 @@
         "sta": 100,
         "agi": 343,
         "dex": 22
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9508,6 +10773,11 @@
         "wis": 10,
         "int": 10,
         "cha": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9533,6 +10803,11 @@
         "wis": 20,
         "int": 438,
         "cha": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -9574,6 +10849,11 @@
         "sta": 100,
         "agi": 350,
         "dex": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9596,6 +10876,11 @@
         "sta": 420,
         "agi": 20,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9654,6 +10939,11 @@
         "cha": 20,
         "pow": 100,
         "ac": 440
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Forest Loot Table",
+        "location": "Forest"
       }
     },
     {
@@ -9776,6 +11066,11 @@
         "agi": 445,
         "dex": 10,
         "int": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -9798,6 +11093,11 @@
         "sta": 10,
         "agi": 400,
         "dex": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -9892,6 +11192,11 @@
         "ac": 119,
         "fr": 10,
         "lr": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -9915,6 +11220,11 @@
         "agi": 206,
         "dex": 10,
         "int": 30
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -9999,6 +11309,11 @@
         "hp": 80,
         "ac": 463,
         "fr": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {
@@ -10190,6 +11505,11 @@
         "sta": 17,
         "agi": 75,
         "dex": 405
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -10289,6 +11609,11 @@
         "agi": 80,
         "dex": 461,
         "int": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -10410,6 +11735,11 @@
         "dex": 10,
         "wis": 446,
         "int": 75
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -10532,6 +11862,11 @@
         "ac": 361,
         "lr": 15,
         "ar": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Wetlands Loot Table",
+        "location": "Wetlands"
       }
     },
     {

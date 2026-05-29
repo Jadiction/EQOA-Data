@@ -2506,6 +2506,11 @@
       "attackType": "twoHandSlash",
       "stats": {
         "str": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3142,6 +3147,11 @@
         "pow": 39,
         "fr": 11,
         "ar": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -3161,6 +3171,11 @@
       "stats": {
         "str": 10,
         "dex": 9
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3276,6 +3291,11 @@
       "stats": {
         "sta": 5,
         "dex": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     },
     {
@@ -3326,7 +3346,12 @@
           "ALL"
         ]
       },
-      "damage": 379
+      "damage": 379,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Calamitous Falchion",
@@ -3574,6 +3599,11 @@
       "stats": {
         "agi": 5,
         "dex": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3623,6 +3653,11 @@
       "stats": {
         "str": 10,
         "ac": 33
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -3664,6 +3699,11 @@
         "dex": 20,
         "pow": 25,
         "fr": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3679,7 +3719,12 @@
           "ALL"
         ]
       },
-      "damage": 336
+      "damage": 336,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Dread Dirk",
@@ -3698,6 +3743,11 @@
       "stats": {
         "agi": 7,
         "dex": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -3718,6 +3768,11 @@
         "str": 10,
         "agi": 13,
         "ac": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -3737,6 +3792,11 @@
       "stats": {
         "sta": 15,
         "agi": 13
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3814,6 +3874,11 @@
         "pow": 40,
         "fr": 10,
         "ar": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -3889,6 +3954,11 @@
       "stats": {
         "sta": 22,
         "cr": 22
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -3964,6 +4034,11 @@
       "damage": 375,
       "stats": {
         "fr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -4156,6 +4231,11 @@
       "damage": 270,
       "stats": {
         "sta": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -4403,6 +4483,11 @@
         "agi": 5,
         "dex": 5,
         "hp": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -4544,6 +4629,11 @@
         "pow": 10,
         "pr": 3,
         "cr": 3
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
       }
     },
     {
@@ -4678,7 +4768,12 @@
           "ALL"
         ]
       },
-      "damage": 292
+      "damage": 292,
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
+      }
     },
     {
       "name": "Resonating Spear",
@@ -4719,6 +4814,11 @@
       "damage": 352,
       "stats": {
         "str": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
       }
     },
     {
@@ -4753,6 +4853,11 @@
       "stats": {
         "dex": 10,
         "int": 7
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -4858,6 +4963,11 @@
         "agi": 6,
         "dex": 6,
         "pow": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -4932,6 +5042,11 @@
       "stats": {
         "str": 10,
         "agi": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -5019,7 +5134,12 @@
           "ALL"
         ]
       },
-      "damage": 275
+      "damage": 275,
+      "source": {
+        "type": "merchant",
+        "name": "Smithy McMarrin",
+        "location": "Halas"
+      }
     },
     {
       "name": "Storm's Edge",
@@ -5196,6 +5316,11 @@
       "stats": {
         "agi": 5,
         "dex": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -5211,7 +5336,12 @@
           "ALL"
         ]
       },
-      "damage": 340
+      "damage": 340,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Viperous Dirk",
@@ -5285,7 +5415,12 @@
         ]
       },
       "itemHp": 75,
-      "damage": 328
+      "damage": 328,
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
+      }
     },
     {
       "name": "Wounding Stinger",
@@ -6418,6 +6553,11 @@
       "stats": {
         "pr": 16,
         "dr": 13
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6473,6 +6613,11 @@
         "hp": 50,
         "ac": 48,
         "dr": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -6536,6 +6681,11 @@
         "ac": 77,
         "pr": 11,
         "cr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -6615,6 +6765,11 @@
         "wis": 20,
         "cha": 12,
         "pow": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -7301,6 +7456,11 @@
         "hp": 25,
         "pow": 35,
         "ac": 24
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -7500,6 +7660,11 @@
         "int": 15,
         "ac": 108,
         "lr": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -7577,6 +7742,11 @@
         "wis": 25,
         "ac": 76,
         "ar": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -8417,6 +8587,11 @@
         "cr": 6,
         "lr": 6,
         "ar": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -8937,6 +9112,11 @@
       "stats": {
         "ac": 29,
         "fr": 22
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9196,6 +9376,10 @@
         "str": 8,
         "hp": 10,
         "ac": 62
+      },
+      "source": {
+        "type": "crafting",
+        "name": "Soldier's"
       }
     },
     {
@@ -9277,6 +9461,11 @@
         "wis": 2,
         "cha": 2,
         "ac": 56
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9375,6 +9564,11 @@
         "dex": 15,
         "ac": 108,
         "fr": 6
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Plains Loot Table",
+        "location": "Plains"
       }
     },
     {
@@ -9432,6 +9626,11 @@
         "pow": 60,
         "ac": 35,
         "cr": 8
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -9471,6 +9670,11 @@
       "stats": {
         "str": 15,
         "agi": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9530,6 +9734,11 @@
         "dex": 12,
         "ac": 74,
         "pr": 12
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {
@@ -9573,6 +9782,11 @@
         "ac": 71,
         "fr": 7,
         "lr": 2
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Marine Loot Table",
+        "location": "Marine"
       }
     },
     {
@@ -9594,6 +9808,11 @@
         "hp": 25,
         "pow": 25,
         "ac": 90
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Generic Loot Table",
+        "location": "Generic"
       }
     },
     {

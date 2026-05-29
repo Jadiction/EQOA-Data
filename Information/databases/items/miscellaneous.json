@@ -15,7 +15,12 @@
       },
       "durability": 50,
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Grizzar",
+        "location": "Freeport"
+      }
     },
     {
       "name": "rose of renewal",
@@ -30,7 +35,12 @@
           "ALL"
         ]
       },
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mianda",
+        "location": "Freeport"
+      }
     },
     {
       "name": "sea serpent's scale",
@@ -211,7 +221,12 @@
         ]
       },
       "maxStack": 99,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Coridon",
+        "location": "Freeport"
+      }
     },
     {
       "name": "crusty goblin eye",
@@ -281,7 +296,12 @@
           "ALL"
         ]
       },
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Verona",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Stone of Enlightened Physique",
@@ -315,7 +335,12 @@
       },
       "durability": 50,
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Coridon",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Anniversary Certificate",
@@ -330,7 +355,12 @@
           "ALL"
         ]
       },
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mianda",
+        "location": "Freeport"
+      }
     },
     {
       "name": "wand of downpour",
@@ -428,7 +458,12 @@
       },
       "maxStack": 50,
       "durability": 50,
-      "craft": true
+      "craft": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mianda",
+        "location": "Freeport"
+      }
     },
     {
       "name": "evil eye cornea",
@@ -551,7 +586,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "rain water",
@@ -567,7 +607,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "mead",
@@ -583,7 +628,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "apple cider",
@@ -599,7 +649,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "milk",
@@ -615,7 +670,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "buttermilk",
@@ -631,7 +691,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "nog",
@@ -647,7 +712,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "mineral water",
@@ -663,7 +733,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "spring water",
@@ -679,7 +754,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "dwarven stout",
@@ -695,7 +775,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "port",
@@ -711,7 +796,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "merlot",
@@ -727,7 +817,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "elven wine",
@@ -743,7 +838,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "gnomish spirits",
@@ -759,7 +859,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Holli",
+        "location": "Halas"
+      }
     },
     {
       "name": "arcadin brandy",
@@ -859,7 +964,12 @@
       },
       "maxStack": 50,
       "durability": 50,
-      "craft": true
+      "craft": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Coridon",
+        "location": "Freeport"
+      }
     },
     {
       "name": "ice giant loincloth",
@@ -1074,7 +1184,12 @@
       },
       "durability": 50,
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Yulia",
+        "location": "Freeport"
+      }
     },
     {
       "name": "ebony recluse",
@@ -1377,7 +1492,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "torn snake scales",
@@ -1555,7 +1675,12 @@
       },
       "maxStack": 50,
       "durability": 50,
-      "craft": true
+      "craft": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "Mountain Loot Table",
+        "location": "Mountain"
+      }
     },
     {
       "name": "ruined brown bat fur",
@@ -1609,7 +1734,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "bolt",
@@ -1624,7 +1754,12 @@
           "ALL"
         ]
       },
-      "maxStack": 10000
+      "maxStack": 10000,
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Koll",
+        "location": "Freeport"
+      }
     },
     {
       "name": "grass carp",
@@ -1778,6 +1913,11 @@
         "pow": 25,
         "ac": 85,
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -1819,6 +1959,11 @@
         "int": 10,
         "pow": 25,
         "ac": 25
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -1841,6 +1986,11 @@
         "dex": 5,
         "pow": 75,
         "ac": 15
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -1862,6 +2012,11 @@
         "dex": 5,
         "hp": 25,
         "ac": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -1885,6 +2040,11 @@
         "ac": 35,
         "fr": 10,
         "cr": 10
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -1905,6 +2065,11 @@
       "stats": {
         "pow": 75,
         "ac": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Desert Loot Table",
+        "location": "Desert"
       }
     },
     {
@@ -1930,6 +2095,11 @@
         "hp": 25,
         "pow": 25,
         "ac": 34
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Arctic Loot Table",
+        "location": "Arctic"
       }
     },
     {
@@ -1969,7 +2139,12 @@
           "ALL"
         ]
       },
-      "maxStack": 999
+      "maxStack": 999,
+      "source": {
+        "type": "merchant",
+        "name": "Bowyer Mattson",
+        "location": "Halas"
+      }
     },
     {
       "name": "can of worms",
@@ -1991,7 +2166,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "spiced jerky",
@@ -2007,7 +2187,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "boiled egg",
@@ -2023,7 +2208,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "cheddar cheese",
@@ -2039,7 +2229,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "oat muffin",
@@ -2055,7 +2250,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "raisin bread",
@@ -2071,7 +2271,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "levain",
@@ -2087,7 +2292,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "multigrain loaf",
@@ -2103,7 +2313,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "flax bread",
@@ -2119,7 +2334,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "sourdough bread",
@@ -2135,7 +2355,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "pie",
@@ -2151,7 +2376,12 @@
         ]
       },
       "maxStack": 50,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Hannibal",
+        "location": "Halas"
+      }
     },
     {
       "name": "54food",
@@ -2445,7 +2675,12 @@
         ]
       },
       "maxStack": 3,
-      "durability": 50
+      "durability": 50,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
+      }
     },
     {
       "name": "fractured tarantua fang",
@@ -2795,7 +3030,12 @@
       "description": "This tiny gem can increase appeal and tolerance when added to jewelry.",
       "maxStack": 50,
       "durability": 50,
-      "craft": true
+      "craft": true,
+      "source": {
+        "type": "mobDrop",
+        "name": "Swamp Loot Table",
+        "location": "Swamp"
+      }
     },
     {
       "name": "rhodizite",
@@ -2871,13 +3111,23 @@
     {
       "name": "silk cord",
       "type": "miscellaneous",
-      "description": "A black silk cord commonly used around the waist of a robe."
+      "description": "A black silk cord commonly used around the waist of a robe.",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Yesam",
+        "location": "Freeport"
+      }
     },
     {
       "name": "bit of ivory",
       "type": "miscellaneous",
       "description": "A small bit of ivory. Not worth very much.",
-      "maxStack": 99
+      "maxStack": 99,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Yesam",
+        "location": "Freeport"
+      }
     },
     {
       "name": "leather strip",
@@ -2885,14 +3135,24 @@
       "description": "A small strip of tanned leather.",
       "maxStack": 99,
       "durability": 50,
-      "craft": true
+      "craft": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Shohan",
+        "location": "Freeport"
+      }
     },
     {
       "name": "wooden shaft",
       "type": "miscellaneous",
       "description": "A long wooden shaft used in making all sorts of shafted weapons.",
       "durability": 50,
-      "craft": true
+      "craft": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Shohan",
+        "location": "Freeport"
+      }
     },
     {
       "name": "iron ore",
@@ -2900,7 +3160,12 @@
       "description": "A heavy bar of iron ore used in the manufacturing of many items, including weapons and armor.",
       "maxStack": 99,
       "durability": 50,
-      "craft": true
+      "craft": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Shohan",
+        "location": "Freeport"
+      }
     },
     {
       "name": "smashed beetle eye",
@@ -2911,7 +3176,12 @@
     {
       "name": "tailored gloves",
       "type": "miscellaneous",
-      "description": "Add a real description"
+      "description": "Add a real description",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Yulia",
+        "location": "Freeport"
+      }
     },
     {
       "name": "stolen goods",
@@ -2924,7 +3194,12 @@
       "name": "bottle of blessed water",
       "type": "miscellaneous",
       "description": "A bottle filled with blessed water.",
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Alana",
+        "location": "Freeport"
+      }
     },
     {
       "name": "blue raven feather",
@@ -2940,7 +3215,12 @@
     {
       "name": "fish liver oil",
       "type": "miscellaneous",
-      "description": "Add a real description"
+      "description": "Add a real description",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Charlie",
+        "location": "Highpass"
+      }
     },
     {
       "name": "albino rat tail",
@@ -2998,7 +3278,12 @@
     {
       "name": "fine chocolates",
       "type": "miscellaneous",
-      "description": "A box of fine chocolates."
+      "description": "A box of fine chocolates.",
+      "source": {
+        "type": "merchant",
+        "name": "Grocer Fritz",
+        "location": "Bobble By Water"
+      }
     },
     {
       "name": "crelwin's chocolate stained robe",
@@ -3011,7 +3296,12 @@
       "type": "miscellaneous",
       "description": "Not safe to eat.",
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Ilenar Crelwin",
+        "location": "Freeport"
+      }
     },
     {
       "name": "fixed chocolates",
@@ -3029,7 +3319,12 @@
       "name": "nightworm roots",
       "type": "miscellaneous",
       "description": "These are the roots of a nightworm.",
-      "noTrade": true
+      "noTrade": true,
+      "source": {
+        "type": "questReward",
+        "name": "Dagget Klem",
+        "location": "Hodstock And Temby"
+      }
     },
     {
       "name": "blood of the desert madman",
@@ -3334,7 +3629,12 @@
         ]
       },
       "durability": 50,
-      "noTrade": true
+      "noTrade": true,
+      "source": {
+        "type": "questReward",
+        "name": "Kellina",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Earth Elementaling",
@@ -3668,6 +3968,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -3964,7 +4269,12 @@
       "type": "miscellaneous",
       "description": "A small block of unsmelted ore.",
       "maxStack": 99,
-      "craft": true
+      "craft": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Grener",
+        "location": "Fayspires Teth"
+      }
     },
     {
       "name": "rune stone of ghizsa",
@@ -3984,7 +4294,12 @@
       "name": "lantern oil",
       "type": "miscellaneous",
       "description": "A bottle of lantern oil.",
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Landi",
+        "location": "Freeport"
+      }
     },
     {
       "name": "cracked red crystal",
@@ -4092,7 +4407,12 @@
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Kellina",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Infusion",
@@ -4112,7 +4432,12 @@
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Kellina",
+        "location": "Freeport"
+      }
     },
     {
       "name": "orc ransacker's club",
@@ -4139,7 +4464,12 @@
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Ilenar Crelwin",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Endure Fire",
@@ -4159,7 +4489,12 @@
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Kellina",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Frozen Mark",
@@ -4206,14 +4541,24 @@
       "type": "miscellaneous",
       "description": "This is Ilenar Crelwin's damaged robe.",
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Ilenar Crelwin",
+        "location": "Freeport"
+      }
     },
     {
       "name": "chocolate stained robe",
       "type": "miscellaneous",
       "description": "This is Ilenar Crelwin's chocolate stained robe.",
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Delwin Stitchfinger",
+        "location": "Bobble By Water"
+      }
     },
     {
       "name": "wolf fang pendant",
@@ -4751,7 +5096,12 @@
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Freeport Quest",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Rabid Infection",
@@ -4772,7 +5122,12 @@
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Freeport Quest",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Strengthen Bone",
@@ -4793,7 +5148,12 @@
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Freeport Quest",
+        "location": "Freeport"
+      }
     },
     {
       "name": "Endure Disease",
@@ -5384,6 +5744,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5402,6 +5767,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5425,6 +5795,11 @@
           "ERU",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5439,6 +5814,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5453,6 +5833,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5467,6 +5852,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5481,6 +5871,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5495,6 +5890,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5509,6 +5909,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5523,6 +5928,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5537,6 +5947,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5551,6 +5966,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5565,6 +5985,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5579,6 +6004,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5607,6 +6037,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Pythena",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5625,6 +6060,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5643,6 +6083,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5661,6 +6106,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5679,6 +6129,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5697,6 +6152,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5715,6 +6175,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5733,6 +6198,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5751,6 +6221,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5759,7 +6234,12 @@
       "description": "A simple oilstone used for sharpening weapons.",
       "maxStack": 20,
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mallie",
+        "location": "Halas"
+      }
     },
     {
       "name": "Freezing Strike",
@@ -5777,6 +6257,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5795,6 +6280,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5813,6 +6303,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5831,6 +6326,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5849,6 +6349,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5885,6 +6390,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5903,6 +6413,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Tempar",
+        "location": "Qeynos"
       }
     },
     {
@@ -5921,6 +6436,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5939,6 +6459,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5957,6 +6482,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5975,6 +6505,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -5993,6 +6528,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6011,6 +6551,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6029,6 +6574,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6047,6 +6597,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6065,6 +6620,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6083,6 +6643,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6101,6 +6666,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6119,6 +6689,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6137,6 +6712,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6155,6 +6735,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6191,6 +6776,11 @@
           "GNO",
           "ERU"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Vorenial",
+        "location": "Fayspires Teth"
       }
     },
     {
@@ -6212,6 +6802,11 @@
           "HLF",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6226,6 +6821,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6240,6 +6840,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6254,6 +6859,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6268,6 +6878,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6282,6 +6897,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6296,6 +6916,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6310,6 +6935,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6324,6 +6954,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6338,6 +6973,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6352,6 +6992,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6366,6 +7011,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Elgerstein",
+        "location": "Qeynos"
       }
     },
     {
@@ -6380,6 +7030,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6394,6 +7049,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6408,6 +7068,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6422,6 +7087,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6436,6 +7106,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6450,6 +7125,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6464,6 +7144,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6478,6 +7163,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6492,6 +7182,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6506,6 +7201,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6520,6 +7220,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -6534,6 +7239,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -7326,6 +8036,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Planck",
+        "location": "Moradhim"
       }
     },
     {
@@ -7639,23 +8354,43 @@
     {
       "name": "bit of charcoal",
       "type": "miscellaneous",
-      "description": "A bit of compressed charcoal."
+      "description": "A bit of compressed charcoal.",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mintopp",
+        "location": "Rivervale"
+      }
     },
     {
       "name": "dice",
       "type": "miscellaneous",
       "description": "When used this pair of dice each give a result from one to six.",
-      "maxStack": 99
+      "maxStack": 99,
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mintopp",
+        "location": "Rivervale"
+      }
     },
     {
       "name": "fishing line",
       "type": "miscellaneous",
-      "description": "Fine yet strong fibrous cord used to catch fish."
+      "description": "Fine yet strong fibrous cord used to catch fish.",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mintopp",
+        "location": "Rivervale"
+      }
     },
     {
       "name": "fishing worms",
       "type": "miscellaneous",
-      "description": "Worms dug out of the ground and used as bait for fishing."
+      "description": "Worms dug out of the ground and used as bait for fishing.",
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Mintopp",
+        "location": "Rivervale"
+      }
     },
     {
       "name": "Minor Healing",
@@ -7669,6 +8404,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -7683,6 +8423,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -7697,6 +8442,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -7711,6 +8461,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -7725,6 +8480,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -7739,6 +8499,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -7783,6 +8548,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -7797,6 +8567,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -7811,6 +8586,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -7825,6 +8605,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -7839,6 +8624,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -7867,6 +8657,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -7881,6 +8676,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -7895,6 +8695,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -7909,6 +8714,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -7923,6 +8733,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -8055,6 +8870,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8071,6 +8891,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8087,6 +8912,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -8103,6 +8933,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -8171,6 +9006,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -8187,6 +9027,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -8307,6 +9152,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -8449,6 +9299,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -8465,6 +9320,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8481,6 +9341,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8497,6 +9362,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -8513,6 +9383,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -8671,6 +9546,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -8687,6 +9567,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -8703,6 +9588,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -8719,6 +9609,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8735,6 +9630,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8751,6 +9651,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -8767,6 +9672,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -8833,6 +9743,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -8849,6 +9764,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8881,6 +9801,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -8945,6 +9870,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8961,6 +9891,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {
@@ -8993,6 +9928,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -9009,6 +9949,11 @@
           "BAR",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant McDougal",
+        "location": "Halas"
       }
     },
     {
@@ -9045,6 +9990,11 @@
           "HLF",
           "OGR"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Ironfrost",
+        "location": "Halas"
       }
     },
     {
@@ -9081,6 +10031,11 @@
         "race": [
           "ALL"
         ]
+      },
+      "source": {
+        "type": "merchant",
+        "name": "Merchant Welty",
+        "location": "Halas"
       }
     },
     {

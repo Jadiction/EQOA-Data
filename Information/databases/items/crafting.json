@@ -20,6 +20,11 @@
         "sta": 30,
         "hp": 70,
         "ac": 20
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Deep Jungle Loot Table",
+        "location": "Deep Jungle"
       }
     },
     {
@@ -55,6 +60,11 @@
       "durability": 50,
       "stats": {
         "str": 5
+      },
+      "source": {
+        "type": "mobDrop",
+        "name": "Red Desert Loot Table",
+        "location": "Red Desert"
       }
     }
   ],
