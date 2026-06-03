@@ -376,8 +376,8 @@
       }
     },
     {
-      "name": "Swamp Patrol Tunic",
-      "type": "chest",
+      "name": "Swamp Patrol Tunic1234",
+      "type": "ring",
       "requirements": {
         "level": 7,
         "class": [
@@ -391,7 +391,8 @@
         "sta": 8,
         "hp": 15,
         "ac": 22
-      }
+      },
+      "description": "1234"
     },
     {
       "name": "Batwing Tunic",
