@@ -1593,6 +1593,9 @@
     { "name": "Teir'dal"                      , "x": 12409, "y":  8618, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Tier'dal"                      , "x": 12611, "y":  8810, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Desert Bandit"                 , "x": 12843, "y":  8865, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Nasehir"                       , "x": 12868, "y":  9044, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} }
+    { "name": "Nasehir"                       , "x": 12868, "y":  9044, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Phantoms"                      , "x":  1296, "y":  8637, "category": "camp", "levelRange": "50-51", "icon": "circle-fill", "style": {"color":"#f1f5f9"} },
+    { "name": "Great Ratwere (50)"            , "x":  2922, "y": 11105, "category": "quest", "questGuideIds": ["weres/ratwere"], "icon": "circle-on", "style": {"color":"#f1f5f9"} },
+    { "name": "Great Ratwere (47)"            , "x":  3049, "y": 11294, "category": "quest", "questGuideIds": ["weres/ratwere"], "icon": "circle-on", "style": {"color":"#f1f5f9"} }
   ]
 }
