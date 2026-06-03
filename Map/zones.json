@@ -1511,6 +1511,7 @@
     { "name": "Clan Kolbok"                   , "x":  1806, "y": 11170, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Clan Kolbok"                   , "x":  2028, "y": 11092, "category": "camp", "levelRange": "1-1", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Clan Kolbok"                   , "x":  1975, "y": 10845, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} },
+    { "name": "Clan Kolbok"                   , "x":  1974, "y": 10846, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} },
     { "name": "Jaeger Mansion"                , "x":  5105, "y":  3142, "category": "camp", "levelRange": "1-1", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Unkempt Druids"                , "x":  5035, "y":  2557, "category": "camp", "levelRange": "1-1", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Vampire Hunters"               , "x":  4869, "y":  3165, "category": "camp", "levelRange": "1-1", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
@@ -1593,5 +1594,6 @@
     { "name": "Tier'dal"                      , "x": 12611, "y":  8810, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Desert Bandit"                 , "x": 12843, "y":  8865, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Nasehir"                       , "x": 12868, "y":  9044, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} }
+    { "name": "Tenacious Frost Giant"         , "x":  4991, "y":   970, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
