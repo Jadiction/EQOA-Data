@@ -1594,6 +1594,5 @@
     { "name": "Tier'dal"                      , "x": 12611, "y":  8810, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Desert Bandit"                 , "x": 12843, "y":  8865, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Nasehir"                       , "x": 12868, "y":  9044, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} }
-    { "name": "Tenacious Frost Giant"         , "x":  4991, "y":   970, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
