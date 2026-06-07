@@ -1,22 +1,17 @@
 {
   "title": "Alchemist",
   "description": "A list of Alchemist spells, and where/when the ability is achieved.",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 2
+    }
+  ],
   "list": [
     {
       "level": 1,
       "abilities": [
-        {
-          "name": "Clever Thought",
-          "description": "TARGET Buff AGI by 10 and INT by 10",
-          "source": "Merchant",
-          "icon": "Profile_Cloud"
-        },
-        {
-          "name": "Eroding Mist",
-          "description": "TARGET Debuff AC by 10 5% Mod by DEX",
-          "source": "Merchant",
-          "icon": "Profile_Pinch"
-        },
         {
           "name": "Group Cleverness",
           "description": "Group Buff AGI by 10 and INT by 10",
@@ -26,7 +21,7 @@
         {
           "name": "Minor Distillation",
           "description": "SELF Summons Minor Corrective",
-          "source": "Merchant",
+          "source": "Merchant!",
           "icon": "Poison"
         },
         {
@@ -52,6 +47,17 @@
           "description": "Summons Unstable Potion X3",
           "source": "CM",
           "icon": "Summon"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "abilities": [
+        {
+          "name": "Clever Thoughts",
+          "description": "TARGET Buff AGI by 10 and INT by 10",
+          "source": "Merchant",
+          "icon": "Profile_Cloud"
         }
       ]
     },
@@ -122,6 +128,12 @@
     {
       "level": 5,
       "abilities": [
+        {
+          "name": "Eroding Mist",
+          "description": "TARGET Debuff AC by 10 5% Mod by DEX",
+          "source": "Merchant",
+          "icon": "Profile_Pinch"
+        },
         {
           "name": "Crude Refinement",
           "description": "SELF Summon Watery Draught",
@@ -1142,13 +1154,6 @@
           "icon": "Summon"
         }
       ]
-    }
-  ],
-  "contributors": [
-    {
-      "login": "Jadiction",
-      "id": 8557785,
-      "commits": 2
     }
   ]
 }
