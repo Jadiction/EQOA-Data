@@ -9,7 +9,7 @@
   ],
   "groups": [
     {
-      "name": "Barbarian",
+      "name": "Dark Elf",
       "cms": [
         {
           "name": "Tough Skin",
@@ -29,85 +29,6 @@
           ],
           "description": "DEF MOD boost"
         },
-        {
-          "name": "Northman's Gait",
-          "ranks": [
-            {
-              "name": "Northman's Gait",
-              "cmCost": 5,
-              "requirements": {
-                "level": 6
-              },
-              "effects": {
-                "stats": {
-                  "MovRate": 5
-                }
-              }
-            }
-          ],
-          "description": "MOV RATE boost"
-        },
-        {
-          "name": "Berserker",
-          "ranks": [
-            {
-              "name": "Berserker 1",
-              "cmCost": 200,
-              "requirements": {
-                "level": 55,
-                "spent": 500
-              },
-              "effects": {
-                "stats": {
-                  "STR": 50,
-                  "STRMax": 100,
-                  "Off Mod": 4,
-                  "Def Mod": -2
-                }
-              }
-            },
-            {
-              "name": "Berserker 2",
-              "cmCost": 75,
-              "requirements": {
-                "level": 60
-              },
-              "effects": {
-                "addAbilities": [
-                  {
-                    "name": "Berserk",
-                    "level": 60
-                  }
-                ]
-              },
-              "notes": [
-                "Adds +8 OFF Mods, -3 DEF Mods"
-              ]
-            },
-            {
-              "name": "Berserker 3",
-              "cmCost": 75,
-              "requirements": {
-                "level": 60
-              },
-              "effects": {
-                "stats": {
-                  "STR": 50,
-                  "STA": 25,
-                  "HP Factor": 10,
-                  "AC": -150,
-                  "Off Mod": 1
-                }
-              }
-            }
-          ],
-          "description": "Men of the north are often feared for their reckless abandon in battle."
-        }
-      ]
-    },
-    {
-      "name": "Dark Elf",
-      "cms": [
         {
           "name": "Blood of the North",
           "ranks": [
@@ -280,6 +201,24 @@
       "name": "Dwarf",
       "cms": [
         {
+          "name": "Northman's Gait",
+          "ranks": [
+            {
+              "name": "Northman's Gait",
+              "cmCost": 5,
+              "requirements": {
+                "level": 6
+              },
+              "effects": {
+                "stats": {
+                  "MovRate": 5
+                }
+              }
+            }
+          ],
+          "description": "MOV RATE boost"
+        },
+        {
           "name": "Grudge Bearer",
           "ranks": [
             {
@@ -430,6 +369,62 @@
     {
       "name": "Elf",
       "cms": [
+        {
+          "name": "Berserker",
+          "ranks": [
+            {
+              "name": "Berserker 1",
+              "cmCost": 200,
+              "requirements": {
+                "level": 55,
+                "spent": 500
+              },
+              "effects": {
+                "stats": {
+                  "STR": 50,
+                  "STRMax": 100,
+                  "Off Mod": 4,
+                  "Def Mod": -2
+                }
+              }
+            },
+            {
+              "name": "Berserker 2",
+              "cmCost": 75,
+              "requirements": {
+                "level": 60
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "Berserk",
+                    "level": 60
+                  }
+                ]
+              },
+              "notes": [
+                "Adds +8 OFF Mods, -3 DEF Mods"
+              ]
+            },
+            {
+              "name": "Berserker 3",
+              "cmCost": 75,
+              "requirements": {
+                "level": 60
+              },
+              "effects": {
+                "stats": {
+                  "STR": 50,
+                  "STA": 25,
+                  "HP Factor": 10,
+                  "AC": -150,
+                  "Off Mod": 1
+                }
+              }
+            }
+          ],
+          "description": "Men of the north are often feared for their reckless abandon in battle."
+        },
         {
           "name": "Keen Eye",
           "ranks": [
