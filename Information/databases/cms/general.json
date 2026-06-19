@@ -1,5 +1,12 @@
 {
   "title": "General Class Masteries",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 1
+    }
+  ],
   "groups": [
     {
       "name": "General",
@@ -97,7 +104,18 @@
               "name": "Buldging Muscles 1",
               "cmCost": 5,
               "requirements": {
-                "level": 20
+                "level": 20,
+                "spent": 1,
+                "stats": {
+                  "AGIMax": 5,
+                  "HoT": -4
+                },
+                "requiredAbilities": [
+                  {
+                    "name": "test",
+                    "level": 40
+                  }
+                ]
               },
               "effects": {
                 "stats": {
@@ -2088,6 +2106,7 @@
               "name": "Loping Stride 3",
               "cmCost": 15,
               "requirements": {
+                "level": 1,
                 "stats": {
                   "AGI": 100
                 }
@@ -2153,13 +2172,6 @@
           "description": "Cancels illusion/mask buffs"
         }
       ]
-    }
-  ],
-  "contributors": [
-    {
-      "login": "Jadiction",
-      "id": 8557785,
-      "commits": 1
     }
   ]
 }
