@@ -937,19 +937,6 @@
       ],
       "cms": [
         {
-          "name": "Retreat",
-          "ranks": [
-            {
-              "name": "Retreat",
-              "cmCost": 15,
-              "requirements": {
-                "level": 6
-              }
-            }
-          ],
-          "description": "Group SoW"
-        },
-        {
           "name": "Leadership",
           "ranks": [
             {
@@ -1333,6 +1320,35 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Barbarian",
+      "cms": [
+        {
+          "name": "Retreat test",
+          "ranks": [
+            {
+              "name": "Retreat",
+              "cmCost": 14,
+              "requirements": {
+                "level": 6,
+                "stats": {
+                  "AGI": 1
+                }
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "abc",
+                    "level": 2
+                  }
+                ]
+              }
+            }
+          ],
+          "description": "Group SoW"
         }
       ]
     }
