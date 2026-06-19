@@ -1,61 +1,16 @@
 {
   "title": "Archetype Masteries",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 1
+    }
+  ],
   "groups": [
     {
       "name": "Tank",
       "cms": [
-        {
-          "name": "Battle Hardened",
-          "ranks": [
-            {
-              "name": "Battle Hardened 1",
-              "cmCost": 20,
-              "requirements": {
-                "level": 10,
-                "stats": {
-                  "STA": 100
-                }
-              },
-              "effects": {
-                "stats": {
-                  "STA": 10
-                }
-              }
-            },
-            {
-              "name": "Battle Hardened 2",
-              "cmCost": 30,
-              "requirements": {
-                "level": 30,
-                "stats": {
-                  "STA": 150
-                }
-              },
-              "effects": {
-                "stats": {
-                  "STA": 15
-                }
-              }
-            },
-            {
-              "name": "Battle Hardened 3",
-              "cmCost": 40,
-              "requirements": {
-                "level": 60,
-                "stats": {
-                  "STA": 200
-                }
-              },
-              "effects": {
-                "stats": {
-                  "STA": 20,
-                  "Def Mod": 1
-                }
-              }
-            }
-          ],
-          "description": "STA DEF MOD boost"
-        },
         {
           "name": "Natural Mending",
           "ranks": [
@@ -445,6 +400,61 @@
       "name": "Healer",
       "cms": [
         {
+          "name": "Battle Hardened",
+          "ranks": [
+            {
+              "name": "Battle Hardened 1",
+              "cmCost": 20,
+              "requirements": {
+                "level": 10,
+                "stats": {
+                  "STA": 100
+                }
+              },
+              "effects": {
+                "stats": {
+                  "STA": 10
+                }
+              },
+              "notes": [
+                "test to healer"
+              ]
+            },
+            {
+              "name": "Battle Hardened 2",
+              "cmCost": 30,
+              "requirements": {
+                "level": 30,
+                "stats": {
+                  "STA": 150
+                }
+              },
+              "effects": {
+                "stats": {
+                  "STA": 15
+                }
+              }
+            },
+            {
+              "name": "Battle Hardened 3",
+              "cmCost": 40,
+              "requirements": {
+                "level": 60,
+                "stats": {
+                  "STA": 200
+                }
+              },
+              "effects": {
+                "stats": {
+                  "STA": 20,
+                  "Def Mod": 1
+                }
+              }
+            }
+          ],
+          "description": "STA DEF MOD boost"
+        },
+        {
           "name": "Protected Faith",
           "ranks": [
             {
@@ -624,10 +634,7 @@
               "name": "Meditative Prayer 3",
               "cmCost": 20,
               "requirements": {
-                "level": 30,
-                "stats": {
-                  "WIS": 0
-                }
+                "level": 30
               },
               "effects": {
                 "stats": {
@@ -639,10 +646,7 @@
               "name": "Meditative Prayer 4",
               "cmCost": 25,
               "requirements": {
-                "level": 40,
-                "stats": {
-                  "WIS": 0
-                }
+                "level": 40
               },
               "effects": {
                 "stats": {
@@ -654,10 +658,7 @@
               "name": "Meditative Prayer 5",
               "cmCost": 30,
               "requirements": {
-                "level": 50,
-                "stats": {
-                  "WIS": 0
-                }
+                "level": 50
               },
               "effects": {
                 "stats": {
@@ -1829,13 +1830,6 @@
           "description": "Adds Abilities"
         }
       ]
-    }
-  ],
-  "contributors": [
-    {
-      "login": "Jadiction",
-      "id": 8557785,
-      "commits": 1
     }
   ]
 }
