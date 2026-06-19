@@ -2,6 +2,13 @@
   "title": "Alchemist Class Masteries",
   "class": "Alchemist",
   "type": "Caster",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 1
+    }
+  ],
   "groups": [
     {
       "name": "Class Masteries",
@@ -13,12 +20,31 @@
               "name": "Blind Ambition 1",
               "cmCost": 10,
               "requirements": {
-                "level": 20
+                "level": 21,
+                "spent": 1,
+                "requiredAbilities": [
+                  {
+                    "name": "test ability",
+                    "level": 7
+                  }
+                ]
               },
               "effects": {
                 "stats": {
                   "Pow": -100
-                }
+                },
+                "addAbilities": [
+                  {
+                    "name": "test add",
+                    "level": 6
+                  }
+                ],
+                "removeAbilities": [
+                  {
+                    "name": "test rem",
+                    "level": 7
+                  }
+                ]
               }
             },
             {
@@ -68,9 +94,19 @@
                   "Pow": -100
                 }
               }
+            },
+            {
+              "name": "Blind Ambition 6",
+              "cmCost": 10,
+              "requirements": {
+                "level": 60
+              },
+              "notes": [
+                "new rank test"
+              ]
             }
           ],
-          "description": "-Power"
+          "description": "-Power, this is a test 1 2 3"
         },
         {
           "name": "Acidic Bonding Agent",
@@ -1021,6 +1057,9 @@
             {
               "name": "Metabolist 3",
               "cmCost": 75,
+              "requirements": {
+                "level": 60
+              },
               "effects": {
                 "stats": {
                   "AGI": 25,
@@ -1099,13 +1138,6 @@
           ]
         }
       ]
-    }
-  ],
-  "contributors": [
-    {
-      "login": "Jadiction",
-      "id": 8557785,
-      "commits": 1
     }
   ]
 }
