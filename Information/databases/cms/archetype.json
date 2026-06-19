@@ -1,8 +1,15 @@
 {
   "title": "Archetype Masteries",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 1
+    }
+  ],
   "groups": [
     {
-      "name": "Tank",
+      "name": "Healer",
       "cms": [
         {
           "name": "Battle Hardened",
@@ -20,7 +27,10 @@
                 "stats": {
                   "STA": 10
                 }
-              }
+              },
+              "notes": [
+                "changed to healer test"
+              ]
             },
             {
               "name": "Battle Hardened 2",
@@ -56,6 +66,564 @@
           ],
           "description": "STA DEF MOD boost"
         },
+        {
+          "name": "Protected Faith",
+          "ranks": [
+            {
+              "name": "Protected Faith 1",
+              "cmCost": 15,
+              "requirements": {
+                "level": 20,
+                "stats": {
+                  "AGI": 60,
+                  "WIS": 100
+                }
+              },
+              "effects": {
+                "stats": {
+                  "Def Mod": 1
+                }
+              }
+            },
+            {
+              "name": "Protected Faith 2",
+              "cmCost": 20,
+              "requirements": {
+                "level": 30,
+                "stats": {
+                  "AGI": 80,
+                  "WIS": 130
+                }
+              },
+              "effects": {
+                "stats": {
+                  "Def Mod": 1
+                }
+              }
+            },
+            {
+              "name": "Protected Faith 3",
+              "cmCost": 25,
+              "requirements": {
+                "level": 40,
+                "stats": {
+                  "AGI": 100,
+                  "WIS": 160
+                }
+              },
+              "effects": {
+                "stats": {
+                  "Def Mod": 1
+                }
+              }
+            },
+            {
+              "name": "Protected Faith 4",
+              "cmCost": 30,
+              "requirements": {
+                "level": 50,
+                "stats": {
+                  "AGI": 120,
+                  "WIS": 190
+                }
+              },
+              "effects": {
+                "stats": {
+                  "Def Mod": 1
+                }
+              }
+            },
+            {
+              "name": "Protected Faith 5",
+              "cmCost": 35,
+              "requirements": {
+                "level": 60,
+                "stats": {
+                  "AGI": 140,
+                  "WIS": 220
+                }
+              },
+              "effects": {
+                "stats": {
+                  "Def Mod": 1
+                }
+              }
+            }
+          ],
+          "description": "DEF MOD boost"
+        },
+        {
+          "name": "Crusading Faith",
+          "ranks": [
+            {
+              "name": "Crusading Faith 1",
+              "cmCost": 20,
+              "requirements": {
+                "level": 10,
+                "stats": {
+                  "DEX": 80,
+                  "WIS": 100
+                }
+              },
+              "effects": {
+                "stats": {
+                  "DEX": 5,
+                  "Off Mod": 1
+                }
+              }
+            },
+            {
+              "name": "Crusading Faith 2",
+              "cmCost": 30,
+              "requirements": {
+                "level": 40,
+                "stats": {
+                  "DEX": 100,
+                  "WIS": 150
+                }
+              },
+              "effects": {
+                "stats": {
+                  "DEX": 5,
+                  "Off Mod": 1
+                }
+              }
+            },
+            {
+              "name": "Crusading Faith 3",
+              "cmCost": 40,
+              "requirements": {
+                "level": 55,
+                "stats": {
+                  "DEX": 120,
+                  "WIS": 200
+                }
+              },
+              "effects": {
+                "stats": {
+                  "DEX": 5,
+                  "Off Mod": 1
+                }
+              }
+            }
+          ],
+          "description": "DEX and OFF MOD boost"
+        },
+        {
+          "name": "Meditative Prayer",
+          "ranks": [
+            {
+              "name": "Meditative Prayer 1",
+              "cmCost": 10,
+              "requirements": {
+                "level": 10,
+                "stats": {
+                  "WIS": 100
+                }
+              },
+              "effects": {
+                "stats": {
+                  "PoT": 4
+                }
+              }
+            },
+            {
+              "name": "Meditative Prayer 2",
+              "cmCost": 15,
+              "requirements": {
+                "level": 20,
+                "stats": {
+                  "WIS": 140
+                }
+              },
+              "effects": {
+                "stats": {
+                  "PoT": 4
+                }
+              }
+            },
+            {
+              "name": "Meditative Prayer 3",
+              "cmCost": 20,
+              "requirements": {
+                "level": 30
+              },
+              "effects": {
+                "stats": {
+                  "PoT": 4
+                }
+              }
+            },
+            {
+              "name": "Meditative Prayer 4",
+              "cmCost": 25,
+              "requirements": {
+                "level": 40
+              },
+              "effects": {
+                "stats": {
+                  "PoT": 4
+                }
+              }
+            },
+            {
+              "name": "Meditative Prayer 5",
+              "cmCost": 30,
+              "requirements": {
+                "level": 50
+              },
+              "effects": {
+                "stats": {
+                  "PoT": 4
+                }
+              }
+            }
+          ],
+          "description": "PoT boost"
+        },
+        {
+          "name": "Blessing of Nife",
+          "ranks": [
+            {
+              "name": "Blessing of Nife 1",
+              "cmCost": 15,
+              "requirements": {
+                "level": 10,
+                "stats": {
+                  "STA": 100
+                }
+              },
+              "effects": {
+                "stats": {
+                  "HP Factor": 1
+                }
+              }
+            },
+            {
+              "name": "Blessing of Nife 2",
+              "cmCost": 20,
+              "requirements": {
+                "level": 20,
+                "stats": {
+                  "STA": 100
+                }
+              },
+              "effects": {
+                "stats": {
+                  "HP Factor": 1
+                }
+              }
+            },
+            {
+              "name": "Blessing of Nife 3",
+              "cmCost": 25,
+              "requirements": {
+                "level": 35,
+                "stats": {
+                  "STA": 100
+                }
+              },
+              "effects": {
+                "stats": {
+                  "HP Factor": 1
+                }
+              }
+            },
+            {
+              "name": "Blessing of Nife 4",
+              "cmCost": 30,
+              "requirements": {
+                "level": 55,
+                "stats": {
+                  "STA": 100
+                }
+              },
+              "effects": {
+                "stats": {
+                  "HP Factor": 1
+                }
+              }
+            }
+          ],
+          "description": "HP Factor boost"
+        },
+        {
+          "name": "Diviner Presence",
+          "ranks": [
+            {
+              "name": "Diviner Presence 1",
+              "cmCost": 20,
+              "requirements": {
+                "level": 25
+              },
+              "effects": {
+                "stats": {
+                  "CHA": 15
+                }
+              }
+            },
+            {
+              "name": "Diviner Presence 2",
+              "cmCost": 25,
+              "requirements": {
+                "level": 40
+              },
+              "effects": {
+                "stats": {
+                  "CHA": 15
+                }
+              }
+            },
+            {
+              "name": "Diviner Presence 3",
+              "cmCost": 30,
+              "requirements": {
+                "level": 55
+              },
+              "effects": {
+                "stats": {
+                  "CHA": 20
+                }
+              }
+            }
+          ],
+          "description": "CHA boost"
+        },
+        {
+          "name": "Diviner Wisdom",
+          "ranks": [
+            {
+              "name": "Diviner Wisdom 1",
+              "cmCost": 20,
+              "requirements": {
+                "level": 25
+              },
+              "effects": {
+                "stats": {
+                  "WIS": 15
+                }
+              }
+            },
+            {
+              "name": "Diviner Wisdom 2",
+              "cmCost": 25,
+              "requirements": {
+                "level": 40
+              },
+              "effects": {
+                "stats": {
+                  "WIS": 15
+                }
+              }
+            },
+            {
+              "name": "Diviner Wisdom 3",
+              "cmCost": 30,
+              "requirements": {
+                "level": 55
+              },
+              "effects": {
+                "stats": {
+                  "WIS": 20
+                }
+              }
+            }
+          ],
+          "description": "WIS boost"
+        },
+        {
+          "name": "Diviner Form",
+          "ranks": [
+            {
+              "name": "Diviner Form 1",
+              "cmCost": 20,
+              "requirements": {
+                "level": 25
+              },
+              "effects": {
+                "stats": {
+                  "DEX": 15
+                }
+              }
+            },
+            {
+              "name": "Diviner Form 2",
+              "cmCost": 25,
+              "requirements": {
+                "level": 40
+              },
+              "effects": {
+                "stats": {
+                  "DEX": 15
+                }
+              }
+            },
+            {
+              "name": "Diviner Form 3",
+              "cmCost": 30,
+              "requirements": {
+                "level": 55
+              },
+              "effects": {
+                "stats": {
+                  "DEX": 20
+                }
+              }
+            }
+          ],
+          "description": "DEX boost"
+        },
+        {
+          "name": "Diviner Fortitude",
+          "ranks": [
+            {
+              "name": "Diviner Fortitude 1",
+              "cmCost": 20,
+              "requirements": {
+                "level": 25
+              },
+              "effects": {
+                "stats": {
+                  "STA": 15
+                }
+              }
+            },
+            {
+              "name": "Diviner Fortitude 2",
+              "cmCost": 25,
+              "requirements": {
+                "level": 40
+              },
+              "effects": {
+                "stats": {
+                  "STA": 15
+                }
+              }
+            },
+            {
+              "name": "Diviner Fortitude 3",
+              "cmCost": 30,
+              "requirements": {
+                "level": 55
+              },
+              "effects": {
+                "stats": {
+                  "STA": 20
+                }
+              }
+            }
+          ],
+          "description": "STA boost"
+        },
+        {
+          "name": "Radiance",
+          "ranks": [
+            {
+              "name": "Radiance",
+              "cmCost": 5,
+              "requirements": {
+                "level": 60
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "Radiance",
+                    "level": 60
+                  }
+                ]
+              }
+            }
+          ],
+          "description": "targetted HoT with group PoT and smaller HoT"
+        },
+        {
+          "name": "Field Training",
+          "ranks": [
+            {
+              "name": "Field Training 1",
+              "cmCost": 5,
+              "requirements": {
+                "level": 30
+              },
+              "effects": {
+                "stats": {
+                  "STR": 15,
+                  "CHA": -5
+                }
+              }
+            },
+            {
+              "name": "Field Training 2",
+              "cmCost": 10,
+              "requirements": {
+                "level": 45
+              },
+              "effects": {
+                "stats": {
+                  "STR": 35,
+                  "CHA": -10
+                }
+              }
+            }
+          ],
+          "description": "STR for CHA"
+        },
+        {
+          "name": "Divine Were-Hunter",
+          "ranks": [
+            {
+              "name": "Divine Were-Hunter 1",
+              "cmCost": 200,
+              "requirements": {
+                "level": 55,
+                "spent": 500,
+                "stats": {
+                  "STR": 100,
+                  "WIS": 250
+                }
+              },
+              "effects": {
+                "stats": {
+                  "STR": 65,
+                  "STA": 15,
+                  "WISMax": 50,
+                  "HoT": 10,
+                  "PoT": 10,
+                  "Def Mod": 2
+                }
+              }
+            },
+            {
+              "name": "Divine Were-Hunter 2",
+              "cmCost": 75,
+              "requirements": {
+                "level": 60
+              },
+              "effects": {
+                "stats": {
+                  "STA": 25,
+                  "DEX": 25,
+                  "WIS": 25,
+                  "HP": 250,
+                  "Off Mod": 1
+                }
+              }
+            },
+            {
+              "name": "Divine Were-Hunter 3",
+              "cmCost": 75,
+              "requirements": {
+                "level": 60
+              }
+            }
+          ],
+          "description": "Adds Abilities"
+        }
+      ]
+    },
+    {
+      "name": "Tank",
+      "cms": [
         {
           "name": "Natural Mending",
           "ranks": [
@@ -431,573 +999,6 @@
             },
             {
               "name": "Heroic Were-Hunter 3",
-              "cmCost": 75,
-              "requirements": {
-                "level": 60
-              }
-            }
-          ],
-          "description": "Adds Abilities"
-        }
-      ]
-    },
-    {
-      "name": "Healer",
-      "cms": [
-        {
-          "name": "Protected Faith",
-          "ranks": [
-            {
-              "name": "Protected Faith 1",
-              "cmCost": 15,
-              "requirements": {
-                "level": 20,
-                "stats": {
-                  "AGI": 60,
-                  "WIS": 100
-                }
-              },
-              "effects": {
-                "stats": {
-                  "Def Mod": 1
-                }
-              }
-            },
-            {
-              "name": "Protected Faith 2",
-              "cmCost": 20,
-              "requirements": {
-                "level": 30,
-                "stats": {
-                  "AGI": 80,
-                  "WIS": 130
-                }
-              },
-              "effects": {
-                "stats": {
-                  "Def Mod": 1
-                }
-              }
-            },
-            {
-              "name": "Protected Faith 3",
-              "cmCost": 25,
-              "requirements": {
-                "level": 40,
-                "stats": {
-                  "AGI": 100,
-                  "WIS": 160
-                }
-              },
-              "effects": {
-                "stats": {
-                  "Def Mod": 1
-                }
-              }
-            },
-            {
-              "name": "Protected Faith 4",
-              "cmCost": 30,
-              "requirements": {
-                "level": 50,
-                "stats": {
-                  "AGI": 120,
-                  "WIS": 190
-                }
-              },
-              "effects": {
-                "stats": {
-                  "Def Mod": 1
-                }
-              }
-            },
-            {
-              "name": "Protected Faith 5",
-              "cmCost": 35,
-              "requirements": {
-                "level": 60,
-                "stats": {
-                  "AGI": 140,
-                  "WIS": 220
-                }
-              },
-              "effects": {
-                "stats": {
-                  "Def Mod": 1
-                }
-              }
-            }
-          ],
-          "description": "DEF MOD boost"
-        },
-        {
-          "name": "Crusading Faith",
-          "ranks": [
-            {
-              "name": "Crusading Faith 1",
-              "cmCost": 20,
-              "requirements": {
-                "level": 10,
-                "stats": {
-                  "DEX": 80,
-                  "WIS": 100
-                }
-              },
-              "effects": {
-                "stats": {
-                  "DEX": 5,
-                  "Off Mod": 1
-                }
-              }
-            },
-            {
-              "name": "Crusading Faith 2",
-              "cmCost": 30,
-              "requirements": {
-                "level": 40,
-                "stats": {
-                  "DEX": 100,
-                  "WIS": 150
-                }
-              },
-              "effects": {
-                "stats": {
-                  "DEX": 5,
-                  "Off Mod": 1
-                }
-              }
-            },
-            {
-              "name": "Crusading Faith 3",
-              "cmCost": 40,
-              "requirements": {
-                "level": 55,
-                "stats": {
-                  "DEX": 120,
-                  "WIS": 200
-                }
-              },
-              "effects": {
-                "stats": {
-                  "DEX": 5,
-                  "Off Mod": 1
-                }
-              }
-            }
-          ],
-          "description": "DEX and OFF MOD boost"
-        },
-        {
-          "name": "Meditative Prayer",
-          "ranks": [
-            {
-              "name": "Meditative Prayer 1",
-              "cmCost": 10,
-              "requirements": {
-                "level": 10,
-                "stats": {
-                  "WIS": 100
-                }
-              },
-              "effects": {
-                "stats": {
-                  "PoT": 4
-                }
-              }
-            },
-            {
-              "name": "Meditative Prayer 2",
-              "cmCost": 15,
-              "requirements": {
-                "level": 20,
-                "stats": {
-                  "WIS": 140
-                }
-              },
-              "effects": {
-                "stats": {
-                  "PoT": 4
-                }
-              }
-            },
-            {
-              "name": "Meditative Prayer 3",
-              "cmCost": 20,
-              "requirements": {
-                "level": 30,
-                "stats": {
-                  "WIS": 0
-                }
-              },
-              "effects": {
-                "stats": {
-                  "PoT": 4
-                }
-              }
-            },
-            {
-              "name": "Meditative Prayer 4",
-              "cmCost": 25,
-              "requirements": {
-                "level": 40,
-                "stats": {
-                  "WIS": 0
-                }
-              },
-              "effects": {
-                "stats": {
-                  "PoT": 4
-                }
-              }
-            },
-            {
-              "name": "Meditative Prayer 5",
-              "cmCost": 30,
-              "requirements": {
-                "level": 50,
-                "stats": {
-                  "WIS": 0
-                }
-              },
-              "effects": {
-                "stats": {
-                  "PoT": 4
-                }
-              }
-            }
-          ],
-          "description": "PoT boost"
-        },
-        {
-          "name": "Blessing of Nife",
-          "ranks": [
-            {
-              "name": "Blessing of Nife 1",
-              "cmCost": 15,
-              "requirements": {
-                "level": 10,
-                "stats": {
-                  "STA": 100
-                }
-              },
-              "effects": {
-                "stats": {
-                  "HP Factor": 1
-                }
-              }
-            },
-            {
-              "name": "Blessing of Nife 2",
-              "cmCost": 20,
-              "requirements": {
-                "level": 20,
-                "stats": {
-                  "STA": 100
-                }
-              },
-              "effects": {
-                "stats": {
-                  "HP Factor": 1
-                }
-              }
-            },
-            {
-              "name": "Blessing of Nife 3",
-              "cmCost": 25,
-              "requirements": {
-                "level": 35,
-                "stats": {
-                  "STA": 100
-                }
-              },
-              "effects": {
-                "stats": {
-                  "HP Factor": 1
-                }
-              }
-            },
-            {
-              "name": "Blessing of Nife 4",
-              "cmCost": 30,
-              "requirements": {
-                "level": 55,
-                "stats": {
-                  "STA": 100
-                }
-              },
-              "effects": {
-                "stats": {
-                  "HP Factor": 1
-                }
-              }
-            }
-          ],
-          "description": "HP Factor boost"
-        },
-        {
-          "name": "Diviner Presence",
-          "ranks": [
-            {
-              "name": "Diviner Presence 1",
-              "cmCost": 20,
-              "requirements": {
-                "level": 25
-              },
-              "effects": {
-                "stats": {
-                  "CHA": 15
-                }
-              }
-            },
-            {
-              "name": "Diviner Presence 2",
-              "cmCost": 25,
-              "requirements": {
-                "level": 40
-              },
-              "effects": {
-                "stats": {
-                  "CHA": 15
-                }
-              }
-            },
-            {
-              "name": "Diviner Presence 3",
-              "cmCost": 30,
-              "requirements": {
-                "level": 55
-              },
-              "effects": {
-                "stats": {
-                  "CHA": 20
-                }
-              }
-            }
-          ],
-          "description": "CHA boost"
-        },
-        {
-          "name": "Diviner Wisdom",
-          "ranks": [
-            {
-              "name": "Diviner Wisdom 1",
-              "cmCost": 20,
-              "requirements": {
-                "level": 25
-              },
-              "effects": {
-                "stats": {
-                  "WIS": 15
-                }
-              }
-            },
-            {
-              "name": "Diviner Wisdom 2",
-              "cmCost": 25,
-              "requirements": {
-                "level": 40
-              },
-              "effects": {
-                "stats": {
-                  "WIS": 15
-                }
-              }
-            },
-            {
-              "name": "Diviner Wisdom 3",
-              "cmCost": 30,
-              "requirements": {
-                "level": 55
-              },
-              "effects": {
-                "stats": {
-                  "WIS": 20
-                }
-              }
-            }
-          ],
-          "description": "WIS boost"
-        },
-        {
-          "name": "Diviner Form",
-          "ranks": [
-            {
-              "name": "Diviner Form 1",
-              "cmCost": 20,
-              "requirements": {
-                "level": 25
-              },
-              "effects": {
-                "stats": {
-                  "DEX": 15
-                }
-              }
-            },
-            {
-              "name": "Diviner Form 2",
-              "cmCost": 25,
-              "requirements": {
-                "level": 40
-              },
-              "effects": {
-                "stats": {
-                  "DEX": 15
-                }
-              }
-            },
-            {
-              "name": "Diviner Form 3",
-              "cmCost": 30,
-              "requirements": {
-                "level": 55
-              },
-              "effects": {
-                "stats": {
-                  "DEX": 20
-                }
-              }
-            }
-          ],
-          "description": "DEX boost"
-        },
-        {
-          "name": "Diviner Fortitude",
-          "ranks": [
-            {
-              "name": "Diviner Fortitude 1",
-              "cmCost": 20,
-              "requirements": {
-                "level": 25
-              },
-              "effects": {
-                "stats": {
-                  "STA": 15
-                }
-              }
-            },
-            {
-              "name": "Diviner Fortitude 2",
-              "cmCost": 25,
-              "requirements": {
-                "level": 40
-              },
-              "effects": {
-                "stats": {
-                  "STA": 15
-                }
-              }
-            },
-            {
-              "name": "Diviner Fortitude 3",
-              "cmCost": 30,
-              "requirements": {
-                "level": 55
-              },
-              "effects": {
-                "stats": {
-                  "STA": 20
-                }
-              }
-            }
-          ],
-          "description": "STA boost"
-        },
-        {
-          "name": "Radiance",
-          "ranks": [
-            {
-              "name": "Radiance",
-              "cmCost": 5,
-              "requirements": {
-                "level": 60
-              },
-              "effects": {
-                "addAbilities": [
-                  {
-                    "name": "Radiance",
-                    "level": 60
-                  }
-                ]
-              }
-            }
-          ],
-          "description": "targetted HoT with group PoT and smaller HoT"
-        },
-        {
-          "name": "Field Training",
-          "ranks": [
-            {
-              "name": "Field Training 1",
-              "cmCost": 5,
-              "requirements": {
-                "level": 30
-              },
-              "effects": {
-                "stats": {
-                  "STR": 15,
-                  "CHA": -5
-                }
-              }
-            },
-            {
-              "name": "Field Training 2",
-              "cmCost": 10,
-              "requirements": {
-                "level": 45
-              },
-              "effects": {
-                "stats": {
-                  "STR": 35,
-                  "CHA": -10
-                }
-              }
-            }
-          ],
-          "description": "STR for CHA"
-        },
-        {
-          "name": "Divine Were-Hunter",
-          "ranks": [
-            {
-              "name": "Divine Were-Hunter 1",
-              "cmCost": 200,
-              "requirements": {
-                "level": 55,
-                "spent": 500,
-                "stats": {
-                  "STR": 100,
-                  "WIS": 250
-                }
-              },
-              "effects": {
-                "stats": {
-                  "STR": 65,
-                  "STA": 15,
-                  "WISMax": 50,
-                  "HoT": 10,
-                  "PoT": 10,
-                  "Def Mod": 2
-                }
-              }
-            },
-            {
-              "name": "Divine Were-Hunter 2",
-              "cmCost": 75,
-              "requirements": {
-                "level": 60
-              },
-              "effects": {
-                "stats": {
-                  "STA": 25,
-                  "DEX": 25,
-                  "WIS": 25,
-                  "HP": 250,
-                  "Off Mod": 1
-                }
-              }
-            },
-            {
-              "name": "Divine Were-Hunter 3",
               "cmCost": 75,
               "requirements": {
                 "level": 60
@@ -1829,13 +1830,6 @@
           "description": "Adds Abilities"
         }
       ]
-    }
-  ],
-  "contributors": [
-    {
-      "login": "Jadiction",
-      "id": 8557785,
-      "commits": 1
     }
   ]
 }
