@@ -2,6 +2,13 @@
   "title": "Enchanter Class Masteries",
   "class": "Enchanter",
   "type": "Caster",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 1
+    }
+  ],
   "groups": [
     {
       "name": "Class Masteries",
@@ -634,13 +641,6 @@
           ]
         }
       ]
-    }
-  ],
-  "contributors": [
-    {
-      "login": "Jadiction",
-      "id": 8557785,
-      "commits": 1
     }
   ]
 }
