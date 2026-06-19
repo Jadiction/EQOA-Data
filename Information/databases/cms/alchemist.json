@@ -940,7 +940,13 @@
               "name": "Reconstructive",
               "cmCost": 120,
               "requirements": {
-                "level": 51
+                "level": 51,
+                "requiredAbilities": [
+                  {
+                    "name": "55",
+                    "level": 55
+                  }
+                ]
               },
               "effects": {
                 "addAbilities": [
@@ -1017,7 +1023,7 @@
                 "level": 55,
                 "spent": 500,
                 "stats": {
-                  "WIS": 150,
+                  "WIS": 15,
                   "INT": 200
                 }
               },
