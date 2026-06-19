@@ -1,27 +1,16 @@
 {
   "title": "Racial Masteries",
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 2
+    }
+  ],
   "groups": [
     {
       "name": "Barbarian",
       "cms": [
-        {
-          "name": "Blood of the North",
-          "ranks": [
-            {
-              "name": "Blood of the North",
-              "cmCost": 15,
-              "requirements": {
-                "level": 6
-              },
-              "effects": {
-                "stats": {
-                  "CR": 25
-                }
-              }
-            }
-          ],
-          "description": "CR boost"
-        },
         {
           "name": "Tough Skin",
           "ranks": [
@@ -119,6 +108,30 @@
     {
       "name": "Dark Elf",
       "cms": [
+        {
+          "name": "Blood of the North",
+          "ranks": [
+            {
+              "name": "Blood of the North",
+              "cmCost": 15,
+              "requirements": {
+                "level": 6,
+                "stats": {
+                  "Pow": 45555
+                }
+              },
+              "effects": {
+                "stats": {
+                  "CR": 25
+                }
+              },
+              "notes": [
+                "Barb to DElf test"
+              ]
+            }
+          ],
+          "description": "CR boost"
+        },
         {
           "name": "Flash of Daggers",
           "ranks": [
@@ -1167,7 +1180,7 @@
                 "addAbilities": [
                   {
                     "name": "Cursed Ogre",
-                    "level": null
+                    "level": 1
                   }
                 ]
               }
@@ -1327,13 +1340,6 @@
           ]
         }
       ]
-    }
-  ],
-  "contributors": [
-    {
-      "login": "Jadiction",
-      "id": 8557785,
-      "commits": 2
     }
   ]
 }
