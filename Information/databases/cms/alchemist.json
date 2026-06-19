@@ -953,6 +953,54 @@
             }
           ],
           "description": "Rentable, No Trade, 4 charge pill that gives 3000 HP/Power to target. 1 hour recast"
+        },
+        {
+          "name": "add test",
+          "ranks": [
+            {
+              "name": "add test 1",
+              "cmCost": 5,
+              "requirements": {
+                "level": 5,
+                "spent": 5,
+                "stats": {
+                  "Off Mod": 5
+                },
+                "requiredAbilities": [
+                  {
+                    "name": "5",
+                    "level": 5
+                  }
+                ]
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "5",
+                    "level": 5
+                  },
+                  {
+                    "name": "4",
+                    "level": 4
+                  }
+                ],
+                "removeAbilities": [
+                  {
+                    "name": "5",
+                    "level": 5
+                  },
+                  {
+                    "name": "4",
+                    "level": 4
+                  }
+                ]
+              },
+              "notes": [
+                "5"
+              ]
+            }
+          ],
+          "description": "test"
         }
       ]
     },
