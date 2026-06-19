@@ -337,7 +337,7 @@
           "description": "Group/AoE INT/AGI buff"
         },
         {
-          "name": "Concentration",
+          "name": "Concentration1",
           "ranks": [
             {
               "name": "Concentration 1",
@@ -584,171 +584,6 @@
                   {
                     "name": "Kinetic Mixture",
                     "level": 55
-                  }
-                ]
-              }
-            }
-          ],
-          "description": "Summons 6x potions"
-        },
-        {
-          "name": "Acidic Eureka",
-          "ranks": [
-            {
-              "name": "Acidic Eureka 1",
-              "cmCost": 20,
-              "requirements": {
-                "level": 20,
-                "requiredAbilities": [
-                  {
-                    "name": "Acidic Mixture",
-                    "level": 20
-                  },
-                  {
-                    "name": "Caustic Mixture",
-                    "level": 20
-                  },
-                  {
-                    "name": "Corroding Mixture",
-                    "level": 20
-                  }
-                ]
-              },
-              "effects": {
-                "addAbilities": [
-                  {
-                    "name": "Acidic Mixtures",
-                    "level": 20
-                  },
-                  {
-                    "name": "Caustic Mixtures",
-                    "level": 20
-                  },
-                  {
-                    "name": "Corroding Mixtures",
-                    "level": 20
-                  }
-                ],
-                "removeAbilities": [
-                  {
-                    "name": "Acidic Mixture",
-                    "level": 20
-                  },
-                  {
-                    "name": "Caustic Mixture",
-                    "level": 20
-                  },
-                  {
-                    "name": "Corroding Mixture",
-                    "level": 20
-                  }
-                ]
-              }
-            },
-            {
-              "name": "Acidic Eureka 2",
-              "cmCost": 20,
-              "requirements": {
-                "level": 30,
-                "requiredAbilities": [
-                  {
-                    "name": "Corrosive Mixture",
-                    "level": 30
-                  }
-                ]
-              },
-              "effects": {
-                "addAbilities": [
-                  {
-                    "name": "Corrosive Mixtures",
-                    "level": 30
-                  }
-                ],
-                "removeAbilities": [
-                  {
-                    "name": "Corrosive Mixture",
-                    "level": 30
-                  }
-                ]
-              }
-            },
-            {
-              "name": "Acidic Eureka 3",
-              "cmCost": 20,
-              "requirements": {
-                "level": 39,
-                "requiredAbilities": [
-                  {
-                    "name": "Acerbic Mixture",
-                    "level": 39
-                  }
-                ]
-              },
-              "effects": {
-                "addAbilities": [
-                  {
-                    "name": "Acerbic Mixtures",
-                    "level": 39
-                  }
-                ],
-                "removeAbilities": [
-                  {
-                    "name": "Acerbic Mixture",
-                    "level": 39
-                  }
-                ]
-              }
-            },
-            {
-              "name": "Acidic Eureka 4",
-              "cmCost": 20,
-              "requirements": {
-                "level": 49,
-                "requiredAbilities": [
-                  {
-                    "name": "Virulent Mixture",
-                    "level": 49
-                  }
-                ]
-              },
-              "effects": {
-                "addAbilities": [
-                  {
-                    "name": "Virulent Mixtures",
-                    "level": 49
-                  }
-                ],
-                "removeAbilities": [
-                  {
-                    "name": "Virulent Mixture",
-                    "level": 49
-                  }
-                ]
-              }
-            },
-            {
-              "name": "Acidic Eureka 5",
-              "cmCost": 20,
-              "requirements": {
-                "level": 60,
-                "requiredAbilities": [
-                  {
-                    "name": "Septic Mixture",
-                    "level": 60
-                  }
-                ]
-              },
-              "effects": {
-                "addAbilities": [
-                  {
-                    "name": "Septic Mixtures",
-                    "level": 60
-                  }
-                ],
-                "removeAbilities": [
-                  {
-                    "name": "Septic Mixture",
-                    "level": 60
                   }
                 ]
               }
@@ -1013,6 +848,186 @@
     {
       "name": "Master Classes",
       "cms": [
+        {
+          "name": "Acidic Eureka mc change test",
+          "ranks": [
+            {
+              "name": "Acidic Eureka 1",
+              "cmCost": 20,
+              "requirements": {
+                "level": 20,
+                "requiredAbilities": [
+                  {
+                    "name": "Acidic Mixture",
+                    "level": 20
+                  },
+                  {
+                    "name": "Caustic Mixture",
+                    "level": 20
+                  },
+                  {
+                    "name": "Corroding Mixture",
+                    "level": 20
+                  }
+                ]
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "Acidic Mixtures",
+                    "level": 20
+                  },
+                  {
+                    "name": "Caustic Mixtures",
+                    "level": 20
+                  },
+                  {
+                    "name": "Corroding Mixtures",
+                    "level": 20
+                  }
+                ],
+                "removeAbilities": [
+                  {
+                    "name": "Acidic Mixture",
+                    "level": 20
+                  },
+                  {
+                    "name": "Caustic Mixture",
+                    "level": 20
+                  },
+                  {
+                    "name": "Corroding Mixture",
+                    "level": 20
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Acidic Eureka 2",
+              "cmCost": 20,
+              "requirements": {
+                "level": 30,
+                "requiredAbilities": [
+                  {
+                    "name": "Corrosive Mixture",
+                    "level": 30
+                  }
+                ]
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "Corrosive Mixtures",
+                    "level": 30
+                  }
+                ],
+                "removeAbilities": [
+                  {
+                    "name": "Corrosive Mixture",
+                    "level": 30
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Acidic Eureka 3",
+              "cmCost": 20,
+              "requirements": {
+                "level": 39,
+                "requiredAbilities": [
+                  {
+                    "name": "Acerbic Mixture",
+                    "level": 39
+                  }
+                ]
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "Acerbic Mixtures",
+                    "level": 39
+                  }
+                ],
+                "removeAbilities": [
+                  {
+                    "name": "Acerbic Mixture",
+                    "level": 39
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Acidic Eureka 4",
+              "cmCost": 20,
+              "requirements": {
+                "level": 49,
+                "requiredAbilities": [
+                  {
+                    "name": "Virulent Mixture",
+                    "level": 49
+                  }
+                ]
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "Virulent Mixtures",
+                    "level": 49
+                  }
+                ],
+                "removeAbilities": [
+                  {
+                    "name": "Virulent Mixture",
+                    "level": 49
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Acidic Eureka 5",
+              "cmCost": 20,
+              "requirements": {
+                "level": 60,
+                "requiredAbilities": [
+                  {
+                    "name": "Septic Mixture",
+                    "level": 60
+                  }
+                ]
+              },
+              "effects": {
+                "addAbilities": [
+                  {
+                    "name": "Septic Mixtures",
+                    "level": 60
+                  }
+                ],
+                "removeAbilities": [
+                  {
+                    "name": "Septic Mixture",
+                    "level": 60
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Acidic Eureka 6",
+              "cmCost": 20222,
+              "requirements": {
+                "level": 1,
+                "stats": {
+                  "Def Mod": 3
+                }
+              },
+              "effects": {
+                "stats": {
+                  "WIS": -5
+                }
+              }
+            }
+          ],
+          "description": "Summons 6x potions test 1111111111111111111111111111111111111111111111111111111 "
+        },
         {
           "name": "Transmuter",
           "ranks": [
