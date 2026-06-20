@@ -1710,7 +1710,8 @@
     { "name": "Young Crabs"                   , "x": 13618, "y":  5948, "category": "camp", "levelRange": "4-6", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Desert Madmen"                 , "x": 13451, "y":  6070, "category": "camp", "levelRange": "15-17", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Nasehir"                       , "x": 13243, "y":  6264, "category": "camp", "levelRange": "14-20", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Cracktooth Orcs"               , "x": 13494, "y":  4076, "category": "camp", "levelRange": "16-19", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Lil Snapa (~26)"               , "x": 13654, "y":  6413, "category": "rare-mob", "icon": "Skull", "style": {"color":"#f1f5f9"} }
+    { "name": "Cracktooth Orcs"               , "x": 13494, "y":  4076, "category": "camp", "levelRange": "20-22", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Lil Snapa (~26)"               , "x": 13654, "y":  6413, "category": "rare-mob", "icon": "Skull", "style": {"color":"#f1f5f9"} },
+    { "name": "Undead Skeletons"              , "x": 13451, "y":  3787, "category": "camp", "levelRange": "18-19", "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
