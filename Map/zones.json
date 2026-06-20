@@ -1708,6 +1708,8 @@
     { "name": "Hill Giants"                   , "x":  9993, "y":  7815, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Bulbor"                        , "x":  9978, "y":  7821, "category": "rare-mob", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Young Crabs"                   , "x": 13618, "y":  5948, "category": "camp", "levelRange": "4-6", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Desert Madmen"                 , "x": 13451, "y":  6070, "category": "camp", "levelRange": "15-17", "icon": "users", "style": {"color":"#f1f5f9"} }
+    { "name": "Desert Madmen"                 , "x": 13451, "y":  6070, "category": "camp", "levelRange": "15-17", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Nasehir"                       , "x": 13243, "y":  6264, "category": "camp", "levelRange": "14-20", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Cracktooth Orcs"               , "x": 13494, "y":  4076, "category": "camp", "levelRange": "16-19", "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
