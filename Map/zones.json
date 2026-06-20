@@ -1641,17 +1641,17 @@
     { "name": "Cave Crawlers"                 , "x":  6192, "y":  7108, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} },
     { "name": "Rotbones"                      , "x":  5940, "y":  6968, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Cutthroats & bandits"          , "x": 12818, "y":  4600, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Orc Plainstriders"             , "x": 12644, "y":  4429, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Orc Plainstriders"             , "x": 12644, "y":  4429, "category": "camp", "levelRange": "16-18", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Sturdy Iron Golems"            , "x": 12395, "y":  4426, "category": "camp", "levelRange": "1-1", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Cutthroats & bandits"          , "x": 12168, "y":  4409, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Cutthroats & bandits"          , "x": 12211, "y":  4568, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Cutthroats & bandits"          , "x": 12238, "y":  4690, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Orc Plainsraiders"             , "x": 12244, "y":  4016, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Orc Plainsraiders"             , "x": 12595, "y":  3971, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Chief Klumox"                  , "x": 12594, "y":  3960, "category": "rare-mob", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Orc Plainsraiders"             , "x": 12597, "y":  3965, "category": "camp", "levelRange": "16-18", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Chief Klumox"                  , "x": 12585, "y":  3973, "category": "rare-mob", "icon": "Skull", "style": {"color":"#f1f5f9"} },
     { "name": "Tame Crocodiles"               , "x": 13681, "y":  6340, "category": "camp", "levelRange": "17-19", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Crocodiles"                    , "x": 13609, "y":  6353, "category": "camp", "levelRange": "21-23", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "undead"                        , "x": 13127, "y":  6525, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Undead"                        , "x": 13127, "y":  6525, "category": "camp", "levelRange": "17-20", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Chief Kimlosh"                 , "x": 12784, "y":  6858, "category": "rare-mob", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Deathfist Legionaires"         , "x": 12789, "y":  6869, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Deathfist Myrmidons"           , "x": 12096, "y":  7287, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
@@ -1706,6 +1706,8 @@
     { "name": "Ser Thesrick"                  , "x": 10265, "y":  8018, "category": "rare-mob", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Grug Ironhead"                 , "x": 10259, "y":  8015, "category": "rare-mob", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Hill Giants"                   , "x":  9993, "y":  7815, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Bulbor"                        , "x":  9978, "y":  7821, "category": "rare-mob", "icon": "map-marker", "style": {"color":"#f1f5f9"} }
+    { "name": "Bulbor"                        , "x":  9978, "y":  7821, "category": "rare-mob", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Young Crabs"                   , "x": 13618, "y":  5948, "category": "camp", "levelRange": "4-6", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Desert Madmen"                 , "x": 13451, "y":  6070, "category": "camp", "levelRange": "15-17", "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
