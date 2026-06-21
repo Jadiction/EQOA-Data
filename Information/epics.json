@@ -202,14 +202,12 @@
             "type": "Knuckles",
             "count": 2,
             "DMG": 650,
-            "DUR": null,
-            "proc": "Anti-aggro"
+            "notes": "Anti-aggro Proc"
           },
           {
             "name": "Ascendent Staff",
             "type": "Staff",
             "DMG": 668,
-            "DUR": null,
             "stats": {
               "STA": 5,
               "AGI": 25,
@@ -223,7 +221,6 @@
             "type": "Stiletto",
             "count": 2,
             "DMG": 685,
-            "DUR": null,
             "stats": {
               "DEX": 12,
               "AGI": 19
@@ -234,8 +231,7 @@
             "type": "Dagger",
             "count": 2,
             "DMG": 577,
-            "DUR": null,
-            "proc": "50 DoT"
+            "notes": "50 DoT Proc"
           }
         ],
         "Enchanter": [
@@ -361,7 +357,6 @@
           {
             "name": "Odan's Bonded Gloves",
             "type": "Hands",
-            "DUR": null,
             "stats": {
               "STA": 23,
               "DEX": 12,
@@ -371,23 +366,6 @@
             }
           }
         ]
-      },
-      "60": {
-        "Shadowknight": [],
-        "Paladin": [],
-        "Warrior": [],
-        "Druid": [],
-        "Cleric": [],
-        "Shaman": [],
-        "Bard": [],
-        "Ranger": [],
-        "Monk": [],
-        "Rogue": [],
-        "Enchanter": [],
-        "Wizard": [],
-        "Magician": [],
-        "Necromancer": [],
-        "Alchemist": []
       }
     }
   ],
