@@ -201,7 +201,8 @@
             "name": "Sunsilver",
             "type": "Knuckles",
             "count": 2,
-            "DMG": 650
+            "DMG": 650,
+            "notes": "Anti-aggro Proc"
           },
           {
             "name": "Ascendent Staff",
@@ -229,7 +230,8 @@
             "name": "Blacktongue",
             "type": "Dagger",
             "count": 2,
-            "DMG": 577
+            "DMG": 577,
+            "notes": "50 DoT Proc"
           }
         ],
         "Enchanter": [
@@ -310,8 +312,7 @@
               "POW": 200,
               "PoT": 10,
               "LR": 25
-            },
-            "notes": "Coolest looking staff"
+            }
           }
         ],
         "Necromancer": [
