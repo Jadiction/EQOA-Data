@@ -60,7 +60,6 @@ import Information_how_to_play from '../Information/how_to_play.json' with { typ
 import Information_mastercraft from '../Information/mastercraft.json' with { type: "json" };
 import Information_race_class_stats from '../Information/race_class_stats.json' with { type: "json" };
 import Information_starting_cities from '../Information/starting_cities.json' with { type: "json" };
-import Information_xp_camps from '../Information/xp_camps.json' with { type: "json" };
 
 export const Information = {
   'databases/cms/alchemist': Information_databases_cms_alchemist as unknown as CMSData,
@@ -111,5 +110,4 @@ export const Information = {
   'mastercraft': Information_mastercraft,
   'race_class_stats': Information_race_class_stats,
   'starting_cities': Information_starting_cities,
-  'xp_camps': Information_xp_camps,
 } as const;

@@ -32,7 +32,7 @@ export interface Contributor {
 }
 
 export type Alignment = 'good' | 'neutral' | 'evil';
-export type PoiCategory = 'quest' | 'rare-mob' | 'raid-mob' | 'other';
+export type PoiCategory = 'quest' | 'rare-mob' | 'raid-mob' | 'other' | 'camp';
 export type BiomeName =
   | 'unknown'
   | 'Arctic'
@@ -74,6 +74,7 @@ export interface POI extends Location {
   questGuideIds?: string[];
   poiImageKey?: string;
   levelRange?: `${number}-${number}`;
+  note?: string;
 }
 
 export interface MapData {
