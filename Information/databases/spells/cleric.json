@@ -899,6 +899,48 @@
           "description": "Target undead, damage of 1368, 30% or a 60% wisdom mod",
           "source": "Exorcist MCA",
           "icon": "DoT"
+        },
+        {
+          "name": "Ruddish's Unassailable Faith",
+          "description": "Level 60 Epic Stack path. Power cost: 500, Cast: 3, Recast: 19. 60 epic stack heal 1398base + 25%Cha",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ruddish's Inspiring Piety",
+          "description": "Level 60 Epic Stack path. Power cost: 550, Cast: 3, Recast: 27. 60 epic grp heal. 1130 heal @ 600cha to all grp",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Mega's Mighty Carapace",
+          "description": "Level 60 Epic Ward path. Power cost: 1000, Cast: 3, Recast: 4. 60 epic: 75 base resistance to all + 10% wisdom modifier (AoE)",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Mega's Clutch Ward",
+          "description": "Level 60 Epic Ward path. Power cost: 500, Cast: 3, Recast: 4. 60 epic: 85+10%Wis to all resists (Target)",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Remedy",
+          "description": "Level 60 Epic Broken path. Power cost: 486, Cast: 3, Recast: 19. specialized 49 epic: stack heal 1250 + 25%Cha",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ward of Blessings",
+          "description": "Level 60 Epic Broken path. Power cost: 294, Cast: 3, Recast: 5. specialized 49 epic: 65 + 10%Wis to all resists",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Abolish Death",
+          "description": "Level 60 Epic third spell option. Power cost: 400, Cast: 2, Recast: 3. 60epic 3rd choice: 100 AoE HoT, 10 ticks, It's in the group/aoe category.",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

@@ -1,0 +1,135 @@
+{
+  "title": "EQOA: Frontiers 49 Epics",
+  "description": "A complete list of level 49 epic item choices.",
+  "list": [
+    {
+      "Alchemist": [
+        {
+          "name": "Metamorphic Robes"
+        },
+        {
+          "name": "Odan's Bonded Gloves"
+        }
+      ],
+      "Bard": [
+        {
+          "name": "Ballad of Mithril"
+        },
+        {
+          "name": "Selo's Jeweled Rapier"
+        }
+      ],
+      "Cleric": [
+        {
+          "name": "Hammer of Absolution"
+        },
+        {
+          "name": "Mace of Repentence"
+        }
+      ],
+      "Druid": [
+        {
+          "name": "Triad Scimitar"
+        },
+        {
+          "name": "Oaken Staff if Eilerawdl"
+        }
+      ],
+      "Enchanter": [
+        {
+          "name": "Mithril Eagle Rod"
+        },
+        {
+          "name": "Glory of Elddar"
+        }
+      ],
+      "Magician": [
+        {
+          "name": "Rod of Elemental Union"
+        },
+        {
+          "name": "Cystalmana Crosier"
+        }
+      ],
+      "Monk": [
+        {
+          "name": "Sunsilver"
+        },
+        {
+          "name": "Ascendent Staff"
+        }
+      ],
+      "Necromancer": [
+        {
+          "name": "Rod of Consuming Hatred"
+        },
+        {
+          "name": "Sickle of Escron"
+        }
+      ],
+      "Paladin": [
+        {
+          "name": "Judgement"
+        },
+        {
+          "name": "Virtus Ferrum"
+        }
+      ],
+      "Ranger": [
+        {
+          "name": "Pure Emerald Longsword"
+        },
+        {
+          "name": "Scimitar of Fury"
+        }
+      ],
+      "Rogue": [
+        {
+          "name": "Heartsbane"
+        },
+        {
+          "name": "Blacktongue"
+        }
+      ],
+      "Shadowknight": [
+        {
+          "name": "Beheader of Isthiak"
+        },
+        {
+          "name": "Downfall"
+        }
+      ],
+      "Shaman": [
+        {
+          "name": "Cudgel of the Spirit Guide"
+        },
+        {
+          "name": "Spear of Fate"
+        }
+      ],
+      "Warrior": [
+        {
+          "name": "Steelwind"
+        },
+        {
+          "name": "Foereaver"
+        }
+      ],
+      "Wizard": [
+        {
+          "name": "Pulsaric Rod"
+        },
+        {
+          "name": "Staff of Nebula"
+        }
+      ]
+    }
+  ],
+  "contributors": [
+    {
+      "login": "Jadiction",
+      "id": 8557785,
+      "commits": 3
+    }
+  ]
+}

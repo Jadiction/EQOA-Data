@@ -636,6 +636,48 @@
           "description": "Group, Underwater breath, 2min",
           "source": "MCA",
           "icon": "Play_Instruments"
+        },
+        {
+          "name": "Celedonicus' Inspiring Performance",
+          "description": "Level 60 Epic Power path. Power cost: 0, Cast: 0, Recast: 0. similar to previous path but more powerful",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Celedonicus' Grand Finale",
+          "description": "Level 60 Epic Power path. Power cost: 790, Cast: 2, Recast: 300. little different but still powerful, empties caster of ALL power but give group a huge boost. 5000 power fill to group excpet caster",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Staccato Flurry",
+          "description": "Level 60 Epic Combat path. Power cost: 0, Cast: 0, Recast: 0.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Pulsing Flurry",
+          "description": "Level 60 Epic Combat path. Power cost: 0, Cast: 0, Recast: 0.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Power Vibe",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. Non-Specialized",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Power Groove",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. Specialized",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Pandemonium",
+          "description": "Level 60 Epic third spell option. Power cost: 0, Cast: 0, Recast: 0. upgraded DoT",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

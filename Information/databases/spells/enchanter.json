@@ -994,6 +994,48 @@
           "description": "Target, Charms up to level 54 mobs, 1 hour",
           "source": "Spellbinder MCA",
           "icon": null
+        },
+        {
+          "name": "Ahrianna's Generous Gift",
+          "description": "Level 60 Epic Power path. Power cost: 0, Cast: 0, Recast: 0. Transfers power from caster to target.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ahrianna's Blessed Boon",
+          "description": "Level 60 Epic Power path. Power cost: 400, Cast: 1, Recast: 24. Provides a boost in power and a small amount of extra power regen",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Jen`Tylis' Overarching Greed",
+          "description": "Level 60 Epic Mind path. Power cost: 780, Cast: 4, Recast: 1. about a 1k self mana buff",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Jen`Tylis' Lust for Power",
+          "description": "Level 60 Epic Mind path. Power cost: 0, Cast: 0, Recast: 0. Increases power pool of caster(not as much as 1st one) and adds some power regeneration",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Power Flux",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized Boon path ability, grants power to the target",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Inifnite Mind",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized Mind path ability, increase power pool",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Eldritch Rune",
+          "description": "Level 60 Epic third spell option. Power cost: 431, Cast: 3, Recast: 20. 3000 cap dmg. Everything that hits you while the buff is up does 1 damage. Works great if you like to charm.",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

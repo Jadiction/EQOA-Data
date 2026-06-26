@@ -55,7 +55,8 @@ import Information_databases_spells_shadowknight from '../Information/databases/
 import Information_databases_spells_shaman from '../Information/databases/spells/shaman.json' with { type: "json" };
 import Information_databases_spells_warrior from '../Information/databases/spells/warrior.json' with { type: "json" };
 import Information_databases_spells_wizard from '../Information/databases/spells/wizard.json' with { type: "json" };
-import Information_epics from '../Information/epics.json' with { type: "json" };
+import Information_epics_49 from '../Information/epics_49.json' with { type: "json" };
+import Information_epics_60 from '../Information/epics_60.json' with { type: "json" };
 import Information_how_to_play from '../Information/how_to_play.json' with { type: "json" };
 import Information_mastercraft from '../Information/mastercraft.json' with { type: "json" };
 import Information_race_class_stats from '../Information/race_class_stats.json' with { type: "json" };
@@ -105,7 +106,8 @@ export const Information = {
   'databases/spells/shaman': Information_databases_spells_shaman as unknown as SpellsData,
   'databases/spells/warrior': Information_databases_spells_warrior as unknown as SpellsData,
   'databases/spells/wizard': Information_databases_spells_wizard as unknown as SpellsData,
-  'epics': Information_epics,
+  'epics_49': Information_epics_49,
+  'epics_60': Information_epics_60,
   'how_to_play': Information_how_to_play,
   'mastercraft': Information_mastercraft,
   'race_class_stats': Information_race_class_stats,

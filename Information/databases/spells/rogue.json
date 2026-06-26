@@ -636,6 +636,48 @@
           "description": "Self Buff DEX by 60 and STR by 55, 30sec",
           "source": "Merchant",
           "icon": "Muscle_Arm"
+        },
+        {
+          "name": "Sothimus Critical wounding",
+          "description": "Level 60 Epic Wound path. Power cost: 0, Cast: 0, Recast: 300. 1996 Damage, at 525 Str",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Sothimus Artiteral Targetting",
+          "description": "Level 60 Epic Wound path. Power cost: 0, Cast: 0, Recast: 0. Not a big initial damage to enemy, but has a lasting effect, smaller wound with big dot id think",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Rashiroz's Perfect Evasion",
+          "description": "Level 60 Epic Avoid path. Power cost: 0, Cast: 0, Recast: 0. A more powerful Avoid",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Rashiroz's Persistent Vanishing",
+          "description": "Level 60 Epic Avoid path. Power cost: 0, Cast: 0, Recast: 0. Less initial evasion but will leave a lingering effect on target as well as other enemies around.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Escape",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. Avoid Path specialized ability",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Mortal Wound",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. Wound Path specialized ability",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Strategic Blow",
+          "description": "Level 60 Epic third spell option. Power cost: 105, Cast: 0, Recast: 15. 700dmg + (dex x 0.3)and -500 AC debuff.",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

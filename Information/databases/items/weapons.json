@@ -16625,21 +16625,30 @@
     {
       "name": "Foereaver",
       "type": "primary",
-      "description": null,
+      "description": "Level 49 Epic - Greataxe.",
       "requirements": {
         "level": 49,
         "class": [
-          "ALL"
+          "WAR"
         ],
         "race": [
           "ALL"
         ]
       },
-      "damage": 665,
+      "damage": 668,
       "stats": {
         "str": 25,
-        "hp": 70
-      }
+        "hp": 70,
+        "proc": 80
+      },
+      "durability": 80,
+      "attackType": "twoHandSlash",
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Hammer of Spite",
@@ -18271,11 +18280,11 @@
     {
       "name": "Sword of Virtue",
       "type": "primary",
-      "description": "This is a level 60 Paladin epic item.",
+      "description": "This is a level 60 Paladin epic item. Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "PAL"
         ],
         "race": [
           "ALL"
@@ -18290,10 +18299,15 @@
         "sta": 35,
         "hp": 180,
         "ac": 100,
-        "proc": 5
+        "proc": 5,
+        "hot": 10
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Thantonian Katar",
@@ -23446,11 +23460,11 @@
     {
       "name": "Steelwind",
       "type": "secondary",
-      "description": "With each slash, Steelwind becomes like a terrible gale, tearing through opponents with ease.",
+      "description": "Level 49 Epic - Longsword. With each slash, Steelwind becomes like a terrible gale, tearing through opponents with ease. Quantity: x2.",
       "requirements": {
         "level": 49,
         "class": [
-          "ALL"
+          "WAR"
         ],
         "race": [
           "ALL"
@@ -23464,7 +23478,12 @@
         "str": 15,
         "hp": 70
       },
-      "noTrade": true
+      "noTrade": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "lore": true
     },
     {
       "name": "Stinging Wasp",
@@ -30792,11 +30811,11 @@
     {
       "name": "Downfall",
       "type": "twoHand",
-      "description": "The tainted steel of this evil partizan first seeks the heart of its victim and then destroys the lifeblood found within.",
+      "description": "Level 49 Epic - Polearm. The tainted steel of this evil partizan first seeks the heart of its victim and then destroys the lifeblood found within.",
       "requirements": {
         "level": 49,
         "class": [
-          "ALL"
+          "SK"
         ],
         "race": [
           "ALL"
@@ -30806,7 +30825,15 @@
       "durability": 80,
       "damage": 666,
       "attackType": "twoHandPierce",
-      "noTrade": true
+      "noTrade": true,
+      "stats": {
+        "proc": 120
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "lore": true
     },
     {
       "name": "Flamberge of Wounding",
@@ -30913,7 +30940,7 @@
     {
       "name": "Virtus Ferrum",
       "type": "twoHand",
-      "description": "The absolute power of Mithaniel Marr's virtue courses through this blade, smiting his enemies with divine fury.",
+      "description": "Level 49 Epic - Greatsword. The absolute power of Mithaniel Marr's virtue courses through this blade, smiting his enemies with divine fury.",
       "requirements": {
         "level": 49,
         "class": [
@@ -30931,7 +30958,14 @@
       "damage": 668,
       "attackType": "twoHandSlash",
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "stats": {
+        "proc": 100
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      }
     },
     {
       "name": "Bloodgale Battlehammer",
@@ -31548,6 +31582,1566 @@
         "ar": 123
       },
       "noTrade": true
+    },
+    {
+      "name": "Beheader of Isthiak",
+      "type": "twoHand",
+      "description": "Level 49 Epic - Greatsword.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "SK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 664,
+      "attackType": "twoHandSlash",
+      "stats": {
+        "str": 31,
+        "sta": 14,
+        "hot": 5
+      },
+      "durability": 80,
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Judgement",
+      "type": "primary",
+      "description": "Level 49 Epic - Warhammer.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "PAL"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 80,
+      "damage": 669,
+      "attackType": "oneHandBlunt",
+      "stats": {
+        "str": 20,
+        "sta": 14,
+        "hot": 5
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Triad Scimitar",
+      "type": "primary",
+      "description": "Level 49 Epic - Scimitar.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "DRU"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 490,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "dex": 24,
+        "wis": 6,
+        "hp": 100,
+        "pot": 13,
+        "fr": 24
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Oaken Staff if Eilerawdl",
+      "type": "twoHand",
+      "description": "Level 49 Epic - Staff.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "DRU"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 623,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "dex": 25,
+        "pot": 25,
+        "lr": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Hammer of Absolution",
+      "type": "primary",
+      "description": "Level 49 Epic - Hammer.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 500,
+      "attackType": "oneHandBlunt",
+      "stats": {
+        "wis": 20,
+        "cha": 15,
+        "hp": 60,
+        "pow": 60
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Mace of Repentence",
+      "type": "twoHand",
+      "description": "Level 49 Epic - Greathammer.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 626,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "wis": 20,
+        "cha": 15,
+        "pot": 15,
+        "ar": 40
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Cudgel of the Spirit Guide",
+      "type": "primary",
+      "description": "Level 49 Epic - Club.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 540,
+      "attackType": "oneHandBlunt",
+      "stats": {
+        "sta": 10,
+        "wis": 20,
+        "pot": 13,
+        "ac": 36,
+        "ar": 15
+      },
+      "durability": 50,
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Spear of Fate",
+      "type": "twoHand",
+      "description": "Level 49 Epic - Spear.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 596,
+      "attackType": "twoHandPierce",
+      "stats": {
+        "sta": 20,
+        "cha": 13,
+        "hp": 100,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Ballad of Mithril",
+      "type": "primary",
+      "description": "Level 49 Epic - Sabre. Quantity: x2.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 580,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "hp": 50,
+        "hot": 8
+      },
+      "durability": 65,
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Selo's Jeweled Rapier",
+      "type": "primary",
+      "description": "Level 49 Epic - Rapier. Quantity: x2.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 561,
+      "attackType": "oneHandPierce",
+      "stats": {
+        "dex": 13,
+        "hp": 50,
+        "proc": 140
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Pure Emerald Longsword",
+      "type": "primary",
+      "description": "Level 49 Epic - Longsword. Quantity: x2.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "damage": 586,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "dex": 10,
+        "agi": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Scimitar of Fury",
+      "type": "primary",
+      "description": "Level 49 Epic - Scimitar. Quantity: x2.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 55,
+      "damage": 568,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "hp": 100,
+        "proc": 100
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Sunsilver",
+      "type": "primary",
+      "description": "Level 49 Epic - Knuckles. Quantity: x2.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 650,
+      "attackType": "oneHandBlunt",
+      "stats": {
+        "proc": "Anti-aggro"
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Ascendent Staff",
+      "type": "twoHand",
+      "description": "Level 49 Epic - Staff.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 668,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "sta": 5,
+        "agi": 25,
+        "hot": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Heartsbane",
+      "type": "primary",
+      "description": "Level 49 Epic - Stiletto. Quantity: x2.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 685,
+      "stats": {
+        "agi": 19,
+        "dex": 12
+      },
+      "attackType": "oneHandPierce",
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Blacktongue",
+      "type": "primary",
+      "description": "Level 49 Epic - Dagger. Quantity: x2.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 577,
+      "attackType": "oneHandPierce",
+      "stats": {
+        "proc": "50 DoT"
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Glory of Elddar",
+      "type": "twoHand",
+      "description": "Level 49 Epic - Staff.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "ENC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 576,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "cha": 25,
+        "pow": 200,
+        "pot": 10,
+        "ar": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff of Nebula",
+      "type": "twoHand",
+      "description": "Level 49 Epic - Staff.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "WIZ"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 626,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "dex": 25,
+        "pow": 200,
+        "pot": 10,
+        "cr": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Cystalmana Crosier",
+      "type": "twoHand",
+      "description": "Level 49 Epic - Staff.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 626,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "agi": 25,
+        "pow": 200,
+        "pot": 10,
+        "lr": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Sickle of Escron",
+      "type": "primary",
+      "description": "Level 49 Epic - Sickle.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "NEC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 490,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "pow": 125,
+        "pot": 15,
+        "ac": 43
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Axe",
+      "type": "twoHand",
+      "description": "Alignment: Evil. *Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 928,
+      "stats": {
+        "str": 45,
+        "ac": 100,
+        "hp": 200,
+        "hot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Sword of the Contender",
+      "type": "secondary",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "str": 35,
+        "hp": 180,
+        "hot": 10,
+        "ac": 100,
+        "sta": 35
+      },
+      "durability": 75,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Lance",
+      "type": "twoHand",
+      "description": "Alignment: Good. *Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "PAL"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 928,
+      "stats": {
+        "str": 30,
+        "ac": 100,
+        "sta": 30,
+        "hp": 200,
+        "cha": 35
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "sword",
+      "type": "twoHand",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "WAR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 928,
+      "stats": {
+        "sta": 30,
+        "lr": 50,
+        "hp": 225,
+        "wis": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Blade",
+      "type": "secondary",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "WAR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 75,
+      "damage": 801,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "stats": {},
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Blade",
+      "type": "secondary",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "WAR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 75,
+      "damage": 801,
+      "stats": {
+        "str": 30,
+        "hp": 150,
+        "ar": 50
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Bedlam",
+      "type": "twoHand",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "DRU",
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 928,
+      "attackType": "twoHandSlash",
+      "stats": {
+        "sta": 35,
+        "pow": 200,
+        "wis": 30,
+        "pr": 25,
+        "dr": 25,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff of Nature's Blessing",
+      "type": "twoHand",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "DRU"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 928,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "dex": 30,
+        "pow": 200,
+        "wis": 35,
+        "pr": 25,
+        "dr": 25,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff of Divinity",
+      "type": "twoHand",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "pow": 200,
+        "wis": 30,
+        "pr": 25,
+        "dr": 25,
+        "cha": 35,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Hammer of Ethereal Conquest",
+      "type": "secondary",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "attackType": "oneHandBlunt",
+      "stats": {
+        "pow": 150,
+        "pr": 25,
+        "dr": 25,
+        "cha": 30,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff of spiritual energies",
+      "type": "twoHand",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 928,
+      "stats": {
+        "str": -50,
+        "lr": 50,
+        "pow": 225,
+        "wis": 30,
+        "cha": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Rod of Ataxia",
+      "type": "primary",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SHM",
+          "ENC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 801,
+      "attackType": "oneHandBlunt",
+      "stats": {
+        "sta": 30,
+        "pow": 150,
+        "pr": 25,
+        "dr": 25,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Hammer of mystical enlightnment",
+      "type": "secondary",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 828,
+      "attackType": "oneHandBlunt",
+      "stats": {
+        "sta": 30,
+        "pow": 150,
+        "pr": 25,
+        "dr": 25,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Blade of Lyrical Refrain",
+      "type": "secondary",
+      "description": "Alignment: Good. *Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "dex": 30,
+        "hp": 125,
+        "ar": 50,
+        "hot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Blade of Ancient Song",
+      "type": "secondary",
+      "description": "Alignment: Good. *Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "stats": {
+        "hp": 125,
+        "pr": 10,
+        "dr": 10,
+        "hot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Blade of Lyrical Harmony",
+      "type": "secondary",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "dex": 30,
+        "hp": 125,
+        "ar": 50,
+        "fr": 10,
+        "lr": 10,
+        "cr": 10,
+        "cha": 35
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Blade of Ancient Melodies",
+      "type": "secondary",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "stats": {
+        "str": 35,
+        "fr": 10,
+        "lr": 10,
+        "cr": 10,
+        "hp": 125,
+        "dex": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Bow of Sharp Shooting",
+      "type": "bow",
+      "description": "Alignment: Good. *Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 928,
+      "attackType": "bow",
+      "stats": {
+        "fr": 10,
+        "lr": 10,
+        "cr": 10,
+        "hp": 175,
+        "dex": 45,
+        "wis": 30,
+        "pr": 10,
+        "dr": 10,
+        "pot": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Axe of Nature's Innocence",
+      "type": "secondary",
+      "description": "Alignment: Good. *Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "hp": 125,
+        "hot": 20,
+        "pr": 10,
+        "dr": 10
+      },
+      "durability": 65,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Axe of Nature's Purity",
+      "type": "secondary",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "attackType": "oneHandSlash",
+      "stats": {
+        "agi": 35,
+        "dex": 30,
+        "hp": 125,
+        "fr": 10,
+        "cr": 10,
+        "lr": 10
+      },
+      "durability": 65,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Claws of Insurrection",
+      "type": "secondary",
+      "description": null,
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "damage": 801,
+      "stats": {
+        "hp": 125,
+        "pr": 10,
+        "dr": 10,
+        "hot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff",
+      "type": "secondary",
+      "description": "Alignment: Good. *Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "stats": {
+        "hp": 125,
+        "pr": 10,
+        "dr": 10,
+        "hot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Claws of Mayhem",
+      "type": "secondary",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "damage": 801,
+      "stats": {
+        "str": 35,
+        "sta": 30,
+        "lr": 10,
+        "cr": 10,
+        "hp": 125
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff",
+      "type": "secondary",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "stats": {
+        "fr": 10,
+        "lr": 10,
+        "agi": 30,
+        "cr": 10,
+        "hp": 125,
+        "dex": 35
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Stiletto of Furious Revenge",
+      "type": "secondary",
+      "description": "*Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "stats": {
+        "hp": 125,
+        "pr": 10,
+        "dr": 10,
+        "hot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Stiletto of Bloodshed",
+      "type": "secondary",
+      "description": "*Proc*",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "attackType": "oneHandPierce",
+      "stats": {
+        "hp": 125,
+        "pr": 10,
+        "dr": 10,
+        "hot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Dagger of Vendettas Resolved",
+      "type": "secondary",
+      "description": null,
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "attackType": "oneHandPierce",
+      "stats": {
+        "str": 35,
+        "fr": 10,
+        "sta": 30,
+        "lr": 10,
+        "cr": 10,
+        "hp": 125
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Dagger of Bloodletting",
+      "type": "secondary",
+      "description": null,
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 801,
+      "attackType": "oneHandPierce",
+      "stats": {
+        "str": 35,
+        "fr": 10,
+        "lr": 10,
+        "cr": 10,
+        "hp": 125,
+        "dex": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff of Superior Influence",
+      "type": "twoHand",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ENC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ar": 50,
+        "pow": 200,
+        "int": 35,
+        "cha": 30,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff",
+      "type": "twoHand",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "WIZ"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 928,
+      "stats": {
+        "dex": 30,
+        "ar": 50,
+        "pow": 200,
+        "int": 35,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff of the Enlightened",
+      "type": "twoHand",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "WIZ"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 928,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "dex": 30,
+        "int": 35,
+        "pow": 200,
+        "pot": 15,
+        "ar": 50
+      },
+      "durability": 50,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff of Dynamic Summoning",
+      "type": "twoHand",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 928,
+      "stats": {
+        "str": -50,
+        "lr": 50,
+        "agi": 30,
+        "pow": 225,
+        "int": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Elite Staff of the Summoner",
+      "type": "twoHand",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "damage": 928,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "agi": 30,
+        "int": 35,
+        "pow": 200,
+        "pot": 15,
+        "ar": 50
+      },
+      "durability": 50,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff of the Banshee Wail",
+      "type": "twoHand",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "NEC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "damage": 928,
+      "attackType": "twoHandBlunt",
+      "stats": {
+        "ar": 50,
+        "pow": 200,
+        "wis": 30,
+        "int": 35,
+        "pot": 15
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Staff",
+      "type": "twoHand",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "NEC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "stats": {},
+      "noTrade": true,
+      "lore": true
     }
   ],
   "contributors": [

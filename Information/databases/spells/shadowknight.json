@@ -651,9 +651,45 @@
         },
         {
           "name": "Infernal Bond",
-          "description": "Target, Drain HP per tic by 240 give Self, Drain INT by 60, 30sec",
+          "description": "Level 60 Epic third spell option. Target, Drain HP per tick by 240 give Self, Drain INT by 60, 30sec. Power cost: 675, Cast: 0, Recast: 90. 600 Dot 300 HoT buff at 600 str/int...ticks 5 times and stacks with a healer tick",
           "source": "Slayer MCA",
           "icon": "Fear"
+        },
+        {
+          "name": "Quil'Eyne's Unspeakable Hunger",
+          "description": "Level 60 Epic Blood path. Power cost: 0, Cast: 0, Recast: 0. 60 Epic: Very similar to previous path but more powerful",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Quil'Eyne's Cruel Embrace",
+          "description": "Level 60 Epic Blood path. Power cost: 0, Cast: 0, Recast: 0. 60 Epic: 195 int, hits a lv 61 gob for 1596 with a 796 heal.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ozmo's Echoing Mockery",
+          "description": "Level 60 Epic Tower path. Power cost: 0, Cast: 0, Recast: 300. 60 Epic: 1500 ac super taunt lasts 60 secs with a 5 min recast,750 should stack after raid buffed fully",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Goading Ridicule",
+          "description": "Level 60 Epic Tower path. Power cost: 0, Cast: 0, Recast: 300. 60 Epic: 750 ac super taunt with a 5 min recast, should last 2 mins",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Bloodwraith",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 1, Recast: 300. lvl 49 specialized path spell, steals 1150 or so HP at lvl 60 and does about 2300 dmg.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Doomed Tower",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. unspecialized 49 epic",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

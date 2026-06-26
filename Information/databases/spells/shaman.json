@@ -887,6 +887,48 @@
           "description": "tARGET, Decrease STR/DEX/INT by 125 ; Increase 10% based on WIS, 2min",
           "source": "Mystic MCA",
           "icon": "Physical_Stat"
+        },
+        {
+          "name": "Yalgima's Fearsome Companion",
+          "description": "Level 60 Epic Spiritual path. Power cost: 1402, Cast: 9, Recast: 60. 60 epic: Lvl 52 HUGE black panther with sabreteeth. 200 proc(self buffs upon summon) Has a 1050 Crit and 550 non aoe critical and meleed for 40s, pet had about 6-6.5k HP",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Yalgima's Menacing Defender",
+          "description": "Level 60 Epic Spiritual path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: a more defensive pet and not as much offense. sabretooth lion form. With a taunt",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Debilitating Hex",
+          "description": "Level 60 Epic Wind path. Power cost: 600, Cast: 3, Recast: 300. 60 epic: Debuff (resistable by DR)-73sta -450ac -504hp",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Sinister Cantrip",
+          "description": "Level 60 Epic Wind path. Power cost: 0, Cast: 0, Recast: 0. 60 epic",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Atrophic Wind",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Spiritual Slayer",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ethereal Healing",
+          "description": "Level 60 Epic third spell option. Power cost: 750, Cast: 6, Recast: 1. 60 epic 3rd choice: 425 cha heals 806.",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

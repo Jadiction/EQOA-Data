@@ -702,6 +702,48 @@
           "description": "Target, Increase HP per tic by 180, 5min",
           "source": "Forester MCA",
           "icon": "Heal"
+        },
+        {
+          "name": "Graal's Venomus Strike",
+          "description": "Level 60 Epic Blade path. Power cost: 658, Cast: 3, Recast: 3. proc: 300 DMG +10% STR mod for dmg,",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Graal's Final Strike",
+          "description": "Level 60 Epic Blade path. Power cost: 0, Cast: 3, Recast: 3. proc: 500 DMG + 10% STR mod, no INT buff",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Gelledyn's Perfect Vision",
+          "description": "Level 60 Epic Arrow path. Power cost: 420, Cast: 0, Recast: 295. caps power at 1500 and buffs at least 305 wisdom",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Gelledyn's Feral Imitation",
+          "description": "Level 60 Epic Arrow path. Power cost: 0, Cast: 0, Recast: 290. 290 WIS. Decrease Power to 1750. 500 PoT",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Eagle Eye",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Natureblade",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic: 250 proc and 150 Int buff",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Glimmering blades",
+          "description": "Level 60 Epic third spell option. Power cost: 525, Cast: 0, Recast: 90. 1239 damage with a 250 ac debuff",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

@@ -352,52 +352,6 @@
       }
     },
     {
-      "name": "Axe of Nature's Innocence",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 60,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 801,
-      "attackType": "oneHandSlash",
-      "stats": {
-        "hp": 125,
-        "hot": 20,
-        "pr": 10,
-        "dr": 10
-      }
-    },
-    {
-      "name": "Axe of Nature's Purity",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 60,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 801,
-      "attackType": "oneHandSlash",
-      "stats": {
-        "agi": 35,
-        "dex": 30,
-        "hp": 125,
-        "fr": 10,
-        "cr": 10,
-        "lr": 10
-      }
-    },
-    {
       "name": "Blade of Nature's Innocence",
       "type": "unknown",
       "description": null,
@@ -684,68 +638,6 @@
       }
     },
     {
-      "name": "Blade of Lyrical Harmony",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 60,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 801,
-      "attackType": "oneHandSlash",
-      "stats": {
-        "dex": 30,
-        "hp": 150,
-        "ar": 50
-      }
-    },
-    {
-      "name": "Blade of Lyrical Refrain",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 60,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 801,
-      "attackType": "oneHandSlash",
-      "stats": {
-        "dex": 30,
-        "hp": 150,
-        "ar": 50
-      }
-    },
-    {
-      "name": "Ballad of Mithril",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 49,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 580,
-      "attackType": "oneHandSlash",
-      "stats": {
-        "hp": 50,
-        "hot": 8
-      }
-    },
-    {
       "name": "World Splitter",
       "type": "unknown",
       "description": null,
@@ -887,49 +779,6 @@
       "attackType": "oneHandSlash"
     },
     {
-      "name": "Beheader of Isthiak",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 49,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 664,
-      "attackType": "twoHandSlash",
-      "stats": {
-        "str": 31,
-        "sta": 14,
-        "hot": 5
-      }
-    },
-    {
-      "name": "Sword of the Contender",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 60,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 801,
-      "attackType": "oneHandSlash",
-      "stats": {
-        "str": 35,
-        "hp": 180,
-        "hot": 10,
-        "ac": 100
-      }
-    },
-    {
       "name": "springview knight greatsword",
       "type": "unknown",
       "description": null,
@@ -987,29 +836,6 @@
         "str": 15,
         "sta": 15,
         "hp": 75
-      }
-    },
-    {
-      "name": "Cudgel of the Spirit Guide",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 49,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 540,
-      "attackType": "oneHandBlunt",
-      "stats": {
-        "sta": 10,
-        "wis": 20,
-        "pot": 12,
-        "ac": 36,
-        "ar": 15
       }
     },
     {
@@ -1141,29 +967,6 @@
       }
     },
     {
-      "name": "Staff of the Enlightened",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 60,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 928,
-      "attackType": "twoHandBlunt",
-      "stats": {
-        "dex": 30,
-        "int": 35,
-        "pow": 200,
-        "pot": 15,
-        "ar": 50
-      }
-    },
-    {
       "name": "Rawlg's moonstone dagger",
       "type": "unknown",
       "description": null,
@@ -1181,29 +984,6 @@
       "stats": {
         "int": 50,
         "pow": 20
-      }
-    },
-    {
-      "name": "Elite Staff of the Summoner",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 60,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 928,
-      "attackType": "twoHandBlunt",
-      "stats": {
-        "agi": 30,
-        "int": 35,
-        "pow": 200,
-        "pot": 15,
-        "ar": 50
       }
     },
     {
@@ -4360,25 +4140,6 @@
       "stats": {
         "str": 5,
         "sta": 5
-      }
-    },
-    {
-      "name": "Heartsbane",
-      "type": "unknown",
-      "description": null,
-      "requirements": {
-        "level": 49,
-        "class": [
-          "ALL"
-        ],
-        "race": [
-          "ALL"
-        ]
-      },
-      "damage": 580,
-      "stats": {
-        "agi": 19,
-        "dex": 12
       }
     },
     {

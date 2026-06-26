@@ -40,7 +40,8 @@ export type SpellSource =
   | 'Spellbinder MCA'
   | 'Storm Caller MCA'
   | 'Unknown'
-  | 'Wilding MCA';
+  | 'Wilding MCA'
+  | 'Level 60 Epic';
 
 export type SpellIcon =
   | 'Area_of_effect'

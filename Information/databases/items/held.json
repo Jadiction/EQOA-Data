@@ -4418,11 +4418,11 @@
     {
       "name": "Mithril Eagle Rod",
       "type": "held",
-      "description": null,
+      "description": "Level 49 Epic - Rod.",
       "requirements": {
         "level": 49,
         "class": [
-          "ALL"
+          "ENC"
         ],
         "race": [
           "ALL"
@@ -4435,16 +4435,23 @@
         "pot": 10,
         "lr": 10,
         "ar": 25
-      }
+      },
+      "durability": 50,
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Pulsaric Rod",
       "type": "held",
-      "description": null,
+      "description": "Level 49 Epic - Rod.",
       "requirements": {
         "level": 49,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
@@ -4457,7 +4464,14 @@
         "pot": 10,
         "cr": 10,
         "lr": 25
-      }
+      },
+      "durability": 50,
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Reshzum's Wand",
@@ -4489,11 +4503,11 @@
     {
       "name": "Rod of Consuming Hatred",
       "type": "held",
-      "description": null,
+      "description": "Level 49 Epic - Totem.",
       "requirements": {
         "level": 49,
         "class": [
-          "ALL"
+          "NEC"
         ],
         "race": [
           "ALL"
@@ -4506,7 +4520,14 @@
         "pot": 10,
         "pr": 25,
         "ar": 10
-      }
+      },
+      "durability": 50,
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Sheen Blue Totem",
@@ -5754,11 +5775,11 @@
     {
       "name": "Focus of Mystifying Power",
       "type": "held",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
@@ -5769,16 +5790,23 @@
         "int": 30,
         "pow": 225,
         "ar": 50
-      }
+      },
+      "durability": 50,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Focus of the Creator",
       "type": "held",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "MAG"
         ],
         "race": [
           "ALL"
@@ -5789,7 +5817,14 @@
         "int": 30,
         "pow": 225,
         "ar": 50
-      }
+      },
+      "durability": 50,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "gleaming adamantine wand",
@@ -12500,6 +12535,247 @@
       "itemHp": 10000,
       "durability": 50,
       "noTrade": true
+    },
+    {
+      "name": "Rod of Elemental Union",
+      "type": "held",
+      "description": "Level 49 Epic - Rod.",
+      "requirements": {
+        "level": 49,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "int": 25,
+        "agi": 10,
+        "pow": 50,
+        "pot": 10,
+        "fr": 25,
+        "ar": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Shield",
+      "type": "shield",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 75,
+      "stats": {
+        "ac": 610,
+        "sta": 30,
+        "hp": 125,
+        "int": 35
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Shield",
+      "type": "shield",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "PAL"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 75,
+      "stats": {
+        "ac": 610,
+        "sta": 30,
+        "hp": 125,
+        "cha": 35
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Focus of Anarchic Control",
+      "type": "held",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ENC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ar": 50,
+        "pow": 225,
+        "int": 30,
+        "cha": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Focus of Runic Currents",
+      "type": "held",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ENC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "ar": 50,
+        "pow": 225,
+        "int": 30,
+        "cha": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Focus of Chaotic Might",
+      "type": "held",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "WIZ"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "dex": 25,
+        "ar": 50,
+        "pow": 225,
+        "int": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Totem of 1000 Beckons",
+      "type": "held",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "agi": 25,
+        "ar": 50,
+        "pow": 150,
+        "int": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Totem of Ancient Reanimation",
+      "type": "held",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "NEC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "sta": 25,
+        "ar": 50,
+        "pow": 150,
+        "int": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Focus of Ancient Reanimation",
+      "type": "held",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "NEC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "sta": 30,
+        "hp": 225,
+        "ar": 50,
+        "int": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     }
   ],
   "contributors": [

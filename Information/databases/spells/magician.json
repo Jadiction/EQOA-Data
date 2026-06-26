@@ -852,6 +852,48 @@
           "description": "Group, Damage Shield, 8min, FR",
           "source": "CM",
           "icon": "Brazier"
+        },
+        {
+          "name": "Magi`Kot's Good Breeding",
+          "description": "Level 60 Epic Mark path. Power cost: 0, Cast: 0, Recast: 0. Very similar to your previous path ability, but more powerful: It is an ability that enhances your pet with a proc, a damage shield, and makes it more intelligent.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Magi`Kot's Sacrificial Breeding",
+          "description": "Level 60 Epic Mark path. Power cost: 0, Cast: 0, Recast: 0. A large 300 proc, with 500 intelligence boost, 2 offensive mods but no damage shield.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "MAG-Stone- Spell 1",
+          "description": "Level 60 Epic Stone path. Power cost: 0, Cast: 0, Recast: 0. CR Stone similar to the 49 spell Scoria Stone. The new CR Stone Spell has the same long recast time (60) as previous stones. The stones are still Lore. It has two slight improvments from the 49 spell, the stone did about 950 damage and it has 4 charges",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Teledic's Chilling Breath",
+          "description": "Level 60 Epic Stone path. Power cost: 601, Cast: 0, Recast: 1. Conjure's a stone that holds charges of Diamond shards. Lore, 4 charges. Does 539 Cr based aoe damage per throw/charge",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Mage 49 Specialized Epic",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. Grants your pet magical offensive and defensive damage for ten minutes. AR Proc",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Mage 49 Broken Epic",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. Off+Def Pet Proc LR",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Fine Red Wine",
+          "description": "Level 60 Epic third spell option. Power cost: 615, Cast: 0, Recast: 0. Summons Fine Red Wine. A very nice drink.",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

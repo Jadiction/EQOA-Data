@@ -953,6 +953,48 @@
           "description": "Self, Faun or Satyr form, Increase STR by 120, AGI by 120, MaxHP by 1200, HP by 1200, 30min",
           "source": "Wilding MCA",
           "icon": "Moon"
+        },
+        {
+          "name": "Mai'adra's Steadfast Assistance",
+          "description": "Level 60 Epic Heal path. Power cost: 708, Cast: 4, Recast: 24. 60 epic: A slow burst of health washes over your group.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Mai`adra's Unrelenting Hope",
+          "description": "Level 60 Epic Heal path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: Ticks similarly to the rest of the path heals, but stacks with normal tic heals. heals for 420 at 400cha",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Synder's Burning Hatred",
+          "description": "Level 60 Epic DoT path. Power cost: 476, Cast: 2, Recast: 3. 60 epic: \"Sets target ablaze, and lowers its fire resistances\"",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Synder's Malevolent Mindset",
+          "description": "Level 60 Epic DoT path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: Over 1500 Direct Damage spell with decent dex. Snare and 35 FR Debuff",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Calefaction",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic: FR debuff and DoT",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Flowering Health",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic heal path: stacking group tick heal",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Shield of 1000 Needles",
+          "description": "Level 60 Epic third spell option. Power cost: 460, Cast: 2, Recast: 3. 60 epic 3rd choice: up to 125 damage shield and debuff's -25 AR.",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

@@ -678,6 +678,48 @@
           "description": "Target, Increase HP per tic by 250 ; Increase 25% based on CHA",
           "source": "Gaurdian MCA",
           "icon": null
+        },
+        {
+          "name": "Talimus's Diamond Barrier",
+          "description": "Level 60 Epic Fortify path. Power cost: 0, Cast: 0, Recast: 300. 60 epic: 2/3 Damage reduced for 30 seconds. smaller damage cap.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Talimus's Adamantine Barrier",
+          "description": "Level 60 Epic Fortify path. Power cost: 0, Cast: 0, Recast: 300. 60 epic: over 1/3 damage reduced larger max damage cap. 30 second duration",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ozmo's Infuriating Jeer",
+          "description": "Level 60 Epic Bastion path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: Bigger AC Buff for a Shorter duration",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ozmo's Careful Teasing",
+          "description": "Level 60 Epic Bastion path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: lower AC increase for a longer duration (1min)",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Blessed Bastion",
+          "description": "Level 60 Epic Broken path. Power cost: 184, Cast: 0, Recast: 300. specialized 49 epic: taunt, AC buff",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "49 Barrier",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 300. 1/2 Damage reducer and Root for 30 seconds",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Celestial Light",
+          "description": "Level 60 Epic third spell option. Power cost: 0, Cast: 0, Recast: 45. 60 epic 3rd choice: 750 heal",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

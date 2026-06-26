@@ -958,6 +958,42 @@
           "description": "Target Debuff Hp by 856 Modified 30% based on DEX, AE 856",
           "source": "Sorcerer MCA",
           "icon": "Profile_Lightning"
+        },
+        {
+          "name": "Aktrana's Tower of Will",
+          "description": "Level 60 Epic Power path. Power cost: 0, Cast: 0, Recast: 300. 600 PoT for 30 seconds",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Aktrana's Cerebral Fortress",
+          "description": "Level 60 Epic Power path. Power cost: 0, Cast: 0, Recast: 0. 2300 power buff",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Vylinnuza's Tidal Destruction",
+          "description": "Level 60 Epic Clash path. Power cost: 417, Cast: 2, Recast: 3. 600x3 damage lower damage lower aggro",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Vylinnuza's Merciless Undertow",
+          "description": "Level 60 Epic Clash path. Power cost: 417, Cast: 2, Recast: 3. 2700ish on regular mobs",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Towering Mind",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Manaburn",
+          "description": "Level 60 Epic third spell option. Power cost: 1258, Cast: 2, Recast: 180. At 655 dex over 9000 damage!",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

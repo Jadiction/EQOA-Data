@@ -1,0 +1,608 @@
+{
+  "title": "EQOA: Frontiers 60 Epics",
+  "description": "A pulled-together list of level 60 epic spells and item reward options with their respective stats. A work in progress and will be updated as more information is gathered. Anybody can help contribute data via the EQOA Editor.",
+  "list": [
+    {
+      "Alchemist": {
+        "paths": [
+          {
+            "name": "Cocktail",
+            "type": "specialized",
+            "spells": [
+              "Severupidus' Cocktail of Torment",
+              "Severupidus' Cocktail of Death"
+            ]
+          },
+          {
+            "name": "Knack",
+            "type": "specialized",
+            "spells": [
+              "Visage",
+              "ALC-Knack- Spell 2"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Freeport Cocktail",
+              "Freezing Mixture"
+            ]
+          }
+        ],
+        "thirdSpell": "Refreshing Concoction",
+        "items": [
+          "Slippers of the Fiery Tempest",
+          "Slippers of Electric Currents",
+          "Slippers of the Chilling Winds",
+          "Slippers of Arcanic Rune",
+          "Braclet of orbital energy",
+          "ring of rune channeling",
+          "Spectral shroud",
+          "Shroud of Magnetism",
+          "Shroud of Combustion",
+          "Shroud of Icy Depths",
+          "Robe of Fiery Tempest",
+          "Robe of Electric Currents",
+          "Robe of the Chilling Winds",
+          "Robe of Arcane Rune"
+        ]
+      },
+      "Bard": {
+        "paths": [
+          {
+            "name": "Power",
+            "type": "specialized",
+            "spells": [
+              "Celedonicus' Inspiring Performance",
+              "Celedonicus' Grand Finale"
+            ]
+          },
+          {
+            "name": "Combat",
+            "type": "specialized",
+            "spells": [
+              "Staccato Flurry",
+              "Pulsing Flurry"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Power Vibe",
+              "Power Groove"
+            ]
+          }
+        ],
+        "thirdSpell": "Pandemonium",
+        "items": [
+          "Blade of Lyrical Refrain",
+          "Blade of Ancient Song",
+          "Blade of Lyrical Harmony",
+          "Blade of Ancient Melodies",
+          "Intense Heat",
+          "Esoteric Forces",
+          "White Lightining",
+          "Tunic of Icy Waters"
+        ]
+      },
+      "Cleric": {
+        "paths": [
+          {
+            "name": "Stack",
+            "type": "specialized",
+            "spells": [
+              "Ruddish's Unassailable Faith",
+              "Ruddish's Inspiring Piety"
+            ]
+          },
+          {
+            "name": "Ward",
+            "type": "specialized",
+            "spells": [
+              "Mega's Mighty Carapace",
+              "Mega's Clutch Ward"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Remedy",
+              "Ward of Blessings"
+            ]
+          }
+        ],
+        "thirdSpell": "Abolish Death",
+        "items": [
+          "Staff of Divinity",
+          "Hammer of Ethereal Conquest",
+          "spectral",
+          "magnetism",
+          "combustion",
+          "icy depths",
+          "Chestplate of Clouds",
+          "Chestplate of Burning Ashes",
+          "Chestplate of Tumultuous Storms",
+          "Chestplate of Arcanist Warding"
+        ]
+      },
+      "Druid": {
+        "paths": [
+          {
+            "name": "Heal",
+            "type": "specialized",
+            "spells": [
+              "Mai'adra's Steadfast Assistance",
+              "Mai`adra's Unrelenting Hope"
+            ]
+          },
+          {
+            "name": "DoT",
+            "type": "specialized",
+            "spells": [
+              "Synder's Burning Hatred",
+              "Synder's Malevolent Mindset"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Calefaction",
+              "Flowering Health"
+            ]
+          }
+        ],
+        "thirdSpell": "Shield of 1000 Needles",
+        "items": [
+          "Bedlam",
+          "Staff of Nature's Blessing",
+          "Tunic of the Prestidigitation",
+          "Tunic of Shocking Energies",
+          "Tunic of the Frost Rift",
+          "Tunic of the Fiery Inferno"
+        ]
+      },
+      "Enchanter": {
+        "paths": [
+          {
+            "name": "Power",
+            "type": "specialized",
+            "spells": [
+              "Ahrianna's Generous Gift",
+              "Ahrianna's Blessed Boon"
+            ]
+          },
+          {
+            "name": "Mind",
+            "type": "specialized",
+            "spells": [
+              "Jen`Tylis' Overarching Greed",
+              "Jen`Tylis' Lust for Power"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Power Flux",
+              "Inifnite Mind"
+            ]
+          }
+        ],
+        "thirdSpell": "Eldritch Rune",
+        "items": [
+          "Staff of Superior Influence",
+          "Focus of Anarchic Control",
+          "Focus of Runic Currents",
+          "Rod of Ataxia",
+          "Shroud of Bewitchment",
+          "Shroud of Ignited Energy",
+          "Shroud of Incandesence",
+          "Shroud of Bitter Winds",
+          "Robe of Tumultous Storms"
+        ]
+      },
+      "Magician": {
+        "paths": [
+          {
+            "name": "Mark",
+            "type": "specialized",
+            "spells": [
+              "Magi`Kot's Good Breeding",
+              "Magi`Kot's Sacrificial Breeding"
+            ]
+          },
+          {
+            "name": "Stone",
+            "type": "specialized",
+            "spells": [
+              "MAG-Stone- Spell 1",
+              "Teledic's Chilling Breath"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Mage 49 Specialized Epic",
+              "Mage 49 Broken Epic"
+            ]
+          }
+        ],
+        "thirdSpell": "Fine Red Wine",
+        "items": [
+          "Staff of Dynamic Summoning",
+          "Elite Staff of the Summoner",
+          "Totem of 1000 Beckons",
+          "Focus of the Creator",
+          "Shroud of Warmth",
+          "Shroud of Prestidigitation",
+          "Shroud of Frostweave",
+          "Shroud of Voltage",
+          "Shocking energies",
+          "Magic Affluence",
+          "Fiery Inferno",
+          "Frost rift"
+        ]
+      },
+      "Monk": {
+        "paths": [
+          {
+            "name": "Strike",
+            "type": "specialized",
+            "spells": [
+              "Penetrating Blow",
+              "Staggering Shot"
+            ]
+          },
+          {
+            "name": "Stance",
+            "type": "specialized",
+            "spells": [
+              "Melinis' Tranquil Stance",
+              "Melinus' Harmonius Thoughts"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Monk 49 Specialized Epic 1",
+              "Monk 49 Specialized Epic 2"
+            ]
+          }
+        ],
+        "thirdSpell": "Strike of the Serpent",
+        "items": [
+          "Claws of Insurrection",
+          "Staff",
+          "Claws of Mayhem",
+          "Staff",
+          "Tunic of Iceshard",
+          "Enkindled Tunic",
+          "Tunic of Intensity",
+          "Conductive Tunic"
+        ]
+      },
+      "Necromancer": {
+        "paths": [
+          {
+            "name": "Power",
+            "type": "specialized",
+            "spells": [
+              "Calidux's Equitable Division",
+              "Calidux's Insatiable Appetite"
+            ]
+          },
+          {
+            "name": "Blood",
+            "type": "specialized",
+            "spells": [
+              "Boldunder's Mountain Roots",
+              "Boldunder's Personal Mine"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Blood Vortex",
+              "Power Vortex"
+            ]
+          }
+        ],
+        "thirdSpell": "Agonize Death",
+        "items": [
+          "Staff of the Banshee Wail",
+          "Staff",
+          "Totem of Ancient Reanimation",
+          "Focus of Ancient Reanimation",
+          "Shroud of Trickery",
+          "Shroud of Radioactivity",
+          "Shroud of Crystals",
+          "Shroud of the Blaze",
+          "Robe of Runic Warding"
+        ]
+      },
+      "Paladin": {
+        "paths": [
+          {
+            "name": "Fortify",
+            "type": "specialized",
+            "spells": [
+              "Talimus's Diamond Barrier",
+              "Talimus's Adamantine Barrier"
+            ]
+          },
+          {
+            "name": "Bastion",
+            "type": "specialized",
+            "spells": [
+              "Ozmo's Infuriating Jeer",
+              "Ozmo's Careful Teasing"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Blessed Bastion",
+              "49 Barrier"
+            ]
+          }
+        ],
+        "thirdSpell": "Celestial Light",
+        "items": [
+          "Lance",
+          "Sword of Virtue",
+          "Shield",
+          "Purple BP",
+          "Green BP",
+          "Blue BP",
+          "Red BP"
+        ]
+      },
+      "Ranger": {
+        "paths": [
+          {
+            "name": "Blade",
+            "type": "specialized",
+            "spells": [
+              "Graal's Venomus Strike",
+              "Graal's Final Strike"
+            ]
+          },
+          {
+            "name": "Arrow",
+            "type": "specialized",
+            "spells": [
+              "Gelledyn's Perfect Vision",
+              "Gelledyn's Feral Imitation"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Eagle Eye",
+              "Natureblade"
+            ]
+          }
+        ],
+        "thirdSpell": "Glimmering blades",
+        "items": [
+          "Bow of Sharp Shooting",
+          "Axe of Nature's Innocence",
+          "Axe of Nature's Purity",
+          "Sparked Tunic",
+          "Tunic of Gravity",
+          "Tunic of Astral Projection",
+          "Tunic of Snowy Days"
+        ]
+      },
+      "Rogue": {
+        "paths": [
+          {
+            "name": "Wound",
+            "type": "specialized",
+            "spells": [
+              "Sothimus Critical wounding",
+              "Sothimus Artiteral Targetting"
+            ]
+          },
+          {
+            "name": "Avoid",
+            "type": "specialized",
+            "spells": [
+              "Rashiroz's Perfect Evasion",
+              "Rashiroz's Persistent Vanishing"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Escape",
+              "Mortal Wound"
+            ]
+          }
+        ],
+        "thirdSpell": "Strategic Blow",
+        "items": [
+          "Stiletto of Furious Revenge",
+          "Stiletto of Bloodshed",
+          "Dagger of Vendettas Resolved",
+          "Dagger of Bloodletting",
+          "Tunic of Cyclones",
+          "Tunic of Trickery",
+          "Tunic of Thunder",
+          "Tunic of Fierce Flames",
+          "Tunic of Blizzards"
+        ]
+      },
+      "Shadowknight": {
+        "paths": [
+          {
+            "name": "Blood",
+            "type": "specialized",
+            "spells": [
+              "Quil'Eyne's Unspeakable Hunger",
+              "Quil'Eyne's Cruel Embrace"
+            ]
+          },
+          {
+            "name": "Tower",
+            "type": "specialized",
+            "spells": [
+              "Ozmo's Echoing Mockery",
+              "Goading Ridicule"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Bloodwraith",
+              "Doomed Tower"
+            ]
+          }
+        ],
+        "thirdSpell": "Infernal Bond",
+        "items": [
+          "Axe",
+          "Sword of the Contender",
+          "Shield",
+          "Chestguard of Diabolism",
+          "Chestguard of Combustion",
+          "Chestguard of Chain Reaction",
+          "Chestguard of Frostwork"
+        ]
+      },
+      "Shaman": {
+        "paths": [
+          {
+            "name": "Spiritual",
+            "type": "specialized",
+            "spells": [
+              "Yalgima's Fearsome Companion",
+              "Yalgima's Menacing Defender"
+            ]
+          },
+          {
+            "name": "Wind",
+            "type": "specialized",
+            "spells": [
+              "Debilitating Hex",
+              "Sinister Cantrip"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Atrophic Wind",
+              "Spiritual Slayer"
+            ]
+          }
+        ],
+        "thirdSpell": "Ethereal Healing",
+        "items": [
+          "Bedlam",
+          "Staff of spiritual energies",
+          "Rod of Ataxia",
+          "Hammer of mystical enlightnment",
+          "Tunic of Snowflake",
+          "Tunic of Runic Warding",
+          "Tunic of Pure Energy",
+          "Tunic of Lavawalker"
+        ]
+      },
+      "Warrior": {
+        "paths": [
+          {
+            "name": "Bellow",
+            "type": "specialized",
+            "spells": [
+              "Jakai's Rallying Cry",
+              "Jakai's Invigorating Bellow"
+            ]
+          },
+          {
+            "name": "Pillar",
+            "type": "specialized",
+            "spells": [
+              "Ozmo's Maternal Asperation",
+              "Ozmo's Unrelenting Ridicule"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Warrior 49 Specialized Epic",
+              "Warcry"
+            ]
+          }
+        ],
+        "thirdSpell": "Punt",
+        "items": [
+          "sword",
+          "Blade",
+          "Blade",
+          "Scintillating Chestplate",
+          "Chestplate of the Icy Whirlwind",
+          "Chestguard of Dynamism",
+          "Miraculous Chestguard"
+        ]
+      },
+      "Wizard": {
+        "paths": [
+          {
+            "name": "Power",
+            "type": "specialized",
+            "spells": [
+              "Aktrana's Tower of Will",
+              "Aktrana's Cerebral Fortress"
+            ]
+          },
+          {
+            "name": "Clash",
+            "type": "specialized",
+            "spells": [
+              "Vylinnuza's Tidal Destruction",
+              "Vylinnuza's Merciless Undertow"
+            ]
+          },
+          {
+            "name": "Broken",
+            "type": "mixed",
+            "spells": [
+              "Towering Mind"
+            ],
+            "sourceNotes": [
+              "The archived page lists only 2 spell choices."
+            ]
+          }
+        ],
+        "thirdSpell": "Manaburn",
+        "items": [
+          "Staff",
+          "Staff of the Enlightened",
+          "Focus of Chaotic Might",
+          "Focus of Mystifying Power",
+          "Shroud of Diamond Dust",
+          "Shroud of Gravity",
+          "Shroud of Intensity",
+          "Shroud of Astral Projection",
+          "Robe of Intense Heat",
+          "Robe of White Lightning",
+          "Robe of Esoteric Forces",
+          "Robe of Icy Waters"
+        ]
+      }
+    }
+  ]
+}

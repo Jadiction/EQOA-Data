@@ -32322,6 +32322,32 @@
         "hp": 70,
         "pow": 70
       }
+    },
+    {
+      "name": "ring of rune channeling",
+      "type": "ring",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ar": 50,
+        "wis": 35,
+        "hot": 10,
+        "pot": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     }
   ],
   "contributors": [

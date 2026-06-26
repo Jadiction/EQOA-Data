@@ -637,6 +637,48 @@
           "description": "Target, Increase Hitpoints by 1000",
           "source": "Sensei MCA",
           "icon": "Heal"
+        },
+        {
+          "name": "Penetrating Blow",
+          "description": "Level 60 Epic Strike path. Power cost: 0, Cast: 1, Recast: 600. 125 str/dex + dex moded proc upto 500.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Staggering Shot",
+          "description": "Level 60 Epic Strike path. Power cost: 0, Cast: 1, Recast: 600. buff that has a DoT",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Melinis' Tranquil Stance",
+          "description": "Level 60 Epic Stance path. Power cost: 0, Cast: 1, Recast: 600. It is a 100 Agi 850 Ac buff with a damage shield of 75 thats last about a minute",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Melinus' Harmonius Thoughts",
+          "description": "Level 60 Epic Stance path. Power cost: 0, Cast: 1, Recast: 600. Its a little weaker as far as the agi ac buff but it lasts a little longer and instead of a damage shield, it buffs a 50 HoT buff",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Monk 49 Specialized Epic 1",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Monk 49 Specialized Epic 2",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Strike of the Serpent",
+          "description": "Level 60 Epic third spell option. Power cost: 462, Cast: 6, Recast: 90. 1900ish+ damage with a hate debuff. 1920+ @515 stamina",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

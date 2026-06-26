@@ -869,6 +869,48 @@
           "description": "Decrease HP by 1570 to Self ; Decrease HP by 2354 to target; Increase 15% based on DEX",
           "source": "Defiler MCA",
           "icon": "Fear"
+        },
+        {
+          "name": "Calidux's Equitable Division",
+          "description": "Level 60 Epic Power path. Power cost: 1200, Cast: 4, Recast: 60. 60 epic: Power is drained from the target and given to the group. 1000 Power Drain",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Calidux's Insatiable Appetite",
+          "description": "Level 60 Epic Power path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: drains power from target and gives it to the Necromancer only.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Boldunder's Mountain Roots",
+          "description": "Level 60 Epic Blood path. Power cost: 0, Cast: 0, Recast: 60. 60 epic: 1500 damage 750 heal",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Boldunder's Personal Mine",
+          "description": "Level 60 Epic Blood path. Power cost: 210, Cast: 2, Recast: 60. 60 epic: 3000 damage 1500 heal. Self only and less resistant.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Blood Vortex",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Power Vortex",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Agonize Death",
+          "description": "Level 60 Epic third spell option. Power cost: 0, Cast: 0, Recast: 45. 60 epic 3rd choice: This ability uses the power of the dead to damage any opponent. 591 for 5 tics",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

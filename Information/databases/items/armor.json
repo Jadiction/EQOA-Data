@@ -13129,11 +13129,11 @@
     {
       "name": "Chestguard of Dynamism",
       "type": "chest",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WAR"
         ],
         "race": [
           "ALL"
@@ -13145,16 +13145,23 @@
         "hot": 25,
         "ac": 550,
         "lr": 35
-      }
+      },
+      "durability": 75,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Chestplate of the Icy Whirlwind",
       "type": "chest",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WAR"
         ],
         "race": [
           "ALL"
@@ -13166,7 +13173,14 @@
         "hp": 200,
         "ac": 550,
         "cr": 45
-      }
+      },
+      "durability": 75,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Chestplate of the Transgressor",
@@ -13556,11 +13570,11 @@
     {
       "name": "Miraculous Chestguard",
       "type": "chest",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WAR"
         ],
         "race": [
           "ALL"
@@ -13572,7 +13586,14 @@
         "hp": 200,
         "ac": 550,
         "ar": 45
-      }
+      },
+      "durability": 75,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "pneumatic tunic",
@@ -13635,11 +13656,11 @@
     {
       "name": "Scintillating Chestplate",
       "type": "chest",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WAR"
         ],
         "race": [
           "ALL"
@@ -13651,7 +13672,14 @@
         "hp": 200,
         "ac": 550,
         "fr": 35
-      }
+      },
+      "durability": 75,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "shirt of blackened links",
@@ -13792,7 +13820,7 @@
     {
       "name": "Tunic of Fierce Flames",
       "type": "chest",
-      "description": "This tunic provides protection against fire.",
+      "description": "This tunic provides protection against fire. Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
@@ -13817,7 +13845,11 @@
         "fr": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Tunic of Loathing",
@@ -70217,13 +70249,13 @@
       }
     },
     {
-      "name": "metamorphic robes",
+      "name": "Metamorphic Robes",
       "type": "robe",
-      "description": "The alchemist Odan used a magical box he created to reshape his robes to meet any situation.",
+      "description": "The alchemist Odan used a magical box he created to reshape his robes to meet any situation. Includes a stone to change robe color and +30 resist: Red=FR, Green=PR, Yellow=LR, Blue=CR",
       "requirements": {
         "level": 49,
         "class": [
-          "ALL"
+          "ALC"
         ],
         "race": [
           "ALL"
@@ -70233,13 +70265,16 @@
       "durability": 50,
       "stats": {
         "sta": 10,
-        "wis": 20,
+        "wis": 25,
         "hp": 80,
-        "ac": 35,
-        "pr": 30
+        "ac": 35
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      }
     },
     {
       "name": "Mindsoothe Robe",
@@ -73388,11 +73423,11 @@
     {
       "name": "Robe of Electric Currents",
       "type": "robe",
-      "description": "This robe provides protection from lightning.",
+      "description": "This robe provides protection from lightning. Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ALC"
         ],
         "race": [
           "ALL"
@@ -73406,7 +73441,13 @@
         "pot": 25,
         "ac": 140,
         "lr": 35
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "robe of elemental domination",
@@ -73437,11 +73478,11 @@
     {
       "name": "Robe of Esoteric Forces",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
@@ -73453,7 +73494,13 @@
         "pow": 200,
         "ac": 140,
         "ar": 40
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "robe of geomancy",
@@ -73480,32 +73527,38 @@
     {
       "name": "Robe of Icy Waters",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
         ]
       },
       "stats": {
-        "dex": 30,
-        "int": 10,
+        "dex": 10,
+        "int": 30,
         "pow": 200,
         "ac": 140,
         "cr": 45
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Robe of Intense Heat",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
@@ -73517,7 +73570,13 @@
         "pot": 25,
         "ac": 140,
         "fr": 35
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Robe of Magical Affluence",
@@ -73587,18 +73646,29 @@
     {
       "name": "Robe of Runic Warding",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "NEC"
         ],
         "race": [
           "ALL"
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "stats": {
+        "str": -50,
+        "ac": 85,
+        "agi": 45,
+        "hp": 150,
+        "ar": 50
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Robe of Shocking Energies",
@@ -73671,11 +73741,11 @@
     {
       "name": "Robe of the Chilling Winds",
       "type": "robe",
-      "description": "This robe provides protection from the cold.",
+      "description": "This robe provides protection from the cold. Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ALC"
         ],
         "race": [
           "ALL"
@@ -73689,7 +73759,13 @@
         "hp": 200,
         "ac": 140,
         "cr": 45
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "robe of the extirpator",
@@ -73832,40 +73908,50 @@
     {
       "name": "Robe of Tumultous Storms",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ENC"
         ],
         "race": [
           "ALL"
         ]
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "stats": {}
     },
     {
       "name": "Robe of White Lightning",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Good.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
         ]
       },
       "stats": {
-        "dex": 10,
+        "dex": 20,
         "pow": 100,
         "pot": 25,
         "ac": 140,
         "lr": 35
       },
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true
     },
     {
       "name": "seraphic planar robe",
@@ -73918,11 +74004,11 @@
     {
       "name": "Shroud of Astral Projection",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
@@ -73936,16 +74022,20 @@
         "ar": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Bewitchment",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ENC"
         ],
         "race": [
           "ALL"
@@ -73959,16 +74049,20 @@
         "ar": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Bitter Winds",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ENC"
         ],
         "race": [
           "ALL"
@@ -73982,16 +74076,20 @@
         "cr": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Combustion",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ALC"
         ],
         "race": [
           "ALL"
@@ -74005,16 +74103,20 @@
         "fr": 50
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Crystals",
       "type": "robe",
-      "description": "This robe provides protection against the cold.",
+      "description": "This robe provides protection against the cold. Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "NEC"
         ],
         "race": [
           "ALL"
@@ -74030,16 +74132,20 @@
         "cr": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Diamond Dust",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
@@ -74051,16 +74157,22 @@
         "pow": 200,
         "ac": 140,
         "cr": 45
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Shroud of Frostweave",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "MAG"
         ],
         "race": [
           "ALL"
@@ -74074,16 +74186,20 @@
         "cr": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Gravity",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "WIZ"
         ],
         "race": [
           "ALL"
@@ -74097,16 +74213,20 @@
         "lr": 35
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Icy Depths",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ALC"
         ],
         "race": [
           "ALL"
@@ -74114,22 +74234,26 @@
       },
       "stats": {
         "wis": 45,
-        "int": 63,
+        "int": -50,
         "hp": 150,
         "ac": 130,
         "cr": 50
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Ignited Energy",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ENC"
         ],
         "race": [
           "ALL"
@@ -74140,10 +74264,14 @@
         "pow": 100,
         "pot": 25,
         "ac": 140,
-        "lr": 50
+        "lr": 35
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Incandesense",
@@ -74192,11 +74320,11 @@
     {
       "name": "Shroud of Magnetism",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ALC"
         ],
         "race": [
           "ALL"
@@ -74204,20 +74332,26 @@
       },
       "stats": {
         "sta": 45,
-        "int": 63,
+        "int": -50,
         "hp": 150,
         "ac": 130,
         "lr": 50
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Shroud of Prestidigitation",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "MAG"
         ],
         "race": [
           "ALL"
@@ -74231,16 +74365,20 @@
         "ar": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Radioactivity",
       "type": "robe",
-      "description": "This robe provides protection against lightning.",
+      "description": "This robe provides protection against lightning. Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "NEC"
         ],
         "race": [
           "ALL"
@@ -74256,16 +74394,20 @@
         "lr": 35
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of the Blaze",
       "type": "robe",
-      "description": "This robe provides protection against fire.",
+      "description": "This robe provides protection against fire. Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "NEC"
         ],
         "race": [
           "ALL"
@@ -74279,16 +74421,22 @@
         "pot": 25,
         "ac": 140,
         "fr": 35
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Shroud of Trickery",
       "type": "robe",
-      "description": "This robe provides protection against magic.",
+      "description": "This robe provides protection against magic. Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "NEC"
         ],
         "race": [
           "ALL"
@@ -74304,16 +74452,20 @@
         "ar": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Voltage",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "MAG"
         ],
         "race": [
           "ALL"
@@ -74327,16 +74479,20 @@
         "lr": 45
       },
       "noTrade": true,
-      "lore": true
+      "lore": true,
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      }
     },
     {
       "name": "Shroud of Warmth",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "MAG"
         ],
         "race": [
           "ALL"
@@ -74348,7 +74504,13 @@
         "pot": 25,
         "ac": 140,
         "fr": 35
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "Sparkling Robes",
@@ -74374,11 +74536,11 @@
     {
       "name": "Spectral shroud",
       "type": "robe",
-      "description": null,
+      "description": "Alignment: Evil.",
       "requirements": {
         "level": 60,
         "class": [
-          "ALL"
+          "ALC"
         ],
         "race": [
           "ALL"
@@ -74390,7 +74552,13 @@
         "hp": 150,
         "ac": 130,
         "ar": 50
-      }
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     },
     {
       "name": "starless night robe",
@@ -82008,6 +82176,1473 @@
         "ac": 248,
         "pr": 15
       }
+    },
+    {
+      "name": "Odan's Bonded Gloves",
+      "type": "hands",
+      "description": null,
+      "requirements": {
+        "level": 49,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "sta": 23,
+        "dex": 12,
+        "hp": 100,
+        "pr": 20,
+        "ac": 186
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 49 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Chestguard of Diabolism",
+      "type": "chest",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 75,
+      "stats": {
+        "ac": 550,
+        "sta": 10,
+        "hp": 200,
+        "ar": 45,
+        "int": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Chestguard of Combustion",
+      "type": "chest",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 75,
+      "stats": {
+        "fr": 35,
+        "ac": 550,
+        "sta": 20,
+        "hp": 200,
+        "int": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Chestguard of Chain Reaction",
+      "type": "chest",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 75,
+      "stats": {
+        "ac": 550,
+        "lr": 35,
+        "hp": 100,
+        "hot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Chestguard of Frostwork",
+      "type": "chest",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 75,
+      "stats": {
+        "ac": 550,
+        "sta": 30,
+        "cr": 45,
+        "hp": 200,
+        "int": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Purple BP",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "PAL"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 501,
+        "lr": 35,
+        "hp": 100,
+        "hot": 25,
+        "cha": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Green BP",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "PAL"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ar": 1
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Blue BP",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "PAL"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "cr": 1
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Red BP",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "PAL"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "fr": 1
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of the Prestidigitation",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "DRU"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 280,
+        "dex": 30,
+        "ar": 45,
+        "pow": 200,
+        "wis": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Shocking Energies",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "DRU"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 280,
+        "lr": 35,
+        "dex": 20,
+        "pow": 100,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of the Frost Rift",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "DRU"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 280,
+        "cr": 45,
+        "dex": 10,
+        "pow": 200,
+        "wis": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of the Fiery Inferno",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "DRU"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "fr": 35,
+        "ac": 280,
+        "pow": 100,
+        "wis": 20,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "spectral",
+      "type": "chest",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "ac": 550,
+        "ar": 45,
+        "pow": 200,
+        "wis": 10,
+        "cha": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "magnetism",
+      "type": "chest",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "ac": 550,
+        "lr": 50,
+        "pow": 150,
+        "wis": 25,
+        "cha": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "combustion",
+      "type": "chest",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "fr": 35,
+        "ac": 550,
+        "pow": 100,
+        "wis": 20,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "icy depths",
+      "type": "chest",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "ac": 550,
+        "cr": 45,
+        "pow": 200,
+        "wis": 30,
+        "cha": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Chestplate of Clouds",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 550,
+        "lr": 35,
+        "pow": 100,
+        "cha": 20,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Chestplate of Burning Ashes",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "fr": 35,
+        "ac": 550,
+        "pow": 100,
+        "wis": 20,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Chestplate of Tumultuous Storms",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 550,
+        "cr": 45,
+        "pow": 200,
+        "wis": 30,
+        "cha": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Chestplate of Arcanist Warding",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "CLR"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 550,
+        "ar": 45,
+        "pow": 200,
+        "wis": 10,
+        "cha": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Snowflake",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 420,
+        "sta": 10,
+        "cr": 45,
+        "pow": 200,
+        "wis": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Runic Warding",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 420,
+        "sta": 30,
+        "ar": 45,
+        "pow": 200,
+        "wis": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Pure Energy",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 420,
+        "sta": 20,
+        "lr": 35,
+        "pow": 100,
+        "cha": 10,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Lavawalker",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "SHM"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "fr": 35,
+        "ac": 420,
+        "pow": 100,
+        "wis": 20,
+        "cha": 10,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Intense Heat",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "fr": 45,
+        "ac": 420,
+        "agi": 30,
+        "hp": 200,
+        "dex": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Esoteric Forces",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "str": 10,
+        "ac": 420,
+        "sta": 30,
+        "hp": 200,
+        "ar": 45
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "White Lightining",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "ac": 420,
+        "lr": 45,
+        "agi": 10,
+        "hp": 200,
+        "dex": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Icy Waters",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "BRD"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "str": 30,
+        "ac": 420,
+        "sta": 10,
+        "cr": 45,
+        "hp": 200
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Sparked Tunic",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "fr": 45,
+        "ac": 420,
+        "agi": 30,
+        "hp": 200,
+        "dex": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Gravity",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "ac": 420,
+        "lr": 45,
+        "agi": 10,
+        "hp": 200,
+        "dex": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Astral Projection",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "str": 10,
+        "ac": 420,
+        "hp": 200,
+        "dex": 30,
+        "ar": 45
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Snowy Days",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "RAN"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "str": 30,
+        "ac": 420,
+        "cr": 45,
+        "hp": 200,
+        "dex": 10,
+        "cha": -50
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Iceshard",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "str": 30,
+        "ac": 280,
+        "sta": 10,
+        "cr": 45,
+        "hp": 200
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Enkindled Tunic",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "fr": 45,
+        "ac": 280,
+        "agi": 30,
+        "hp": 200,
+        "dex": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Intensity",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "str": 10,
+        "ac": 280,
+        "sta": 30,
+        "hp": 200,
+        "ar": 45
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Conductive Tunic",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MNK"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "ac": 280,
+        "lr": 45,
+        "agi": 10,
+        "hp": 200,
+        "dex": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Cyclones",
+      "type": "chest",
+      "description": null,
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "stats": {},
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Trickery",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "str": 10,
+        "ac": 420,
+        "hp": 200,
+        "dex": 30,
+        "ar": 45
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Thunder",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "str": 10,
+        "ac": 420,
+        "lr": 45,
+        "agi": 30,
+        "hp": 200
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Tunic of Blizzards",
+      "type": "chest",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ROG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 65,
+      "stats": {
+        "str": 30,
+        "ac": 420,
+        "cr": 45,
+        "hp": 200,
+        "dex": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Shroud of Incandesence",
+      "type": "robe",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ENC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "fr": 35,
+        "ac": 140,
+        "pow": 100,
+        "int": 20,
+        "pot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Shroud of Intensity",
+      "type": "robe",
+      "description": "Alignment: Evil.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "WIZ"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "fr": 35,
+        "ac": 140,
+        "pow": 100,
+        "int": 20,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Shocking energies",
+      "type": "robe",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 140,
+        "lr": 35,
+        "agi": 20,
+        "pow": 100,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Magic Affluence",
+      "type": "robe",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 140,
+        "agi": 30,
+        "ar": 45,
+        "pow": 200,
+        "int": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Fiery Inferno",
+      "type": "robe",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "fr": 35,
+        "ac": 140,
+        "pow": 100,
+        "int": 20,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Frost rift",
+      "type": "robe",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "MAG"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 140,
+        "agi": 10,
+        "cr": 45,
+        "pow": 200,
+        "int": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Slippers of the Fiery Tempest",
+      "type": "feet",
+      "description": null,
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "fr": 35,
+        "ac": 100,
+        "hp": 100,
+        "wis": 20,
+        "int": -50,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Slippers of Electric Currents",
+      "type": "feet",
+      "description": null,
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 100,
+        "sta": 20,
+        "lr": 35,
+        "hp": 100,
+        "int": -50,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Slippers of the Chilling Winds",
+      "type": "feet",
+      "description": null,
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 100,
+        "sta": 10,
+        "cr": 45,
+        "hp": 200,
+        "wis": 30
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Slippers of Arcanic Rune",
+      "type": "feet",
+      "description": null,
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "ac": 100,
+        "sta": 30,
+        "hp": 200,
+        "ar": 45,
+        "wis": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Braclet of orbital energy",
+      "type": "forearm",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "stats": {
+        "hp": 100,
+        "ar": 50,
+        "wis": 35,
+        "int": -50,
+        "pot": 20
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Robe of Fiery Tempest",
+      "type": "robe",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "fr": 35,
+        "ac": 140,
+        "hp": 100,
+        "wis": 20,
+        "pot": 25
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
+    },
+    {
+      "name": "Robe of Arcane Rune",
+      "type": "robe",
+      "description": "Alignment: Good.",
+      "requirements": {
+        "level": 60,
+        "class": [
+          "ALC"
+        ],
+        "race": [
+          "ALL"
+        ]
+      },
+      "durability": 50,
+      "stats": {
+        "ac": 140,
+        "sta": 30,
+        "hp": 200,
+        "ar": 45,
+        "wis": 10
+      },
+      "source": {
+        "type": "questReward",
+        "name": "Level 60 Epic"
+      },
+      "noTrade": true,
+      "lore": true
     }
   ],
   "contributors": [

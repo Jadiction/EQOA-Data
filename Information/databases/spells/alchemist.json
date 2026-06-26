@@ -1140,6 +1140,48 @@
           "description": "SELF Summon Wonderous Vaccination",
           "source": null,
           "icon": "Summon"
+        },
+        {
+          "name": "Severupidus' Cocktail of Torment",
+          "description": "Level 60 Epic Cocktail path. Power cost: 140, Cast: 1, Recast: 1. 60 epic: 1800 AoE FR damage + wis mod",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Severupidus' Cocktail of Death",
+          "description": "Level 60 Epic Cocktail path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: 500 aoe DoT that tics 4 times",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Visage",
+          "description": "Level 60 Epic Knack path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: gives between 800-1000 hps and like 80 pot or something",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "ALC-Knack- Spell 2",
+          "description": "Level 60 Epic Knack path. Power cost: 0, Cast: 0, Recast: 0. 60 epic: gives you just the pot buff, it works like the knack buff but it doesn't give you hp",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Freeport Cocktail",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. specialized 49 epic: AoE FR dmg potion",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Freezing Mixture",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0. CR damage potion",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Refreshing Concoction",
+          "description": "Level 60 Epic third spell option. Power cost: 0, Cast: 0, Recast: 0. 60 epic 3rd choice: tradeable potion that ticks 10 times at 200 hot/pot, stacks",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }

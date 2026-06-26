@@ -690,6 +690,48 @@
           "description": "Target, taunt with high damage (1k+). 5 second recast",
           "source": "Hero MCA",
           "icon": null
+        },
+        {
+          "name": "Jakai's Rallying Cry",
+          "description": "Level 60 Epic Bellow path. Power cost: 0, Cast: 0, Recast: 300. 600 Hpmax/ Heal (group spell)",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Jakai's Invigorating Bellow",
+          "description": "Level 60 Epic Bellow path. Power cost: 294, Cast: 1, Recast: 300. 1k hp buff/heal",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ozmo's Maternal Asperation",
+          "description": "Level 60 Epic Pillar path. Power cost: 0, Cast: 0, Recast: 0. 1500? AC buff for 18 seconds",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Ozmo's Unrelenting Ridicule",
+          "description": "Level 60 Epic Pillar path. Power cost: 0, Cast: 0, Recast: 300. 1250 AC buff for 36 seconds.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Warrior 49 Specialized Epic",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 0.",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Warcry",
+          "description": "Level 60 Epic Broken path. Power cost: 0, Cast: 0, Recast: 300. 650 HpBuff/Heal",
+          "source": "60 Epic",
+          "icon": null
+        },
+        {
+          "name": "Punt",
+          "description": "Level 60 Epic third spell option. Power cost: 425, Cast: 1, Recast: 6. Boot upgrade. 940 dam w/ 600 str",
+          "source": "60 Epic",
+          "icon": null
         }
       ]
     }
