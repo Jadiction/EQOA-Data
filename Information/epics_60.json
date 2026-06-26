@@ -47,7 +47,8 @@
               "Robe of Fiery Tempest",
               "Robe of Electric Currents",
               "Robe of the Chilling Winds",
-              "Robe of Arcane Rune"
+              "Robe of Arcane Rune",
+              "abc 123"
             ]
           }
         ]
@@ -79,7 +80,7 @@
             ]
           }
         ],
-        "thirdSpell": "Pandemonium",
+        "thirdSpell": "Pandemonium test",
         "episodes": [
           {
             "items": [
@@ -636,7 +637,8 @@
             "name": "Broken",
             "type": "mixed",
             "spells": [
-              "Towering Mind"
+              "Towering Mind",
+              ""
             ],
             "sourceNotes": [
               "The archived page lists only 2 spell choices."
