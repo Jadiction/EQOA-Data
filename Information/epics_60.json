@@ -31,21 +31,25 @@
           }
         ],
         "thirdSpell": "Refreshing Concoction",
-        "items": [
-          "Slippers of the Fiery Tempest",
-          "Slippers of Electric Currents",
-          "Slippers of the Chilling Winds",
-          "Slippers of Arcanic Rune",
-          "Braclet of orbital energy",
-          "ring of rune channeling",
-          "Spectral shroud",
-          "Shroud of Magnetism",
-          "Shroud of Combustion",
-          "Shroud of Icy Depths",
-          "Robe of Fiery Tempest",
-          "Robe of Electric Currents",
-          "Robe of the Chilling Winds",
-          "Robe of Arcane Rune"
+        "episodes": [
+          {
+            "items": [
+              "Slippers of the Fiery Tempest",
+              "Slippers of Electric Currents",
+              "Slippers of the Chilling Winds",
+              "Slippers of Arcanic Rune",
+              "Braclet of orbital energy",
+              "ring of rune channeling",
+              "Spectral shroud",
+              "Shroud of Magnetism",
+              "Shroud of Combustion",
+              "Shroud of Icy Depths",
+              "Robe of Fiery Tempest",
+              "Robe of Electric Currents",
+              "Robe of the Chilling Winds",
+              "Robe of Arcane Rune"
+            ]
+          }
         ]
       },
       "Bard": {
@@ -76,15 +80,19 @@
           }
         ],
         "thirdSpell": "Pandemonium",
-        "items": [
-          "Blade of Lyrical Refrain",
-          "Blade of Ancient Song",
-          "Blade of Lyrical Harmony",
-          "Blade of Ancient Melodies",
-          "Intense Heat",
-          "Esoteric Forces",
-          "White Lightining",
-          "Tunic of Icy Waters"
+        "episodes": [
+          {
+            "items": [
+              "Blade of Lyrical Refrain",
+              "Blade of Ancient Song",
+              "Blade of Lyrical Harmony",
+              "Blade of Ancient Melodies",
+              "Intense Heat",
+              "Esoteric Forces",
+              "White Lightining",
+              "Tunic of Icy Waters"
+            ]
+          }
         ]
       },
       "Cleric": {
@@ -115,17 +123,21 @@
           }
         ],
         "thirdSpell": "Abolish Death",
-        "items": [
-          "Staff of Divinity",
-          "Hammer of Ethereal Conquest",
-          "spectral",
-          "magnetism",
-          "combustion",
-          "icy depths",
-          "Chestplate of Clouds",
-          "Chestplate of Burning Ashes",
-          "Chestplate of Tumultuous Storms",
-          "Chestplate of Arcanist Warding"
+        "episodes": [
+          {
+            "items": [
+              "Staff of Divinity",
+              "Hammer of Ethereal Conquest",
+              "spectral",
+              "magnetism",
+              "combustion",
+              "icy depths",
+              "Chestplate of Clouds",
+              "Chestplate of Burning Ashes",
+              "Chestplate of Tumultuous Storms",
+              "Chestplate of Arcanist Warding"
+            ]
+          }
         ]
       },
       "Druid": {
@@ -156,13 +168,17 @@
           }
         ],
         "thirdSpell": "Shield of 1000 Needles",
-        "items": [
-          "Bedlam",
-          "Staff of Nature's Blessing",
-          "Tunic of the Prestidigitation",
-          "Tunic of Shocking Energies",
-          "Tunic of the Frost Rift",
-          "Tunic of the Fiery Inferno"
+        "episodes": [
+          {
+            "items": [
+              "Bedlam",
+              "Staff of Nature's Blessing",
+              "Tunic of the Prestidigitation",
+              "Tunic of Shocking Energies",
+              "Tunic of the Frost Rift",
+              "Tunic of the Fiery Inferno"
+            ]
+          }
         ]
       },
       "Enchanter": {
@@ -193,16 +209,20 @@
           }
         ],
         "thirdSpell": "Eldritch Rune",
-        "items": [
-          "Staff of Superior Influence",
-          "Focus of Anarchic Control",
-          "Focus of Runic Currents",
-          "Rod of Ataxia",
-          "Shroud of Bewitchment",
-          "Shroud of Ignited Energy",
-          "Shroud of Incandesence",
-          "Shroud of Bitter Winds",
-          "Robe of Tumultous Storms"
+        "episodes": [
+          {
+            "items": [
+              "Staff of Superior Influence",
+              "Focus of Anarchic Control",
+              "Focus of Runic Currents",
+              "Rod of Ataxia",
+              "Shroud of Bewitchment",
+              "Shroud of Ignited Energy",
+              "Shroud of Incandesence",
+              "Shroud of Bitter Winds",
+              "Robe of Tumultous Storms"
+            ]
+          }
         ]
       },
       "Magician": {
@@ -233,19 +253,23 @@
           }
         ],
         "thirdSpell": "Fine Red Wine",
-        "items": [
-          "Staff of Dynamic Summoning",
-          "Elite Staff of the Summoner",
-          "Totem of 1000 Beckons",
-          "Focus of the Creator",
-          "Shroud of Warmth",
-          "Shroud of Prestidigitation",
-          "Shroud of Frostweave",
-          "Shroud of Voltage",
-          "Shocking energies",
-          "Magic Affluence",
-          "Fiery Inferno",
-          "Frost rift"
+        "episodes": [
+          {
+            "items": [
+              "Staff of Dynamic Summoning",
+              "Elite Staff of the Summoner",
+              "Totem of 1000 Beckons",
+              "Focus of the Creator",
+              "Shroud of Warmth",
+              "Shroud of Prestidigitation",
+              "Shroud of Frostweave",
+              "Shroud of Voltage",
+              "Shocking energies",
+              "Magic Affluence",
+              "Fiery Inferno",
+              "Frost rift"
+            ]
+          }
         ]
       },
       "Monk": {
@@ -276,15 +300,19 @@
           }
         ],
         "thirdSpell": "Strike of the Serpent",
-        "items": [
-          "Claws of Insurrection",
-          "Staff",
-          "Claws of Mayhem",
-          "Staff",
-          "Tunic of Iceshard",
-          "Enkindled Tunic",
-          "Tunic of Intensity",
-          "Conductive Tunic"
+        "episodes": [
+          {
+            "items": [
+              "Claws of Insurrection",
+              "Staff",
+              "Claws of Mayhem",
+              "Staff",
+              "Tunic of Iceshard",
+              "Enkindled Tunic",
+              "Tunic of Intensity",
+              "Conductive Tunic"
+            ]
+          }
         ]
       },
       "Necromancer": {
@@ -315,16 +343,20 @@
           }
         ],
         "thirdSpell": "Agonize Death",
-        "items": [
-          "Staff of the Banshee Wail",
-          "Staff",
-          "Totem of Ancient Reanimation",
-          "Focus of Ancient Reanimation",
-          "Shroud of Trickery",
-          "Shroud of Radioactivity",
-          "Shroud of Crystals",
-          "Shroud of the Blaze",
-          "Robe of Runic Warding"
+        "episodes": [
+          {
+            "items": [
+              "Staff of the Banshee Wail",
+              "Staff",
+              "Totem of Ancient Reanimation",
+              "Focus of Ancient Reanimation",
+              "Shroud of Trickery",
+              "Shroud of Radioactivity",
+              "Shroud of Crystals",
+              "Shroud of the Blaze",
+              "Robe of Runic Warding"
+            ]
+          }
         ]
       },
       "Paladin": {
@@ -355,14 +387,18 @@
           }
         ],
         "thirdSpell": "Celestial Light",
-        "items": [
-          "Lance",
-          "Sword of Virtue",
-          "Shield",
-          "Purple BP",
-          "Green BP",
-          "Blue BP",
-          "Red BP"
+        "episodes": [
+          {
+            "items": [
+              "Lance",
+              "Sword of Virtue",
+              "Shield",
+              "Purple BP",
+              "Green BP",
+              "Blue BP",
+              "Red BP"
+            ]
+          }
         ]
       },
       "Ranger": {
@@ -393,14 +429,18 @@
           }
         ],
         "thirdSpell": "Glimmering blades",
-        "items": [
-          "Bow of Sharp Shooting",
-          "Axe of Nature's Innocence",
-          "Axe of Nature's Purity",
-          "Sparked Tunic",
-          "Tunic of Gravity",
-          "Tunic of Astral Projection",
-          "Tunic of Snowy Days"
+        "episodes": [
+          {
+            "items": [
+              "Bow of Sharp Shooting",
+              "Axe of Nature's Innocence",
+              "Axe of Nature's Purity",
+              "Sparked Tunic",
+              "Tunic of Gravity",
+              "Tunic of Astral Projection",
+              "Tunic of Snowy Days"
+            ]
+          }
         ]
       },
       "Rogue": {
@@ -431,16 +471,20 @@
           }
         ],
         "thirdSpell": "Strategic Blow",
-        "items": [
-          "Stiletto of Furious Revenge",
-          "Stiletto of Bloodshed",
-          "Dagger of Vendettas Resolved",
-          "Dagger of Bloodletting",
-          "Tunic of Cyclones",
-          "Tunic of Trickery",
-          "Tunic of Thunder",
-          "Tunic of Fierce Flames",
-          "Tunic of Blizzards"
+        "episodes": [
+          {
+            "items": [
+              "Stiletto of Furious Revenge",
+              "Stiletto of Bloodshed",
+              "Dagger of Vendettas Resolved",
+              "Dagger of Bloodletting",
+              "Tunic of Cyclones",
+              "Tunic of Trickery",
+              "Tunic of Thunder",
+              "Tunic of Fierce Flames",
+              "Tunic of Blizzards"
+            ]
+          }
         ]
       },
       "Shadowknight": {
@@ -471,14 +515,18 @@
           }
         ],
         "thirdSpell": "Infernal Bond",
-        "items": [
-          "Axe",
-          "Sword of the Contender",
-          "Shield",
-          "Chestguard of Diabolism",
-          "Chestguard of Combustion",
-          "Chestguard of Chain Reaction",
-          "Chestguard of Frostwork"
+        "episodes": [
+          {
+            "items": [
+              "Axe",
+              "Sword of the Contender",
+              "Shield",
+              "Chestguard of Diabolism",
+              "Chestguard of Combustion",
+              "Chestguard of Chain Reaction",
+              "Chestguard of Frostwork"
+            ]
+          }
         ]
       },
       "Shaman": {
@@ -509,15 +557,19 @@
           }
         ],
         "thirdSpell": "Ethereal Healing",
-        "items": [
-          "Bedlam",
-          "Staff of spiritual energies",
-          "Rod of Ataxia",
-          "Hammer of mystical enlightnment",
-          "Tunic of Snowflake",
-          "Tunic of Runic Warding",
-          "Tunic of Pure Energy",
-          "Tunic of Lavawalker"
+        "episodes": [
+          {
+            "items": [
+              "Bedlam",
+              "Staff of spiritual energies",
+              "Rod of Ataxia",
+              "Hammer of mystical enlightnment",
+              "Tunic of Snowflake",
+              "Tunic of Runic Warding",
+              "Tunic of Pure Energy",
+              "Tunic of Lavawalker"
+            ]
+          }
         ]
       },
       "Warrior": {
@@ -548,14 +600,18 @@
           }
         ],
         "thirdSpell": "Punt",
-        "items": [
-          "sword",
-          "Blade",
-          "Blade",
-          "Scintillating Chestplate",
-          "Chestplate of the Icy Whirlwind",
-          "Chestguard of Dynamism",
-          "Miraculous Chestguard"
+        "episodes": [
+          {
+            "items": [
+              "sword",
+              "Blade",
+              "Blade",
+              "Scintillating Chestplate",
+              "Chestplate of the Icy Whirlwind",
+              "Chestguard of Dynamism",
+              "Miraculous Chestguard"
+            ]
+          }
         ]
       },
       "Wizard": {
@@ -588,19 +644,23 @@
           }
         ],
         "thirdSpell": "Manaburn",
-        "items": [
-          "Staff",
-          "Staff of the Enlightened",
-          "Focus of Chaotic Might",
-          "Focus of Mystifying Power",
-          "Shroud of Diamond Dust",
-          "Shroud of Gravity",
-          "Shroud of Intensity",
-          "Shroud of Astral Projection",
-          "Robe of Intense Heat",
-          "Robe of White Lightning",
-          "Robe of Esoteric Forces",
-          "Robe of Icy Waters"
+        "episodes": [
+          {
+            "items": [
+              "Staff",
+              "Staff of the Enlightened",
+              "Focus of Chaotic Might",
+              "Focus of Mystifying Power",
+              "Shroud of Diamond Dust",
+              "Shroud of Gravity",
+              "Shroud of Intensity",
+              "Shroud of Astral Projection",
+              "Robe of Intense Heat",
+              "Robe of White Lightning",
+              "Robe of Esoteric Forces",
+              "Robe of Icy Waters"
+            ]
+          }
         ]
       }
     }
