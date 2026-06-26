@@ -46,9 +46,17 @@
               "Shroud of Icy Depths",
               "Robe of Fiery Tempest",
               "Robe of Electric Currents",
-              "Robe of the Chilling Winds",
-              "Robe of Arcane Rune",
+              "Robe of Arcane Rune"
+            ]
+          },
+          {
+            "items": [
               "abc 123"
+            ]
+          },
+          {
+            "items": [
+              "Robe of the Chilling Winds"
             ]
           }
         ]
