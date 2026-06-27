@@ -1447,7 +1447,7 @@
     { "name": "Courier"                       , "x": 10201, "y":  5150, "category": "quest", "questGuideIds": ["misc/the-illusionist"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Highpass Guards"               , "x":  9569, "y":  6055, "category": "quest", "questGuideIds": ["misc/the-illusionist"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Highpass Magistrate"           , "x":  9572, "y":  6062, "category": "quest", "questGuideIds": ["misc/the-illusionist"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "The Storyteller"               , "x":  8922, "y":  3159, "category": "quest", "questGuideIds": ["misc/the-illusionist","misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "The Storyteller"               , "x":  8931, "y":  3120, "category": "quest", "questGuideIds": ["misc/the-illusionist","misc/the-temple-of-light"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "The Dead Acolyte"              , "x": 10853, "y": 11196, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Excavation Leader"             , "x": 11609, "y":  5014, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Stranger"                      , "x": 13484, "y":  2667, "category": "quest", "questGuideIds": ["misc/the-temple-of-light"], "icon": "map-marker", "style": {"color":"#a855f7"} },
@@ -1793,6 +1793,7 @@
     { "name": "Lesser pickclaw guard"         , "x":  9819, "y":  4185, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Lesser pickclaw guard"         , "x":  9767, "y":  4269, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Goblins"                       , "x":  9556, "y":  4275, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Goblins"                       , "x":  9436, "y":  4613, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} }
+    { "name": "Goblins"                       , "x":  9436, "y":  4613, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Cave Alligator"                , "x":  8918, "y":  3556, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} }
   ]
 }
