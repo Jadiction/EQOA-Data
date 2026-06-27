@@ -30,11 +30,10 @@
             ]
           }
         ],
-        "thirdSpell": "Refreshing Concoction",
+        "thirdSpell": "Refreshing Concoctions",
         "episodes": [
           {
             "items": [
-              "Slippers of the Fiery Tempest",
               "Slippers of Electric Currents",
               "Slippers of the Chilling Winds",
               "Slippers of Arcanic Rune",
@@ -56,6 +55,7 @@
           },
           {
             "items": [
+              "Slippers of the Fiery Tempest",
               "Robe of the Chilling Winds"
             ]
           }
@@ -137,7 +137,7 @@
             "items": [
               "Staff of Divinity",
               "Hammer of Ethereal Conquest",
-              "spectral",
+              "Spectral",
               "magnetism",
               "combustion",
               "icy depths",
@@ -205,7 +205,7 @@
             "type": "specialized",
             "spells": [
               "Jen`Tylis' Overarching Greed",
-              "Jen`Tylis' Lust for Power"
+              "Jen`Tylis' Lust for Power test"
             ]
           },
           {
@@ -261,7 +261,7 @@
             ]
           }
         ],
-        "thirdSpell": "Fine Red Wine",
+        "thirdSpell": "Fine Red Wine test",
         "episodes": [
           {
             "items": [
