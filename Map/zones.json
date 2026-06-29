@@ -1794,6 +1794,14 @@
     { "name": "Lesser pickclaw guard"         , "x":  9767, "y":  4269, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Goblins"                       , "x":  9556, "y":  4275, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Goblins"                       , "x":  9436, "y":  4613, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Cave Alligator"                , "x":  8918, "y":  3556, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} }
+    { "name": "Cave Alligator"                , "x":  8918, "y":  3556, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} },
+    { "name": "Lesser ghouls & skeletons"     , "x":  8040, "y":  3024, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Lesser ghouls & skeletons"     , "x":  8039, "y":  2940, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Lesser ghouls & skeletons"     , "x":  7968, "y":  2950, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Frosteye Orcs"                 , "x":  7872, "y":  2754, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Frosteye orcs"                 , "x":  7943, "y":  2594, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Frosteye orcs"                 , "x":  7732, "y":  2303, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Frosteye orcs"                 , "x":  7657, "y":  2312, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Hoarfrost"                     , "x":  7440, "y":  2251, "category": "rare-mob", "icon": "warehouse", "style": {"color":"#f1f5f9"} }
   ]
 }
