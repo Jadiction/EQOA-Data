@@ -1802,6 +1802,18 @@
     { "name": "Frosteye orcs"                 , "x":  7943, "y":  2594, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Frosteye orcs"                 , "x":  7732, "y":  2303, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Frosteye orcs"                 , "x":  7657, "y":  2312, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Hoarfrost"                     , "x":  7440, "y":  2251, "category": "rare-mob", "icon": "warehouse", "style": {"color":"#f1f5f9"} }
+    { "name": "Hoarfrost"                     , "x":  7440, "y":  2251, "category": "rare-mob", "icon": "warehouse", "style": {"color":"#f1f5f9"} },
+    { "name": "Freezeblood goblins"           , "x":  8083, "y":  1574, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Master Kranshoop"              , "x":  7989, "y":  1489, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Freezeblood goblins"           , "x":  8017, "y":  1326, "category": "camp", "levelRange": "10-15", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Deltor Cyclor (20)"            , "x":  8048, "y":  1189, "category": "quest", "questGuideIds": ["1-20/halas/warrior","1-20/halas/shaman","1-20/halas/rogue"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Aviaks"                        , "x":  8524, "y":   713, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Aviaks"                        , "x":  8484, "y":   581, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Snowfist Scavengers"           , "x":  8645, "y":   504, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Snowfist goblins"              , "x":  8654, "y":   455, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Snowfist Scavengers"           , "x":  8823, "y":   274, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Snowfist Goblins"              , "x":  8943, "y":   267, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Snowfist Guards"               , "x":  8862, "y":   513, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Snowfist goblins"              , "x":  8882, "y":   460, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} }
   ]
 }
