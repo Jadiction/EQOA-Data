@@ -1904,6 +1904,15 @@
     { "name": "Xalakharx"                     , "x":  4675, "y": 10015, "category": "quest", "questGuideIds": ["misc/acolyte-of-bristlebane"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Spectral Warlord"              , "x":  4676, "y": 10037, "category": "quest", "questGuideIds": ["misc/acolyte-of-bristlebane"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Rainbow Magic Guardian"        , "x":  5977, "y":  9769, "category": "quest", "questGuideIds": ["misc/acolyte-of-bristlebane"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Tree of Life"                  , "x":  5977, "y":  9809, "category": "quest", "questGuideIds": ["misc/acolyte-of-bristlebane"], "icon": "map-marker", "style": {"color":"#a855f7"} }
+    { "name": "Tree of Life"                  , "x":  5977, "y":  9809, "category": "quest", "questGuideIds": ["misc/acolyte-of-bristlebane"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Ulfar Styrkarson"              , "x":  5838, "y":   696, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "popup on the south edge"       , "x":  5892, "y":   277, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Vargilder Souralld"            , "x":  5738, "y":   843, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Varchief Steinoff"             , "x":  5875, "y":   635, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Head Engineer Silos"           , "x":  6148, "y":   431, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Demolitionist Osbit"           , "x":  9719, "y":  1772, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Warlord Treg"                  , "x":  5358, "y":   754, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Orc Excavation Site"           , "x":  5357, "y":   780, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Prophet Olvadr Korsk"          , "x":  4615, "y":   591, "category": "quest", "questGuideIds": ["misc/anu-village-pet"], "icon": "map-marker", "style": {"color":"#a855f7"} }
   ]
 }
