@@ -2075,7 +2075,7 @@
     { "name": "Rustel Minotaur"               , "x":  7842, "y": 10678, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Rustel Minotaur"               , "x":  7787, "y": 10572, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Toltem centaurs"               , "x":  8397, "y": 10868, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Archaeologist Duggan"          , "x":  8559, "y": 10836, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Archaeologist Duggan"          , "x":  8553, "y": 10834, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Bone Hunters"                  , "x":  8624, "y": 10824, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Child of Xrag"                 , "x":  8546, "y": 10917, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Child of Xrag"                 , "x":  8652, "y": 11070, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
@@ -2123,13 +2123,15 @@
     { "name": "Tae Ew"                        , "x":  9531, "y": 12616, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Tae Ew"                        , "x":  9531, "y": 12821, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Urthax Fleshrend"              , "x":  9530, "y": 12839, "category": "rare-mob", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
-    { "name": "The Bone Crusher"              , "x":  9842, "y": 13015, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "The Bone Crusher"              , "x":  9842, "y": 13015, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "SCARECROWS"                    , "x":  7457, "y":  6209, "category": "camp", "levelRange": "21-31", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Bandit"                        , "x":  7561, "y":  6288, "category": "camp", "levelRange": "29-29", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Slesher Gnoll Camp"            , "x":  6651, "y":  4713, "category": "camp", "levelRange": "25-29", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Mestre da Forja"               , "x": 11274, "y": 12984, "category": "quest", "questGuideIds": ["misc/highbourne-for-the-ring"], "icon": "Exclamation", "style": {"color":"#f1f5f9"} },
     { "name": "Phoborium"                     , "x": 10459, "y":  4889, "category": "quest", "questGuideIds": ["23-47/35"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Merkans"                       , "x":   937, "y": 11911, "category": "camp", "levelRange": "28-35", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Julian"                        , "x":  9399, "y": 12473, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} }
+    { "name": "Julian"                        , "x":  9399, "y": 12473, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Lvl 40 Quest NPC"              , "x":  9765, "y": 11803, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Lvl40 Lieutenant Baylor"       , "x":  9102, "y": 10365, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
   ]
 }
