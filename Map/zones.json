@@ -2136,6 +2136,7 @@
     { "name": "Lvl40 Taksehir Warrior"        , "x": 12840, "y":  9774, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Lvl40 Gypsy Treheart"          , "x": 10623, "y": 12107, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Lvl40 Nullo"                   , "x": 12510, "y":  8843, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
-    { "name": "Death Knight 1"                , "x": 10538, "y": 10838, "category": "quest", "questGuideIds": ["portal/plane-of-disease"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
+    { "name": "Deathknight Endraval"          , "x": 10532, "y": 10836, "category": "quest", "questGuideIds": ["portal/plane-of-disease"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Deathknight Bileheart"         , "x":  6158, "y":  2336, "category": "quest", "questGuideIds": ["portal/plane-of-disease"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
   ]
 }
