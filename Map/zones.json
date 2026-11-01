@@ -2131,9 +2131,10 @@
     { "name": "Phoborium"                     , "x": 10459, "y":  4889, "category": "quest", "questGuideIds": ["23-47/35"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Merkans"                       , "x":   937, "y": 11911, "category": "camp", "levelRange": "28-35", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Julian"                        , "x":  9399, "y": 12473, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
-    { "name": "Lvl 40 Quest NPC"              , "x":  9765, "y": 11803, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Lvl 40 Quest Giver NPC"        , "x":  9764, "y": 11804, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Lvl40 Lieutenant Baylor"       , "x":  9115, "y": 10328, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Lvl40 Taksehir Warrior"        , "x": 12840, "y":  9774, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
-    { "name": "Lvl40 Gypsy Treheart"          , "x": 10623, "y": 12107, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
+    { "name": "Lvl40 Gypsy Treheart"          , "x": 10623, "y": 12107, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Lvl40 Nullo"                   , "x": 12510, "y":  8843, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
   ]
 }
