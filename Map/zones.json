@@ -1570,7 +1570,7 @@
     { "name": "Taksehir Miners"               , "x": 12267, "y":  9825, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Taksehir Miners"               , "x": 12211, "y":  9733, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Taksehir Crystal Runner"       , "x": 12233, "y":  9773, "category": "quest", "questGuideIds": ["60/evil-tank"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Nasehir"                       , "x": 12056, "y":  9285, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Nasehir"                       , "x": 12056, "y":  9286, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Teir'dal"                      , "x": 12095, "y":  8938, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Teir'dal"                      , "x": 12409, "y":  8618, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Tier'dal"                      , "x": 12611, "y":  8810, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
@@ -2133,6 +2133,7 @@
     { "name": "Julian"                        , "x":  9399, "y": 12473, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Lvl 40 Quest NPC"              , "x":  9765, "y": 11803, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Lvl40 Lieutenant Baylor"       , "x":  9115, "y": 10328, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
-    { "name": "Lvl40 Taksehir Warrior"        , "x": 12840, "y":  9774, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
+    { "name": "Lvl40 Taksehir Warrior"        , "x": 12840, "y":  9774, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Lvl40 Gypsy Treheart"          , "x": 10623, "y": 12107, "category": "quest", "questGuideIds": ["weres/gatorwere"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
   ]
 }
