@@ -2103,10 +2103,10 @@
     { "name": "Undead"                        , "x": 10592, "y": 12089, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Undead Minions"                , "x": 10980, "y": 11995, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Undead Minions"                , "x": 11198, "y": 11995, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Tae Ew"                        , "x": 11724, "y": 12341, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Tae Ew"                        , "x": 11660, "y": 12379, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Tae Ew"                        , "x": 11588, "y": 12463, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Tae Ew"                        , "x": 11607, "y": 12560, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Tae Ew"                        , "x": 11724, "y": 12341, "category": "camp", "levelRange": "22-25", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Tae Ew"                        , "x": 11660, "y": 12379, "category": "camp", "levelRange": "22-25", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Tae Ew"                        , "x": 11588, "y": 12463, "category": "camp", "levelRange": "22-25", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Tae Ew"                        , "x": 11607, "y": 12560, "category": "camp", "levelRange": "22-25", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Frogloks"                      , "x": 12329, "y": 12403, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Lizardmen"                     , "x": 12598, "y": 12362, "category": "camp", "levelRange": "13-15", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Master Suinki"                 , "x": 11664, "y": 12978, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
@@ -2131,6 +2131,6 @@
     { "name": "Phoborium"                     , "x": 10459, "y":  4889, "category": "quest", "questGuideIds": ["23-47/35"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Merkans"                       , "x":   937, "y": 11911, "category": "camp", "levelRange": "28-35", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Tae Ew"                        , "x": 11420, "y": 12362, "category": "camp", "levelRange": "22-25", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Black Ants"                    , "x": 11596, "y": 12129, "category": "camp", "levelRange": "39-39", "note": "40 path group 4", "icon": "users", "style": {"color":"#f1f5f9"} }
+    { "name": "Black Ants"                    , "x": 11596, "y": 12129, "category": "camp", "levelRange": "39-40", "note": "40 path group 4", "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
