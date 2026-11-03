@@ -2112,7 +2112,7 @@
     { "name": "Master Suinki"                 , "x": 11664, "y": 12978, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Skullbreakers"                 , "x": 11533, "y": 13098, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Zombie Sailors"                , "x": 11230, "y": 12775, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Drowned Ghouls"                , "x": 11172, "y": 12720, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Drowned Ghouls"                , "x": 11172, "y": 12725, "category": "camp", "levelRange": "30-30", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Lieutenant Silvaren"           , "x": 11506, "y": 12717, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Warden Selku"                  , "x": 10788, "y": 13097, "category": "other", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Charbones"                     , "x": 10408, "y": 12802, "category": "camp", "levelRange": "1-1", "icon": "users", "style": {"color":"#f1f5f9"} },
@@ -2129,6 +2129,8 @@
     { "name": "Slesher Gnoll Camp"            , "x":  6651, "y":  4713, "category": "camp", "levelRange": "25-29", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Mestre da Forja"               , "x": 11274, "y": 12984, "category": "quest", "questGuideIds": ["misc/highbourne-for-the-ring"], "icon": "Exclamation", "style": {"color":"#f1f5f9"} },
     { "name": "Phoborium"                     , "x": 10459, "y":  4889, "category": "quest", "questGuideIds": ["23-47/35"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Merkans"                       , "x":   937, "y": 11911, "category": "camp", "levelRange": "28-35", "icon": "users", "style": {"color":"#f1f5f9"} }
+    { "name": "Merkans"                       , "x":   937, "y": 11911, "category": "camp", "levelRange": "28-35", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Tae Ew"                        , "x": 11420, "y": 12362, "category": "camp", "levelRange": "22-25", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Black Ants"                    , "x": 11596, "y": 12129, "category": "camp", "levelRange": "39-39", "note": "40 path group 4", "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
