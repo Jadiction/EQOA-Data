@@ -3,7 +3,7 @@
     {
       "login": "Jadiction",
       "id": 8557785,
-      "commits": 33
+      "commits": 37
     },
     {
       "login": "JonGAllan",
@@ -16,6 +16,16 @@
       "commits": 9
     },
     {
+      "login": "FZero01",
+      "id": 211174744,
+      "commits": 9
+    },
+    {
+      "login": "lanceewright-a11y",
+      "id": 323147376,
+      "commits": 7
+    },
+    {
       "login": "Quicksilver-Daisy-Hodstock",
       "id": 163714299,
       "commits": 7
@@ -26,19 +36,9 @@
       "commits": 5
     },
     {
-      "login": "lanceewright-a11y",
-      "id": 323147376,
-      "commits": 4
-    },
-    {
       "login": "OldSchoolJoe",
       "id": 174074074,
       "commits": 4
-    },
-    {
-      "login": "FZero01",
-      "id": 211174744,
-      "commits": 2
     },
     {
       "login": "larrybradsby-glitch",
@@ -46,13 +46,18 @@
       "commits": 2
     },
     {
-      "login": "kixxii44",
-      "id": 49811481,
+      "login": "spiomabio1-design",
+      "id": 265703812,
+      "commits": 2
+    },
+    {
+      "login": "Genevil",
+      "id": 161796836,
       "commits": 1
     },
     {
-      "login": "spiomabio1-design",
-      "id": 265703812,
+      "login": "kixxii44",
+      "id": 49811481,
       "commits": 1
     },
     {
