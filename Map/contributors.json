@@ -3,7 +3,7 @@
     {
       "login": "Jadiction",
       "id": 8557785,
-      "commits": 34
+      "commits": 36
     },
     {
       "login": "JonGAllan",
@@ -21,6 +21,11 @@
       "commits": 9
     },
     {
+      "login": "lanceewright-a11y",
+      "id": 323147376,
+      "commits": 7
+    },
+    {
       "login": "Quicksilver-Daisy-Hodstock",
       "id": 163714299,
       "commits": 7
@@ -29,11 +34,6 @@
       "login": "Floofs-Dev",
       "id": 9037592,
       "commits": 5
-    },
-    {
-      "login": "lanceewright-a11y",
-      "id": 323147376,
-      "commits": 4
     },
     {
       "login": "OldSchoolJoe",
