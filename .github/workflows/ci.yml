@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 25
+          node-version: 26
           cache: npm
 
       - name: Install dependencies
@@ -26,6 +26,9 @@ jobs:
 
       - name: Build package
         run: npm run build
+
+      - name: Typecheck
+        run: npm run typecheck
 
       - name: Validate npm package contents
         run: npm pack --dry-run

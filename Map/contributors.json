@@ -3,7 +3,7 @@
     {
       "login": "Jadiction",
       "id": 8557785,
-      "commits": 33
+      "commits": 34
     },
     {
       "login": "JonGAllan",
@@ -13,6 +13,11 @@
     {
       "login": "Chubakabrah",
       "id": 122087332,
+      "commits": 9
+    },
+    {
+      "login": "FZero01",
+      "id": 211174744,
       "commits": 9
     },
     {
@@ -36,23 +41,18 @@
       "commits": 4
     },
     {
-      "login": "FZero01",
-      "id": 211174744,
-      "commits": 2
-    },
-    {
       "login": "larrybradsby-glitch",
       "id": 287430944,
       "commits": 2
     },
     {
-      "login": "kixxii44",
-      "id": 49811481,
-      "commits": 1
-    },
-    {
       "login": "spiomabio1-design",
       "id": 265703812,
+      "commits": 2
+    },
+    {
+      "login": "kixxii44",
+      "id": 49811481,
       "commits": 1
     },
     {
