@@ -1332,7 +1332,7 @@
     { "name": "popup on a small hill"         , "x":  5011, "y":  4404, "category": "quest", "questGuideIds": ["53-59/57"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "pop-up near cactus"            , "x": 12440, "y":  9751, "category": "quest", "questGuideIds": ["53-59/57"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Dark Ritualists ambush"        , "x": 12732, "y":  3282, "category": "quest", "questGuideIds": ["53-59/57"], "icon": "map-marker", "style": {"color":"#a855f7"} },
-    { "name": "Professor Ceryk"               , "x": 12733, "y":  3285, "category": "quest", "questGuideIds": ["53-59/57"], "icon": "map-marker", "style": {"color":"#a855f7"} },
+    { "name": "Professor Ceryk"               , "x":  7944, "y": 12647, "category": "quest", "questGuideIds": ["53-59/55","53-59/57","53-59/59"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
     { "name": "terran caretaker"              , "x":  4853, "y": 10048, "category": "quest", "questGuideIds": ["53-59/59"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "Anvil of Sarek"                , "x":  4855, "y": 10068, "category": "quest", "questGuideIds": ["53-59/59"], "icon": "map-marker", "style": {"color":"#a855f7"} },
     { "name": "terran caretaker"              , "x": 13091, "y": 10508, "category": "quest", "questGuideIds": ["53-59/59"], "icon": "map-marker", "style": {"color":"#a855f7"} },
