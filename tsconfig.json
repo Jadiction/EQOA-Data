@@ -11,8 +11,7 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "types": ["node"],
-    "isolatedModules": true,
-    "ignoreDeprecations": "6.0" // Ignore deprecation warnings for due to tsup DTS
+    "isolatedModules": true
   },
   "include": ["src/**/*", "scripts/**/*.ts"],
   "exclude": ["node_modules", "dist"]
