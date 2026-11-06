@@ -1,6 +1,6 @@
 {
   "name": "eqoa-data",
-  "version": "2.4.14",
+  "version": "2.5.4",
   "description": "JSON file data for EQOA information such as guides/quests listed on Jadiction.com",
   "type": "module",
   "main": "./dist/index.mjs",
@@ -20,10 +20,10 @@
     "generate:contributors": "node --experimental-strip-types scripts/generate-contributors.ts",
     "generate:data": "node --experimental-strip-types scripts/generate-json-exports.ts",
     "generate:images": "node --experimental-strip-types scripts/generate-images-export.ts",
-    "build": "npm run generate:data && npm run generate:images && tsup",
+    "build": "npm run generate:data && npm run generate:images && tsdown",
     "build:release": "npm run generate:contributors && npm run build",
     "prepack": "npm run build",
-    "dev": "tsup --watch src/index.ts --format esm",
+    "dev": "tsdown --watch",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
@@ -49,14 +49,11 @@
   "license": "ISC",
   "author": "Jad",
   "engines": {
-    "node": ">=22.6.0"
+    "node": "^22.18.0 || ^24.11.0 || >=26.0.0"
   },
   "devDependencies": {
-    "@types/node": "^26.0.1",
-    "tsup": "^8.5.1",
-    "typescript": "^6.0.3"
-  },
-  "allowScripts": {
-    "esbuild@0.27.7": true
+    "@types/node": "^26.6.6",
+    "tsdown": "^0.23.5",
+    "typescript": "^7.0.2"
   }
 }
