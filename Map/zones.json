@@ -1490,8 +1490,8 @@
     { "name": "Treasure Chest (marine)"       , "x":  2833, "y":  8370, "category": "other", "icon": "envelope", "style": {"color":"#f97316"} },
     { "name": "Harpy"                         , "x":  3279, "y":  8137, "category": "camp", "levelRange": "55-60", "note": "Erud's Crossing. Efficient XP with manageable damage output.", "icon": "warehouse", "style": {"color":"#f1f5f9"} },
     { "name": "Naris"                         , "x":  1636, "y": 11219, "category": "quest", "questGuideIds": ["misc/paineel"], "icon": "info-circle", "style": {"color":"#f1f5f9"} },
-    { "name": "Clan Kolbok"                   , "x":  1806, "y": 11170, "category": "camp", "levelRange": "47-50", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Clan Kolbok"                   , "x":  2028, "y": 11092, "category": "camp", "levelRange": "1-1", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Clan Kolbok"                   , "x":  1801, "y": 11171, "category": "camp", "levelRange": "51-54", "note": "Clerics and Warriors: Drops 54 Spells", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Clan Kolbok"                   , "x":  2027, "y": 11093, "category": "camp", "levelRange": "51-54", "note": "Clerics and Warriors: Drops 54 Spells", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
     { "name": "Clan Kolbok"                   , "x":  1975, "y": 10845, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} },
     { "name": "Clan Kolbok"                   , "x":  1974, "y": 10846, "category": "camp", "levelRange": "1-1", "icon": "warehouse", "style": {"color":"#f1f5f9"} },
     { "name": "Jaeger Mansion"                , "x":  5105, "y":  3142, "category": "camp", "levelRange": "1-1", "icon": "map-marker", "style": {"color":"#f1f5f9"} },
@@ -2144,6 +2144,11 @@
     { "name": "Tomb Stone Level 15 Quest"     , "x": 12433, "y":  2337, "category": "quest", "questGuideIds": ["1-20/klick-a-non/cleric"], "icon": "star-fill", "style": {"color":"#f1f5f9"} },
     { "name": "Black Ants"                    , "x": 11596, "y": 12129, "category": "camp", "levelRange": "39-40", "note": "40 path group 4", "icon": "users", "style": {"color":"#f1f5f9"} },
     { "name": "Takesehir Miners"              , "x": 12083, "y": 10034, "category": "camp", "levelRange": "60-60", "icon": "users", "style": {"color":"#f1f5f9"} },
-    { "name": "Takesehir Miners"              , "x": 12210, "y": 10049, "category": "camp", "levelRange": "60-60", "icon": "users", "style": {"color":"#f1f5f9"} }
+    { "name": "Takesehir Miners"              , "x": 12210, "y": 10049, "category": "camp", "levelRange": "60-60", "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Ankexfen"                      , "x":  7071, "y":  9762, "category": "camp", "levelRange": "31-35", "note": "Undead Skeletons and Ghouls", "icon": "Skull", "style": {"color":"#f1f5f9"} },
+    { "name": "Cyclops"                       , "x":  6896, "y":  8633, "category": "camp", "levelRange": "46-50", "icon": "Skull", "style": {"color":"#f1f5f9"} },
+    { "name": "Sage Wythin (Druid/Wizard)"    , "x":  5731, "y":  9552, "category": "other", "icon": "Hat Wizard", "style": {"color":"#f1f5f9"} },
+    { "name": "Ankextet runner"               , "x":  5948, "y": 10887, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "Skull", "style": {"color":"#f1f5f9"} },
+    { "name": "Unessa Agmar"                  , "x": 13664, "y":  5525, "category": "quest", "questGuideIds": ["weres/werehunter"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
   ]
 }
