@@ -2149,6 +2149,7 @@
     { "name": "Cyclops"                       , "x":  6896, "y":  8633, "category": "camp", "levelRange": "46-50", "icon": "Skull", "style": {"color":"#f1f5f9"} },
     { "name": "Sage Wythin (Druid/Wizard)"    , "x":  5731, "y":  9552, "category": "other", "icon": "Hat Wizard", "style": {"color":"#f1f5f9"} },
     { "name": "Ankextet runner"               , "x":  5948, "y": 10887, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "Skull", "style": {"color":"#f1f5f9"} },
-    { "name": "Unessa Agmar"                  , "x": 13664, "y":  5525, "category": "quest", "questGuideIds": ["weres/werehunter"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
+    { "name": "Unessa Agmar"                  , "x": 13664, "y":  5525, "category": "quest", "questGuideIds": ["weres/werehunter"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Tactician Glognar"             , "x":  6819, "y": 11035, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "users", "style": {"color":"#f1f5f9"} }
   ]
 }
