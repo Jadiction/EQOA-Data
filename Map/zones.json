@@ -2149,6 +2149,10 @@
     { "name": "Cyclops"                       , "x":  6896, "y":  8633, "category": "camp", "levelRange": "46-50", "icon": "Skull", "style": {"color":"#f1f5f9"} },
     { "name": "Sage Wythin (Druid/Wizard)"    , "x":  5731, "y":  9552, "category": "other", "icon": "Hat Wizard", "style": {"color":"#f1f5f9"} },
     { "name": "Ankextet runner"               , "x":  5948, "y": 10887, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "Skull", "style": {"color":"#f1f5f9"} },
-    { "name": "Unessa Agmar"                  , "x": 13664, "y":  5525, "category": "quest", "questGuideIds": ["weres/werehunter"], "icon": "map-marker", "style": {"color":"#f1f5f9"} }
+    { "name": "Unessa Agmar"                  , "x": 13664, "y":  5525, "category": "quest", "questGuideIds": ["weres/werehunter"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Tactician Glognar"             , "x":  6819, "y": 11035, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "users", "style": {"color":"#f1f5f9"} },
+    { "name": "Phaldesh Woulder"              , "x":  6255, "y":  5822, "category": "quest", "questGuideIds": ["1-20/oggok/shaman"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "ghastly keeper (20)"           , "x":  6872, "y": 11661, "category": "quest", "questGuideIds": ["1-20/oggok/shaman"], "icon": "map-marker", "style": {"color":"#f1f5f9"} },
+    { "name": "Cawtou (20)"                   , "x":  6635, "y": 10003, "category": "quest", "questGuideIds": ["1-20/oggok/warrior"], "icon": "info-circle", "style": {"color":"#f1f5f9"} }
   ]
 }
